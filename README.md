@@ -4,11 +4,14 @@ Prepared for Calvin’s development partner on 20 October 2026. Start with the *
 
 ## Open the application
 
-- [Jarvis OS](https://jarvis-os.jarvisbotdxb.workers.dev/)
-- [The Office](https://jarvis-os.jarvisbotdxb.workers.dev/office)
-- [Visual Office demo](https://jarvis-os.jarvisbotdxb.workers.dev/office/demo)
+- [Public Jarvis OS](https://jarvis-os-public-read-051.jarvisbotdxb.workers.dev/)
+- [The Office visual demo](https://jarvis-os-public-read-051.jarvisbotdxb.workers.dev/office/demo)
 
-Temporary public browsing of the current application, including existing client and Finance records, was explicitly selected by the owner. Publication/verification status is in the accompanying access receipt when present. The intended scope is browsing only; publishing, messaging, spending, internal-machine operations and writes remain protected. A link alone does not certify anonymous access.
+Verified without login on 20 October 2026. This temporary link reads the current application, including existing client and Finance records expressly selected by the owner. **Public browsing ends 21 October 2026 at 16:30 Dubai / 12:30 UTC.** Writes, publishing, messaging, spending, credentials and native runtime controls stay protected. The original owner link and login remain unchanged.
+
+See [the access receipt](ACCESS-RECEIPT.json) for actual tested views and limitations. Home, Clients, Finance, Brain intelligence, asset previews and the 3D Office/task feed were visibly checked; the Office also passed a 390×844 responsive check. This is a Mac browser test, not physical-phone performance certification. The hosted Office is a labelled simulation; it is not proof of a working autonomous workforce.
+
+The additional access adapter is in [access/](access/), with exact reviewed sources and a disabled placeholder configuration. No live access key is included.
 
 ## Code and procedures
 

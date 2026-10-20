@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-20T13:42:11.881925+00:00",
+  "status": "PUBLIC_CURRENT_APP_READ_ONLY_VERIFIED",
+  "app": "https://jarvis-os-public-read-051.jarvisbotdxb.workers.dev/",
+  "office": "https://jarvis-os-public-read-051.jarvisbotdxb.workers.dev/office/demo",
+  "data": "Same current production application, including existing client and Finance records, as expressly selected by Calvin. Not sample data.",
+  "mode": "Temporary public read-only browsing. Existing owner login unchanged.",
+  "expiresAtUtc": "2026-10-21T12:30:00Z",
+  "expiresAtDubai": "21 October 2026, 16:30 GST",
+  "verifiedAnonymousHttp": [
+    "Home",
+    "Clients",
+    "Finance",
+    "Home data",
+    "Tasks",
+    "Roadmap",
+    "Agents",
+    "Office alias and demo",
+    "Next bracketed chunks",
+    "Office uppercase imports"
+  ],
+  "verifiedRendered": [
+    "Home current records",
+    "Clients list and hydrated navigation",
+    "Finance full view",
+    "Client Brain intelligence and source traceability",
+    "Asset library and actual image preview/details",
+    "Office 3D scene and scripted task feed",
+    "390x844 Office responsive view and task drawer"
+  ],
+  "ownerRegression": "Authenticated original Home hard reload and Clients navigation passed after image rollout.",
+  "protected": [
+    "Writes",
+    "Publishing/sending/spending",
+    "Credentials and private grants",
+    "System filesystem and native runtime controls",
+    "Inbox and WhatsApp"
+  ],
+  "officeStatus": "Hosted Office remains a clearly labelled visual simulation; source for newer backend work is supplied for development and is not claimed live or autonomous.",
+  "verificationLimits": "Mac browser and phone-size viewport, not a physical-phone hardware/FPS test or an exhaustive test of every stored row and screen. Sanitized source snapshot has not had a clean independent install/build.",
+  "release": {
+    "applicationVersion": 121,
+    "bridgeBundleSha256": "f44b335540f63b5e3119a10296372cdf7b39594ba6296f6da6854cf0910f3786"
+  },
+  "sourceSnapshots": "Five original sanitized app variants plus106procedures and additional public-read adapter source. No production keys, sessions or DB dump."
+}

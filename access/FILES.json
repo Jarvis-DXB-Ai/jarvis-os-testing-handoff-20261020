@@ -1,0 +1,30 @@
+[
+  {
+    "path": "access/README.md",
+    "sha256": "61209d0011c4beb232b7f4640c17dabf6aec167138e55fbefa1ce7a3d3f2dac4"
+  },
+  {
+    "path": "access/access-implementation/public-bridge.mjs",
+    "sha256": "ed27d9c020984e83d1cc1704725393e3294c1bf5f7b9ee3dc5aa6965acf3c5fd"
+  },
+  {
+    "path": "access/access-implementation/public-read-051.cjs",
+    "sha256": "1f6febe1ace9b6d7c5a6fa3da341ec1b84328e8932f9f9f717b80741eb29dd0f"
+  },
+  {
+    "path": "access/access-static-fix/public-bridge.STATIC-FIX.mjs",
+    "sha256": "dd9cc78960ed3ba2e9f5ca4b9abba7f2fd2d04b7074b6233c9f064841e8678e8"
+  },
+  {
+    "path": "access/access-static-fix/verified-static-paths.mjs",
+    "sha256": "b79096aea651405dbdf4c1e534f72b8073032bc548107f5e4725ee9833907291"
+  },
+  {
+    "path": "access/access-static-fix/verified-static-transport.mjs",
+    "sha256": "7f84ba3089d19878ae26226705e7eca960f8e9b6daad8aca0bdb55cf4259b71b"
+  },
+  {
+    "path": "access/wrangler.example.json",
+    "sha256": "8def3e85ba602372d6535a2dbf835dd8023df94740a7ee32b29e8f3cb8a0fd2b"
+  }
+]

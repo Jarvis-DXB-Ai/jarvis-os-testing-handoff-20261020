@@ -1,0 +1,25 @@
+{
+  "name": "your-public-read-test",
+  "main": "access-static-fix/public-bridge.STATIC-FIX.mjs",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true,
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CURRENT_PRODUCTION",
+        "class_name": "JarvisOsContainer",
+        "script_name": "your-existing-owner-worker"
+      }
+    ]
+  },
+  "vars": {
+    "JARVIS_PUBLIC_READ_ONLY_MODE": "disabled",
+    "JARVIS_PUBLIC_READ_ONLY_UNTIL": "2026-10-21T12:30:00Z",
+    "JARVIS_PUBLIC_READ_ORIGIN": "https://your-public-read-test.your-subdomain.workers.dev"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
