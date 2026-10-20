@@ -1,0 +1,1075 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "originalSourceRoot": "/ABSOLUTE/TEST/WORKSPACES/Desktop/Skill Database copy",
+  "sourceSnapshotRoot": "/ABSOLUTE/TEST/OFFICE-DATA/library/owner-architecture/2026-10-15-original",
+  "state": "source-adapted; runtime behavior unproven",
+  "roles": [
+    {
+      "roleId": "ads-analyst",
+      "skillId": "office-ads-analyst",
+      "previousRef": "dd541fda06f3110cc1cfc0b986746636185e33165c2c448076b9757d4702ec46",
+      "ref": "3a26906effcd1545ef47ed8bad3f172f9a5de1c6c134e68f88dc31cbf1003aff",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1033,
+      "sources": [
+        {
+          "relativePath": "11. Paid Ads/Creative_Testing_System_Skill_v1.md",
+          "sha256": "53b7ea9fc6c9c32ee6e11ff7826b210666cda316a05682175bdef83ddc1365d9"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Learnings_System_Skill_v1.md",
+          "sha256": "05ea8ffa8a1591d3ae190b52f913de7b2a776a1727a930256af6c8087a47bccf"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "ads-lead",
+      "skillId": "office-ads-lead",
+      "previousRef": "974cafa310b213443557f605b7ed7aecb52c8e9fa40f29154ecac2887e4a8b0e",
+      "ref": "710187b62e219f516a035f6164a3d8860a0771049fcc57dd1f9130e5703bbdee",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1063,
+      "sources": [
+        {
+          "relativePath": "11. Paid Ads/Creative_Testing_System_Skill_v1.md",
+          "sha256": "53b7ea9fc6c9c32ee6e11ff7826b210666cda316a05682175bdef83ddc1365d9"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Department_Architecture_Skill_v1.md",
+          "sha256": "dc1aab3271f933148fafa80b8ca2e290924abc9c1133a0b8f569982b5c224c10"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Learnings_System_Skill_v1.md",
+          "sha256": "05ea8ffa8a1591d3ae190b52f913de7b2a776a1727a930256af6c8087a47bccf"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Strategy_Skill_v1.md",
+          "sha256": "cd96c5eb8eb54287224f200b889eac859d12ecd9b6d44c016cf4ba0a4feebfc6"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "ads-qa",
+      "skillId": "office-ads-qa",
+      "previousRef": "a3752fcac51de544b568e5081d1cd613c01e705e2055be2ad331ea056bcb78b0",
+      "ref": "513d1b82da7e183bf653e7f6f892f4e6acdbf100ae5fcb0dfb2d510ac675a25b",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1049,
+      "sources": [
+        {
+          "relativePath": "11. Paid Ads/Creative_Testing_System_Skill_v1.md",
+          "sha256": "53b7ea9fc6c9c32ee6e11ff7826b210666cda316a05682175bdef83ddc1365d9"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Execution_System_Skill_v1.md",
+          "sha256": "07ccab8c1effa1871e1f12fd088febe3984ff4b154ce17c699e24dc2501c0eac"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "analytics",
+      "skillId": "office-analytics",
+      "previousRef": "d131fb548d89f9427b3b26df3ed0132e9e80890149d6ec38cabb5f2e01626df8",
+      "ref": "c76c15dc9b6e18fae40d26db2c1c0762b348b9b5d1715c7ac2dc1eb0d8e680d2",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1023,
+      "sources": [
+        {
+          "relativePath": "12. Master Reporting & Intelligence System/Master_Reporting_Intelligence_System_Skill_v1.md",
+          "sha256": "5c759cc2a6587d157c45913e05539a635470ff229a1f385bddf2592313e03fb4"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Learnings_System_Skill_v1.md",
+          "sha256": "17b9a15a5609fc244d6b819fe14fc8b2274d7a3669d332508e8de4eff2ba7da9"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "brand-strategist",
+      "skillId": "office-brand-strategist",
+      "previousRef": "394e2225a17c1ba9a0f4092df5ada265005b03262834168d1d853c3b3d06b08a",
+      "ref": "4f5a986d1ef6b760c0447cbae66ff75bfde33fc6f210261a554649880899a786",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1245,
+      "sources": [
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        },
+        {
+          "relativePath": "7. Brand Brain/2. Marketing Strategy/Master_Marketing_Strategy_Skill_v1.md",
+          "sha256": "3c01f4de169379183b16e2b767b206e04ebbe53d3b507ea693616d6e17cbfaf0"
+        },
+        {
+          "relativePath": "7. Brand Brain/3. Social Media Strategy/Social_Media_Strategy_Skill_v1_1.md",
+          "sha256": "f72d26a54ffdf8d2d7272dcfab7c1912f03377b4fc5add302393d8e5c94453ec"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "cmo",
+      "skillId": "office-cmo",
+      "previousRef": "04f6b62e71fe2087b72266ecc5b6fad21558d50df15b804a8dc37d39f9d72d39",
+      "ref": "afc315c450299f2c66a53e4601706bc3892ce7aadda2230076c85e1908f877d0",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1071,
+      "sources": [
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Content_Planning_Demand_System_Skill_v1.md",
+          "sha256": "80b6ea1b5b12a663fa62ab9dc5c35fcce2f91aa7108c1d87e900372a92af9532"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Department_Architecture_Skill_v1.md",
+          "sha256": "3ba0ffff13317929f6eec7d26b93feaa5231a9d700f12a5712e3ffa214040022"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Execution_System_Skill_v1.md",
+          "sha256": "e42a59dd21b45cef0fa7cbbeef449be8423d06efed9a9621fc04b41efb78212f"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Learnings_System_Skill_v1.md",
+          "sha256": "17b9a15a5609fc244d6b819fe14fc8b2274d7a3669d332508e8de4eff2ba7da9"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Strategic_Application_System_Skill_v1.md",
+          "sha256": "226f1a08ee5fa5b4ba763f004c13035a2266069770e2e8154f21bb93d56067f6"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "competitors",
+      "skillId": "office-competitors",
+      "previousRef": "006fbd5b77ce332f1719db6cb492b0cc95d444b5b6de20d6bc1d32c0cf7801ed",
+      "ref": "bf8fb82647e18a81f7a9efe936d98ce455c24e789391dc7c8d473beb119e8a79",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1241,
+      "sources": [
+        {
+          "relativePath": "1. Audit/External_Research_Audit_Skill_v3.md",
+          "sha256": "638e312b613ae24dd1b8b2ca051c1b633a53caae05f480ed011000261279783c"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "content-qa",
+      "skillId": "office-content-qa",
+      "previousRef": "3cc25c238a2b1492ba77ede5a817fc037a3018ac96ea379a039d7ab25fffbcd5",
+      "ref": "2f925435664398f2a0577700d37753fbbb05763dbe87e92188ac2bfbef51ca0d",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1250,
+      "sources": [
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/AI_Content_Learnings_System_Skill_v1.md",
+          "sha256": "9bb8bb7145d6b9e9702a8ef4137e9be653a3a3dcdd60f2b338b1f1a881c03234"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Content_QC_System_Skill_v1.md",
+          "sha256": "36077f08d54796ca9a49c4d142e3f28bfab9cf06d49ffee9936b8c211b3977e5"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Dish_Product_Accuracy_System_Skill_v1.md",
+          "sha256": "ed8a22d87adcacfab709a7e4aa3367adea2c5357a777c8b718c5800a382dca48"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Environment_Object_Accuracy_System_Skill_v1.md",
+          "sha256": "af8c63f58e29f700d697f8397266b149e7948baeb0382b24a2f5d3849984bd47"
+        }
+      ],
+      "sourceGroups": [
+        "content"
+      ]
+    },
+    {
+      "roleId": "coo",
+      "skillId": "office-coo",
+      "previousRef": "a3eb701b0264153346f076e3acbaca6f1fd0cf53569a085d8c8e9b013acf9cb5",
+      "ref": "3f44a2da75a861e3fdcccbafee4ede6e01dca980eaa0a3ffe6b5866dfb9d0139",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 2058,
+      "sources": [
+        {
+          "relativePath": "12. Master Reporting & Intelligence System/Master_Reporting_Intelligence_System_Skill_v1.md",
+          "sha256": "5c759cc2a6587d157c45913e05539a635470ff229a1f385bddf2592313e03fb4"
+        },
+        {
+          "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v2.md",
+          "sha256": "ffc05bbcea7cedd5e1991eeb185c313e3387cb8be142ce8532605b1e5281ce42"
+        },
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        },
+        {
+          "relativePath": "7. Brand Brain/2. Marketing Strategy/Master_Marketing_Strategy_Skill_v1.md",
+          "sha256": "3c01f4de169379183b16e2b767b206e04ebbe53d3b507ea693616d6e17cbfaf0"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding",
+        "departments"
+      ]
+    },
+    {
+      "roleId": "copy",
+      "skillId": "office-copy",
+      "previousRef": "206247a40dbccf6e4172ddb8f3630aadcffdfe93520f145f1b7f19cb2860b4bc",
+      "ref": "7f9755af76480740e2dadd5fc60105f0c3b5a1cc241dd115d515cfec05f507f1",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1031,
+      "sources": [
+        {
+          "relativePath": "9. Social Media Department/Caption_Copy_System_Skill_v1.md",
+          "sha256": "1c6588510eeb6b4d7fe676126deded40fee81b32be37c21ed2df61a1b0dc980b"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "creative-director",
+      "skillId": "office-creative-director",
+      "previousRef": "54c9f55a7d07584cdf99dd90f7c61ccf2b42764b41c3a90ae3e8babc0c6f1011",
+      "ref": "bd6289116421cd3d6d9b099384a0f34d7c4ab3a960622580397a8067d5477e22",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1076,
+      "sources": [
+        {
+          "relativePath": "10. Graphic Design/Brand_Guidelines_System_Skill_v1.md",
+          "sha256": "d56472305930a2f5d632b0b73830c64a9eff3f79a3d2e9ca17e832289eec55ca"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Brief_System_Skill_v1.md",
+          "sha256": "273f2216b614e9d7ed7079ce3d0f21e13783ecee9988f46403cdea3f9b0b2845"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Department_Architecture_Skill_v1.md",
+          "sha256": "61bd41b5223013127b430bd325fc05dd79ba4418c4d6c6e11ecbf8cd2784bf34"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Learnings_System_Skill_v1.md",
+          "sha256": "f17fb221aaa6af46b325aca1833715a6ab60ed2c337943531721901f82e183c8"
+        },
+        {
+          "relativePath": "10. Graphic Design/Presentation_Design_System_Skill_v1.md",
+          "sha256": "6d9fd996c63d63fc527dcdec4df2d779d3eb6428d0f1f98f4cfc6ed857113d1b"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "creative-qc",
+      "skillId": "office-creative-qc",
+      "previousRef": "2e1b37b8a963577463130d4cce2816056ab576ae7932322f1bb44464dc8cde3c",
+      "ref": "6dd1feeca7db5c8374b3317a1a2d593cbf2d8b36df1921908c3b78ce55e77228",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1026,
+      "sources": [
+        {
+          "relativePath": "10. Graphic Design/Brand_Guidelines_System_Skill_v1.md",
+          "sha256": "d56472305930a2f5d632b0b73830c64a9eff3f79a3d2e9ca17e832289eec55ca"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Execution_System_Skill_v1.md",
+          "sha256": "e1e63f5675718c5e5338a1ba077862a9e81ef87fbacdc84e399a59f456811c08"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Learnings_System_Skill_v1.md",
+          "sha256": "f17fb221aaa6af46b325aca1833715a6ab60ed2c337943531721901f82e183c8"
+        },
+        {
+          "relativePath": "10. Graphic Design/Story_Flyer_Design_System_Skill_v1.md",
+          "sha256": "85bf4164af6458c844a66eef0fa1b9a5e150e7ccb57dffeda394c43102e24e23"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "delivery",
+      "skillId": "office-delivery",
+      "previousRef": "156cc67af899c1a676c1202eba0b028cfb8c716868dac2e6b065ab992ef6cf7d",
+      "ref": "700d16de9042a9486fdd2e40196f549df0e0e14c65d16ea835f8a9ad437301d6",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 889,
+      "sources": [
+        {
+          "relativePath": "MC_Studios_Software_Blueprint_v1.md",
+          "sha256": "ef5708c06e588ae8025bddfa588045acf2982081dfe13ec1129b95f0b0dea977"
+        }
+      ],
+      "sourceGroups": [
+        "engineering"
+      ]
+    },
+    {
+      "roleId": "design-system",
+      "skillId": "office-design-system",
+      "previousRef": "303a250509cc9a58b7cf2c1a3d4df646ddb765f02f3a7986840590d7e91647cf",
+      "ref": "dc888904814992ac4a15d3ae943f2f5ad4f2477047a4309eb0356595f1f2667e",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1088,
+      "sources": [
+        {
+          "relativePath": "10. Graphic Design/Brand_Guidelines_System_Skill_v1.md",
+          "sha256": "d56472305930a2f5d632b0b73830c64a9eff3f79a3d2e9ca17e832289eec55ca"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Brief_System_Skill_v1.md",
+          "sha256": "273f2216b614e9d7ed7079ce3d0f21e13783ecee9988f46403cdea3f9b0b2845"
+        },
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Execution_System_Skill_v1.md",
+          "sha256": "e1e63f5675718c5e5338a1ba077862a9e81ef87fbacdc84e399a59f456811c08"
+        },
+        {
+          "relativePath": "10. Graphic Design/Story_Flyer_Design_System_Skill_v1.md",
+          "sha256": "85bf4164af6458c844a66eef0fa1b9a5e150e7ccb57dffeda394c43102e24e23"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "grid-planner",
+      "skillId": "office-grid-planner",
+      "previousRef": "19183a637028f38baf62aa7ac8aa0e87e8e1d1eab8a4bb4dfb1aebfa941ec2b9",
+      "ref": "0fa5707f68188ae9299335584d5c9bf75adb858dcdf4ad5b582945caa3b8cf4e",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 2001,
+      "sources": [
+        {
+          "relativePath": "7. Brand Brain/2. Marketing Strategy/Master_Marketing_Strategy_Skill_v1.md",
+          "sha256": "3c01f4de169379183b16e2b767b206e04ebbe53d3b507ea693616d6e17cbfaf0"
+        },
+        {
+          "relativePath": "7. Brand Brain/3. Social Media Strategy/Social_Media_Strategy_Skill_v1_1.md",
+          "sha256": "f72d26a54ffdf8d2d7272dcfab7c1912f03377b4fc5add302393d8e5c94453ec"
+        },
+        {
+          "relativePath": "9. Social Media Department/Content_Calendar_System_Skill_v1.md",
+          "sha256": "97e061b18b15d8acf28379cf9481811faa53d6b5e08b1b7c7119b9ddc1b4a530"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Content_Planning_Demand_System_Skill_v1.md",
+          "sha256": "80b6ea1b5b12a663fa62ab9dc5c35fcce2f91aa7108c1d87e900372a92af9532"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Execution_System_Skill_v1.md",
+          "sha256": "e42a59dd21b45cef0fa7cbbeef449be8423d06efed9a9621fc04b41efb78212f"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Strategic_Application_System_Skill_v1.md",
+          "sha256": "226f1a08ee5fa5b4ba763f004c13035a2266069770e2e8154f21bb93d56067f6"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding",
+        "departments"
+      ]
+    },
+    {
+      "roleId": "image-prompts",
+      "skillId": "office-image-prompts",
+      "previousRef": "ef68de39d90bbdd641808281e27bb3dd4f8b89b0e59f34dfa6502bec2db0005f",
+      "ref": "af5bd018b2eb33833d904961bcdcb42b46e14d1d0ed113e32af89f2caafbbd2f",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1230,
+      "sources": [
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/AI_Still_Production_System_Skill_v1.md",
+          "sha256": "62b53234747313c062cf24dd7974046425af1aa531d5e6cc730825102325dc6e"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Dish_Product_Accuracy_System_Skill_v1.md",
+          "sha256": "ed8a22d87adcacfab709a7e4aa3367adea2c5357a777c8b718c5800a382dca48"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Environment_Object_Accuracy_System_Skill_v1.md",
+          "sha256": "af8c63f58e29f700d697f8397266b149e7948baeb0382b24a2f5d3849984bd47"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Synthetic_Cast_Styling_System_Skill_v1.md",
+          "sha256": "00247cb21b5202ea9bdb528f0b9f6bde134789d4b1af470364fd80f82e19d9f7"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Visual_Identity_Grade_System_Skill_v1.md",
+          "sha256": "859714e98b27727c1566b38c9baa4a21e1589008d074c3f5e2d71cb6d82b1d1b"
+        }
+      ],
+      "sourceGroups": [
+        "content"
+      ]
+    },
+    {
+      "roleId": "integrations",
+      "skillId": "office-integrations",
+      "previousRef": "300719c962ffc37ddd9eae09e77fdc756296eff3c195f4a545476f9d86a5226f",
+      "ref": "c92438900217b37fc3762d7616e6b2e5e8a21102045348501ac9438247a90285",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 892,
+      "sources": [
+        {
+          "relativePath": "MC_Studios_Software_Blueprint_v1.md",
+          "sha256": "ef5708c06e588ae8025bddfa588045acf2982081dfe13ec1129b95f0b0dea977"
+        }
+      ],
+      "sourceGroups": [
+        "engineering"
+      ]
+    },
+    {
+      "roleId": "knowledge",
+      "skillId": "office-knowledge",
+      "previousRef": "a03795419383d7bd85cd83892e62b94d69a408588a4ac2acdc55d841f2fd84fe",
+      "ref": "6bb42b6056a25319cf1eb73083bd1223f7b9173a606da278149df19a4978e5a1",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1923,
+      "sources": [
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Learnings_System_Skill_v1.md",
+          "sha256": "f17fb221aaa6af46b325aca1833715a6ab60ed2c337943531721901f82e183c8"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Learnings_System_Skill_v1.md",
+          "sha256": "05ea8ffa8a1591d3ae190b52f913de7b2a776a1727a930256af6c8087a47bccf"
+        },
+        {
+          "relativePath": "12. Master Reporting & Intelligence System/Master_Reporting_Intelligence_System_Skill_v1.md",
+          "sha256": "5c759cc2a6587d157c45913e05539a635470ff229a1f385bddf2592313e03fb4"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/AI_Content_Learnings_System_Skill_v1.md",
+          "sha256": "9bb8bb7145d6b9e9702a8ef4137e9be653a3a3dcdd60f2b338b1f1a881c03234"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Approved_Output_Memory_Skill_v1.md",
+          "sha256": "26973d42f9d13e1157ed1ded5bb30b4051e410374ff77172c2205fe0825bd7fd"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Asset_Tagging_Retrieval_System_Skill_v1.md",
+          "sha256": "3359dd45e6ac588acd995979a38b84b52e19ca81fa4b1c0a5b7fd7152bf49c84"
+        },
+        {
+          "relativePath": "9. Social Media Department/Social_Media_Learnings_System_Skill_v1.md",
+          "sha256": "17b9a15a5609fc244d6b819fe14fc8b2274d7a3669d332508e8de4eff2ba7da9"
+        }
+      ],
+      "sourceGroups": [
+        "content",
+        "departments"
+      ]
+    },
+    {
+      "roleId": "librarian",
+      "skillId": "office-librarian",
+      "previousRef": "ae376a6e341923c6ec86bfa75fa2a3563a9cb0e58d288b68aa38cf4365074e5c",
+      "ref": "bb4de5d4c0730e2af91790cc63c17db741b992f9f56ee81934133185606df782",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 2053,
+      "sources": [
+        {
+          "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v2.md",
+          "sha256": "ffc05bbcea7cedd5e1991eeb185c313e3387cb8be142ce8532605b1e5281ce42"
+        },
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Approved_Output_Memory_Skill_v1.md",
+          "sha256": "26973d42f9d13e1157ed1ded5bb30b4051e410374ff77172c2205fe0825bd7fd"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Asset_Tagging_Retrieval_System_Skill_v1.md",
+          "sha256": "3359dd45e6ac588acd995979a38b84b52e19ca81fa4b1c0a5b7fd7152bf49c84"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Delivery_Posting_System_Skill_v1.md",
+          "sha256": "f1b8f8643c3b5677a93b831ac1895295a05cc121aa101ec1434faf96cb83e43a"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding",
+        "content"
+      ]
+    },
+    {
+      "roleId": "media",
+      "skillId": "office-media",
+      "previousRef": "c493d8601864cf902052fb2e7af63a2156203047edb768bca1505ffd17b50eb5",
+      "ref": "1f1f98e80975392fa5ef9fca2c122ce6f4d94ba8a9d808a24063d8d94065e085",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1158,
+      "sources": [
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Asset_Tagging_Retrieval_System_Skill_v1.md",
+          "sha256": "3359dd45e6ac588acd995979a38b84b52e19ca81fa4b1c0a5b7fd7152bf49c84"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Delivery_Posting_System_Skill_v1.md",
+          "sha256": "f1b8f8643c3b5677a93b831ac1895295a05cc121aa101ec1434faf96cb83e43a"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Music_Sound_System_Skill_v1.md",
+          "sha256": "48b4003b72400e5dce4eb79725bcce58dc499ca1548315082f19592cf82b3d33"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Video_Assembly_Edit_System_Skill_v1.md",
+          "sha256": "ec8e37ba50eb8759d7c6d0af87050f537fd9da2a8061c4b4ac17642d8ec41939"
+        }
+      ],
+      "sourceGroups": [
+        "content"
+      ]
+    },
+    {
+      "roleId": "operations-qa",
+      "skillId": "office-operations-qa",
+      "previousRef": "9dd4eac76b95cd8c174ded7952f8873bc7a6db6c86f83f62f948468331cef9df",
+      "ref": "31dd29de9186a9a31400b6eb8eba77da441021aff767efc5f07b7d1ac65950f7",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1222,
+      "sources": [
+        {
+          "relativePath": "2. Questionnaire/Research_Driven_Discovery_Questionnaire_Skill_v3.md",
+          "sha256": "1565b0f65aefe8a21fda901e06888f297d222896f9cb1636347798a22c043a79"
+        },
+        {
+          "relativePath": "3. Proposal/Proposal_Quotation_Skill_v1.md",
+          "sha256": "5c602374fbc6fe74ac7061651af59aacd226430fd80eecdce59eec376b77dcf0"
+        },
+        {
+          "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v2.md",
+          "sha256": "ffc05bbcea7cedd5e1991eeb185c313e3387cb8be142ce8532605b1e5281ce42"
+        },
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "paid-ads",
+      "skillId": "office-paid-ads",
+      "previousRef": "a3bd25aad35941d1a16a2357bbb0a976da0463519d111802a59fb347effcc937",
+      "ref": "c46a608c0cfe4ec8fb58f587fd041a8684cf25dd00cf05ae423c9c11e4a24f2a",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1089,
+      "sources": [
+        {
+          "relativePath": "11. Paid Ads/Creative_Testing_System_Skill_v1.md",
+          "sha256": "53b7ea9fc6c9c32ee6e11ff7826b210666cda316a05682175bdef83ddc1365d9"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Department_Architecture_Skill_v1.md",
+          "sha256": "dc1aab3271f933148fafa80b8ca2e290924abc9c1133a0b8f569982b5c224c10"
+        },
+        {
+          "relativePath": "11. Paid Ads/Paid_Ads_Strategy_Skill_v1.md",
+          "sha256": "cd96c5eb8eb54287224f200b889eac859d12ecd9b6d44c016cf4ba0a4feebfc6"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "presentations",
+      "skillId": "office-presentations",
+      "previousRef": "567a398342c5a0763cedd2802bcdcc3175901c43fc849a7165d2e8cf5df365b0",
+      "ref": "105c29e8898c1c20bb1cfe8b4cf4a33ccf09ccb279b7eea69182952821f27963",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1042,
+      "sources": [
+        {
+          "relativePath": "10. Graphic Design/Graphic_Design_Department_Architecture_Skill_v1.md",
+          "sha256": "61bd41b5223013127b430bd325fc05dd79ba4418c4d6c6e11ecbf8cd2784bf34"
+        },
+        {
+          "relativePath": "10. Graphic Design/Presentation_Design_System_Skill_v1.md",
+          "sha256": "6d9fd996c63d63fc527dcdec4df2d779d3eb6428d0f1f98f4cfc6ed857113d1b"
+        }
+      ],
+      "sourceGroups": [
+        "departments"
+      ]
+    },
+    {
+      "roleId": "proposal",
+      "skillId": "office-proposal",
+      "previousRef": "89c0669425e2548e2583b598c66f4769450601fcec265e008fb7812decf5a677",
+      "ref": "b1bc5a69008aba4ccf2870063d59bc21128a3de2f8be82cda8fda045299f416f",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1246,
+      "sources": [
+        {
+          "relativePath": "1. Audit/External_Research_Audit_Skill_v3.md",
+          "sha256": "638e312b613ae24dd1b8b2ca051c1b633a53caae05f480ed011000261279783c"
+        },
+        {
+          "relativePath": "2. Questionnaire/Research_Driven_Discovery_Questionnaire_Skill_v3.md",
+          "sha256": "1565b0f65aefe8a21fda901e06888f297d222896f9cb1636347798a22c043a79"
+        },
+        {
+          "relativePath": "3. Proposal/Proposal_Quotation_Skill_v1.md",
+          "sha256": "5c602374fbc6fe74ac7061651af59aacd226430fd80eecdce59eec376b77dcf0"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "reliability",
+      "skillId": "office-reliability",
+      "previousRef": "558417c8884a75c84dcf07e72b1448ffd190ab34cd2eab7f1708a35577739b66",
+      "ref": "afa0e89d7eb30917d9a296f12b906c414837f83d0be615c1574ca51734249a28",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 950,
+      "sources": [
+        {
+          "relativePath": "MC_Studios_Software_Blueprint_v1.md",
+          "sha256": "ef5708c06e588ae8025bddfa588045acf2982081dfe13ec1129b95f0b0dea977"
+        }
+      ],
+      "sourceGroups": [
+        "engineering"
+      ]
+    },
+    {
+      "roleId": "research-qa",
+      "skillId": "office-research-qa",
+      "previousRef": "b3ce4a8a42b589574aa247d7a3bbe7ae6f4625ccbb4ccabcb05820b11c011860",
+      "ref": "650ec8c650bd083260b9552a6ec7e6f34fd754c729c3e715e964ffaf168007dc",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1214,
+      "sources": [
+        {
+          "relativePath": "1. Audit/External_Research_Audit_Skill_v3.md",
+          "sha256": "638e312b613ae24dd1b8b2ca051c1b633a53caae05f480ed011000261279783c"
+        },
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        },
+        {
+          "relativePath": "7. Brand Brain/2. Marketing Strategy/Master_Marketing_Strategy_Skill_v1.md",
+          "sha256": "3c01f4de169379183b16e2b767b206e04ebbe53d3b507ea693616d6e17cbfaf0"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "social-qa",
+      "skillId": "office-social-qa",
+      "previousRef": "ee7c7979ec385c0c2277231afca08a346322b9219c0c978ffe0a25273a386b5d",
+      "ref": "99800a647253ce85b44f30f0a3897ba1e276785c371d1e51dc174a5aa4647a98",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1899,
+      "sources": [
+        {
+          "relativePath": "7. Brand Brain/3. Social Media Strategy/Social_Media_Strategy_Skill_v1_1.md",
+          "sha256": "f72d26a54ffdf8d2d7272dcfab7c1912f03377b4fc5add302393d8e5c94453ec"
+        },
+        {
+          "relativePath": "9. Social Media Department/Caption_Copy_System_Skill_v1.md",
+          "sha256": "1c6588510eeb6b4d7fe676126deded40fee81b32be37c21ed2df61a1b0dc980b"
+        },
+        {
+          "relativePath": "9. Social Media Department/Content_Calendar_System_Skill_v1.md",
+          "sha256": "97e061b18b15d8acf28379cf9481811faa53d6b5e08b1b7c7119b9ddc1b4a530"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding",
+        "departments"
+      ]
+    },
+    {
+      "roleId": "success",
+      "skillId": "office-success",
+      "previousRef": "feefabda351415ffa1137ba5f807cb916d8c53a5af81958b02c645555a0c1073",
+      "ref": "99c3b82e779d6f8dc9fff2a87b83be8428dc97d652bab72156624f8b01cd6176",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1237,
+      "sources": [
+        {
+          "relativePath": "1. Audit/External_Research_Audit_Skill_v3.md",
+          "sha256": "638e312b613ae24dd1b8b2ca051c1b633a53caae05f480ed011000261279783c"
+        },
+        {
+          "relativePath": "2. Questionnaire/Research_Driven_Discovery_Questionnaire_Skill_v3.md",
+          "sha256": "1565b0f65aefe8a21fda901e06888f297d222896f9cb1636347798a22c043a79"
+        },
+        {
+          "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v2.md",
+          "sha256": "ffc05bbcea7cedd5e1991eeb185c313e3387cb8be142ce8532605b1e5281ce42"
+        },
+        {
+          "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+          "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+        }
+      ],
+      "sourceGroups": [
+        "onboarding"
+      ]
+    },
+    {
+      "roleId": "video",
+      "skillId": "office-video",
+      "previousRef": "e18870a079a4c903f49ec8403b384bddc0b79261bb7970ddead750483631a5e7",
+      "ref": "ccf6bd11bdcd79ea61ecddae5dbf5751fff407d0678312dde09658a9e48b1dec",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1222,
+      "sources": [
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/AI_Content_Engine_Strategy_Skill_v1.md",
+          "sha256": "1a68ff94e578d3ee11d63c2276ff356cdbebf28d5a77f9fd1981a205a1645f0c"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Delivery_Posting_System_Skill_v1.md",
+          "sha256": "f1b8f8643c3b5677a93b831ac1895295a05cc121aa101ec1434faf96cb83e43a"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Synthetic_Cast_Styling_System_Skill_v1.md",
+          "sha256": "00247cb21b5202ea9bdb528f0b9f6bde134789d4b1af470364fd80f82e19d9f7"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Video_Language_System_Skill_v1.md",
+          "sha256": "71dc5402e3c2dd617c6ff31c9fdd5c909e0c854531816425965a92ee3d160112"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Visual_Identity_Grade_System_Skill_v1.md",
+          "sha256": "859714e98b27727c1566b38c9baa4a21e1589008d074c3f5e2d71cb6d82b1d1b"
+        }
+      ],
+      "sourceGroups": [
+        "content"
+      ]
+    },
+    {
+      "roleId": "videographer",
+      "skillId": "office-videographer",
+      "previousRef": "0aecb0381314c347fa57dc1d88154ba7c90213a5cc2c5d223ffdc422f0df9eb4",
+      "ref": "e714c0ca172bf671d77a12d487cf1053c8a5ab5ee58125ed54bdf51d4f9585d9",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 1196,
+      "sources": [
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/AI_Motion_Video_Production_System_Skill_v1.md",
+          "sha256": "959690a837b1a0bfc47e363634e8ac75d8e5f1b46831522173e22838c6f034f5"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Environment_Object_Accuracy_System_Skill_v1.md",
+          "sha256": "af8c63f58e29f700d697f8397266b149e7948baeb0382b24a2f5d3849984bd47"
+        },
+        {
+          "relativePath": "8. AI Content Department/Engine Strategy/Video_Language_System_Skill_v1.md",
+          "sha256": "71dc5402e3c2dd617c6ff31c9fdd5c909e0c854531816425965a92ee3d160112"
+        }
+      ],
+      "sourceGroups": [
+        "content"
+      ]
+    },
+    {
+      "roleId": "workflow-architect",
+      "skillId": "office-workflow-architect",
+      "previousRef": "b927b35aa7ff29f70672021471c6d9dab9d28aa7e97e5d821b63cad698355ec0",
+      "ref": "7ccbb6b7d0fc0de745398f8769b41e9bfd8ccabceae1e4a78dcf76eeab960fb0",
+      "entryPath": "entry-2026-10-15-owner-architecture.md",
+      "referencePath": "references/owner-architecture-2026-10-15.md",
+      "referenceCharacters": 945,
+      "sources": [
+        {
+          "relativePath": "MC_Studios_Software_Blueprint_v1.md",
+          "sha256": "ef5708c06e588ae8025bddfa588045acf2982081dfe13ec1129b95f0b0dea977"
+        }
+      ],
+      "sourceGroups": [
+        "engineering"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "relativePath": "1. Audit/External_Research_Audit_Skill_v3.md",
+      "sha256": "638e312b613ae24dd1b8b2ca051c1b633a53caae05f480ed011000261279783c"
+    },
+    {
+      "relativePath": "10. Graphic Design/Brand_Guidelines_System_Skill_v1.md",
+      "sha256": "d56472305930a2f5d632b0b73830c64a9eff3f79a3d2e9ca17e832289eec55ca"
+    },
+    {
+      "relativePath": "10. Graphic Design/Graphic_Design_Brief_System_Skill_v1.md",
+      "sha256": "273f2216b614e9d7ed7079ce3d0f21e13783ecee9988f46403cdea3f9b0b2845"
+    },
+    {
+      "relativePath": "10. Graphic Design/Graphic_Design_Department_Architecture_Skill_v1.md",
+      "sha256": "61bd41b5223013127b430bd325fc05dd79ba4418c4d6c6e11ecbf8cd2784bf34"
+    },
+    {
+      "relativePath": "10. Graphic Design/Graphic_Design_Execution_System_Skill_v1.md",
+      "sha256": "e1e63f5675718c5e5338a1ba077862a9e81ef87fbacdc84e399a59f456811c08"
+    },
+    {
+      "relativePath": "10. Graphic Design/Graphic_Design_Learnings_System_Skill_v1.md",
+      "sha256": "f17fb221aaa6af46b325aca1833715a6ab60ed2c337943531721901f82e183c8"
+    },
+    {
+      "relativePath": "10. Graphic Design/Presentation_Design_System_Skill_v1.md",
+      "sha256": "6d9fd996c63d63fc527dcdec4df2d779d3eb6428d0f1f98f4cfc6ed857113d1b"
+    },
+    {
+      "relativePath": "10. Graphic Design/Story_Flyer_Design_System_Skill_v1.md",
+      "sha256": "85bf4164af6458c844a66eef0fa1b9a5e150e7ccb57dffeda394c43102e24e23"
+    },
+    {
+      "relativePath": "11. Paid Ads/Creative_Testing_System_Skill_v1.md",
+      "sha256": "53b7ea9fc6c9c32ee6e11ff7826b210666cda316a05682175bdef83ddc1365d9"
+    },
+    {
+      "relativePath": "11. Paid Ads/Paid_Ads_Department_Architecture_Skill_v1.md",
+      "sha256": "dc1aab3271f933148fafa80b8ca2e290924abc9c1133a0b8f569982b5c224c10"
+    },
+    {
+      "relativePath": "11. Paid Ads/Paid_Ads_Execution_System_Skill_v1.md",
+      "sha256": "07ccab8c1effa1871e1f12fd088febe3984ff4b154ce17c699e24dc2501c0eac"
+    },
+    {
+      "relativePath": "11. Paid Ads/Paid_Ads_Learnings_System_Skill_v1.md",
+      "sha256": "05ea8ffa8a1591d3ae190b52f913de7b2a776a1727a930256af6c8087a47bccf"
+    },
+    {
+      "relativePath": "11. Paid Ads/Paid_Ads_Strategy_Skill_v1.md",
+      "sha256": "cd96c5eb8eb54287224f200b889eac859d12ecd9b6d44c016cf4ba0a4feebfc6"
+    },
+    {
+      "relativePath": "12. Master Reporting & Intelligence System/Master_Reporting_Intelligence_System_Skill_v1.md",
+      "sha256": "5c759cc2a6587d157c45913e05539a635470ff229a1f385bddf2592313e03fb4"
+    },
+    {
+      "relativePath": "2. Questionnaire/Research_Driven_Discovery_Questionnaire_Skill_v3.md",
+      "sha256": "1565b0f65aefe8a21fda901e06888f297d222896f9cb1636347798a22c043a79"
+    },
+    {
+      "relativePath": "3. Proposal/Proposal_Quotation_Skill_v1.md",
+      "sha256": "5c602374fbc6fe74ac7061651af59aacd226430fd80eecdce59eec376b77dcf0"
+    },
+    {
+      "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v1.md",
+      "sha256": "cd68809804ce0c6161dcec05b9b335dcb996d23a66449a44688c592b2a5543b5"
+    },
+    {
+      "relativePath": "6. File Request : Checklist/Targeted_File_Request_Upload_Checklist_Skill_v2.md",
+      "sha256": "ffc05bbcea7cedd5e1991eeb185c313e3387cb8be142ce8532605b1e5281ce42"
+    },
+    {
+      "relativePath": "7. Brand Brain/1. Brand Brain/Brand_Brain_Build_Skill_v1_1.md",
+      "sha256": "f3f4ee442256551c8467f49c0c99529d8e7dc368ea48ea84c764ee8b403e54ed"
+    },
+    {
+      "relativePath": "7. Brand Brain/2. Marketing Strategy/Master_Marketing_Strategy_Skill_v1.md",
+      "sha256": "3c01f4de169379183b16e2b767b206e04ebbe53d3b507ea693616d6e17cbfaf0"
+    },
+    {
+      "relativePath": "7. Brand Brain/3. Social Media Strategy/Social_Media_Strategy_Skill_v1.md",
+      "sha256": "5d4362e5cb1439425a166dc1136e6f42d8ec9b9f5a75b6f16fed4ba378e73db8"
+    },
+    {
+      "relativePath": "7. Brand Brain/3. Social Media Strategy/Social_Media_Strategy_Skill_v1_1.md",
+      "sha256": "f72d26a54ffdf8d2d7272dcfab7c1912f03377b4fc5add302393d8e5c94453ec"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/AI_Content_Engine_Strategy_Skill_v1.md",
+      "sha256": "1a68ff94e578d3ee11d63c2276ff356cdbebf28d5a77f9fd1981a205a1645f0c"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/AI_Content_Learnings_System_Skill_v1.md",
+      "sha256": "9bb8bb7145d6b9e9702a8ef4137e9be653a3a3dcdd60f2b338b1f1a881c03234"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/AI_Motion_Video_Production_System_Skill_v1.md",
+      "sha256": "959690a837b1a0bfc47e363634e8ac75d8e5f1b46831522173e22838c6f034f5"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/AI_Still_Production_System_Skill_v1.md",
+      "sha256": "62b53234747313c062cf24dd7974046425af1aa531d5e6cc730825102325dc6e"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Approved_Output_Memory_Skill_v1.md",
+      "sha256": "26973d42f9d13e1157ed1ded5bb30b4051e410374ff77172c2205fe0825bd7fd"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Asset_Tagging_Retrieval_System_Skill_v1.md",
+      "sha256": "3359dd45e6ac588acd995979a38b84b52e19ca81fa4b1c0a5b7fd7152bf49c84"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Content_QC_System_Skill_v1.md",
+      "sha256": "36077f08d54796ca9a49c4d142e3f28bfab9cf06d49ffee9936b8c211b3977e5"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Delivery_Posting_System_Skill_v1.md",
+      "sha256": "f1b8f8643c3b5677a93b831ac1895295a05cc121aa101ec1434faf96cb83e43a"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Dish_Product_Accuracy_System_Skill_v1.md",
+      "sha256": "ed8a22d87adcacfab709a7e4aa3367adea2c5357a777c8b718c5800a382dca48"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Environment_Object_Accuracy_System_Skill_v1.md",
+      "sha256": "af8c63f58e29f700d697f8397266b149e7948baeb0382b24a2f5d3849984bd47"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Music_Sound_System_Skill_v1.md",
+      "sha256": "48b4003b72400e5dce4eb79725bcce58dc499ca1548315082f19592cf82b3d33"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Synthetic_Cast_Styling_System_Skill_v1.md",
+      "sha256": "00247cb21b5202ea9bdb528f0b9f6bde134789d4b1af470364fd80f82e19d9f7"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Video_Assembly_Edit_System_Skill_v1.md",
+      "sha256": "ec8e37ba50eb8759d7c6d0af87050f537fd9da2a8061c4b4ac17642d8ec41939"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Video_Language_System_Skill_v1.md",
+      "sha256": "71dc5402e3c2dd617c6ff31c9fdd5c909e0c854531816425965a92ee3d160112"
+    },
+    {
+      "relativePath": "8. AI Content Department/Engine Strategy/Visual_Identity_Grade_System_Skill_v1.md",
+      "sha256": "859714e98b27727c1566b38c9baa4a21e1589008d074c3f5e2d71cb6d82b1d1b"
+    },
+    {
+      "relativePath": "9. Social Media Department/Caption_Copy_System_Skill_v1.md",
+      "sha256": "1c6588510eeb6b4d7fe676126deded40fee81b32be37c21ed2df61a1b0dc980b"
+    },
+    {
+      "relativePath": "9. Social Media Department/Content_Calendar_System_Skill_v1.md",
+      "sha256": "97e061b18b15d8acf28379cf9481811faa53d6b5e08b1b7c7119b9ddc1b4a530"
+    },
+    {
+      "relativePath": "9. Social Media Department/Social_Media_Content_Planning_Demand_System_Skill_v1.md",
+      "sha256": "80b6ea1b5b12a663fa62ab9dc5c35fcce2f91aa7108c1d87e900372a92af9532"
+    },
+    {
+      "relativePath": "9. Social Media Department/Social_Media_Department_Architecture_Skill_v1.md",
+      "sha256": "3ba0ffff13317929f6eec7d26b93feaa5231a9d700f12a5712e3ffa214040022"
+    },
+    {
+      "relativePath": "9. Social Media Department/Social_Media_Execution_System_Skill_v1.md",
+      "sha256": "e42a59dd21b45cef0fa7cbbeef449be8423d06efed9a9621fc04b41efb78212f"
+    },
+    {
+      "relativePath": "9. Social Media Department/Social_Media_Learnings_System_Skill_v1.md",
+      "sha256": "17b9a15a5609fc244d6b819fe14fc8b2274d7a3669d332508e8de4eff2ba7da9"
+    },
+    {
+      "relativePath": "9. Social Media Department/Social_Media_Strategic_Application_System_Skill_v1.md",
+      "sha256": "226f1a08ee5fa5b4ba763f004c13035a2266069770e2e8154f21bb93d56067f6"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Company_Definition_v1.md",
+      "sha256": "43d4ea8415bb17829088ed51ae34c63f7bf16e0acadc059e91cf47aeba3469db"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Company_Definition_v2.md",
+      "sha256": "ae4c25a9eb0dfa5918e3340c093c2953fb318003d5be99ea30aa1d93fa618550"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Master_Architecture_Tracker.md",
+      "sha256": "5e0faf89dff10674e9840f8f85d19fc09abe656b0c6913e21befd8625db20014"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Master_Architecture_Tracker_v2.md",
+      "sha256": "ee32e5755631ea69fa45a2d89a98a759824693e491d41a61e6e3bef8adf4aa7d"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Master_Architecture_Tracker_v3.md",
+      "sha256": "6f0c9fe2bcb06e10a1108d98cb252a37535afd72ad0eff443640eaafe4027236"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Master_Architecture_Tracker_v4.md",
+      "sha256": "28b012279c3a45afeb631842269b11c6cb87446d758d676c38770cc308920150"
+    },
+    {
+      "relativePath": "MC_Studios_AI_Agency_Master_Architecture_Tracker_v5.md",
+      "sha256": "2f2e1afe70c36e41b52625e509b4454a7ed9b6d5c8b68d313c0cd6d29346f655"
+    },
+    {
+      "relativePath": "MC_Studios_Software_Blueprint_v1.md",
+      "sha256": "ef5708c06e588ae8025bddfa588045acf2982081dfe13ec1129b95f0b0dea977"
+    }
+  ],
+  "supersededDefaults": [
+    "Telegram control surface",
+    "paid model API runtime",
+    "legacy prices and package quantities",
+    "hospitality-only scope",
+    "mandatory Figma",
+    "fixed camera brands/cast counts/durations/ratios",
+    "intermediate owner approval at every ordinary step"
+  ]
+}

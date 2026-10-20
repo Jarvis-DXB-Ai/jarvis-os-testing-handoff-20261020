@@ -1,0 +1,2 @@
+import type {PaperclipOfficeSnapshot}from'../../src/lib/office-paperclip';
+export function createPaperclipSnapshotReader(options:{project:(health:unknown,company:unknown,agents:unknown,issues:unknown,runs:unknown)=>PaperclipOfficeSnapshot;fetchImpl?:typeof fetch;clock?:()=>number;wait?:(ms:number)=>Promise<void>}):(config:{base:string;companyId:string;token?:string;local?:boolean;includeHistory?:boolean})=>Promise<PaperclipOfficeSnapshot>;

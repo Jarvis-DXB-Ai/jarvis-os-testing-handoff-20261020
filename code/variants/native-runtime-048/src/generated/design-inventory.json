@@ -1,0 +1,2258 @@
+{
+  "sourceHash": "84879945a087f70b",
+  "files": [
+    {
+      "path": "src/app/globals.css",
+      "lines": 4423,
+      "customProperties": 52,
+      "hash": "0d47d0780a1c"
+    },
+    {
+      "path": "src/app/prompt-inspector/prompt-inspector.module.css",
+      "lines": 15,
+      "customProperties": 0,
+      "hash": "ae8fff7e50b9"
+    },
+    {
+      "path": "src/components/agents/agents-branding.module.css",
+      "lines": 38,
+      "customProperties": 0,
+      "hash": "f5f3c3df2a6a"
+    },
+    {
+      "path": "src/components/agents/organisation-structure.module.css",
+      "lines": 34,
+      "customProperties": 0,
+      "hash": "a6c645721e7f"
+    },
+    {
+      "path": "src/components/ai-content/studio-design.module.css",
+      "lines": 41,
+      "customProperties": 1,
+      "hash": "d7037abaf6dd"
+    },
+    {
+      "path": "src/components/build/build-registry-workspace.module.css",
+      "lines": 89,
+      "customProperties": 0,
+      "hash": "a289a7cab761"
+    },
+    {
+      "path": "src/components/clients/client-assets-library.module.css",
+      "lines": 2,
+      "customProperties": 0,
+      "hash": "3cd5988b22b5"
+    },
+    {
+      "path": "src/components/clients/client-index.module.css",
+      "lines": 199,
+      "customProperties": 0,
+      "hash": "2c97910f3861"
+    },
+    {
+      "path": "src/components/clients/client-profile.module.css",
+      "lines": 17,
+      "customProperties": 0,
+      "hash": "8994490015f9"
+    },
+    {
+      "path": "src/components/clients/client-suite.module.css",
+      "lines": 135,
+      "customProperties": 0,
+      "hash": "dbdc9fed2fde"
+    },
+    {
+      "path": "src/components/content/agency-content.module.css",
+      "lines": 54,
+      "customProperties": 0,
+      "hash": "23833cb25fe2"
+    },
+    {
+      "path": "src/components/dashboard/home-dashboard-v5.module.css",
+      "lines": 1274,
+      "customProperties": 5,
+      "hash": "cb7e4d0d0c8b"
+    },
+    {
+      "path": "src/components/dashboard/home-dashboard-view.module.css",
+      "lines": 554,
+      "customProperties": 18,
+      "hash": "d44aa4c13094"
+    },
+    {
+      "path": "src/components/deliverables/deliverable-review.module.css",
+      "lines": 2,
+      "customProperties": 0,
+      "hash": "99a0126c69f1"
+    },
+    {
+      "path": "src/components/design-system/brand-foundations.module.css",
+      "lines": 80,
+      "customProperties": 62,
+      "hash": "c4c7e2ab6bb2"
+    },
+    {
+      "path": "src/components/design-system/client-action.module.css",
+      "lines": 2,
+      "customProperties": 0,
+      "hash": "5c800666c1e1"
+    },
+    {
+      "path": "src/components/design-system/design-system-r02.module.css",
+      "lines": 924,
+      "customProperties": 6,
+      "hash": "659ce15dc163"
+    },
+    {
+      "path": "src/components/design-system/design-system-r03.module.css",
+      "lines": 238,
+      "customProperties": 0,
+      "hash": "a25b4e5d5df7"
+    },
+    {
+      "path": "src/components/design-system/design-system-workspace.module.css",
+      "lines": 2,
+      "customProperties": 0,
+      "hash": "b26e635bcda2"
+    },
+    {
+      "path": "src/components/design-system/internal-workspace.module.css",
+      "lines": 28,
+      "customProperties": 0,
+      "hash": "25f7f7677288"
+    },
+    {
+      "path": "src/components/finance/finance-workspace.module.css",
+      "lines": 81,
+      "customProperties": 0,
+      "hash": "f90310af19ed"
+    },
+    {
+      "path": "src/components/notifications/notifications.module.css",
+      "lines": 40,
+      "customProperties": 0,
+      "hash": "0133172db6f1"
+    },
+    {
+      "path": "src/components/office/office-live.module.css",
+      "lines": 3,
+      "customProperties": 0,
+      "hash": "d24791ff6ee8"
+    },
+    {
+      "path": "src/components/office/office.module.css",
+      "lines": 13,
+      "customProperties": 4,
+      "hash": "db90ea7def58"
+    },
+    {
+      "path": "src/components/packages/packages-workspace.module.css",
+      "lines": 26,
+      "customProperties": 0,
+      "hash": "7acefcadd41b"
+    },
+    {
+      "path": "src/components/pitch-deck/pitch-deck-stage.module.css",
+      "lines": 3,
+      "customProperties": 0,
+      "hash": "d070dce0c720"
+    },
+    {
+      "path": "src/components/roadmap/roadmap-workspace.module.css",
+      "lines": 79,
+      "customProperties": 0,
+      "hash": "e85c11e39e4c"
+    },
+    {
+      "path": "src/components/system-operations/system-operations-workspace.module.css",
+      "lines": 38,
+      "customProperties": 0,
+      "hash": "868d49773176"
+    },
+    {
+      "path": "src/components/tasks/tasks-board.module.css",
+      "lines": 156,
+      "customProperties": 0,
+      "hash": "4866d5016998"
+    }
+  ],
+  "definitions": [
+    {
+      "name": "--void",
+      "value": "#f8f9fb",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 7,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--base",
+      "value": "#f3f4f6",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 8,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--surface",
+      "value": "#ffffff",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 9,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--raised",
+      "value": "#f9fafb",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 10,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--float",
+      "value": "#f0f2f5",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 11,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--b1",
+      "value": "#e5e7eb",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 14,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--b2",
+      "value": "#d1d5db",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 15,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--b3",
+      "value": "#9ca3af",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 16,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--b-accent",
+      "value": "rgba(99, 102, 241, 0.25)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 17,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--t1",
+      "value": "#111827",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 20,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--t2",
+      "value": "#4b5563",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 21,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--t3",
+      "value": "#9ca3af",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 22,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--t4",
+      "value": "#d1d5db",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 23,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--accent",
+      "value": "#6366f1",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 26,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--accent-hi",
+      "value": "#4f46e5",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 27,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--accent-dim",
+      "value": "rgba(99, 102, 241, 0.1)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 28,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--accent-glow",
+      "value": "rgba(99, 102, 241, 0.06)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 29,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--green",
+      "value": "#16a34a",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 32,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--amber",
+      "value": "#d97706",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 33,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--red",
+      "value": "#dc2626",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 34,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--blue",
+      "value": "#2563eb",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 35,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--bg-base",
+      "value": "var(--base)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 38,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--bg-sidebar",
+      "value": "var(--void)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 39,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--bg-surface",
+      "value": "var(--surface)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 40,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--bg-card",
+      "value": "var(--raised)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 41,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--bg-inset",
+      "value": "var(--float)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 42,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--border-subtle",
+      "value": "var(--b1)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 43,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--border-moderate",
+      "value": "var(--b2)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 44,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--text-primary",
+      "value": "var(--t1)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 45,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--text-secondary",
+      "value": "var(--t2)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 46,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--text-muted",
+      "value": "var(--t3)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 47,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--gold",
+      "value": "#b45309",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 48,
+      "scope": ":root",
+      "module": false
+    },
+    {
+      "name": "--cw-void",
+      "value": "#0a0a0b",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2920,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-base",
+      "value": "#0e0e10",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2921,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-surface",
+      "value": "#141416",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2922,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-raised",
+      "value": "#1a1a1d",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2923,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-float",
+      "value": "#212125",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2924,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-b1",
+      "value": "rgba(255, 255, 255, 0.06)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2925,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-b2",
+      "value": "rgba(255, 255, 255, 0.1)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2926,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-t1",
+      "value": "#f5f5f6",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2927,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-t2",
+      "value": "#a1a1a6",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2928,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-t3",
+      "value": "#6e6e75",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2929,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-green",
+      "value": "#4ade80",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2930,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-core",
+      "value": "#22c55e",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2931,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-amber",
+      "value": "#f0b24a",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2932,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--cw-red",
+      "value": "#f0564b",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 2933,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-ink",
+      "value": "#08080a",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-panel",
+      "value": "#0c0c0e",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-rule",
+      "value": "rgba(255,255,255,.11)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-hair",
+      "value": "rgba(255,255,255,.075)",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-muted",
+      "value": "#6e6e75",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--v2-green",
+      "value": "#4ade80",
+      "important": false,
+      "file": "src/app/globals.css",
+      "line": 3057,
+      "scope": ".client-workspace-shell",
+      "module": false
+    },
+    {
+      "name": "--studio-composer-height",
+      "value": "460px",
+      "important": false,
+      "file": "src/components/ai-content/studio-design.module.css",
+      "line": 1,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--lane",
+      "value": "#8a8a91",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-v5.module.css",
+      "line": 672,
+      "scope": ".lane",
+      "module": true
+    },
+    {
+      "name": "--lane",
+      "value": "#8a8a91",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-v5.module.css",
+      "line": 779,
+      "scope": ".lane_not_started",
+      "module": true
+    },
+    {
+      "name": "--lane",
+      "value": "#f0b24a",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-v5.module.css",
+      "line": 782,
+      "scope": ".lane_in_progress",
+      "module": true
+    },
+    {
+      "name": "--lane",
+      "value": "#4ade80",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-v5.module.css",
+      "line": 785,
+      "scope": ".lane_completed",
+      "module": true
+    },
+    {
+      "name": "--lane",
+      "value": "#2fa96a",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-v5.module.css",
+      "line": 788,
+      "scope": ".lane_reviewed",
+      "module": true
+    },
+    {
+      "name": "--green",
+      "value": "var(--j-recommend)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 4,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--green2",
+      "value": "var(--j-done)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 4,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--greenDeep",
+      "value": "var(--j-verified)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 4,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--greenInk",
+      "value": "var(--j-on-green)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 5,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--greenBtn",
+      "value": "var(--j-green-btn)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 5,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--amber",
+      "value": "var(--j-progress)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 6,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--red",
+      "value": "var(--j-critical)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 6,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--panel",
+      "value": "var(--j-panel)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 7,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--panel2",
+      "value": "var(--j-panel-2)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 7,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--chrome",
+      "value": "var(--j-chrome)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 7,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--hair",
+      "value": "var(--j-hair)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 8,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--hair2",
+      "value": "var(--j-hair-2)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 8,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--ink",
+      "value": "var(--j-text)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 9,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--ink2",
+      "value": "var(--j-text-2)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 9,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--dim",
+      "value": "var(--j-text-3)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 9,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--faint",
+      "value": "var(--j-text-4)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 10,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--ghost",
+      "value": "var(--j-text-3)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 10,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--ghost2",
+      "value": "var(--j-text-off)",
+      "important": false,
+      "file": "src/components/dashboard/home-dashboard-view.module.css",
+      "line": 10,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--j-ink",
+      "value": "#08080A",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 4,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-panel",
+      "value": "#0A0A0C",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 5,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-panel-2",
+      "value": "#0C0C0E",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 6,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-chrome",
+      "value": "#0B0B0D",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 7,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-raised",
+      "value": "#101013",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 8,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-hair",
+      "value": "rgba(255,255,255,.075)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 11,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-hair-2",
+      "value": "rgba(255,255,255,.10)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 12,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-rule",
+      "value": "rgba(255,255,255,.14)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 13,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text",
+      "value": "#F5F5F6",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 16,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text-2",
+      "value": "#C9C9CF",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 17,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text-3",
+      "value": "#A1A1A6",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 18,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text-4",
+      "value": "#8A8A91",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 19,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text-off",
+      "value": "#5C5C63",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 20,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-text-dis",
+      "value": "#46464C",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 21,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-recommend",
+      "value": "#4ADE80",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 24,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-done",
+      "value": "#22C55E",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 25,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-verified",
+      "value": "#4DA3FF",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 26,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-progress",
+      "value": "#F0B24A",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 27,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-critical",
+      "value": "#F0564B",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 28,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-idle",
+      "value": "#8A8A91",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 29,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-on-green",
+      "value": "#042B14",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 30,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-green-btn",
+      "value": "#053B1C",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 31,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-brand-ground",
+      "value": "#0C3F09",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 35,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-brand-ground-2",
+      "value": "#061F05",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 36,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-brand-ink",
+      "value": "#EAFBF0",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 37,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-texture-dot",
+      "value": "radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 40,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-texture-size",
+      "value": "18px 18px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 41,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-recommend-wash",
+      "value": "rgba(34,197,94,.12)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 44,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-recommend-edge",
+      "value": "rgba(74,222,128,.28)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 45,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-progress-wash",
+      "value": "rgba(240,178,74,.12)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 46,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-progress-edge",
+      "value": "rgba(240,178,74,.30)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 47,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-critical-wash",
+      "value": "rgba(240,86,75,.12)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 48,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-critical-edge",
+      "value": "rgba(240,86,75,.30)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 49,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-neutral-wash",
+      "value": "rgba(255,255,255,.05)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 50,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-neutral-edge",
+      "value": "rgba(255,255,255,.10)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 51,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-chip",
+      "value": "999px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 54,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-xs",
+      "value": "8px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 55,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-sm",
+      "value": "11px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 56,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-md",
+      "value": "14px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 57,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-lg",
+      "value": "17px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 58,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-r-xl",
+      "value": "20px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 59,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s1",
+      "value": "4px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 62,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s2",
+      "value": "6px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 62,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s3",
+      "value": "8px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 62,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s4",
+      "value": "10px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 62,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s5",
+      "value": "12px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 62,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s6",
+      "value": "14px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 63,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s7",
+      "value": "18px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 63,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s8",
+      "value": "22px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 63,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s9",
+      "value": "26px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 63,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s10",
+      "value": "34px",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 63,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-sans",
+      "value": "var(--font-geist-sans, 'Geist', system-ui, -apple-system, sans-serif)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 65,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-mono",
+      "value": "var(--font-geist-mono, 'Geist Mono', ui-monospace, monospace)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 66,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-dur-state",
+      "value": "160ms",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 69,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-dur-enter",
+      "value": "280ms",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 70,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-dur-surface",
+      "value": "340ms",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 71,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-dur-measure",
+      "value": "560ms",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 72,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-ease-state",
+      "value": "ease",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 73,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-ease-enter",
+      "value": "cubic-bezier(.2,.8,.2,1)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 74,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-shadow-float",
+      "value": "0 22px 44px -18px rgba(0,0,0,.9)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 76,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-bloom-green",
+      "value": "0 24px 50px -26px rgba(34,197,94,.5)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 77,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-focus",
+      "value": "var(--j-recommend)",
+      "important": false,
+      "file": "src/components/design-system/brand-foundations.module.css",
+      "line": 78,
+      "scope": ".tokens",
+      "module": true
+    },
+    {
+      "name": "--j-s7",
+      "value": "14px",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 707,
+      "scope": ".root[data-density=\"compact\"]",
+      "module": true
+    },
+    {
+      "name": "--j-s8",
+      "value": "16px",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 707,
+      "scope": ".root[data-density=\"compact\"]",
+      "module": true
+    },
+    {
+      "name": "--j-s9",
+      "value": "18px",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 707,
+      "scope": ".root[data-density=\"compact\"]",
+      "module": true
+    },
+    {
+      "name": "--j-s10",
+      "value": "24px",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 707,
+      "scope": ".root[data-density=\"compact\"]",
+      "module": true
+    },
+    {
+      "name": "--j-sans",
+      "value": "var(--font-geist-sans),sans-serif",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 891,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--j-mono",
+      "value": "var(--font-geist-mono),monospace",
+      "important": false,
+      "file": "src/components/design-system/design-system-r02.module.css",
+      "line": 891,
+      "scope": ".root",
+      "module": true
+    },
+    {
+      "name": "--ink",
+      "value": "#e7eee9",
+      "important": false,
+      "file": "src/components/office/office.module.css",
+      "line": 1,
+      "scope": ".workspace",
+      "module": true
+    },
+    {
+      "name": "--muted",
+      "value": "#9aa99f",
+      "important": false,
+      "file": "src/components/office/office.module.css",
+      "line": 1,
+      "scope": ".workspace",
+      "module": true
+    },
+    {
+      "name": "--line",
+      "value": "rgba(203,224,212,.12)",
+      "important": false,
+      "file": "src/components/office/office.module.css",
+      "line": 1,
+      "scope": ".workspace",
+      "module": true
+    },
+    {
+      "name": "--panel",
+      "value": "#111a15",
+      "important": false,
+      "file": "src/components/office/office.module.css",
+      "line": 1,
+      "scope": ".workspace",
+      "module": true
+    }
+  ],
+  "names": [
+    "--accent",
+    "--accent-dim",
+    "--accent-glow",
+    "--accent-hi",
+    "--amber",
+    "--b-accent",
+    "--b1",
+    "--b2",
+    "--b3",
+    "--base",
+    "--bg-base",
+    "--bg-card",
+    "--bg-inset",
+    "--bg-sidebar",
+    "--bg-surface",
+    "--blue",
+    "--border-moderate",
+    "--border-subtle",
+    "--chrome",
+    "--cw-amber",
+    "--cw-b1",
+    "--cw-b2",
+    "--cw-base",
+    "--cw-core",
+    "--cw-float",
+    "--cw-green",
+    "--cw-raised",
+    "--cw-red",
+    "--cw-surface",
+    "--cw-t1",
+    "--cw-t2",
+    "--cw-t3",
+    "--cw-void",
+    "--dim",
+    "--faint",
+    "--float",
+    "--ghost",
+    "--ghost2",
+    "--gold",
+    "--green",
+    "--green2",
+    "--greenBtn",
+    "--greenDeep",
+    "--greenInk",
+    "--hair",
+    "--hair2",
+    "--ink",
+    "--ink2",
+    "--j-bloom-green",
+    "--j-brand-ground",
+    "--j-brand-ground-2",
+    "--j-brand-ink",
+    "--j-chrome",
+    "--j-critical",
+    "--j-critical-edge",
+    "--j-critical-wash",
+    "--j-done",
+    "--j-dur-enter",
+    "--j-dur-measure",
+    "--j-dur-state",
+    "--j-dur-surface",
+    "--j-ease-enter",
+    "--j-ease-state",
+    "--j-focus",
+    "--j-green-btn",
+    "--j-hair",
+    "--j-hair-2",
+    "--j-idle",
+    "--j-ink",
+    "--j-mono",
+    "--j-neutral-edge",
+    "--j-neutral-wash",
+    "--j-on-green",
+    "--j-panel",
+    "--j-panel-2",
+    "--j-progress",
+    "--j-progress-edge",
+    "--j-progress-wash",
+    "--j-r-chip",
+    "--j-r-lg",
+    "--j-r-md",
+    "--j-r-sm",
+    "--j-r-xl",
+    "--j-r-xs",
+    "--j-raised",
+    "--j-recommend",
+    "--j-recommend-edge",
+    "--j-recommend-wash",
+    "--j-rule",
+    "--j-s1",
+    "--j-s10",
+    "--j-s2",
+    "--j-s3",
+    "--j-s4",
+    "--j-s5",
+    "--j-s6",
+    "--j-s7",
+    "--j-s8",
+    "--j-s9",
+    "--j-sans",
+    "--j-shadow-float",
+    "--j-text",
+    "--j-text-2",
+    "--j-text-3",
+    "--j-text-4",
+    "--j-text-dis",
+    "--j-text-off",
+    "--j-texture-dot",
+    "--j-texture-size",
+    "--j-verified",
+    "--lane",
+    "--line",
+    "--muted",
+    "--panel",
+    "--panel2",
+    "--raised",
+    "--red",
+    "--studio-composer-height",
+    "--surface",
+    "--t1",
+    "--t2",
+    "--t3",
+    "--t4",
+    "--text-muted",
+    "--text-primary",
+    "--text-secondary",
+    "--v2-green",
+    "--v2-hair",
+    "--v2-ink",
+    "--v2-muted",
+    "--v2-panel",
+    "--v2-rule",
+    "--void"
+  ],
+  "variants": [
+    {
+      "name": "--amber",
+      "definitions": [
+        {
+          "name": "--amber",
+          "value": "#d97706",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 33,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--amber",
+          "value": "var(--j-progress)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 6,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--green",
+      "definitions": [
+        {
+          "name": "--green",
+          "value": "#16a34a",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 32,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--green",
+          "value": "var(--j-recommend)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 4,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--ink",
+      "definitions": [
+        {
+          "name": "--ink",
+          "value": "var(--j-text)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 9,
+          "scope": ".root",
+          "module": true
+        },
+        {
+          "name": "--ink",
+          "value": "#e7eee9",
+          "important": false,
+          "file": "src/components/office/office.module.css",
+          "line": 1,
+          "scope": ".workspace",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-mono",
+      "definitions": [
+        {
+          "name": "--j-mono",
+          "value": "var(--font-geist-mono, 'Geist Mono', ui-monospace, monospace)",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 66,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-mono",
+          "value": "var(--font-geist-mono),monospace",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 891,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s10",
+      "definitions": [
+        {
+          "name": "--j-s10",
+          "value": "34px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s10",
+          "value": "24px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s7",
+      "definitions": [
+        {
+          "name": "--j-s7",
+          "value": "18px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s7",
+          "value": "14px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s8",
+      "definitions": [
+        {
+          "name": "--j-s8",
+          "value": "22px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s8",
+          "value": "16px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s9",
+      "definitions": [
+        {
+          "name": "--j-s9",
+          "value": "26px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s9",
+          "value": "18px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-sans",
+      "definitions": [
+        {
+          "name": "--j-sans",
+          "value": "var(--font-geist-sans, 'Geist', system-ui, -apple-system, sans-serif)",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 65,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-sans",
+          "value": "var(--font-geist-sans),sans-serif",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 891,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--lane",
+      "definitions": [
+        {
+          "name": "--lane",
+          "value": "#8a8a91",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 672,
+          "scope": ".lane",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#8a8a91",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 779,
+          "scope": ".lane_not_started",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#f0b24a",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 782,
+          "scope": ".lane_in_progress",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#4ade80",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 785,
+          "scope": ".lane_completed",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#2fa96a",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 788,
+          "scope": ".lane_reviewed",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--panel",
+      "definitions": [
+        {
+          "name": "--panel",
+          "value": "var(--j-panel)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 7,
+          "scope": ".root",
+          "module": true
+        },
+        {
+          "name": "--panel",
+          "value": "#111a15",
+          "important": false,
+          "file": "src/components/office/office.module.css",
+          "line": 1,
+          "scope": ".workspace",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--red",
+      "definitions": [
+        {
+          "name": "--red",
+          "value": "#dc2626",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 34,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--red",
+          "value": "var(--j-critical)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 6,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    }
+  ],
+  "repeated": [
+    {
+      "name": "--amber",
+      "definitions": [
+        {
+          "name": "--amber",
+          "value": "#d97706",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 33,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--amber",
+          "value": "var(--j-progress)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 6,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--green",
+      "definitions": [
+        {
+          "name": "--green",
+          "value": "#16a34a",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 32,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--green",
+          "value": "var(--j-recommend)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 4,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--ink",
+      "definitions": [
+        {
+          "name": "--ink",
+          "value": "var(--j-text)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 9,
+          "scope": ".root",
+          "module": true
+        },
+        {
+          "name": "--ink",
+          "value": "#e7eee9",
+          "important": false,
+          "file": "src/components/office/office.module.css",
+          "line": 1,
+          "scope": ".workspace",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-mono",
+      "definitions": [
+        {
+          "name": "--j-mono",
+          "value": "var(--font-geist-mono, 'Geist Mono', ui-monospace, monospace)",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 66,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-mono",
+          "value": "var(--font-geist-mono),monospace",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 891,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s10",
+      "definitions": [
+        {
+          "name": "--j-s10",
+          "value": "34px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s10",
+          "value": "24px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s7",
+      "definitions": [
+        {
+          "name": "--j-s7",
+          "value": "18px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s7",
+          "value": "14px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s8",
+      "definitions": [
+        {
+          "name": "--j-s8",
+          "value": "22px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s8",
+          "value": "16px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-s9",
+      "definitions": [
+        {
+          "name": "--j-s9",
+          "value": "26px",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 63,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-s9",
+          "value": "18px",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 707,
+          "scope": ".root[data-density=\"compact\"]",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--j-sans",
+      "definitions": [
+        {
+          "name": "--j-sans",
+          "value": "var(--font-geist-sans, 'Geist', system-ui, -apple-system, sans-serif)",
+          "important": false,
+          "file": "src/components/design-system/brand-foundations.module.css",
+          "line": 65,
+          "scope": ".tokens",
+          "module": true
+        },
+        {
+          "name": "--j-sans",
+          "value": "var(--font-geist-sans),sans-serif",
+          "important": false,
+          "file": "src/components/design-system/design-system-r02.module.css",
+          "line": 891,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--lane",
+      "definitions": [
+        {
+          "name": "--lane",
+          "value": "#8a8a91",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 672,
+          "scope": ".lane",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#8a8a91",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 779,
+          "scope": ".lane_not_started",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#f0b24a",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 782,
+          "scope": ".lane_in_progress",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#4ade80",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 785,
+          "scope": ".lane_completed",
+          "module": true
+        },
+        {
+          "name": "--lane",
+          "value": "#2fa96a",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-v5.module.css",
+          "line": 788,
+          "scope": ".lane_reviewed",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--panel",
+      "definitions": [
+        {
+          "name": "--panel",
+          "value": "var(--j-panel)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 7,
+          "scope": ".root",
+          "module": true
+        },
+        {
+          "name": "--panel",
+          "value": "#111a15",
+          "important": false,
+          "file": "src/components/office/office.module.css",
+          "line": 1,
+          "scope": ".workspace",
+          "module": true
+        }
+      ]
+    },
+    {
+      "name": "--red",
+      "definitions": [
+        {
+          "name": "--red",
+          "value": "#dc2626",
+          "important": false,
+          "file": "src/app/globals.css",
+          "line": 34,
+          "scope": ":root",
+          "module": false
+        },
+        {
+          "name": "--red",
+          "value": "var(--j-critical)",
+          "important": false,
+          "file": "src/components/dashboard/home-dashboard-view.module.css",
+          "line": 6,
+          "scope": ".root",
+          "module": true
+        }
+      ]
+    }
+  ]
+}

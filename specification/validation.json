@@ -1,0 +1,17 @@
+{
+  "observedAt": "2026-10-20T12:06:18.970159+00:00",
+  "verdict": "PASS",
+  "errors": [],
+  "checks": [
+    "65 active and 8 historical merged unique roles",
+    "65 complete role specs",
+    "106 unique method IDs",
+    "exactly one dedicated workflow per active role",
+    "66 manifest seats, 51 active mappings, 15 planned",
+    "14 active runtime roles without seats",
+    "all declared and loader-required installed files checked"
+  ],
+  "methodFilesChecked": 541,
+  "unhashedRequiredFiles": [],
+  "limitations": "Read-only inventory verification only; no new model, source execution, app build, runtime query or public/device QA."
+}

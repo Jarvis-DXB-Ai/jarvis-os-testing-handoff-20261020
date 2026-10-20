@@ -1,0 +1,237 @@
+/* ============================================================================
+   Jarvis r03 — extension patterns on top of jarvis-brand.css (r02).
+   No token is redefined here. Every value resolves to an r02 token.
+   Class prefix: .r3-  ·  Adoption of each pattern is stated in the page.
+   ========================================================================== */
+
+.scope [hidden] { display: none !important; }
+
+.scope .r3-page { max-width: 1180px; margin: 0 auto; padding: 0 30px 90px; }
+@media (max-width: 768px) { .scope .r3-page { padding: 0 24px 70px; } }
+@media (max-width: 390px) { .scope .r3-page { padding: 0 20px 60px; } }
+
+/* ── adoption label ─────────────────────────────────────────────────────── */
+.scope .r3-adopt {
+  display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: var(--j-r-xs);
+  font-family: var(--j-mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase;
+  border: 1px solid var(--j-neutral-edge); background: rgba(255,255,255,.04); color: var(--j-text-3);
+  white-space: nowrap;
+}
+.scope .r3-adopt::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+.scope .r3-adopt[data-adopt="proposed"] { border-style: dashed; color: var(--j-text-4); }
+.scope .r3-adopt[data-adopt="guide"] { color: var(--j-text-2); }
+.scope .r3-adopt[data-adopt="shared"] { color: var(--j-text); border-color: var(--j-rule); background: rgba(255,255,255,.07); }
+.scope .r3-verify { font-family: var(--j-mono); font-size: 11px; color: var(--j-text-4); }
+
+/* ── demo control bar above a canvas ───────────────────────────────────── */
+.scope .r3-controls {
+  display: flex; align-items: center; gap: var(--j-s2); flex-wrap: wrap;
+  padding: 12px 16px; border-bottom: 1px solid var(--j-hair); background: var(--j-panel-2);
+}
+.scope .r3-controls-label { font-family: var(--j-mono); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; color: var(--j-text-off); margin-right: 4px; }
+
+/* ══ 01 · WORKFLOWS ═══════════════════════════════════════════════════════ */
+.scope .r3-form { display: flex; flex-direction: column; }
+.scope .r3-form-group { padding: 20px 0 22px; border-top: 1px solid var(--j-hair); }
+.scope .r3-form-group:first-of-type { border-top: 0; padding-top: 0; }
+.scope .r3-group-head { display: flex; align-items: baseline; gap: var(--j-s4); flex-wrap: wrap; padding-bottom: var(--j-s5); }
+.scope .r3-group-num { font-family: var(--j-mono); font-size: 10px; letter-spacing: .1em; color: var(--j-recommend); }
+.scope .r3-group-title { font-size: 15px; font-weight: 500; }
+.scope .r3-group-note { font-size: 12px; color: var(--j-text-4); }
+.scope .r3-fields { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--j-s5); }
+.scope .r3-fields[data-cols="1"] { grid-template-columns: 1fr; }
+.scope .r3-span { grid-column: 1 / -1; }
+@media (max-width: 620px) { .scope .r3-fields { grid-template-columns: 1fr; } }
+.scope .r3-req { color: var(--j-recommend); }
+.scope .j-textarea { min-height: 80px; resize: vertical; font-family: inherit; line-height: 1.5; }
+
+/* sticky action footer with a dirty marker */
+.scope .r3-formbar {
+  position: sticky; bottom: 0; display: flex; align-items: center; gap: var(--j-s5); flex-wrap: wrap;
+  margin-top: var(--j-s7); padding: 13px 16px; border-top: 1px solid var(--j-hair);
+  background: color-mix(in srgb, var(--j-panel) 94%, transparent); backdrop-filter: blur(10px);
+  border-radius: 0 0 var(--j-r-md) var(--j-r-md);
+}
+.scope .r3-dirty { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--j-text-4); }
+.scope .r3-dirty::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--j-text-dis); }
+.scope .r3-dirty[data-dirty="true"] { color: var(--j-progress); }
+.scope .r3-dirty[data-dirty="true"]::before { background: var(--j-progress); box-shadow: 0 0 8px rgba(240,178,74,.6); }
+.scope .r3-formbar-actions { margin-left: auto; display: flex; align-items: center; gap: var(--j-s3); }
+@media (max-width: 560px) { .scope .r3-formbar-actions { margin-left: 0; width: 100%; } }
+
+/* modal: the only surface that blocks */
+.scope .r3-modal-host { position: fixed; inset: 0; z-index: 70; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.scope .r3-modal-host[hidden] { display: none !important; }
+.scope .r3-modal-scrim { position: absolute; inset: 0; background: rgba(0,0,0,.66); backdrop-filter: blur(3px); animation: r3-fade .22s ease both; }
+.scope .r3-modal {
+  position: relative; width: min(480px, 100%); border-radius: var(--j-r-lg); overflow: hidden;
+  border: 1px solid var(--j-hair-2); background: var(--j-raised); box-shadow: var(--j-shadow-float);
+  animation: r3-pop .24s cubic-bezier(.2,.8,.2,1) both;
+}
+.scope .r3-modal[data-tone="critical"] { border-color: var(--j-critical-edge); }
+.scope .r3-modal-body { padding: 22px 24px 20px; }
+.scope .r3-modal-title { font-size: 17px; font-weight: 500; letter-spacing: -.02em; }
+.scope .r3-modal-copy { margin-top: 9px; font-size: 13.5px; line-height: 1.55; color: var(--j-text-3); }
+.scope .r3-modal-foot { display: flex; align-items: center; gap: var(--j-s3); padding: 14px 24px; border-top: 1px solid var(--j-hair); background: var(--j-panel-2); }
+.scope .r3-modal-foot .r3-right { margin-left: auto; display: flex; gap: var(--j-s3); }
+@keyframes r3-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes r3-pop { from { opacity: 0; transform: translateY(10px) scale(.985); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .scope .r3-modal, .scope .r3-modal-scrim { animation: none; } }
+
+/* undo toast */
+.scope .r3-undo {
+  display: flex; align-items: center; gap: var(--j-s5); min-width: 300px; max-width: min(94vw, 420px);
+  padding: 12px 14px; border-radius: var(--j-r-md); border: 1px solid var(--j-hair-2);
+  background: var(--j-raised); box-shadow: var(--j-shadow-float); animation: j-rise .28s ease both;
+}
+.scope .r3-undo-body { font-size: 13px; color: var(--j-text-2); }
+.scope .r3-undo-body b { color: var(--j-text); }
+.scope .r3-undo-timer { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255,255,255,.08); }
+.scope .r3-undo-timer span { display: block; height: 100%; background: var(--j-recommend); transform-origin: left; animation: r3-drain 10s linear both; }
+@keyframes r3-drain { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+@media (prefers-reduced-motion: reduce) { .scope .r3-undo-timer span { animation: none; transform: scaleX(1); } }
+
+/* ══ 02 · DENSE TABLE ═════════════════════════════════════════════════════ */
+.scope .r3-table-shell { border: 1px solid var(--j-hair); border-radius: var(--j-r-md); overflow: hidden; background: var(--j-panel-2); }
+.scope .r3-table-bar { display: flex; align-items: center; gap: var(--j-s4); flex-wrap: wrap; padding: 12px 14px; border-bottom: 1px solid var(--j-hair); }
+.scope .r3-table-bar .j-search { margin-left: 0; min-width: 220px; }
+.scope .r3-table-bar-right { margin-left: auto; display: flex; align-items: center; gap: var(--j-s3); flex-wrap: wrap; }
+.scope .r3-count { font-family: var(--j-mono); font-size: 11px; color: var(--j-text-4); white-space: nowrap; }
+@media (max-width: 700px) { .scope .r3-table-bar-right { margin-left: 0; } .scope .r3-table-bar .j-search { min-width: 100%; } }
+
+/* bulk bar replaces the tool bar when a selection exists */
+.scope .r3-bulkbar {
+  display: flex; align-items: center; gap: var(--j-s4); flex-wrap: wrap;
+  padding: 11px 14px; border-bottom: 1px solid var(--j-recommend-edge);
+  background: rgba(34,197,94,.08);
+}
+.scope .r3-bulk-count { font-family: var(--j-mono); font-size: 11.5px; color: var(--j-recommend); }
+.scope .r3-bulk-actions { margin-left: auto; display: flex; gap: var(--j-s3); flex-wrap: wrap; }
+@media (max-width: 620px) { .scope .r3-bulk-actions { margin-left: 0; } }
+
+.scope .r3-scroll { overflow-x: auto; }
+.scope .r3-table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 880px; }
+.scope .r3-table th {
+  position: sticky; top: 0; z-index: 1; text-align: left; padding: 9px 14px; white-space: nowrap;
+  font-family: var(--j-mono); font-weight: 400; font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--j-text-4); background: var(--j-panel); border-bottom: 1px solid var(--j-hair);
+}
+.scope .r3-th-sort { display: inline-flex; align-items: center; gap: 6px; border: 0; padding: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+.scope .r3-th-sort:hover { color: var(--j-text-2); }
+.scope .r3-th-sort::after { content: "↕"; font-size: 10px; opacity: .5; }
+.scope .r3-th-sort[aria-sort="ascending"] { color: var(--j-text); }
+.scope .r3-th-sort[aria-sort="ascending"]::after { content: "↑"; opacity: 1; color: var(--j-recommend); }
+.scope .r3-th-sort[aria-sort="descending"] { color: var(--j-text); }
+.scope .r3-th-sort[aria-sort="descending"]::after { content: "↓"; opacity: 1; color: var(--j-recommend); }
+.scope .r3-table td { padding: 11px 14px; border-top: 1px solid rgba(255,255,255,.055); color: var(--j-text-2); vertical-align: middle; }
+.scope .r3-table tbody tr { cursor: pointer; }
+.scope .r3-table tbody tr:hover td { background: rgba(255,255,255,.025); }
+.scope .r3-table tbody tr[aria-selected="true"] td { background: rgba(34,197,94,.07); }
+.scope .r3-table tbody tr:focus-visible { outline: 2px solid var(--j-focus); outline-offset: -2px; }
+.scope .r3-col-check { width: 42px; }
+.scope .r3-check { width: 15px; height: 15px; accent-color: var(--j-recommend); cursor: pointer; }
+.scope .r3-num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.scope .r3-clip { display: block; max-width: 34ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.scope .r3-clip-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; max-width: 46ch; }
+.scope .r3-dash { color: var(--j-text-dis); }
+
+.scope .r3-pager { display: flex; align-items: center; gap: var(--j-s4); flex-wrap: wrap; padding: 11px 14px; border-top: 1px solid var(--j-hair); }
+.scope .r3-pager-info { font-family: var(--j-mono); font-size: 11px; color: var(--j-text-4); }
+.scope .r3-pager-nav { margin-left: auto; display: flex; align-items: center; gap: var(--j-s2); }
+.scope .r3-page-btn {
+  min-width: 30px; height: 30px; padding: 0 8px; border-radius: var(--j-r-xs);
+  border: 1px solid var(--j-hair); background: transparent; color: var(--j-text-3);
+  font-family: var(--j-mono); font-size: 11px; cursor: pointer;
+}
+.scope .r3-page-btn:hover:not(:disabled) { color: var(--j-text); border-color: var(--j-rule); }
+.scope .r3-page-btn[aria-current="true"] { color: var(--j-text); background: rgba(255,255,255,.07); border-color: var(--j-rule); }
+.scope .r3-page-btn:disabled { opacity: .35; cursor: not-allowed; }
+@media (max-width: 620px) { .scope .r3-pager-nav { margin-left: 0; } }
+
+.scope .r3-tstate { padding: 34px 20px; text-align: center; }
+.scope .r3-tstate .j-empty { display: inline-flex; text-align: left; }
+.scope .r3-skelrow { display: grid; grid-template-columns: 42px 2fr 1fr 1fr 1fr; gap: 14px; padding: 12px 14px; border-top: 1px solid rgba(255,255,255,.055); }
+
+/* ══ 03 · NAVIGATION ══════════════════════════════════════════════════════ */
+.scope .r3-crumbs { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12.5px; }
+.scope .r3-crumb { color: var(--j-text-4); text-decoration: none; }
+.scope .r3-crumb:hover { color: var(--j-text-2); text-decoration: none; }
+.scope .r3-crumb[aria-current="page"] { color: var(--j-text); }
+.scope .r3-crumb-sep { color: var(--j-text-dis); font-size: 11px; }
+.scope .r3-back {
+  display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px 6px 9px; border-radius: var(--j-r-xs);
+  border: 1px solid var(--j-hair); background: transparent; color: var(--j-text-3);
+  font-size: 12.5px; cursor: pointer;
+}
+.scope .r3-back:hover { color: var(--j-text); border-color: var(--j-rule); }
+
+.scope .r3-context {
+  display: flex; align-items: center; gap: var(--j-s4); flex-wrap: wrap;
+  padding: 11px 14px; border-radius: var(--j-r-md);
+  border: 1px solid var(--j-recommend-edge); background: rgba(34,197,94,.07);
+}
+.scope .r3-context-label { font-family: var(--j-mono); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; color: var(--j-recommend); }
+.scope .r3-context-name { font-size: 14px; font-weight: 500; }
+.scope .r3-context-meta { font-size: 12px; color: var(--j-text-3); }
+.scope .r3-context-actions { margin-left: auto; display: flex; gap: var(--j-s3); }
+@media (max-width: 620px) { .scope .r3-context-actions { margin-left: 0; } }
+
+.scope .r3-surface-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--j-s5); }
+@media (max-width: 860px) { .scope .r3-surface-grid { grid-template-columns: 1fr; } }
+.scope .r3-surface { padding: 16px 18px; border: 1px solid var(--j-hair); border-radius: var(--j-r-md); background: var(--j-panel-2); }
+.scope .r3-surface-name { font-family: var(--j-mono); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--j-recommend); }
+.scope .r3-surface-when { margin-top: 10px; font-size: 13.5px; color: var(--j-text-2); }
+.scope .r3-surface-rule { margin-top: 10px; font-size: 12.5px; color: var(--j-text-4); }
+
+/* ══ 04 · ACCESSIBILITY ═══════════════════════════════════════════════════ */
+.scope .r3-keys { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1px; background: var(--j-hair); border: 1px solid var(--j-hair); border-radius: var(--j-r-md); overflow: hidden; }
+@media (max-width: 700px) { .scope .r3-keys { grid-template-columns: 1fr; } }
+.scope .r3-key { display: flex; align-items: baseline; gap: var(--j-s5); padding: 11px 14px; background: var(--j-panel-2); }
+.scope .r3-key kbd {
+  flex: 0 0 auto; padding: 3px 7px; border-radius: 5px; border: 1px solid var(--j-hair-2);
+  background: var(--j-ink); color: var(--j-text-2); font-family: var(--j-mono); font-size: 11px;
+}
+.scope .r3-key-note { font-size: 13px; color: var(--j-text-3); }
+
+.scope .r3-target { display: flex; align-items: center; gap: var(--j-s5); flex-wrap: wrap; }
+.scope .r3-target-box { position: relative; display: inline-flex; align-items: center; justify-content: center; }
+.scope .r3-target-box::before {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px;
+  transform: translate(-50%,-50%); border: 1px dashed rgba(74,222,128,.45); border-radius: 10px;
+}
+.scope .r3-target-note { font-family: var(--j-mono); font-size: 11px; color: var(--j-text-4); }
+
+/* ══ shared: section + specimen (r02 grammar, reused verbatim) ═══════════ */
+.scope .r3-section { margin-top: var(--j-s10); padding-top: var(--j-s9); border-top: 1px solid var(--j-hair-2); }
+.scope .r3-note { display: block; margin-top: var(--j-s5); max-width: 88ch; font-size: 12.5px; line-height: 1.55; color: var(--j-text-4); }
+.scope .r3-note code { font-size: 11.5px; color: var(--j-text-3); }
+.scope .r3-note b { color: var(--j-text-3); font-weight: 500; }
+/* Integration: actual module classes, native dialogs, usable targets and honest states. */
+.scope{min-width:0;scroll-margin-top:26px}
+.scope .r3-controls-label{font-size:11px;color:var(--j-text-4)}
+.scope .r3-adopt{font-size:11px;white-space:normal;max-width:100%}
+.scope .r3-modal{position:fixed;inset:0;margin:auto;width:min(540px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;color:var(--j-text);padding:0;background:var(--j-chrome)}
+.scope .r3-modal::backdrop{background:rgba(0,0,0,.7);backdrop-filter:blur(3px)}
+.scope .r3-modal-body{padding:24px}.scope .r3-modal-title{margin:12px 0!important}.scope .r3-modal-foot{flex-wrap:wrap;margin-top:20px}
+.scope .r3-form-group{min-width:0;border-left:0;border-right:0;border-bottom:0;margin:0}
+.scope .r3-formbar{position:sticky;bottom:0;z-index:1}
+.scope .r3-formbar-actions{flex-wrap:wrap;justify-content:flex-end}.scope .r3-form-group legend{padding-top:18px}
+.scope .r3-undo{position:relative;margin-top:20px;overflow:hidden;flex-wrap:wrap;min-width:0;animation:none}
+.scope .r3-table-bar .j-search{min-width:0;flex:1}.scope .r3-scroll{max-width:100%}
+.scope .r3-table tbody th{padding:11px 14px;border-top:1px solid var(--j-hair);font:inherit;text-transform:none;letter-spacing:normal;text-align:left}
+.scope .r3-table tr[data-selected=true]{background:var(--j-recommend-wash)}
+.scope .r3-table th[aria-sort=ascending] .r3-th-sort::after{content:'↑';color:var(--j-recommend)}
+.scope .r3-table th[aria-sort=descending] .r3-th-sort::after{content:'↓';color:var(--j-recommend)}
+.scope .r3-th-sort{min-height:44px}.scope .r3-page-btn{min-width:44px;min-height:44px}
+.scope .r3-page-btn[aria-current=page]{border-color:var(--j-recommend);color:var(--j-recommend)}
+.scope .checkTarget{display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer}
+.scope .rowOpen{background:none;border:0;color:var(--j-text-2);text-align:left;min-height:44px;cursor:pointer;max-width:100%}
+.scope .rowOpen small{display:block;font:11px var(--j-mono);color:var(--j-text-4)}
+.scope .r3-context{flex-wrap:wrap;min-height:110px}.scope .r3-context-actions{flex-wrap:wrap}.scope .r3-context-label{font-size:11px}
+.scope .contrastSamples{display:flex;gap:12px;flex-wrap:wrap}.scope .contrastSamples>span{padding:12px;border:1px solid var(--j-hair);border-radius:11px}
+.scope .contrastReadings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:20px 0}.scope .contrastReadings dt{font-size:12px;color:var(--j-text-3)}.scope .contrastReadings dd{font:12px var(--j-mono);margin:5px 0 0}
+.scope .r3-target-box button{min-width:44px;min-height:44px}.scope .r3-tstate{min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.scope .j-table td,.scope .j-table th{overflow-wrap:anywhere;white-space:normal}
+@media(max-width:620px){.scope .r3-modal-body{padding:20px 16px}.scope .r3-table-bar>label{width:100%}.scope .r3-table-bar select{max-width:100%}.scope .r3-context-actions{margin-left:0}.scope .contrastReadings{grid-template-columns:1fr}.scope .r3-formbar{align-items:flex-start;flex-direction:column}.scope .r3-pager-nav{margin-left:0;flex-wrap:wrap}.scope .r3-crumbs>a,.scope .r3-crumb-sep{display:none}.scope .r3-keys{grid-template-columns:1fr}}
+.scope .demoButton{min-height:44px;min-width:44px}
+.scope .r3-spec-note{max-width:88ch}

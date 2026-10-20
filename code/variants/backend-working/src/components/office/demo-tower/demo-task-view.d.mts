@@ -1,0 +1,11 @@
+import type {DemoTask} from '@/lib/office-demo.mjs';
+export function demoRoleLabel(id:string,roles:{id:string;name:string}[]):string;
+export function demoDepartmentLabel(id:string,departments:{id:string;name:string}[]):string;
+export function isDemoAgentRole(id:string,roles:{id:string}[]):boolean;
+export function demoTaskTiming(job:DemoTask):string;
+export function demoTaskContext(job:DemoTask):string|null;
+export function demoAssignmentPhase(job:DemoTask,role:string|undefined):'doing'|'next'|'done'|null;
+export function demoAssignmentStage(job:DemoTask,role:string|undefined):DemoTask['timeline'][number]|undefined;
+export function demoAssignmentStatus(job:DemoTask,role:string|undefined):string;
+export function demoAssignmentPrefix(job:DemoTask,role:string|undefined):string;
+export function demoAssignmentSummary(job:DemoTask,role:string|undefined):string;

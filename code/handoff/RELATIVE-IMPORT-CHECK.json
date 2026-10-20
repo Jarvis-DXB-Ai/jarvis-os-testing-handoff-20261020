@@ -1,0 +1,91 @@
+{
+  "method": "static import-pattern file-existence check; not a build",
+  "variants": [
+    {
+      "variant": "native-runtime-048",
+      "relativeImportsChecked": 1993,
+      "unresolved": [],
+      "typescriptCompileResolutionDeferred": [
+        {
+          "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+          "reference": "../src/components/layout/sidebar-route-matching.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        },
+        {
+          "path": "scripts/verify-tasks-board-fixtures.ts",
+          "reference": "../src/lib/tasks-board.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        }
+      ]
+    },
+    {
+      "variant": "ui-working",
+      "relativeImportsChecked": 852,
+      "unresolved": [],
+      "typescriptCompileResolutionDeferred": [
+        {
+          "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+          "reference": "../src/components/layout/sidebar-route-matching.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        },
+        {
+          "path": "scripts/verify-tasks-board-fixtures.ts",
+          "reference": "../src/lib/tasks-board.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        }
+      ]
+    },
+    {
+      "variant": "backend-working",
+      "relativeImportsChecked": 2011,
+      "unresolved": [],
+      "typescriptCompileResolutionDeferred": [
+        {
+          "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+          "reference": "../src/components/layout/sidebar-route-matching.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        },
+        {
+          "path": "scripts/verify-tasks-board-fixtures.ts",
+          "reference": "../src/lib/tasks-board.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        }
+      ]
+    },
+    {
+      "variant": "public-demo-main120",
+      "relativeImportsChecked": 2016,
+      "unresolved": [],
+      "typescriptCompileResolutionDeferred": [
+        {
+          "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+          "reference": "../src/components/layout/sidebar-route-matching.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        },
+        {
+          "path": "scripts/verify-tasks-board-fixtures.ts",
+          "reference": "../src/lib/tasks-board.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        }
+      ]
+    },
+    {
+      "variant": "canonical-main",
+      "relativeImportsChecked": 823,
+      "unresolved": [],
+      "typescriptCompileResolutionDeferred": [
+        {
+          "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+          "reference": "../src/components/layout/sidebar-route-matching.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        },
+        {
+          "path": "scripts/verify-tasks-board-fixtures.ts",
+          "reference": "../src/lib/tasks-board.js",
+          "status": "TypeScript source exists; compile-harness runtime resolution not executed"
+        }
+      ]
+    }
+  ],
+  "unresolvedStaticSourceImports": 0
+}

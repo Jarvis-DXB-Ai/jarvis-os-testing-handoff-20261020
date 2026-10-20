@@ -1,0 +1,16 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {mkdtemp,cp,readFile,writeFile,rm} from 'node:fs/promises';import {join} from 'node:path';import {tmpdir} from 'node:os';
+import plan from '../src/lib/office-stack-plan.json' with {type:'json'};
+import {roleSkillContext,skillReadiness} from './lib/office-skill-library.mjs';import {clientDeskSkillContext} from './lib/office-client-methods.mjs';import {officeAgentProfile} from '../src/lib/office-agent-profile.mjs';import {departmentQaMethods} from '../src/lib/office-client-team.mjs';
+const library=join(plan.storage.recordsRoot,'library/skills');
+test('supplemental methods are role-specific and appear in actual context receipts without replacing the specialist or protocol',async()=>{
+ const ready=await skillReadiness(plan.skillLibrary,library);assert.ok(ready.every(s=>s.installed));
+ const roles=[...plan.executives,...plan.roles].filter(r=>r.rosterStatus==='active');for(const r of roles){const c=await roleSkillContext(r.id,plan.skillLibrary,library);assert.equal(c.receipts.filter(s=>s.id==='office-'+r.id).length,1);assert.equal(c.receipts.filter(s=>s.id==='jarvis-office-protocol').length,1);assert.equal(c.receipts.filter(s=>s.id==='mc-delivery-loop').length,1);assert.equal(c.receipts.filter(s=>s.id==='mc-context-handoff').length,1);assert.ok(c.text.length<=48000);}
+ const editor=await roleSkillContext('media',plan.skillLibrary,library),finance=await roleSkillContext('bookkeeping',plan.skillLibrary,library);assert.ok(editor.receipts.some(s=>s.id==='mc-video-edit-plan'));assert.ok(!finance.receipts.some(s=>s.id==='mc-video-edit-plan'));assert.ok(!finance.receipts.some(s=>s.id==='mc-decision-review'));
+});
+test('client department QA context and the visible inspector use the same supplemental selection',async()=>{
+ for(const department of Object.keys(departmentQaMethods)){const agent={name:'Scoped QA',blueprintRoleId:'test',clientSlot:'qa:'+department,metadata:{jarvisBlueprintRoleId:'test',jarvisClientSlot:'qa:'+department}},c=await clientDeskSkillContext(agent,plan.skillLibrary,library),profile=officeAgentProfile(agent,plan,departmentQaMethods);assert.deepEqual(profile.methods.filter(m=>m.kind==='supplement').map(m=>m.id),c.receipts.filter(r=>plan.skillLibrary.find(s=>s.id===r.id)?.kind==='supplement').map(r=>r.id));assert.ok(c.text.length<=48000);}
+ const c=await clientDeskSkillContext({metadata:{jarvisBlueprintRoleId:'test',jarvisClientSlot:'qa:content'}},plan.skillLibrary,library);assert.ok(c.receipts.some(s=>s.id==='mc-video-edit-plan'));
+});
+test('changed supplemental instructions are rejected before a role can receive their context',async t=>{
+ const directory=await mkdtemp(join(tmpdir(),'sahni-integrity-'));t.after(()=>rm(directory,{recursive:true,force:true}));const method=plan.skillLibrary.find(s=>s.id==='mc-delivery-loop');await cp(join(library,method.id),join(directory,method.id),{recursive:true});assert.equal((await roleSkillContext('copy',[method],directory)).receipts.length,1);const path=join(directory,method.id,'SKILL.md');await writeFile(path,(await readFile(path,'utf8'))+'\nUnreviewed source change.');await assert.rejects(roleSkillContext('copy',[method],directory),/integrity failed/);
+});

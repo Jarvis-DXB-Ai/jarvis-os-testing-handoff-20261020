@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "scope": "Demo-only local artwork registry. App/task relations are scripted/prospective, not real integrations.",
+  "icons": [
+    {
+      "id": "canva",
+      "file": "/office-icons/canva.svg",
+      "source": "https://www.canva.dev/assets/connect/Canva-logos.zip",
+      "checkedAt": "2026-10-13",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with vendor",
+      "sha256": "fbbd91cfb0dcc0f9e9eeabc7ea5a6393974167bb06902c27df0b5b50c1fe798f",
+      "note": "Unmodified supplied Icon logo SVG for surfaces below50px; retain8px clearance around the17px mark.",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/zernio.svg",
+      "source": "https://zernio.com/icon.svg?v=4",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "ddc4459876752aa35e4e3d71f588e4bca899d5a1c927cbb8d7bcec9ce0fc8834",
+      "checkedAt": "2026-10-13",
+      "note": "Official icon referenced by current vendor homepage; artwork retained unchanged.",
+      "id": "zernio",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/manychat.png",
+      "source": "https://mccdn.me/martcdn/favicons/1024.png",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "628763e48f905fe2d926dae868b1b8466e4f5744cf443f7da6b77df1443b7db0",
+      "checkedAt": "2026-10-13",
+      "note": "Unmodified official site app icon; original colors, geometry and padding preserved.",
+      "id": "manychat",
+      "format": "png",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "id": "mailchimp",
+      "file": "/office-icons/mailchimp.ico",
+      "source": "https://mailchimp.com/release/plums/3a3e92cfc284c7bc.ico",
+      "checkedAt": "2026-10-13",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with vendor",
+      "sha256": "1e9840287decb8799f6da96f04ed4393a7380d5236f4dfc42947174550b25c92",
+      "note": "Unmodified official site favicon for compact service identification; full provider name retained in accessible label/detail.",
+      "format": "ico",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "id": "meta",
+      "file": "/office-icons/meta.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/meta.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "checkedAt": "2026-10-13",
+      "note": "Existing sourced Meta symbol retained as a monochrome identification mark; geometry checked against the current registry.",
+      "sha256": "e3e9db62f59dc477e5917687349b8aa9685b841d40300c1afad60ad85075cd2e",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/pinterest.png",
+      "source": "https://s.pinimg.com/webapp/favicon-54a5b2af.png",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "b9945d0fac3a4173d811c657f192b77fba30af17fa108e3ae7312f8fe23db1d9",
+      "checkedAt": "2026-10-13",
+      "note": "Unmodified official site app icon; original colors, geometry and padding preserved.",
+      "id": "pinterest",
+      "brandGuidelines": "https://business.pinterest.com/brand-guidelines/",
+      "format": "png",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/cloudflare.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/cloudflare.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "d285df63d86ee9297524ba0e2d2a735e2d31387d022b97a9cf0b889c944cc529",
+      "id": "cloud",
+      "checkedAt": "2026-10-13",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/github.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/github.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "3bf8cceead820aec50d4ee825a3fd02c5a1cd6665cc9cf4cbf3d9c8861a204bb",
+      "id": "github",
+      "checkedAt": "2026-10-13",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "file": "/office-icons/blender.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/blender.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "9fc72bab64776eee9f42751ca25c0f838d42a928335cf19f3dcd67be3b8ad9f8",
+      "id": "blender",
+      "checkedAt": "2026-10-13",
+      "format": "svg",
+      "provenance": "Existing verified shared asset; reused unchanged; shared registry untouched."
+    },
+    {
+      "id": "higgsfield",
+      "file": "/office-demo/apps/higgsfield.png",
+      "source": "https://higgsfield.ai/icon.png",
+      "officialPage": "https://higgsfield.ai/",
+      "checkedAt": "2026-10-18",
+      "sha256": "77edee005ae63f7881f930b815392b6cfa607f960ffb419d1c9df52e37fd50c1",
+      "format": "png",
+      "bytes": 9376,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "figma",
+      "file": "/office-demo/apps/figma.png",
+      "source": "https://static.figma.com/app/icon/2/icon-128.png",
+      "officialPage": "https://www.figma.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "a7012c890bc4ae056dd944dff7152415995cd2a3e00c7a751924e97dd6dbebbd",
+      "format": "png",
+      "bytes": 1990,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "drive",
+      "file": "/office-demo/apps/drive.svg",
+      "source": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v2/web/192px.svg",
+      "officialPage": "https://workspace.google.com/products/drive/",
+      "checkedAt": "2026-10-18",
+      "sha256": "60a6496d705d8bf010ce126469be89889db331622b14d8ae1645a38c2aaa23f5",
+      "format": "svg",
+      "bytes": 1293,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "google-analytics",
+      "file": "/office-demo/apps/google-analytics.svg",
+      "source": "https://www.gstatic.com/images/branding/productlogos/google_analytics/v6/192px.svg",
+      "officialPage": "https://ads.google.com/home/",
+      "checkedAt": "2026-10-18",
+      "sha256": "7faab2dd8311554908aa5feeacbc9fa77c4c1434df6602c2e105b59d14b05272",
+      "format": "svg",
+      "bytes": 627,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "google-ads",
+      "file": "/office-demo/apps/google-ads.svg",
+      "source": "https://www.gstatic.com/images/branding/productlogos/ads/v5/192px.svg",
+      "officialPage": "https://ads.google.com/home/",
+      "checkedAt": "2026-10-18",
+      "sha256": "69b023ff2ac2e7e72777701822b842f66128a41cd2035188c89ce45e940eb7bc",
+      "format": "svg",
+      "bytes": 584,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "instagram",
+      "file": "/office-demo/apps/instagram.png",
+      "source": "https://www.instagram.com/favicon.ico",
+      "officialPage": "https://www.instagram.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "d31ce478c9729130303a3537a43906bc8164debf5546f7ad4d1beed9d9b2c630",
+      "format": "png",
+      "bytes": 2214,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "linkedin",
+      "file": "/office-demo/apps/linkedin.svg",
+      "source": "https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8",
+      "officialPage": "https://www.linkedin.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "b1f9ca49adf83cc0c5953d1067f56dc0ba8d46b3262b7078792f19b96cb11bcd",
+      "format": "svg",
+      "bytes": 833,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "youtube",
+      "file": "/office-demo/apps/youtube.ico",
+      "source": "https://www.youtube.com/s/desktop/5d669aa8/img/favicon.ico",
+      "officialPage": "https://www.youtube.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "8f713bc9f87f7260c7ed2b40210c6ece088276a3ed0cf6c5181f26df3fb3cc81",
+      "format": "ico",
+      "bytes": 13942,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "tiktok",
+      "file": "/office-demo/apps/tiktok.png",
+      "source": "https://www.tiktok.com/favicon.ico",
+      "officialPage": "https://www.tiktok.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "d0d48654b83875f95e62ef0744e31de50aa9913c031eeee4a20f407485be3595",
+      "format": "png",
+      "bytes": 842,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "whatsapp",
+      "file": "/office-demo/apps/whatsapp.webp",
+      "source": "https://www.whatsapp.com/favicon.ico",
+      "officialPage": "https://www.whatsapp.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "48e94afeffb29c66f5e84dc8df4ee247f838c287f87cb8960cbf67f4e8d3dd37",
+      "format": "webp",
+      "bytes": 3648,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    },
+    {
+      "id": "slack",
+      "file": "/office-demo/apps/slack.png",
+      "source": "https://a.slack-edge.com/9cc0056/img/icons/favicon-32.png",
+      "officialPage": "https://slack.com/",
+      "checkedAt": "2026-10-18",
+      "sha256": "ca3872d0fb85ff9858bcbdc529d6e1db32c029c681c6e723e4f2ecb1c7defea6",
+      "format": "png",
+      "bytes": 702,
+      "licence": "Unmodified vendor trademark artwork for service identification; ownership remains with vendor.",
+      "provenance": "Official site favicon/product icon downloaded unchanged. Extension reflects actual response format. No generated or recoloured art."
+    }
+  ],
+  "higgsfieldEvidence": {
+    "source": "https://higgsfield.ai/icon.png",
+    "officialPage": "https://higgsfield.ai/",
+    "observedAccent": "#D1FE17",
+    "note": "Official192px green app tile includes background/glyph; inspected locally. No tint/pixel modification."
+  },
+  "retrievalLimitations": "Firecrawl unsupported Instagram/LinkedIn/TikTok/WhatsApp homepages. Official public favicon bytes fetched directly; LinkedIn URL observed in actual public homepage link rel=icon. First legacy LinkedIn PNG URL returned404; current official favicon fetched with normal browser headers. No auth/account session."
+}

@@ -1,0 +1,19 @@
+import test from'node:test';import assert from'node:assert/strict';import{once}from'node:events';import{request}from'node:http';import{createOfficeCooOrigin,closeOfficeCooOrigin}from'./lib/office-coo-origin.mjs';
+const secret='synthetic-test-secret-not-a-real-key-12345',sig='a'.repeat(64),body='{"id":"event-1","event":"message.received","text":"private content 👋"}';
+async function fixture(t,ingest){const calls=[],server=createOfficeCooOrigin({config:{testing:true},secret,ingest:ingest??(async(...args)=>{calls.push(args);return{duplicate:false};})});server.listen(0,'127.0.0.1');await once(server,'listening');t.after(()=>{server.closeAllConnections();server.close();});return{calls,server,url:'http://127.0.0.1:'+server.address().port};}
+const headers={'content-type':'application/json','x-zernio-signature':'sha256='+sig,'x-zernio-event-id':'event-1','x-zernio-event':'message.received'};
+test('separate receiver exposes no app/owner route and rejects wrong method/path/query',async t=>{const f=await fixture(t);for(const[path,method]of[['/office','GET'],['/api/owner-data/rest/v1/clients','GET'],['/events','GET'],['/events?path=/office','POST']])assert.equal((await fetch(f.url+path,{method})).status,404);assert.equal(f.calls.length,0);});
+test('missing signature, event identity, wrong content type and mismatched signed-body event header never reach core',async t=>{const f=await fixture(t);for(const[h,status]of[[{'x-zernio-signature':''},401],[{'x-zernio-event-id':''},401],[{'content-type':'text/plain'},415],[{'x-zernio-event-type':'message.sent'},400]])assert.equal((await fetch(f.url+'/events',{method:'POST',headers:{...headers,...h},body})).status,status);assert.equal(f.calls.length,0);});
+test('core receives exact raw UTF8 bytes and normalized signature only; body/config/owner data are never returned',async t=>{const f=await fixture(t);const r=await fetch(f.url+'/events',{method:'POST',headers:{...headers,'cf-access-jwt-assertion':'forged','x-jarvis-owner-email':'owner@example.invalid'},body});assert.equal(r.status,202);assert.equal(await r.text(),'');assert.equal(f.calls.length,1);assert.deepEqual(Object.keys(f.calls[0][1]).sort(),['eventId','rawBody','signature']);assert.deepEqual(f.calls[0][1].rawBody,Buffer.from(body));assert.equal(f.calls[0][1].signature,sig);assert.equal(f.calls[0][2].secret,secret);});
+test('oversized stream is refused before core and processing failure never acknowledges or replays',async t=>{const f=await fixture(t);assert.equal((await fetch(f.url+'/events',{method:'POST',headers,body:'x'.repeat(65537)})).status,413);assert.equal(f.calls.length,0);let attempts=0;const broken=await fixture(t,async()=>{attempts++;throw Error('Channel is busy or interrupted; private-details');});const r=await fetch(broken.url+'/events',{method:'POST',headers,body});assert.equal(r.status,503);assert.equal(await r.text(),'');assert.equal(attempts,1);});
+test('invalid configuration cannot create a receiver',()=>{assert.throws(()=>createOfficeCooOrigin({config:{},secret:''}),/not configured/);});
+test('shutdown waits for in-flight persistence after the sender socket closes',async t=>{
+ let entered,release,committed=false;
+ const started=new Promise(resolve=>{entered=resolve;}),gate=new Promise(resolve=>{release=resolve;});
+ const f=await fixture(t,async()=>{entered();await gate;committed=true;return{duplicate:false};});
+ const client=request(f.url+'/events',{method:'POST',headers});client.on('error',()=>{});client.end(body);
+ await started;const closed=once(f.server,'close');let drained=false;
+ const draining=closeOfficeCooOrigin(f.server).then(()=>{drained=true;});client.destroy();
+ await closed;await new Promise(setImmediate);assert.equal(drained,false);assert.equal(committed,false);
+ release();await draining;assert.equal(drained,true);assert.equal(committed,true);
+});

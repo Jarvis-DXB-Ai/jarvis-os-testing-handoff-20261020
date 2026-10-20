@@ -1,0 +1,215 @@
+{
+  "interpretation": "21 declared app/tool dependencies from source. Observed/status/nextStep are historical registry claims, not refreshed health or certification. A connector available in Codex is not automatically available to native Office roles.",
+  "apps": [
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "purpose": "Orchestration",
+      "priority": "Required",
+      "observed": "Connected locally",
+      "officeStatus": "Working in Jarvis",
+      "nextStep": "COO submission now creates durable parent/child issues, runs ready specialists concurrently and brings saved results through synthesis, independent QA and owner review.",
+      "source": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "purpose": "Agent runtime",
+      "priority": "Required",
+      "observed": "Real Paperclip check passed on gpt-5.6-sol",
+      "officeStatus": "Working in Paperclip",
+      "nextStep": "CTO/technical execution uses subscription-verified gpt-5.6-sol. Both gpt-6-sol and gpt-6.1-sol were rejected by the account. One-use saved run receipts block automatic recovery model relaunches.",
+      "source": "https://developers.openai.com/codex/auth"
+    },
+    {
+      "id": "claude",
+      "name": "Claude Code",
+      "purpose": "Agent runtime",
+      "priority": "Required",
+      "observed": "Max subscription authenticated; real Paperclip Sonnet check passed",
+      "officeStatus": "Working in Paperclip",
+      "nextStep": "Max subscription: Opus completed COO planning/synthesis; Sonnet and Haiku execution verified. Role aliases show the actual resolved model in run evidence. Creative render tools still need their own bridges.",
+      "source": "https://code.claude.com/docs/en/authentication"
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "purpose": "Image / video generation",
+      "priority": "Required",
+      "observed": "Mac CLI and chat connection verified · Plus · 638.5 credits",
+      "officeStatus": "Connected on Mac; render bridge pending",
+      "nextStep": "Official account-based CLI 1.1.26 authenticated. Office can read account and model readiness; automatic creative dispatch, quote approval and media review remain to build. No generation performed.",
+      "source": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-access-higgsfield-via-cli"
+    },
+    {
+      "id": "assets",
+      "name": "Client Brain / Mac asset library",
+      "purpose": "Client context",
+      "priority": "Required",
+      "observed": "Local sources found",
+      "officeStatus": "Needs scoped agent access",
+      "nextStep": "Exact boat brief and asset index found. Approval state must be checked per asset; do not ingest Restaurant context.",
+      "source": ""
+    },
+    {
+      "id": "sharp",
+      "name": "SVG + Sharp",
+      "purpose": "Graphic composition",
+      "priority": "Required",
+      "observed": "Installed in Jarvis",
+      "officeStatus": "Scoped native bridge verified; editable card exported",
+      "nextStep": "Simple editable SVG/JSON card plus PNG. Task-role grants, output hashes and exact saved versions are tracked; advanced brand layouts and visual review remain separate.",
+      "source": "https://github.com/lovell/sharp"
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg / ffprobe",
+      "purpose": "Video finishing",
+      "priority": "Required",
+      "observed": "Executables found on Mac",
+      "officeStatus": "Scoped native bridge verified; MP4 and codec checked",
+      "nextStep": "Silent MP4 from a task-generated PNG or declared dependency, with codec/duration checks and edit manifest. Full source-footage editing and audio/subtitle workflows remain to integrate.",
+      "source": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion + official skills",
+      "purpose": "Motion graphics",
+      "priority": "Candidate",
+      "observed": "Source reviewed",
+      "officeStatus": "Needs setup",
+      "nextStep": "Official Claude/Codex skills and React video engine. Check exact skills terms and commercial engine licence before embedding or distributing.",
+      "source": "https://github.com/remotion-dev/skills"
+    },
+    {
+      "id": "meta",
+      "name": "Meta Graph / Marketing APIs",
+      "purpose": "Publishing / ads / analytics",
+      "priority": "Required",
+      "observed": "Jarvis source integration exists",
+      "officeStatus": "Shared setup; client permissions configured later",
+      "nextStep": "Retain existing Meta integrations alongside Zernio. Verify shared provider paths first, then bind exact client Page, Instagram and ad-account permissions. Publishing and ad spend require their own approval.",
+      "source": "https://github.com/facebook/facebook-python-business-sdk"
+    },
+    {
+      "id": "zernio",
+      "name": "Zernio",
+      "purpose": "Social publishing, scheduling and analytics",
+      "priority": "Required",
+      "observed": "Existing account confirmed by owner; Jarvis adapter already exists",
+      "officeStatus": "Shared setup; Office authentication and tool routing to verify",
+      "nextStep": "Reuse the existing Zernio adapter, analytics and publishing receipts. Verify shared server authentication first. Client profiles, connected channels and permissions are configured later; no new client or live write is created by registration.",
+      "source": "https://docs.zernio.com/"
+    },
+    {
+      "id": "manychat",
+      "name": "Manychat",
+      "purpose": "Messaging automation and lead capture",
+      "priority": "Required",
+      "observed": "Selected by owner for shared connection setup; account and plan unverified",
+      "officeStatus": "Shared setup; authentication and reusable integration pending",
+      "nextStep": "Verify an eligible Manychat plan and securely configured account API token. Prepare reusable conversation and lead-routing workflows first. Client channels, triggers and flows are configured later; no message or automation is launched.",
+      "source": "https://help.manychat.com/hc/en-us/articles/14959510331420-How-to-generate-a-token-for-the-Manychat-API-and-where-to-get-parameters"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "purpose": "Moodboards and visual direction",
+      "priority": "Required",
+      "observed": "Existing direct board/pin reader and inspiration workspace found in Jarvis",
+      "officeStatus": "Shared setup; read-only moodboard access and Office routing pending",
+      "nextStep": "Reuse the existing Pinterest board/pin reader and inspiration library. Verify access to owner-selected boards and pin images, then turn selected references and notes into reviewed visual direction for strategy/design tasks. Zernio board listing alone does not import the pin images. Manual reference-image upload remains a fallback. Client board bindings follow later; no Pinterest writes are enabled.",
+      "source": "https://github.com/pinterest/pinterest-python-generated-api-client/blob/main/docs/BoardsApi.md"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "purpose": "Editable social graphics, presentations and approved brand templates",
+      "priority": "Required",
+      "observed": "Chat Brand Kit read verified 13 October 2026; no accessible Brand Kits returned. Direct Office account authentication pending.",
+      "officeStatus": "Shared setup; read verification and worker routing pending",
+      "nextStep": "Configure and verify direct Office authentication and scoped worker routing; chat connector access does not grant Office workers access.",
+      "source": "https://www.canva.dev/docs/apps/rest-apis/"
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "purpose": "Newsletter drafts, email performance and approved audience workflows",
+      "priority": "Required",
+      "observed": "Read-check adapter prepared; account authentication pending",
+      "officeStatus": "Shared setup; read verification and worker routing pending",
+      "nextStep": "Authorize the shared Mailchimp account securely; first verify the API health read, then prepare drafts and reports before any sending.",
+      "source": "https://mailchimp.com/developer/marketing/"
+    },
+    {
+      "id": "review",
+      "name": "Jarvis review + artifact storage",
+      "purpose": "Review / delivery",
+      "priority": "Required",
+      "observed": "Saved text jobs work locally",
+      "officeStatus": "Creative review to build",
+      "nextStep": "Build media previews, comments tied to versions, revision history, editable downloads and an approval bound to the exact version.",
+      "source": ""
+    },
+    {
+      "id": "cloud",
+      "name": "Cloudflare",
+      "purpose": "Hybrid execution",
+      "priority": "Required",
+      "observed": "Wrangler OAuth authenticated; containers:write missing",
+      "officeStatus": "Account read connected; deployment blocked",
+      "nextStep": "Scoped Office MCP readiness checks reuse existing OAuth. No secret or resource write tools are exposed. Deployment remains blocked by containers:write and release approval.",
+      "source": "https://developers.cloudflare.com/workers/wrangler/commands/general/#whoami"
+    },
+    {
+      "id": "postiz",
+      "name": "Postiz",
+      "purpose": "Social scheduling",
+      "priority": "Optional",
+      "observed": "Source reviewed",
+      "officeStatus": "Not connected",
+      "nextStep": "Deferred scheduling alternative. Verify the existing Zernio account and Jarvis adapter first; consider Postiz only for a proven missing capability. Review AGPL service boundaries before adoption.",
+      "source": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "purpose": "Editable vector design",
+      "priority": "Optional",
+      "observed": "Source reviewed",
+      "officeStatus": "Not connected",
+      "nextStep": "Candidate for richer editable design workflows. Test MCP and import/export compatibility before adopting alongside Jarvis review.",
+      "source": "https://github.com/penpot/penpot"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "purpose": "3D creative production",
+      "priority": "Required",
+      "observed": "Blender 5.2.2 LTS installed",
+      "officeStatus": "Scoped native bridge verified; .blend and PNG exported",
+      "nextStep": "Task-scoped primitive scene creation, .blend export and PNG preview. Existing client projects are not opened. Visual owner review required.",
+      "source": "https://github.com/blender/blender"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "purpose": "External research executor",
+      "priority": "Optional",
+      "observed": "API documentation reviewed",
+      "officeStatus": "Not connected",
+      "nextStep": "Use current API v2 if later selected; v1 is deprecated. Needs account, scoped adapter, cost ceiling and comparable output evaluation.",
+      "source": "https://open.manus.ai/docs/v2/open-app"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "purpose": "Public software and skill research",
+      "priority": "Required",
+      "observed": "Existing gh keyring login verified",
+      "officeStatus": "Scoped public research bridge verified",
+      "nextStep": "Public repository search returns citation URLs. No private repository tools, installation, push or issue writes. Full website browsing remains separate.",
+      "source": "https://cli.github.com/manual/gh_api"
+    }
+  ]
+}

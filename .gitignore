@@ -1,0 +1,9 @@
+.DS_Store
+._*
+**/node_modules/
+**/.next/
+**/.wrangler/
+**/.env
+**/.env.local
+**/.dev.vars
+*.log

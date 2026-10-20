@@ -1,0 +1,14 @@
+export const workflowProofVersion:1;
+export const coordinatingThreadId:string;
+export const workflowStopFile:string;
+export type WorkflowClient={clientId:string;foundationId:string;contextRevision:string;actorIds:string[];ownMarker:string;forbiddenMarkers:string[];synthetic:boolean};
+export type WorkflowStep={name:string;path:'/api/office/teams'|'/api/office/conversations'|'/api/office/knowledge';body:Record<string,unknown>;bodySha256:string;expectedStatus:number;expect:Record<string,unknown>};
+export type WorkflowManifest={version:1;runId:string;baseUrl:string;companyId:string;expiresAt:string;clients:WorkflowClient[];jobs:{id:string;clientId:string;kind:'team'|'conversation';actorId:string|null}[];steps:WorkflowStep[];retention:string};
+export type WorkflowGo={version:1;rootThreadId:string;runId:string;manifestSha256:string;expiresAt:string;maxPostRequests:number;authorization:string};
+export type WorkflowEvent={index:number;name:string;path:string;bodySha256:string;at:string;outcome:string;status?:number;responseSha256?:string;error?:string};
+export function workflowDigest(value:unknown):string;
+export function checkWorkflowStop(path?:string):Promise<void>;
+export function validateWorkflowManifest(value:unknown):WorkflowManifest;
+export function consumeWorkflowGo(manifest:WorkflowManifest,go:WorkflowGo,options:{consumedPath:string;now?:string;stopFile?:string}):Promise<{runId:string;consumed:boolean}>;
+export function executeWorkflowHttp(manifest:WorkflowManifest,options:{grant:{runId:string;consumed:boolean};fetchImpl?:typeof fetch;checkpoint:(events:WorkflowEvent[])=>Promise<void>;stopFile?:string;now?:()=>string}):Promise<WorkflowEvent[]>;
+export function assessWorkflowJob(job:Record<string,any>,client:WorkflowClient,options?:{bundle?:Record<string,any>;runs?:Record<string,any>[];actors?:Record<string,any>[];companyId?:string;evidenceKind?:'native'|'synthetic'}):{jobId:string;clientId:string;status:string;evidenceKind:string;pass:boolean;checks:{id:string;pass:boolean;detail:string}[];outputSha256:string|null;runIds:string[];ownerApproval:string|null};

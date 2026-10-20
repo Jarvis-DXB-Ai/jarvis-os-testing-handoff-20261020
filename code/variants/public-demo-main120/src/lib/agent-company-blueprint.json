@@ -1,0 +1,440 @@
+{
+  "version": "2026-09-06",
+  "offices": [
+    {
+      "id": "cmo",
+      "name": "Chief Marketing Officer",
+      "purpose": "Turn client knowledge into strong creative work, measurable campaigns and new business.",
+      "boundary": "Calvin approves creative direction, client deliverables, claims and outbound campaigns.",
+      "departments": [
+        {
+          "id": "strategy",
+          "name": "Brand & Strategy",
+          "purpose": "Build the foundations every creative workflow reuses.",
+          "roles": [
+            {
+              "id": "brand-strategist",
+              "name": "Brand Strategist",
+              "purpose": "Define positioning, audiences and content pillars.",
+              "output": "Brand strategy and content pillars",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "voice",
+              "name": "Brand Voice Agent",
+              "purpose": "Turn approved examples into usable writing rules.",
+              "output": "Tone-of-voice guide, examples and prohibited claims",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "competitors",
+              "name": "Competitor Research Agent",
+              "purpose": "Compare selected competitors using dated source evidence.",
+              "output": "Competitor audit and opportunities",
+              "phase": "Next",
+              "inputs": "Client brief, selected competitor accounts and permitted source captures"
+            }
+          ]
+        },
+        {
+          "id": "creative",
+          "name": "Creative Direction",
+          "purpose": "Translate strategy into a consistent visual language.",
+          "roles": [
+            {
+              "id": "creative-director",
+              "name": "Creative Director",
+              "purpose": "Set campaign art direction and review visual consistency.",
+              "output": "Creative brief, moodboard and visual rules",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "design-system",
+              "name": "Brand Guidelines Agent",
+              "purpose": "Document client palettes, typography and reusable layouts.",
+              "output": "Versioned brand guidelines and design tokens",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "grid-planner",
+              "name": "Grid & Calendar Planner",
+              "purpose": "Arrange a 15-post grid and turn approved ideas into production briefs.",
+              "output": "Grid plan, content mix and calendar draft",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            }
+          ]
+        },
+        {
+          "id": "production",
+          "name": "Content Production",
+          "purpose": "Prepare assets and copy for owner-led production.",
+          "roles": [
+            {
+              "id": "image-prompts",
+              "name": "Image Prompt Director",
+              "purpose": "Map inspiration to composition and client assets to factual truth.",
+              "output": "Reference-indexed image prompt and accuracy checklist",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "copy",
+              "name": "Caption & Copy Agent",
+              "purpose": "Write five distinct caption options using approved brand voice.",
+              "output": "Five caption options, hooks and calls to action",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "video",
+              "name": "Script & Storyboard Agent",
+              "purpose": "Plan natural scripts, shot sequences and editing notes.",
+              "output": "Reel scripts, shot lists and storyboards",
+              "phase": "Later",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "creative-qc",
+              "name": "Creative Quality Agent",
+              "purpose": "Check asset fidelity, brand consistency, readability and caption facts.",
+              "output": "Review findings requiring owner sign-off",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            }
+          ]
+        },
+        {
+          "id": "distribution",
+          "name": "Publishing & Engagement",
+          "purpose": "Prepare and follow through on approved campaigns.",
+          "roles": [
+            {
+              "id": "scheduler",
+              "name": "Scheduling Agent",
+              "purpose": "Suggest times from available evidence and assemble approved posting batches.",
+              "output": "Scheduling proposal and publish receipts",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "email",
+              "name": "Email Campaign Agent",
+              "purpose": "Adapt approved campaign content into email drafts.",
+              "output": "Email sequence, subject lines and segment plan",
+              "phase": "Later",
+              "inputs": "Approved campaign, audience consent records and email performance"
+            },
+            {
+              "id": "community",
+              "name": "Community Response Agent",
+              "purpose": "Draft Instagram and WhatsApp responses from approved FAQs.",
+              "output": "Response drafts and escalation queue",
+              "phase": "Later",
+              "inputs": "Permitted inbox messages, client FAQs and messaging permissions"
+            }
+          ]
+        },
+        {
+          "id": "growth",
+          "name": "Growth & Insights",
+          "purpose": "Use evidence to retain clients and win suitable new work.",
+          "roles": [
+            {
+              "id": "analytics",
+              "name": "Performance Analyst",
+              "purpose": "Explain supported metrics and identify useful next experiments.",
+              "output": "Client analytics report PPT and action plan",
+              "phase": "Next",
+              "inputs": "Connected analytics or imported exports, reporting dates and approved KPI definitions"
+            },
+            {
+              "id": "audit",
+              "name": "Onboarding Audit Agent",
+              "purpose": "Identify brand, content, channel and asset gaps before work begins.",
+              "output": "Evidence-backed audit PPT and onboarding checklist",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "proposal",
+              "name": "Proposal Agent",
+              "purpose": "Turn discovery notes and approved scope into a tailored proposal.",
+              "output": "Proposal PPT and scope for owner review",
+              "phase": "Next",
+              "inputs": "Discovery notes, service catalogue and CFO-reviewed pricing"
+            },
+            {
+              "id": "repurpose",
+              "name": "Content Repurposing Agent",
+              "purpose": "Adapt approved winners for another format while retaining brand voice.",
+              "output": "Reusable content library and format adaptations",
+              "phase": "Later",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cfo",
+      "name": "Chief Financial Officer",
+      "purpose": "Keep the agency financially clear, sustainable and properly scoped.",
+      "boundary": "Analysis and drafts only. Calvin authorises prices, payments, contracts and financial commitments.",
+      "departments": [
+        {
+          "id": "accounting",
+          "name": "Bookkeeping & Billing",
+          "purpose": "Keep source-backed financial records organised.",
+          "roles": [
+            {
+              "id": "bookkeeping",
+              "name": "Bookkeeping Agent",
+              "purpose": "Match imported transactions and invoices without guessing missing values.",
+              "output": "Categorised ledger and reconciliation exceptions",
+              "phase": "Later",
+              "inputs": "Imported transactions, invoices, receipts and currency/date context"
+            },
+            {
+              "id": "billing",
+              "name": "Billing Agent",
+              "purpose": "Prepare invoices and flag overdue balances from recorded terms.",
+              "output": "Invoice drafts and follow-up queue",
+              "phase": "Later",
+              "inputs": "Approved client scope, invoice records and payment terms"
+            },
+            {
+              "id": "receipts",
+              "name": "Receipt & Document Agent",
+              "purpose": "Extract receipt details and link them to financial records.",
+              "output": "Source-linked expense entries",
+              "phase": "Later",
+              "inputs": "Uploaded receipts, supplier invoices and owner corrections"
+            }
+          ]
+        },
+        {
+          "id": "planning",
+          "name": "Pricing & Profitability",
+          "purpose": "Know whether each client and package makes economic sense.",
+          "roles": [
+            {
+              "id": "pricing",
+              "name": "Scope & Pricing Analyst",
+              "purpose": "Estimate effort and cost against approved service rates.",
+              "output": "Scope calculator and pricing recommendation",
+              "phase": "Next",
+              "inputs": "Approved rate card, delivery requirements and estimated effort"
+            },
+            {
+              "id": "margin",
+              "name": "Client Profitability Analyst",
+              "purpose": "Compare client revenue with tracked delivery time and costs.",
+              "output": "Client margin view with explicit data gaps",
+              "phase": "Later",
+              "inputs": "Recorded revenue, timesheets and attributable costs"
+            },
+            {
+              "id": "cash",
+              "name": "Cash-flow Planner",
+              "purpose": "Build scenarios from known balances and dated commitments.",
+              "output": "Cash-flow forecast with assumptions",
+              "phase": "Later",
+              "inputs": "Balances, receivables, payables and recurring commitments"
+            }
+          ]
+        },
+        {
+          "id": "spend",
+          "name": "Subscriptions & Spend",
+          "purpose": "Control tool costs and future model usage.",
+          "roles": [
+            {
+              "id": "subscriptions",
+              "name": "Subscription Monitor",
+              "purpose": "Track subscriptions, renewal dates and owner-reported payment status.",
+              "output": "Renewal calendar and duplicate-tool review",
+              "phase": "Next",
+              "inputs": "Subscription records, invoices and owner payment confirmations"
+            },
+            {
+              "id": "model-cost",
+              "name": "AI Cost Analyst",
+              "purpose": "Compare actual cost per useful output and local versus API options.",
+              "output": "Cost and quality comparison",
+              "phase": "Later",
+              "inputs": "Usage logs, local compute measurements and verified provider prices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cto",
+      "name": "Chief Technology Officer",
+      "purpose": "Build reliable software, trusted data and reusable automation for the agency.",
+      "boundary": "Deployments, access changes and external mutations remain explicit owner decisions.",
+      "departments": [
+        {
+          "id": "engineering",
+          "name": "Product & Engineering",
+          "purpose": "Turn approved workflows and designs into working software.",
+          "roles": [
+            {
+              "id": "workflow-architect",
+              "name": "Workflow Architect",
+              "purpose": "Map end-to-end work, dependencies and handoffs before implementation.",
+              "output": "Workflow contracts and acceptance criteria",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "implementation",
+              "name": "Implementation Agent",
+              "purpose": "Integrate approved designs with real data and existing actions.",
+              "output": "Reviewable code changes and verification evidence",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "test",
+              "name": "QA & Accessibility Agent",
+              "purpose": "Check real workflows, keyboard use, responsive states and regressions.",
+              "output": "Reproducible findings and test results",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            }
+          ]
+        },
+        {
+          "id": "data",
+          "name": "Client Brain & Assets",
+          "purpose": "Keep each client\u2019s source material accurate, private and reusable.",
+          "roles": [
+            {
+              "id": "librarian",
+              "name": "Data Librarian",
+              "purpose": "Organise client documents, products, locations and reference assets.",
+              "output": "Structured client Brain with source links",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "metadata",
+              "name": "Asset Metadata Agent",
+              "purpose": "Describe approved assets and keep category, semantic role and permissions separate.",
+              "output": "Searchable metadata and missing-context queue",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "media",
+              "name": "Media Preparation Agent",
+              "purpose": "Create fast previews while preserving original files; prepare optional upscaling.",
+              "output": "Preview derivatives and reviewed export variants",
+              "phase": "Next",
+              "inputs": "Original assets, export requirements and owner-approved processing presets"
+            }
+          ]
+        },
+        {
+          "id": "automation",
+          "name": "Automation & Integration",
+          "purpose": "Connect dependable steps with visible recovery and approval gates.",
+          "roles": [
+            {
+              "id": "integrations",
+              "name": "Integration Agent",
+              "purpose": "Maintain social, storage and reporting connections with scoped access.",
+              "output": "Connection checks and integration contracts",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "skills",
+              "name": "Skill Builder",
+              "purpose": "Package repeatable tasks with inputs, outputs and evaluation examples.",
+              "output": "Versioned skills and workflow templates",
+              "phase": "Next",
+              "inputs": "Approved client Brain, campaign brief and selected reference assets"
+            },
+            {
+              "id": "reliability",
+              "name": "System Health Agent",
+              "purpose": "Check service health and surface actionable failures.",
+              "output": "Health report and recovery recommendations",
+              "phase": "Next",
+              "inputs": "Service diagnostics, permitted health checks and execution logs"
+            }
+          ]
+        },
+        {
+          "id": "improvement",
+          "name": "Research & Improvement",
+          "purpose": "Continuously investigate improvements without silently changing approved work.",
+          "roles": [
+            {
+              "id": "radar",
+              "name": "AI Research Scout",
+              "purpose": "Review selected accounts and permitted feeds for relevant updates.",
+              "output": "Dated research digest with original sources",
+              "phase": "Later",
+              "inputs": "User-curated sources, permitted feeds or uploaded post captures"
+            },
+            {
+              "id": "evaluation",
+              "name": "Template Evaluation Agent",
+              "purpose": "Compare proposed calendar, report and prompt improvements on saved examples.",
+              "output": "Before/after evaluation and improvement proposal",
+              "phase": "Later",
+              "inputs": "Current templates, evaluation fixtures and measured outcome criteria"
+            },
+            {
+              "id": "knowledge",
+              "name": "Knowledge Curator",
+              "purpose": "Distil approved findings into the shared playbook with version history.",
+              "output": "Reviewed playbook updates and change log",
+              "phase": "Later",
+              "inputs": "Approved research findings and existing internal documents"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cooDepartment": {
+    "id": "client-operations",
+    "name": "Client Operations",
+    "purpose": "OpenClaw\u2019s direct support team for commitments, capacity and delivery.",
+    "roles": [
+      {
+        "id": "delivery",
+        "name": "Delivery Coordinator",
+        "purpose": "Track dependencies and surface blocked deliverables.",
+        "output": "Daily delivery queue and escalation summary",
+        "phase": "Next",
+        "inputs": "Approved client Brain, campaign brief and selected reference assets"
+      },
+      {
+        "id": "success",
+        "name": "Client Success Agent",
+        "purpose": "Prepare client updates using approved work and recorded decisions.",
+        "output": "Status update drafts and client follow-up list",
+        "phase": "Next",
+        "inputs": "Approved client Brain, campaign brief and selected reference assets"
+      },
+      {
+        "id": "capacity",
+        "name": "Capacity Planner",
+        "purpose": "Compare promised work with available production time.",
+        "output": "Workload plan and capacity warnings",
+        "phase": "Later",
+        "inputs": "Client commitments, task estimates and recorded availability"
+      }
+    ]
+  }
+}

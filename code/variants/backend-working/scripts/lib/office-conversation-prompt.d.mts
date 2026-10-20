@@ -1,0 +1,1 @@
+export function conversationReplyPrompt(job:{brief:string;context?:string;selectedArtifacts?:import('./office-linked-artifacts.mjs').LinkedArtifactScope},target:{name:string;title?:string},roleId:string):string;

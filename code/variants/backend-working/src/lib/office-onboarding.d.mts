@@ -1,0 +1,14 @@
+import type {OfficeFoundation,OfficeContextRequest} from '../../scripts/lib/office-foundations.mjs';
+export type ServiceId='social'|'content'|'design'|'web'|'ads'|'email'|'support'|'finance';
+export type IntakeKey='goals'|'audience'|'offers'|'scope'|'reviewer'|'assets'|'baseline'|'direction'|'research'|'review';
+export type Competitor={name:string;url:string;observedAt:string;finding:string;opportunity:string;kind:'direct'|'aspirational'};
+export type DepartmentBrief={owner:string;qa:string;brief:string;access:string;accessStatus:'pending'|'verified'|'not-needed';qaEvidence:string;reviewArtifacts?:{id:string;path:string;sha256:string}[]};
+export type OnboardingEvidence={revision:string|null;ledgerRevision:string|null;sourceDefects:string[];proposal:boolean;scope:boolean;assets:boolean;brand:boolean;access:Partial<Record<ServiceId,boolean>>;reviews:Partial<Record<ServiceId,boolean>>;firstCycle:boolean};
+export type OnboardingRecord={foundationId:string;owner:string;targetDate:string;proposalSourceIds?:string[];services:ServiceId[];intake:Record<IntakeKey,string>;competitors:Competitor[];departments:Record<ServiceId,DepartmentBrief>;foundationRevision:string|null;revision?:string;updatedAt?:string;evidence?:OnboardingEvidence};
+export type OnboardingDraft={brief:string;context:string;criteria:string;contextRequest:OfficeContextRequest};
+export const onboardingServices:{id:ServiceId;name:string;head:string;qa:string;inputs:string}[];
+export const intakeFields:[IntakeKey,string][];
+export function emptyOnboarding(id:string):OnboardingRecord;
+export function validateOnboarding(value:unknown):OnboardingRecord;
+export function onboardingProgress(record:OnboardingRecord|null,foundation:OfficeFoundation,evidence?:OnboardingEvidence|null):{stages:{id:string;name:string;done:boolean}[];departments:{id:ServiceId;name:string;ready:boolean;gaps:string[]}[];percent:number;next:string;ready:boolean;complete:boolean};
+export function onboardingBrief(record:OnboardingRecord,foundation:OfficeFoundation,evidence?:OnboardingEvidence|null):OnboardingDraft;

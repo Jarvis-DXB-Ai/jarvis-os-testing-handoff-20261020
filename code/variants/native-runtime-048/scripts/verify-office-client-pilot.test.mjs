@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {verifyClientSnapshot} from './lib/office-client-scope.mjs';
+import {pilotTaskTypes} from './lib/office-client-pilot.mjs';
+import {learningFailureStages} from './lib/office-learning-evidence.mjs';
+import {parseObject} from './lib/office-team-engine.mjs';
+import {isOfficeControlRecord} from '../src/lib/office-record-policy.mjs';
+const id='a13f3ecd-f80d-534e-9893-f13968f4faba',team={roleIds:['audit'],maxConcurrentWorkers:2};
+const bundle={scope:{clientId:id},foundation:{id:'audit-democlienta'},clientBrain:{executionMode:'audit_only',officeTeam:team,officeTeamRevision:'saved'}};
+const state={id,clientId:id,status:'audit_ready',executionMode:'audit_only',brandConfirmed:false,servicesConfirmed:false,revision:'saved',foundationId:'audit-democlienta',team};
+test('an explicitly allocated internal audit can run before production onboarding',()=>assert.doesNotThrow(()=>verifyClientSnapshot(bundle,state)));
+test('audit snapshot rejects tenant, allocation, approval and revision drift',()=>{for(const changes of [{clientId:'other'},{foundationId:'other'},{executionMode:'production'},{brandConfirmed:true},{servicesConfirmed:true},{revision:'new'},{team:{...team,maxConcurrentWorkers:4}}])assert.throws(()=>verifyClientSnapshot(bundle,{...state,...changes}));});
+test('production snapshots retain the original confirmed onboarding gate',()=>{assert.throws(()=>verifyClientSnapshot({...bundle,clientBrain:{...bundle.clientBrain,executionMode:undefined}},state));});
+test('audit context cannot select production photo/video/ads/email/support/finance tasks',()=>{for(const type of ['photo','video','ads','caption','email','support','finance','design'])assert.equal(pilotTaskTypes.includes(type),false);});
+test('runtime failures produce grounded lesson candidates when structured QA was unavailable',()=>{const stages=learningFailureStages({status:'failed',error:'Bounded response ended before QA returned.',calls:[{stage:'department-qa:social',runId:'saved-run',status:'failed'}]});assert.equal(stages.length,1);assert.equal(stages[0].departmentId,'social');assert.match(stages[0].evidence[0].evidence,/saved-run/);assert.deepEqual(learningFailureStages({status:'recovery_required',error:'unknown',calls:[{stage:'planning',runId:'pending'}]}),[]);assert.deepEqual(learningFailureStages({status:'failed',error:'unobserved',calls:[]}),[]);});
+test('only a missing outer brace is recoverable; truncated values or prose stay rejected',()=>{assert.deepEqual(parseObject('{"summary":"complete", "tasks":[]}'),{summary:'complete',tasks:[]});assert.deepEqual(parseObject('{"summary":"complete", "tasks":[]'),{summary:'complete',tasks:[]});for(const text of ['{"tasks":[{"assignment":"cut off','{"tasks":[{"assignment":"done"]','prose {"tasks":[]}','{"tasks":[] trailing'])assert.throws(()=>parseObject(text));});
+test('operational source/run receipts never become business intelligence, even with a current status',()=>{for(const record_type of ['office_onboarding','office_team','office_audit_pilot','office_pilot_record'])assert.equal(isOfficeControlRecord({record_type,status:'current'}),true);for(const record_type of ['business_fact','brand_guideline','operational_fact','competitor_analysis'])assert.equal(isOfficeControlRecord({record_type,status:'draft'}),false);});

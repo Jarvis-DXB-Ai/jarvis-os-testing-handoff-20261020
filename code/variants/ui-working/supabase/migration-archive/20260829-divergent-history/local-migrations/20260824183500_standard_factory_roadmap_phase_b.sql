@@ -1,0 +1,13 @@
+-- Roadmap only: sequence measurable Factory quality before broad module expansion.
+with project_row as (select id from public.roadmap_projects where slug = 'jarvis-os')
+insert into public.roadmap_ideas (project_id, title, description, category, potential_value, complexity, status, dependency_notes, notes, metadata)
+select project_row.id, seed.title, seed.description, 'intelligence', seed.value, seed.complexity, 'idea', seed.dependencies, seed.notes, seed.metadata
+from project_row cross join (values
+ ('Standard Factory metrics', 'Measure FIR inputs, constraint violations, revision rounds, on-time monthly delivery, delivery labor, COGS, onboarding speed, Client Brain truth coverage and AI cost per client.', 'high', 'medium', 'Requires durable event capture; do not treat low intervention as a quality proxy.', 'Roadmap only; dashboard and thresholds remain unbuilt.', jsonb_build_object('future_capability', true, 'factory_metrics', true)),
+ ('Closed Loop V1', 'Marketing intervention → outcome → attribution or experiment → learning → next decision. Every experiment needs a hypothesis, measurement window, attribution method, threshold, null or fail criteria, confounders, required data and result.', 'high', 'high', 'Must not claim marketing caused revenue merely because revenue changed after marketing.', 'Next intelligence milestone after Standard Factory; roadmap only.', jsonb_build_object('future_capability', true, 'priority_after', 'standard_factory')),
+ ('Owner Intelligence Briefing', 'A briefing answering what happened, what ran, what changed, measurable value, failures, learning and what should happen next.', 'high', 'medium', 'Comes before Company Assistant: do not build the assistant until the briefing is worth reading.', 'Roadmap only; no assistant or provider access enabled.', jsonb_build_object('future_capability', true, 'precedes', 'company_assistant')),
+ ('Scaling gates', 'Operational readiness gates at 10, 25, 50 and 100 clients, using quality, FIR, constraint violations, COGS, delivery labor, onboarding speed and churn.', 'high', 'medium', 'Commercial target and operational capability are distinct; no achieved thresholds are claimed.', 'Roadmap only.', jsonb_build_object('future_capability', true, 'gates', jsonb_build_array(10,25,50,100)))
+) as seed(title, description, value, complexity, dependencies, notes, metadata)
+on conflict (project_id, lower(title)) do update set description = excluded.description, dependency_notes = excluded.dependency_notes, notes = excluded.notes, metadata = public.roadmap_ideas.metadata || excluded.metadata;
+-- Public export: original data/backfill payload omitted; schema/function definitions retained.
+

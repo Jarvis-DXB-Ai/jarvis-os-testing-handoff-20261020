@@ -1,0 +1,40 @@
+Third-party assets in office-agents.glb
+=======================================
+
+Character system: MPFB 2.0.18 (MakeHuman Plugin for Blender, GPL tool — generated output is not GPL-encumbered)
+Base meshes, skins, eyes, eyebrows, eyelashes and system hair/clothes: MakeHuman system assets — CC0.
+
+Community assets (MakeHuman community repository):
+Turtle Neck — by MargaretToigo — CC0 — MakeHuman community asset #1104 — clothes/turtle_neck
+Wool Pants — by MargaretToigo — CC0 — MakeHuman community asset #1194 — clothes/wool_pants
+Men's Loafers — by MargaretToigo — CC0 — MakeHuman community asset #1732 — clothes/men_s_loafers
+Male Polo Shirt — by namuhekam — CC0 — MakeHuman community asset #2909 — clothes/male_polo_shirt
+Casual Pants — by green_tomato — CC0 — MakeHuman community asset #3244 — clothes/casual_pants
+Knitted Sweater 01 — by Mindfront — CC-BY — MakeHuman community asset #660 — clothes/knitted_sweater_01
+M Trousers 01 — by Mindfront — CC-BY — MakeHuman community asset #746 — clothes/m_trousers_01
+Elvs Male shirt untucked bd1 — by Elvaerwyn — CC-BY — MakeHuman community asset #1800 — clothes/elvs_male_shirt_untucked_bd1
+M Trousers 02 — by Mindfront — CC-BY — MakeHuman community asset #1497 — clothes/m_trousers_02
+Shift Dress — by MargaretToigo — CC0 — MakeHuman community asset #1724 — clothes/shift_dress
+Keyhole Neck Dress — by MargaretToigo — CC0 — MakeHuman community asset #1613 — clothes/keyhole_neck_dress
+Preppy blouse — by reizibarrientos — CC0 — MakeHuman community asset #1158 — clothes/preppy_blouse
+F Trousers 01 — by Mindfront — CC-BY — MakeHuman community asset #790 — clothes/f_trousers_01
+Elvs Pencil Skirt 1 — by Elvaerwyn — CC-BY — MakeHuman community asset #2581 — clothes/elvs_pencil_skirt_1
+F Cardigan Long Open Front — by Mindfront — CC-BY — MakeHuman community asset #1528 — clothes/f_cardigan_long_open_front
+Women's Loafers — by MargaretToigo — CC0 — MakeHuman community asset #1741 — clothes/women_s_loafers
+Stiletto Booties — by MargaretToigo — CC0 — MakeHuman community asset #1694 — clothes/stiletto_booties
+Low Taper Fade V2 — by WojackOWL — CC-BY — MakeHuman community asset #3729 — hair/low_taper_fade_v2
+Short Hair B — by WojackOWL — CC-BY — MakeHuman community asset #3677 — hair/short_hair_b
+mhair02 — by culturalibre — CC0 — MakeHuman community asset #2892 — hair/mhair02
+Short Messy Hair — by Cortu — CC0 — MakeHuman community asset #2809 — hair/short_messy_hair
+Blunt Bob — by MargaretToigo — CC0 — MakeHuman community asset #1669 — hair/blunt_bob
+Messy Bun — by Umongus — CC0 — MakeHuman community asset #3542 — hair/messy_bun
+Hair 05 — by culturalibre — CC0 — MakeHuman community asset #2445 — hair/hair_05
+fhair01 — by culturalibre — CC0 — MakeHuman community asset #2893 — hair/fhair01
+Brown hair with bun and red velvet tie — by RehmanPolanski — CC0 — MakeHuman community asset #2477 — hair/brown_hair_with_bun_and_red_velvet_tie
+Light Skin Male Bronze — by MargaretToigo — CC0 — MakeHuman community asset #1136 — skins/light_skin_male_bronze
+Light Skin Male Freckles — by MargaretToigo — CC0 — MakeHuman community asset #1137 — skins/light_skin_male_freckles
+Light Skin with Natural Makeup — by MargaretToigo — CC0 — MakeHuman community asset #1125 — skins/light_skin_with_natural_makeup
+Light Skin Female Bronze — by MargaretToigo — CC0 — MakeHuman community asset #1133 — skins/light_skin_female_bronze
+
+Downloaded but not selected in these exports
+Asset572 hair_female_medium / hair_medium is not used in the 66 exported casts. Its local downloaded metadata says AGPL3; an earlier generic credit listed CC-BY. The download is not included in this package. See handoff/CAST-USAGE-PROVENANCE.json.

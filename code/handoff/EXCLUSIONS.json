@@ -1,0 +1,3782 @@
+[
+  {
+    "variant": "canonical-main",
+    "path": ".claude/settings.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".claude/settings.local.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-8ac0455e797f/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": ".vinext/fonts/geist-mono-00e989178794/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/archive-source-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/both.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/captured-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-comparison.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-baseline-applied-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-reverted-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migration-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-evaluation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-historical-files.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/localOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-corrected-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-columns-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-key-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-counts.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-lineage-constraints.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-verification.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-ledger-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-capture-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-schema-check.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-pre-baseline-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-corrected-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-postgres-version.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-migration-list.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-schema-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/production-platform-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/20260829140000_jarvis_production_schema_baseline.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/SHA256SUMS",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/baseline-preparation-plan.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-backfill-fragment.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-1.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-2.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-historical-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-reset-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-rollback-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/schema-semantic-compare.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.failed",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-container-id.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17-full.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-absent.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-safe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-summary.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-unsafe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/recovery-artifact-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/remote-vs-local-ledger.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "audit/supabase-ledger-recovery-20260829/remoteOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "dist/server/vinext-client-assets.js",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/agent-runtime-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/client-vault-operations.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/cloudflare-containers-production.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/CLAUDE-CODEX-WORKFLOW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/CLAUDE-UI-REVIEW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/CODEX-ACCESS-CONTROL.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/CODEX-DESIGN-UNBLOCK.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/CURRENT-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/DESIGN-HANDOFF-TEMPLATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/crm-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/handoff/BACKEND-DATA-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/handoff/CODEX-BRIEFING.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/handoff/GAP-ANALYSIS.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/home-dashboard-actions.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/internal-server-boundary.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-test-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-studio-food-metadata-apply-report-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/apply-democlientd-studio-food-metadata-proposals.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/import-democlientd-menu-docs.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/ingest-democlientb-official-menus.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/propose-democlientd-studio-food-metadata.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-democlientb-food-name-matching.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-democlientb-zernio-account-health.ts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/cli-latest",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/linked-project.json",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/pooler-url",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/postgres-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/project-ref",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/storage-migration",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/.temp/storage-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/SHA256SUMS",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/local-migration-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/preflight-schema-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/recovery-artifact-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260530154231_create_democlientb_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531071500_seed_demomodela_outfits_and_accessories.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531085335_update_demomodela_wardrobe_fashion_direction.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531170709_refactor_democlientb_context_architecture.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531173055_seed_demomodelb_wardrobe_collections.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531190000_finalise_democlientb_context_entries.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260601083117_seed_democlientd_structured_menu_knowledge.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260603112131_create_democlientf_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808111931_seed_democlientb_brand_identity_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808123850_seed_democlientb_commercial_strategy_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808125745_seed_democlientb_operations_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808131347_seed_democlientb_market_intelligence_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809151827_canonical_democlientb_restaurant_menus.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824165918_democlientb_caption_profile_phase_b1.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825060431_democlientb_caption_intelligence_v3.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825062040_democlientb_caption_quality_v31.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825070653_democlientb_caption_multimodal_v32.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825073806_democlientb_caption_story_method_v33.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825074820_democlientb_caption_style_generalization_v34.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825081307_democlientb_final_caption_assembly_v35.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.csv",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-absent.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-safe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-summary.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-unsafe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/both.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/ledger-comparison.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/localOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/preflight-remote-migration-list.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remote-vs-local-ledger.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remoteOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".claude/settings.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".claude/settings.local.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/archive-source-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/both.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/captured-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-comparison.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-baseline-applied-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-reverted-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migration-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-evaluation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-historical-files.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/localOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-corrected-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-columns-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-key-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-counts.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-lineage-constraints.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-verification.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-ledger-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-capture-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-schema-check.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-pre-baseline-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-corrected-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-postgres-version.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-migration-list.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-schema-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-platform-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/20260829140000_jarvis_production_schema_baseline.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/SHA256SUMS",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/baseline-preparation-plan.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-backfill-fragment.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-1.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-2.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-historical-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-reset-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-rollback-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/schema-semantic-compare.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.failed",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-container-id.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17-full.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-absent.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-safe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-summary.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-unsafe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/recovery-artifact-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/remote-vs-local-ledger.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "audit/supabase-ledger-recovery-20260829/remoteOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "dist/server/vinext-client-assets.js",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/agent-runtime-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/client-guides/activate-democlientb-writing-guide-v1.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/client-guides/democlientb-writing-guide-v1.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/client-vault-operations.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/cloudflare-containers-production.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/ACCESS-ACTIVATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/AGENTS-R02-BLUEPRINT-IMPLEMENTATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/ASSET-PREVIEW-PERFORMANCE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CAPTION-WRITING-GUIDE-INTEGRATION-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLAUDE-AGENTS-BRANDING-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLAUDE-CODEX-WORKFLOW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLAUDE-PITCH-DECK-DESIGN-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLAUDE-UI-REVIEW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLIENT-OWNER-FEEDBACK-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CLIENT-PAGES-INTEGRATION-SCOPE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-ACCESS-CONTROL.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-ASSETS-ASSESSMENT-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-ASSETS-INTEGRATION-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-BACKEND-READY.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-DESIGN-UNBLOCK.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-INTEGRATION-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CODEX-QA-FOLLOWUP-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CONTENT-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CONTENT-COMPANY-OVERVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/CURRENT-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/DESIGN-HANDOFF-TEMPLATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/DESIGN-SYSTEM-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/DESIGN-SYSTEM-R02-IMPLEMENTATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/DESIGN-SYSTEM-R02-INTAKE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/DESIGN-SYSTEM-R03-IMPLEMENTATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/FEATURE-WORKFLOW-ROADMAP.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/FINANCE-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/GLOBAL-NOTIFICATIONS-IMPLEMENTATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/HOME-CORRECTNESS-FIXES.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/HOME-OWNER-FEEDBACK-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/HOME-PERFORMANCE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/HOME-POLISH.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/HOME-R03-IMPLEMENTATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/ISOLATED-HOME-TESTING.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/LAUNCH-PLAN-2026-09-16.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/LAUNCH-ROADMAP-2027-01-2026-10-12.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/MC-STUDIOS-ACQUISITION-PLAN-2026-09-16.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/MOBILE-AUDIT-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-AGENT-PROFILES-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-APP-ORDER-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-BRAIN-AND-TEAM-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-CALM-NAVIGATION-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-CLIENT-TEAMS-AND-SKILLS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-COMMON-SPACES-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-CONNECTED-FLOOR-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-CONNECTION-AND-PRIVATE-PILOT-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-CONTENT-LEARNING-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-COO-MESSAGE-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-COO-PLANNING-RECOVERY-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-COO-REPORTING-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-ANALYTICS-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-ARTIFACT-AND-WEB-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-CONTENT-EXECUTION-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-DESIGN-ROLE-LEARNING-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-FINANCE-ROLE-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-FINANCE-SOURCE-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-FOUNDATION-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-LIBRARY-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-LINKED-ARTIFACT-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-MODEL-CONTEXT-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-NATIVE-VISUAL-REVIEW-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-PAID-MEDIA-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-PILOT-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-PRIVATE-QUALITY-RELEASE-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-REVIEWER-FORWARD-TESTS-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-ROLE-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-SCHEDULER-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-SELECTED-PROVIDER-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMOCLIENTA-TEAM-QUALITY-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEMO-POLISH-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DEPARTMENT-PACKAGE-QA-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DUBAI-LIGHTING-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-DUBAI-STAGING-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-EIGHT-DEPARTMENTS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-FIRST-USE-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-FLOOR-AND-CONVERSATIONS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-FOUNDATIONS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-FUTURISTIC-HEADQUARTERS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-INLINE-TASK-STATUS-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-NAVIGATION-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-ONBOARDING-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-OPERATIONS-OVERVIEW-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-OWNER-ARCHITECTURE-ADOPTION-2026-10-15.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-PAPERCLIP-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-PINTEREST-AND-ICON-STANDARDS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-PRIVATE-PILOT-ACTIVATED-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-REAL-3D-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-RESTAURANT-DEMO-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-ROLE-SKILLS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-ROOM-FLOW-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-SAHNI-SKILLS-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-SHARED-CONNECTIONS-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-SHARED-STACK-RESEARCH-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-SKILLS-V2-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-SPATIAL-DUBAI-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-STRESS-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-TASK-DOCK-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-TEAM-AUDIT-2026-10-13.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-USAGE-SUMMARY-2026-10-14.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-V1-2026-10-12.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/OFFICE-V2-2026-10-12.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/PERFORMANCE-REVIEW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/PRODUCT-DESIGN-5-RECONCILIATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/PRODUCT-DESIGN-6-INTEGRATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CAPTION-GUIDE-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CAPTION-GUIDE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CLIENT-CONTENT-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CLIENT-CONTENT-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CLIENT-SUITE-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CLIENT-SUITE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CONTENT-BRAND-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-CONTENT-BRAND-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-FINANCE-BRAND-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-FINANCE-BRAND-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-HOME-FEEDBACK-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-HOME-FEEDBACK-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-R03-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-R03-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-ROADMAP-BRAND-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-ROADMAP-BRAND-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-SYSTEM-PAGES-BRAND-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-SYSTEM-PAGES-BRAND-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-TOOLS-BRAND-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/RELEASE-TOOLS-BRAND-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/ROADMAP-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/STUDIO-PROMPT-EXPORT-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/SYSTEM-PAGES-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/TASKS-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/TOOLS-BRAND-REVIEW-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/ZERNIO-ANALYTICS-COVERAGE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/crm-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/handoff/BACKEND-DATA-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/handoff/CODEX-BRIEFING.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/handoff/GAP-ANALYSIS.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/home-dashboard-actions.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/internal-server-boundary.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-test-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-studio-food-metadata-apply-report-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/apply-democlientd-studio-food-metadata-proposals.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/backup-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/curate-democlienta-library.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/finalise-democlienta-data.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/freeze-democlienta-foundation.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/import-democlientd-menu-docs.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/ingest-democlientb-official-menus.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-democlienta-sources.d.mts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/prepare-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/propose-democlientd-studio-food-metadata.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/repair-democlienta-readiness-exact.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/run-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/run-democlienta-pilot.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/save-democlienta-foundation-lessons.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/save-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-democlienta-foundation-readback.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-democlientb-food-name-matching.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-democlientb-zernio-account-health.ts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/write-democlienta-foundation-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/write-democlienta-morning-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/api/office/tool-artifacts/[jobId]/[callId]/[file]/route.ts",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/cli-latest",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/linked-project.json",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/pooler-url",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/postgres-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/project-ref",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/storage-migration",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/.temp/storage-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/SHA256SUMS",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/local-migration-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/preflight-schema-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/recovery-artifact-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260530154231_create_democlientb_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531071500_seed_demomodela_outfits_and_accessories.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531085335_update_demomodela_wardrobe_fashion_direction.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531170709_refactor_democlientb_context_architecture.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531173055_seed_demomodelb_wardrobe_collections.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531190000_finalise_democlientb_context_entries.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260601083117_seed_democlientd_structured_menu_knowledge.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260603112131_create_democlientf_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808111931_seed_democlientb_brand_identity_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808123850_seed_democlientb_commercial_strategy_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808125745_seed_democlientb_operations_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808131347_seed_democlientb_market_intelligence_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809151827_canonical_democlientb_restaurant_menus.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824165918_democlientb_caption_profile_phase_b1.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825060431_democlientb_caption_intelligence_v3.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825062040_democlientb_caption_quality_v31.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825070653_democlientb_caption_multimodal_v32.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825073806_democlientb_caption_story_method_v33.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825074820_democlientb_caption_style_generalization_v34.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825081307_democlientb_final_caption_assembly_v35.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.csv",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-absent.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-safe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-summary.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-unsafe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/both.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/ledger-comparison.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/localOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/preflight-remote-migration-list.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remote-vs-local-ledger.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remoteOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".claude/settings.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".claude/settings.local.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-8ac0455e797f/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": ".vinext/fonts/geist-mono-00e989178794/style.css",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/archive-source-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/both.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/captured-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-comparison.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-baseline-applied-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/ledger-reset-reverted-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migration-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-migrations.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-evaluation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/local-only-historical-files.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/localOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.csv",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/per-migration-reconciliation.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-corrected-apply-output.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-columns-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-parent-key-preflight.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-counts.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-lineage-constraints.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/phase1-production-verification.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-ledger-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-baseline-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-capture-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-failure-schema-check.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-pre-baseline-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/post-revert-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-ledger-reset-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-corrected-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-dry-run.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/pre-phase1-migration-list.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-postgres-version.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-migration-list.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/preflight-schema-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-extensions-schema.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-platform-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/production-public-schema.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/20260829140000_jarvis_production_schema_baseline.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/SHA256SUMS",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/baseline-preparation-plan.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-backfill-fragment.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply-final.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-1.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-backfill-rerun-2.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests-final.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/phase1-scratch-integrity-tests.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-historical-remote-versions.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-reset-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/proposed-ledger-rollback-commands.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/schema-semantic-compare.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply-pg17.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.failed",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-apply.stderr",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap-pg17.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-bootstrap.log",
+    "reason": "runtime/credential/archive binary"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-container-id.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17-full.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/proposed-baseline/scratch-public-schema-pg17.sql",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-absent.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-safe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-summary.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/reconciliation-unsafe.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/recovery-artifact-sha256.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/remote-vs-local-ledger.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "audit/supabase-ledger-recovery-20260829/remoteOnly.txt",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/capture-r02.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/capture.sh",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/HANDOFF.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/assets.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/index.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/screenshots/assets-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/screenshots/assets-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/screenshots/assets-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/screenshots/assets-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/screenshots/assets-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-client-assets-r03/styles.css",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/HANDOFF.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/deliverable.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/index.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/screenshots/deliverable-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/screenshots/deliverable-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/screenshots/deliverable-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/screenshots/deliverable-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/screenshots/deliverable-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/styles.css",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-deliverable-r02/visual-contract.js",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/HANDOFF.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/analytics.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/fixtures.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/index.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/navigation.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/org-structure.html",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/analytics-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/analytics-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/analytics-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/analytics-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/analytics-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/navigation-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/navigation-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/navigation-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/navigation-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/navigation-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/org-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/org-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/org-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/org-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/screenshots/org-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/jarvis-nav-analytics-org-r01/styles.css",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "design-packages/verification/visual-contract.js",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "dist/server/vinext-client-assets.js",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/agent-runtime-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/client-vault-operations.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/cloudflare-containers-production.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/ACCESS-ACTIVATION.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CLAUDE-CODEX-WORKFLOW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CLAUDE-QA-ASSETS-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CLAUDE-QA-INTEGRATION-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CLAUDE-TO-CODEX-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CLAUDE-UI-REVIEW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CODEX-ACCESS-CONTROL.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CODEX-BACKEND-READY.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CODEX-DESIGN-UNBLOCK.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/CURRENT-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/DESIGN-HANDOFF-TEMPLATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/HOME-CORRECTNESS-FIXES.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/HOME-PERFORMANCE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/HOME-POLISH.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/ISOLATED-HOME-TESTING.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/PERFORMANCE-REVIEW.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/RELEASE-2026-09-06-SOURCE.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/RELEASE-2026-09-06.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/crm-architecture.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/handoff/BACKEND-DATA-STATE.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/handoff/CODEX-BRIEFING.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/handoff/GAP-ANALYSIS.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/home-dashboard-actions.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/internal-server-boundary.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-test-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-difc-exterior-spatial-intelligence-v1.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-studio-food-metadata-apply-report-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/democlientd-studio-food-metadata-proposals-2026-06-01.md",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/empty-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/empty-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/empty-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/empty-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/empty-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/library-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/library-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/library-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/library-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/library-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/unsupported-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/unsupported-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/unsupported-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/unsupported-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/assets-2026-09-06/unsupported-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/deliverable-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/deliverable-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/deliverable-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/deliverable-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/deliverable-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/org-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/org-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/org-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/org-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/org-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/sysops-1280.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/sysops-1440.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/sysops-360.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/sysops-390.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "qa/integration-2026-09-06/sysops-430.png",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/apply-democlientd-studio-food-metadata-proposals.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/import-democlientd-menu-docs.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/ingest-democlientb-official-menus.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/propose-democlientd-studio-food-metadata.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-democlientb-food-name-matching.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-democlientb-zernio-account-health.ts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/cli-latest",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/linked-project.json",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/pooler-url",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/postgres-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/project-ref",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/storage-migration",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/.temp/storage-version",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/SHA256SUMS",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/local-migration-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/preflight-schema-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/checksums/recovery-artifact-sha256.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260530154231_create_democlientb_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531071500_seed_demomodela_outfits_and_accessories.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531085335_update_demomodela_wardrobe_fashion_direction.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531170709_refactor_democlientb_context_architecture.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531173055_seed_demomodelb_wardrobe_collections.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531190000_finalise_democlientb_context_entries.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260601083117_seed_democlientd_structured_menu_knowledge.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260603112131_create_democlientf_workspace.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808111931_seed_democlientb_brand_identity_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808123850_seed_democlientb_commercial_strategy_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808125745_seed_democlientb_operations_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808131347_seed_democlientb_market_intelligence_knowledge_gaps.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809151827_canonical_democlientb_restaurant_menus.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824165918_democlientb_caption_profile_phase_b1.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825060431_democlientb_caption_intelligence_v3.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825062040_democlientb_caption_quality_v31.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825070653_democlientb_caption_multimodal_v32.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825073806_democlientb_caption_story_method_v33.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825074820_democlientb_caption_style_generalization_v34.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825081307_democlientb_final_caption_assembly_v35.sql",
+    "reason": "historical client seed/data/customization migration"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.csv",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/per-migration-reconciliation.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-absent.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-safe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-summary.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/reconciliation/reconciliation-unsafe.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/both.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/ledger-comparison.json",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/localOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/preflight-remote-migration-list.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remote-vs-local-ledger.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/remote-ledger/remoteOnly.txt",
+    "reason": "historical production ledger/report rather than source schema"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "private-release.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/apply-democlientd-studio-food-metadata-proposals.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/backup-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/curate-democlienta-library.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/finalise-democlienta-data.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/freeze-democlienta-foundation.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/import-democlientd-menu-docs.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/ingest-democlientb-official-menus.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-democlienta-sources.d.mts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/prepare-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/propose-democlientd-studio-food-metadata.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/repair-democlienta-readiness-exact.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/run-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/run-democlienta-pilot.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/save-democlienta-foundation-lessons.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/save-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-democlienta-foundation-readback.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-democlientb-food-name-matching.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-democlientb-zernio-account-health.ts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/write-democlienta-foundation-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/write-democlienta-morning-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/api/office/tool-artifacts/[jobId]/[callId]/[file]/route.ts",
+    "reason": "generated/dependencies/runtime/platform state"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "private-release.json",
+    "reason": "outside application/source allowlist; reports/client records/history excluded"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/apply-democlientd-studio-food-metadata-proposals.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/backup-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/curate-democlienta-library.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/finalise-democlienta-data.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/freeze-democlienta-foundation.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/import-democlientd-menu-docs.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/ingest-democlientb-official-menus.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-democlienta-sources.d.mts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/prepare-democlienta-pilot.py",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/propose-democlientd-studio-food-metadata.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/repair-democlienta-readiness-exact.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/run-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/run-democlienta-pilot.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/save-democlienta-foundation-lessons.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/save-democlienta-foundation.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-democlienta-foundation-readback.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-democlientb-food-name-matching.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-democlientb-zernio-account-health.ts",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/write-democlienta-foundation-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/write-democlienta-morning-brief.mjs",
+    "reason": "client-specific operational script/private payload risk"
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/api/office/tool-artifacts/[jobId]/[callId]/[file]/route.ts",
+    "reason": "generated/dependencies/runtime/platform state"
+  }
+]

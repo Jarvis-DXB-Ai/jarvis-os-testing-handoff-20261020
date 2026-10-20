@@ -1,0 +1,8 @@
+export type DemoRecipe={readonly id:string;readonly role:string;readonly title:string;readonly input:string;readonly deliverable:string;readonly acceptanceCriteria:readonly string[];readonly outcome:string;readonly workflow:'standard'|'research'|'technical'|'revision'|'resource'|'decision';readonly playbackSeconds:number;readonly effortMinutes:readonly [number,number];readonly example?:{readonly group:'owner'|'expansion';readonly id:number;readonly sample:Readonly<Record<string,unknown>>}};
+export const demoTaskCatalogue:Readonly<Record<string,readonly DemoRecipe[]>>;
+export const demoScenarios:readonly {readonly id:string;readonly name:string;readonly context:string}[];
+export const demoDepartmentCatalogue:readonly {readonly department:string;readonly authors:readonly string[];readonly qa:string;readonly head:string;readonly appIds:readonly string[]}[];
+export const demoRoleCoverage:readonly {readonly role:string;readonly department:string|null;readonly mode:'author'|'reviewer'|'head'|'coordinator'|'final-reviewer'|'deferred'|'merged';readonly recipeCount:number;readonly mergedInto?:string}[];
+export const demoCatalogueInfo:{readonly authors:number;readonly recipes:number;readonly scenarios:number;readonly combinationsPerAuthor:Readonly<Record<string,number>>;readonly noImmediateRecipeRepeat:number;readonly historyPerLane:22;readonly timing:string;readonly replay:string};
+
+export const demoAgencyExampleCoverage:readonly {readonly group:'owner'|'expansion';readonly id:number;readonly recipeId:string;readonly title:string;readonly role:string;readonly department:string;readonly qa:string;readonly head:string}[];

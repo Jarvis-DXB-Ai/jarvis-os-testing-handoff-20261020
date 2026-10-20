@@ -1,0 +1,9 @@
+export type DepartmentPackageEvidence={headSha256:string;partsSha256:string;requestSha256:string};
+export type DepartmentPartsEvidence={partsSha256:string;authorRunsSha256:string;requestSha256:string;criteriaSha256:string;supplementalEvidenceSha256:string};
+export function departmentPartsEvidence(job:unknown,report:unknown):DepartmentPartsEvidence;
+export function departmentPartsReviewCurrent(job:unknown,report:unknown):boolean;
+export const departmentPartChecks:string[];
+export const departmentPackageChecks:string[];
+export function departmentReviewChecks(job:unknown):string[];
+export function departmentPackageEvidence(job:unknown,report:unknown):DepartmentPackageEvidence;
+export function departmentReviewCurrent(job:unknown,report:unknown):boolean;

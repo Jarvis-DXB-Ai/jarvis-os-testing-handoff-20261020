@@ -1,0 +1,10 @@
+.git
+.next
+.next-*
+node_modules
+.env
+.env.*
+.DS_Store
+figma-plugin
+coverage
+*.log

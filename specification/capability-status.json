@@ -1,0 +1,118 @@
+{
+  "observedAt": "2026-10-20T12:09:04.433179+00:00",
+  "interpretation": "Dated local evidence matrix; no new service/API/provider checks. Public browsing authorisation is being prepared by00; this inventory makes no auth/access change.",
+  "capabilities": [
+    {
+      "id": "original-model",
+      "layer": "planned",
+      "status": "documented_not_implemented_by_catalogue",
+      "sourceIds": [
+        "original-catalogue",
+        "original-readme",
+        "prospect-onboarding",
+        "jarvis-integration-plan"
+      ],
+      "evidence": "r02: 50 candidate documents, seven stages, 16 skill families.",
+      "limits": "No current price/capacity/commercial or implementation certification."
+    },
+    {
+      "id": "source-inventory",
+      "layer": "source_and_local_files",
+      "status": "self_checked",
+      "sourceIds": [
+        "backend-registry",
+        "role-specifications",
+        "method-loader"
+      ],
+      "evidence": "65 active roles plus eight historical; 106 methods; 541 declared/loader-required file checks passed.",
+      "limits": "No model or quality certification; configuration/model availability not freshly probed."
+    },
+    {
+      "id": "native-16-oct",
+      "layer": "actual_native_run",
+      "status": "failed_workflow",
+      "sourceIds": [
+        "native-failure-qa"
+      ],
+      "evidence": "One successful COO plan; two zero-output specialist refusals; zero useful specialist assessments, downstream reviews or completed workflows.",
+      "limits": "Provider refusal cause unresolved; old grants/jobs are history, not repeat authority."
+    },
+    {
+      "id": "native-bridge-history",
+      "layer": "bounded_historical_native",
+      "status": "narrow_proofs_only",
+      "sourceIds": [
+        "original-office-continuation"
+      ],
+      "evidence": "Five constrained native recipe fixtures; one actual Claude graphic-card output recorded with SVG/JSON/PNG.",
+      "limits": "No current whole-design/video/tool-chain or full agency certification."
+    },
+    {
+      "id": "editable-production",
+      "layer": "implemented_and_author_checked",
+      "status": "pending_independent_acceptance_activation",
+      "sourceIds": [
+        "artifact-adapter"
+      ],
+      "evidence": "Scoped HTML/CSS/JSON adapter; 67 source compatibility checks; two actual synthetic rendered outputs in the author record.",
+      "limits": "Not 67 renders, not a useful current client production workflow."
+    },
+    {
+      "id": "audit-047",
+      "layer": "source_offline_installed",
+      "status": "passed_bounded_evaluation",
+      "sourceIds": [
+        "audit-047-result"
+      ],
+      "evidence": "106th method jarvis-client-audit, seven-file local bundle, source/offline/install QA passed.",
+      "limits": "Its compiled105/runtime-pending statement is an earlier checkpoint, superseded locally by048; no native audit proof."
+    },
+    {
+      "id": "runtime-048",
+      "layer": "compiled_and_local_runtime",
+      "status": "activated_then_owner_stopped_before_dispatch",
+      "sourceIds": [
+        "native-048-runtime",
+        "native-048-stop"
+      ],
+      "evidence": "New106-method build independently reviewed, local activation/readiness recorded, five actors migrated to accepted runner. Authority installer stopped at file-link guard. Owner stop10:14UTC retained partial domain; no048 job.",
+      "limits": "Historical checkpoint, not fresh process health. Do not restart/install/continue native trial from this handoff."
+    },
+    {
+      "id": "audit-050",
+      "layer": "codex_authored_reviewable_draft",
+      "status": "content_and_render_reviewed_owner_approval_pending",
+      "sourceIds": [
+        "audit-050-result",
+        "audit-050-qa"
+      ],
+      "evidence": "Revised audit draft content/source QA and root render review passed.",
+      "limits": "Not native Office execution; no Office integration/install/publication by050."
+    },
+    {
+      "id": "public-demo",
+      "layer": "public_presentation",
+      "status": "dated_release_and_viewport_qa",
+      "sourceIds": [
+        "public-demo-045",
+        "visual-seat-map",
+        "visual-manifest"
+      ],
+      "evidence": "main120/045R2; 66 visual seats,51mapped,15planned,14unseated active runtime roles; final mobile-viewport finger-motion check recorded.",
+      "limits": "Scripted feed/animation not execution. No fresh availability or physical-phone/FPS claim in this worker inventory."
+    },
+    {
+      "id": "autonomous-agency",
+      "layer": "target",
+      "status": "not_demonstrated",
+      "sourceIds": [
+        "workflow-046",
+        "method-review-046",
+        "native-failure-qa",
+        "native-048-stop"
+      ],
+      "evidence": "Client journey, review and improvement contracts are described.",
+      "limits": "Still needs useful native intake/artifact/independent-review/persistence/correction/isolation proof, then per-service and recurring operation tests."
+    }
+  ]
+}

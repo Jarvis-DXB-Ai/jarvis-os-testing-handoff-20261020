@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-14",
+  "skills": [
+    {
+      "id": "mc-delivery-loop",
+      "name": "Evidence-led delivery loop \u2014 Sahni adaptation",
+      "description": "Plan, produce and review a defined deliverable against observable acceptance conditions. Use for multi-step client or internal work; keep narrow edits and simple questions proportionate.",
+      "sources": [
+        "loop"
+      ]
+    },
+    {
+      "id": "mc-context-handoff",
+      "name": "Durable context handoff \u2014 Sahni adaptation",
+      "description": "Prepare durable context for resuming a long task or moving between Codex and Claude. Use at a session boundary, explicit handoff, meaningful checkpoint or demonstrated context conflict; not routine short replies.",
+      "sources": [
+        "memory",
+        "memory-chatgpt"
+      ]
+    },
+    {
+      "id": "mc-decision-review",
+      "name": "Decision review with distinct lenses \u2014 Sahni adaptation",
+      "description": "Pressure-test a consequential strategy, offer, operational choice or supplied creative asset. Use for genuine tradeoffs and critiques; not factual lookups, routine production or automatic five-agent debates.",
+      "sources": [
+        "council",
+        "advisors"
+      ]
+    },
+    {
+      "id": "mc-file-library",
+      "name": "Careful file curation \u2014 Sahni adaptation",
+      "description": "Organise selected project files into a client-scoped reference library with copy verification, provenance and useful collections. Use for requested curation or folder organisation; not an automatic Mac-wide scan.",
+      "sources": [
+        "clean"
+      ]
+    },
+    {
+      "id": "mc-video-edit-plan",
+      "name": "Transcript-led video edit planning \u2014 Sahni adaptation",
+      "description": "Plan or review a talking-head footage edit using measured transcript timing, visual beats and captions. Use for supplied footage/transcript workflows; not generic AI-video generation or a claim that an unavailable renderer ran.",
+      "sources": [
+        "edit"
+      ]
+    },
+    {
+      "id": "mc-operations-brief",
+      "name": "Evidence-led operations briefing \u2014 Sahni adaptation",
+      "description": "Prepare a scoped operational brief from saved tasks, meetings, client requests or financial-document status. Use for requested daily/weekly summaries and administration; no recurring schedule or outbound action is implied.",
+      "sources": [
+        "cowork"
+      ]
+    }
+  ]
+}

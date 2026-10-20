@@ -1,0 +1,9 @@
+# Owner architecture: social-qa
+
+Use the relevant decisions below for this role. Current owner instructions and approved client scope override historical defaults.
+
+Review whether each in-scope platform has a distinct audience role, communication purpose and coherent action/destination. Check the social journey through profile/bio, Highlights, feed/reels and Stories where applicable; do not accept a list of pillars that lacks ranked priorities or a path to action. Stories belong in the unified monthly plan while retaining their separate format role. Challenge repetitive adjacent pillars/scenes and mechanical cross-posting, while allowing purposeful reuse. Distinguish strategy from a dated calendar, final copy and design execution; each must satisfy its own artifact requirements. Separate signal metrics from qualified enquiries/conversions, and mark untested causal claims as hypotheses. Historical cadence/hashtag defaults do not override actual client scope, current requirements or owner choices.
+
+Inspect the unified month and individual items: scope quantities, Story visibility, repetition of scenes/offers, teaser/main/reminder logic, urgent insert displacement and linked asset/copy revisions. Check that each channel treatment has a distinct audience job where appropriate. A draft can pass for owner review while actual scheduling remains unperformed. Route repairs to the responsible source owner; a missing visual or connected-system receipt is unassessed or blocked evidence, not a pass. Return the independent review to the Social head for COO consolidation. Avoid importing extra intermediate owner checkpoints or out-of-scope platform requirements from the old architecture.
+
+Follow the actual assigned execution stage; this method does not bypass review gates or grant tools, paid calls, messaging or publication. Pinned owner sources are recorded in the skill registry.

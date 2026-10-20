@@ -1,0 +1,179 @@
+{
+  "icons": [
+    {
+      "file": "claude.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/claude.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "7c232fc80d0a7e861e49c2bafefa9a644f7758b5c5e9cac0278a86bbf308b7ae",
+      "id": "claude",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "cloudflare.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/cloudflare.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "d285df63d86ee9297524ba0e2d2a735e2d31387d022b97a9cf0b889c944cc529",
+      "id": "cloud",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "blender.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/blender.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "9fc72bab64776eee9f42751ca25c0f838d42a928335cf19f3dcd67be3b8ad9f8",
+      "id": "blender",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "penpot.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/penpot.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "f3753c1ab42565b02f93b6f3742a788e3d8595ca5edc2727555b7fd38c5dddfb",
+      "id": "penpot",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "ffmpeg.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/ffmpeg.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "c21d51938e2d9db774b3c37c9347c385e9461dc29bacae6a8a5bb77bcefb7ef4",
+      "id": "ffmpeg",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "sharp.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/sharp.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "f03b00da2068afd1e5cb8fc94666bd55804848866ccca37194e62212cc5ebba8",
+      "id": "sharp",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "github.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/github.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "3bf8cceead820aec50d4ee825a3fd02c5a1cd6665cc9cf4cbf3d9c8861a204bb",
+      "id": "github",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "file": "higgsfield.svg",
+      "source": "https://higgsfield.ai/",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "9459c95f651ceea5fbec7e51a442abfac6ff25b4d21bab67ad52ed17bb1f4e08",
+      "checkedAt": "2026-10-13",
+      "note": "Official header glyph; geometry/viewBox preserved, currentColor resolved to dark ink.",
+      "id": "higgsfield"
+    },
+    {
+      "file": "paperclip.svg",
+      "source": "https://paperclip.ing/brand/",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "1d0ff185fbbc5f248d2f6095bea4fb0c889fcfe9c15ec0fecf7581a4438632a9",
+      "checkedAt": "2026-10-13",
+      "note": "Supplied icon-only mark; geometry/viewBox preserved, currentColor resolved to black.",
+      "id": "paperclip"
+    },
+    {
+      "file": "openai.svg",
+      "source": "https://paperclip.ing/OpenAI-black-monoblossom.svg",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "7be72f1fea831d3ba81a545cee79b7e0ae69449d5d7837c9571ccbfb4aa1e00b",
+      "checkedAt": "2026-10-13",
+      "note": "OpenAI provider mark for the Codex GPT model tile; published by Paperclip, compared with https://openai.com/brand/.",
+      "id": "codex"
+    },
+    {
+      "file": "mcp.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/modelcontextprotocol.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "4796bc576053cf2ae4724ea1813d9f4ec05bc671154abdd80a18b790613c7d81",
+      "checkedAt": "2026-10-13",
+      "note": "MCP protocol mark; upstream source https://github.com/modelcontextprotocol/docs/blob/573dc60c2e7aab2605b29d0bf27194aa7b02e4fb/logo/light.svg.",
+      "id": "mcp"
+    },
+    {
+      "file": "manus.svg",
+      "source": "https://files.manuscdn.com/assets/image/brand/image/Manus-Glyph-Black.svg",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "db3a1852c7be2b3e5773e8828f846c8938fbcfafcc9f9ec0df1734120f77a9b4",
+      "checkedAt": "2026-10-13",
+      "note": "Official glyph linked by https://manus.im/brand.",
+      "id": "manus"
+    },
+    {
+      "file": "postiz.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/postiz.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "sha256": "81845bf73ba4e661b0211e830f4bc990c12d8359608b643995dd0373858422a3",
+      "checkedAt": "2026-10-13",
+      "note": "Simple Icons mark sourced from https://postiz.com.",
+      "id": "postiz"
+    },
+    {
+      "file": "remotion.png",
+      "source": "https://www.remotion.dev/img/favicon.png",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "662a084d72d99ab91b47c7a566dd0631f0ce0e4f0bf6032708c9200b0db09fd9",
+      "checkedAt": "2026-10-13",
+      "note": "Official site favicon, used as the compact app mark.",
+      "id": "remotion"
+    },
+    {
+      "file": "manychat.png",
+      "source": "https://mccdn.me/martcdn/favicons/1024.png",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "628763e48f905fe2d926dae868b1b8466e4f5744cf443f7da6b77df1443b7db0",
+      "checkedAt": "2026-10-13",
+      "note": "Unmodified official site app icon; original colors, geometry and padding preserved.",
+      "id": "manychat"
+    },
+    {
+      "file": "zernio.svg",
+      "source": "https://zernio.com/icon.svg?v=4",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "ddc4459876752aa35e4e3d71f588e4bca899d5a1c927cbb8d7bcec9ce0fc8834",
+      "checkedAt": "2026-10-13",
+      "note": "Official icon referenced by current vendor homepage; artwork retained unchanged.",
+      "id": "zernio"
+    },
+    {
+      "file": "pinterest.png",
+      "source": "https://s.pinimg.com/webapp/favicon-54a5b2af.png",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with the vendor",
+      "sha256": "b9945d0fac3a4173d811c657f192b77fba30af17fa108e3ae7312f8fe23db1d9",
+      "checkedAt": "2026-10-13",
+      "note": "Unmodified official site app icon; original colors, geometry and padding preserved.",
+      "id": "pinterest",
+      "brandGuidelines": "https://business.pinterest.com/brand-guidelines/"
+    },
+    {
+      "id": "meta",
+      "file": "meta.svg",
+      "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/meta.svg",
+      "licence": "Simple Icons CC0; third-party trademarks identify providers",
+      "checkedAt": "2026-10-13",
+      "note": "Existing sourced Meta symbol retained as a monochrome identification mark; geometry checked against the current registry.",
+      "sha256": "e3e9db62f59dc477e5917687349b8aa9685b841d40300c1afad60ad85075cd2e"
+    },
+    {
+      "id": "canva",
+      "file": "canva.svg",
+      "source": "https://www.canva.dev/assets/connect/Canva-logos.zip",
+      "checkedAt": "2026-10-13",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with vendor",
+      "sha256": "fbbd91cfb0dcc0f9e9eeabc7ea5a6393974167bb06902c27df0b5b50c1fe798f",
+      "note": "Unmodified supplied Icon logo SVG for surfaces below50px; retain8px clearance around the17px mark."
+    },
+    {
+      "id": "mailchimp",
+      "file": "mailchimp.ico",
+      "source": "https://mailchimp.com/release/plums/3a3e92cfc284c7bc.ico",
+      "checkedAt": "2026-10-13",
+      "licence": "Vendor trademark artwork for service identification; ownership remains with vendor",
+      "sha256": "1e9840287decb8799f6da96f04ed4393a7380d5236f4dfc42947174550b25c92",
+      "note": "Unmodified official site favicon for compact service identification; full provider name retained in accessible label/detail."
+    }
+  ],
+  "otherIcons": "Client Brain and Review are original internal Jarvis UI symbols. Vendor marks render without color filters or fading. Unverified new providers show text until sourced artwork is registered."
+}

@@ -1,0 +1,1136 @@
+{
+  "version": 1,
+  "title": "Jarvis Brain and team operating structure",
+  "status": "finalised-structure",
+  "owner": "Calvin",
+  "coordinator": "coo",
+  "principles": [
+    "One existing Jarvis OS, one exact client identity per workspace.",
+    "Client Brain v2 owns client intelligence; Office pins approved context and stores task evidence.",
+    "Approved facts, artwork, drafts, generated concepts and delivered outputs have distinct roles.",
+    "Skills guide craft; task-scoped tool grants determine executable work.",
+    "Department QA precedes head reports, COO synthesis, final QA and owner review.",
+    "Only reviewed, matching lessons enter subsequent assignments."
+  ],
+  "storage": [
+    {
+      "id": "foundation",
+      "name": "Approved foundations",
+      "location": "knowledge/foundations/<foundation-id>/versions/<revision>.json",
+      "owner": "brand-strategist",
+      "purpose": "Versioned positioning, business facts, voice, visual rules, production and restrictions; current pointer preserves approval history."
+    },
+    {
+      "id": "context",
+      "name": "Task context snapshots",
+      "location": "contexts/<job-id>/<revision>.json",
+      "owner": "coo",
+      "purpose": "Exact foundation, client team and approved lesson revisions pinned before execution; later source changes block new stages."
+    },
+    {
+      "id": "skills",
+      "name": "Agent skills and sources",
+      "location": "library/skills/<method-id>",
+      "owner": "evaluation",
+      "purpose": "65 specialist packs, focused QA and pinned upstream provenance; no automatic execution of upstream code."
+    },
+    {
+      "id": "work",
+      "name": "Tasks, QA and head reports",
+      "location": "tasks/<job-id>",
+      "owner": "delivery",
+      "purpose": "Brief, artifacts, department reviews/reports, runtime receipts, final deliverable, exact-version owner review and preserved events."
+    },
+    {
+      "id": "workspaces",
+      "name": "Individual agent workspaces",
+      "location": "agents/<agent-id>/tasks/<job-id>/<part-id>",
+      "owner": "reliability",
+      "purpose": "Own assignment and granted dependency artifacts on the shared Mac; separate workspaces are not separate computers or OS sandboxes."
+    },
+    {
+      "id": "media",
+      "name": "Produced media",
+      "location": "Media/",
+      "owner": "video",
+      "purpose": "Output media and tool receipts; original client assets remain in their canonical Client Brain/project location."
+    },
+    {
+      "id": "lessons",
+      "name": "Reviewed learning",
+      "location": "learning/lessons/<lesson-id>/versions/<revision>.json",
+      "owner": "knowledge",
+      "purpose": "Candidate failure evidence, reviewed correction/trigger/counterexample and exact client/task/role applicability."
+    },
+    {
+      "id": "reports",
+      "name": "Research and system evidence",
+      "location": "reports/",
+      "owner": "research-qa",
+      "purpose": "Source decisions, installation receipts, evaluations and recovery backups; never substitute reports for approved client truth."
+    }
+  ],
+  "clientSections": [
+    {
+      "id": "intelligence",
+      "name": "Intelligence & strategy",
+      "owner": "brand-strategist",
+      "contains": "Identity, audience, positioning, operating facts and dated competitor analysis."
+    },
+    {
+      "id": "products_offers",
+      "name": "Products, services & offers",
+      "owner": "success",
+      "contains": "Approved service/product truth, offers and booking policies where applicable."
+    },
+    {
+      "id": "brand_guidelines",
+      "name": "Brand foundation & design system",
+      "owner": "design-system",
+      "contains": "Official logos, voice, typography, colours, layout and motion rules; exact reviewed versions."
+    },
+    {
+      "id": "assets",
+      "name": "Source assets & inspiration",
+      "owner": "librarian",
+      "contains": "Real subject sources, official marks, style references, rights, source hashes and controlled use."
+    },
+    {
+      "id": "content",
+      "name": "Content & deliverables",
+      "owner": "delivery",
+      "contains": "Drafts, generated concepts, editable sources, reviewed exports and publication receipts, separately labelled."
+    },
+    {
+      "id": "sources",
+      "name": "Evidence & source register",
+      "owner": "competitors",
+      "contains": "Original source, authority, date, provenance and supported claims; unresolved contradictions remain visible."
+    },
+    {
+      "id": "learnings",
+      "name": "Client learning",
+      "owner": "knowledge",
+      "contains": "Reviewed client preferences and evidence-backed lessons; candidate failures remain outside approved rules."
+    }
+  ],
+  "privateRecords": {
+    "credentials": "Existing secure Logins vault; never part of model-readable Brain context.",
+    "support": "Conversation/contact details remain in exact-client, case-scoped records; only necessary case evidence enters the task.",
+    "finance": "Invoices/payment/cost evidence remains entity/period scoped; never mix private finance records into general marketing retrieval."
+  },
+  "assetFamilies": [
+    {
+      "id": "food-studio",
+      "name": "Food studio images",
+      "category": "food",
+      "use": "Food subject truth and studio derivatives, only for the owning client."
+    },
+    {
+      "id": "drink-studio",
+      "name": "Drink studio images",
+      "category": "drinks",
+      "use": "Drink/container/label/garnish sources and studio derivatives."
+    },
+    {
+      "id": "products",
+      "name": "Products & service references",
+      "category": null,
+      "use": "Exact product geometry, packaging and service evidence; applicable to business clients."
+    },
+    {
+      "id": "venue",
+      "name": "Venue & environments",
+      "category": "interiors",
+      "use": "Real interiors/exteriors and protected venue/vessel geometry."
+    },
+    {
+      "id": "brand-assets",
+      "name": "Official brand assets",
+      "category": null,
+      "use": "Approved logos/fonts/graphics; generation cannot silently replace official marks."
+    },
+    {
+      "id": "moodboards",
+      "name": "Moodboards & inspiration",
+      "category": null,
+      "use": "Pinterest/creator references establish visual direction, not product facts or a reusable marketing licence."
+    },
+    {
+      "id": "campaigns",
+      "name": "Campaign outputs",
+      "category": null,
+      "use": "Working/generated/reviewed/delivered derivatives linked to their source and task."
+    }
+  ],
+  "assetManifestFields": [
+    "client_id",
+    "asset_id",
+    "canonical_location",
+    "source_asset_ids",
+    "collection",
+    "source_role",
+    "revision_or_sha256",
+    "authenticity",
+    "approval_scope",
+    "rights_status",
+    "crop_and_use_constraints"
+  ],
+  "lifecycle": [
+    {
+      "id": "discover",
+      "name": "Discover",
+      "owner": "success",
+      "exit": "Exact client, official website/socials, audience, goals and current source gaps identified."
+    },
+    {
+      "id": "agree",
+      "name": "Agree services",
+      "owner": "proposal",
+      "exit": "Paid deliverables, exclusions, capacity and department allocation recorded; no guessed package."
+    },
+    {
+      "id": "audit",
+      "name": "Audit & competitors",
+      "owner": "competitors",
+      "exit": "Dated findings distinguish observed facts, hypotheses and recommendations."
+    },
+    {
+      "id": "brand",
+      "name": "Confirm foundation",
+      "owner": "brand-strategist",
+      "exit": "Owner confirms complete brand/factual revision and source assets; drafts remain drafts."
+    },
+    {
+      "id": "prepare",
+      "name": "Prepare task",
+      "owner": "coo",
+      "exit": "Correct client/team, task profile, approved scope, dependencies, tool limits and acceptance criteria pinned."
+    },
+    {
+      "id": "produce",
+      "name": "Specialists work",
+      "owner": "delivery",
+      "exit": "Actual scoped outputs and receipts saved; progress follows completed milestones."
+    },
+    {
+      "id": "department-qa",
+      "name": "Department QA",
+      "owner": "department QA",
+      "exit": "Independent relevant reviewer checks actual artifacts; failures preserve evidence and block head acceptance."
+    },
+    {
+      "id": "head",
+      "name": "Heads summarise",
+      "owner": "department heads",
+      "exit": "Completed departmental work, evidence, contradictions and remaining gaps summarised."
+    },
+    {
+      "id": "assemble",
+      "name": "COO assembles",
+      "owner": "coo",
+      "exit": "One complete owner deliverable assembled from reviewed work."
+    },
+    {
+      "id": "final-qa",
+      "name": "Final delivery QA",
+      "owner": "test",
+      "exit": "Every original criterion traced to evidence; unavailable checks are not passed."
+    },
+    {
+      "id": "owner",
+      "name": "Owner review",
+      "owner": "Calvin",
+      "exit": "Review binds to the saved version and intended use. Publication, messages and spend have their own actual action authorisation."
+    },
+    {
+      "id": "improve",
+      "name": "Review lessons",
+      "owner": "knowledge",
+      "exit": "Observed failure/repair becomes a reviewed rule with trigger, limited scope and counterexample; no automatic global promotion."
+    }
+  ],
+  "rolePolicies": {
+    "coo": {
+      "name": "Jarvis COO",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "cmo": {
+      "name": "Head of Social Media",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "cfo": {
+      "name": "Head of Finance",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "cto": {
+      "name": "Head of Web Design",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "video": {
+      "name": "Content Creative Director",
+      "department": "content",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "creative-director": {
+      "name": "Graphic Design Creative Director",
+      "department": "design",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "ads-lead": {
+      "name": "Head of Ads",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "email-lead": {
+      "name": "Head of Email Marketing",
+      "department": "email",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "support-lead": {
+      "name": "Head of Customer Support & CRM",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "delivery": {
+      "name": "Delivery & Capacity Coordinator",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "success": {
+      "name": "Client Success & Onboarding",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "brand-strategist": {
+      "name": "Head of Brand Strategy",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "knowledge": {
+      "name": "Head of Research & Learning",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "copy": {
+      "name": "Copywriter & Content Adaptation",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "instagram": {
+      "name": "Instagram Manager",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "linkedin": {
+      "name": "LinkedIn Manager",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "facebook": {
+      "name": "Facebook Manager",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "grid-planner": {
+      "name": "Content & Calendar Strategist",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "scheduler": {
+      "name": "Publishing & Scheduling Specialist",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "analytics": {
+      "name": "Performance & Measurement Analyst",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "social-qa": {
+      "name": "Social Media QA",
+      "department": "social",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "image-prompts": {
+      "name": "AI Photographer",
+      "department": "content",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "videographer": {
+      "name": "AI Videographer",
+      "department": "content",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "media": {
+      "name": "Video Editor & Motion Designer",
+      "department": "content",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "content-qa": {
+      "name": "Photo & Video QA",
+      "department": "content",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "design-system": {
+      "name": "Brand Identity & Visual Systems Designer",
+      "department": "design",
+      "sections": [
+        "positioning",
+        "facts",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "presentations": {
+      "name": "Presentation Designer",
+      "department": "design",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "voice": {
+      "name": "Brand Voice Specialist",
+      "department": "design",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "creative-qc": {
+      "name": "Creative Quality Reviewer",
+      "department": "design",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "web-designer": {
+      "name": "Web Designer",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "implementation": {
+      "name": "Web & Backend Engineer",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "web-research": {
+      "name": "Web Researcher",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "integrations": {
+      "name": "Integration Engineer",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "audit": {
+      "name": "SEO & Website Auditor",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "web-qa": {
+      "name": "Web & Backend QA",
+      "department": "web",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "paid-ads": {
+      "name": "Paid Media Strategist",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "ads-analyst": {
+      "name": "Ads Analyst",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "meta-ads": {
+      "name": "Meta Ads Specialist",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "linkedin-ads": {
+      "name": "LinkedIn Ads Specialist",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "youtube-ads": {
+      "name": "YouTube Ads Specialist",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "tiktok-ads": {
+      "name": "TikTok Ads Specialist",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "ads-qa": {
+      "name": "Ads & Tracking QA",
+      "department": "ads",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "email": {
+      "name": "Email Copy & Automation Specialist",
+      "department": "email",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "email-design": {
+      "name": "Email Designer",
+      "department": "email",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "email-qa": {
+      "name": "Email Marketing QA",
+      "department": "email",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "community": {
+      "name": "Social DM Support Specialist",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "whatsapp": {
+      "name": "WhatsApp Support Specialist",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "crm": {
+      "name": "CRM Specialist",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "bookings": {
+      "name": "Bookings Coordinator",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "support-qa": {
+      "name": "Customer Support QA",
+      "department": "support",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "bookkeeping": {
+      "name": "Bookkeeping & Document Specialist",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "billing": {
+      "name": "Billing & Receivables Specialist",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "pricing": {
+      "name": "Scope & Pricing Analyst",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "margin": {
+      "name": "Profitability & Cash-flow Analyst",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "subscriptions": {
+      "name": "Software & AI Spend Analyst",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "finance-qa": {
+      "name": "Finance QA",
+      "department": "finance",
+      "sections": [
+        "positioning",
+        "facts",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "none"
+    },
+    "proposal": {
+      "name": "Proposals & Scope Specialist",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "workflow-architect": {
+      "name": "Workflow & Automation Architect",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "reliability": {
+      "name": "Reliability & Recovery Engineer",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "operations-qa": {
+      "name": "Operations QA",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "evaluation": {
+      "name": "Research & Evaluation Specialist",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "librarian": {
+      "name": "Knowledge & Asset Librarian",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "competitors": {
+      "name": "Market & Competitor Researcher",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "research-qa": {
+      "name": "Research & Learning QA",
+      "department": "knowledge",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    },
+    "test": {
+      "name": "Final Delivery QA",
+      "department": "operations",
+      "sections": [
+        "positioning",
+        "facts",
+        "voice",
+        "visual",
+        "production",
+        "restrictions"
+      ],
+      "assetAccess": "approved-reference-manifest"
+    }
+  },
+  "retrievalProfiles": {
+    "internal": {
+      "label": "Internal operations",
+      "clientBrainTaskType": "general_marketing"
+    },
+    "onboarding": {
+      "label": "Client onboarding",
+      "clientBrainTaskType": "strategy_support"
+    },
+    "strategy": {
+      "label": "Strategy & competitors",
+      "clientBrainTaskType": "strategy_support"
+    },
+    "caption": {
+      "label": "Social copy",
+      "clientBrainTaskType": "caption_writing"
+    },
+    "photo": {
+      "label": "Photography",
+      "clientBrainTaskType": "image_generation"
+    },
+    "design": {
+      "label": "Graphic design",
+      "clientBrainTaskType": "image_generation"
+    },
+    "video": {
+      "label": "Video production",
+      "clientBrainTaskType": "video_generation"
+    },
+    "web": {
+      "label": "Website delivery",
+      "clientBrainTaskType": "strategy_support"
+    },
+    "ads": {
+      "label": "Paid advertising",
+      "clientBrainTaskType": "campaign_planning"
+    },
+    "email": {
+      "label": "Email marketing",
+      "clientBrainTaskType": "campaign_planning"
+    },
+    "support": {
+      "label": "Customer support & CRM",
+      "clientBrainTaskType": "client_response"
+    },
+    "finance": {
+      "label": "Finance & commercial",
+      "clientBrainTaskType": "general_marketing"
+    },
+    "report": {
+      "label": "Reporting & analytics",
+      "clientBrainTaskType": "general_marketing"
+    }
+  },
+  "productionLimits": [
+    "Current worker tools: public GitHub search, Cloudflare readiness, basic SVG/PNG card, primitive Blender scene, silent card video.",
+    "Full realistic generation, footage editing, arbitrary repository changes and provider publishing/messaging/email writes require separately tested worker routes.",
+    "Providers/models share configured subscription and Mac limits; paid service selection does not grant provider access."
+  ]
+}

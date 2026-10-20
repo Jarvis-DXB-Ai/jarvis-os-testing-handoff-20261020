@@ -1,0 +1,28 @@
+.rail{position:fixed;inset:0 auto 0 0;z-index:85;display:flex;flex-direction:column;width:44px;height:100dvh;background:#0c0d0c;color:#dfe5df;border-right:1px solid #ffffff12;overflow:hidden;transition:width .16s ease,box-shadow .16s ease}
+.rail[data-expanded=true]{width:256px;box-shadow:16px 0 44px #0007}
+.railHead{height:56px;min-height:56px;display:flex;align-items:center;gap:12px;padding:0 4px;white-space:nowrap;border-bottom:1px solid #ffffff0b}
+.railHead>button{width:35px;height:40px;flex-shrink:0;display:grid;place-items:center;background:transparent;border:0;border-radius:6px;color:#a7b2a8;cursor:pointer}
+.railHead>button:hover{background:#ffffff08;color:#fff}
+.railHead>.navLabel{font-size:11px;letter-spacing:.17em;font-weight:600}
+.railBody{min-height:0;flex:1;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#ffffff20 transparent}
+.railBody nav{margin:10px 0!important;padding:0 4px;overflow:visible}
+.railBody nav>div+div{margin-top:12px!important}
+.railBody nav p{display:block;height:14px;visibility:hidden;white-space:nowrap;padding-left:12px;margin:14px 0 5px}
+.rail[data-expanded=true] nav p{visibility:visible}
+.railBody nav a{height:38px;font-size:11px;padding-left:10px;padding-right:10px;white-space:nowrap}
+.railBody nav a svg{width:16px;min-width:16px;flex-shrink:0}
+.navLabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rail:not([data-expanded=true]) .navLabel{display:none}
+.rail:not([data-expanded=true]) nav button{display:none}
+.rail:not([data-expanded=true]) nav a>span:last-child:not(:first-child){display:none}
+.rail[data-expanded=true] .railBody nav a{height:38px}
+.railFoot{height:36px;min-height:36px;display:flex;align-items:center;gap:8px;padding:0 16px;color:#717a73;font-size:9px;white-space:nowrap;border-top:1px solid #ffffff0b}
+.railFoot>i{width:4px;height:4px;flex-shrink:0;border-radius:50%;background:#69c78c}
+.rail :is(a,button):focus-visible{outline:2px solid #8bcc99;outline-offset:-2px}
+:global(body.jarvis-office-rail-active):has(.rail){padding-left:44px!important}
+@media(max-width:767px){.rail{width:40px}.railHead{padding:0 2px}.railHead>button{width:35px}.railBody nav{padding:0 2px}.railFoot{padding-left:14px}:global(body.jarvis-office-rail-active):has(.rail){padding-left:40px!important}}
+@media(prefers-reduced-motion:reduce){.rail{transition:none}}
+
+.fixtureGroup{margin-top:8px;border-top:1px solid #ffffff0c;padding-top:8px}
+.fixtureGroup>summary{cursor:pointer;padding:6px 8px;font-size:10px;color:#858f88}
+.fixtureGroup>p,.railBody nav .fixtureGroup>p{height:auto;white-space:normal;padding:0 8px;margin:4px 0 8px;font-size:9px;line-height:1.5;color:#747d76}

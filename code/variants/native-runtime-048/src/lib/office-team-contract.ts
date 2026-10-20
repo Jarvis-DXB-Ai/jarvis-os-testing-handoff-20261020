@@ -1,0 +1,37 @@
+export type OfficeTeamStatus = 'queued' | 'planning' | 'working' | 'reporting' | 'synthesising' | 'checking' | 'stopping' | 'needs_review' | 'reviewed' | 'failed' | 'recovery_required' | 'cancelled' | 'blocked' | 'answered';
+export type OfficeTaskInput = { cooRequestHash?:string; id: string; brief: string; context: string; criteria: string[]; concurrency: number | null;selectedTaskId?:string;targetAgentId?:string;kind?:'team'|'conversation'; departmentId?:string|null; contextRequest?:import('../../scripts/lib/office-foundations.mjs').OfficeContextRequest };
+export type OfficePartsQa = {issueId?:string;rawSha256?:string;resultSha256?:string;evidence?:import('../../scripts/lib/office-department-review.mjs').DepartmentPartsEvidence;rawOutput?:string;roleId:string;agentId:string;name:string;status:string;result:{pass:boolean;checks:{criterion:string;pass:boolean;evidence:string}[];note:string}|null;runId:string|null};
+export type OfficeDepartmentReport = {partsQa?:OfficePartsQa;partsQaHistory?:OfficePartsQa[];qa?:{issueId?:string;evidence?:import('../../scripts/lib/office-department-review.mjs').DepartmentPackageEvidence;rawOutput?:string;roleId:string;agentId:string;name:string;status:string;result:{pass:boolean;checks:{criterion:string;pass:boolean;evidence:string}[];note:string}|null;runId:string|null};id:string;departmentId:string;departmentName:string;roleId:string;stepIds:string[];dependsOn:string[];agentId:string;name:string;model:string;assignment:string;status:string;issueId:string|null;output:string|null;error:string|null;startedAt:string|null;finishedAt:string|null};
+export type OfficeTeamTask = OfficeTaskInput & {
+  /** Local candidate only. POST rechecks current context/native evidence; absent metadata is unavailable. */
+  recovery?:import('../../scripts/lib/office-recovery-eligibility.mjs').OfficeRecoveryEligibility;
+  kind?:'team'|'conversation'; targetAgentId?:string;historyIds?:string[];
+  runtimeOrigin?:string;recoveredQa?:{runId:string;rawSha256:string;note:string;continuedAt?:string};
+  selectedArtifacts?:import('../../scripts/lib/office-linked-artifacts.mjs').LinkedArtifactScope;
+  specialistResponseVersion?:1;departmentPackageReviewVersion?:1;retryDepartmentPackageReview?:string;resumeDepartmentHead?:string;headRevisionHistory?:{departmentId:string;at:string;output:string;qa:OfficeDepartmentReport['qa'];note:string}[];
+  departmentPartsReviewVersion?:1;
+  cooReleaseReview?: {version:1;agentId:string;status:string;evidence:import('../../scripts/lib/office-coo-release-review.mjs').CooReleaseEvidence;result:{pass:boolean;checks:{criterion:string;pass:boolean;evidence:string}[];note:string}|null;runId:string|null;issueId?:string;rawOutput?:string;rawSha256?:string;resultSha256?:string};
+  cooReleaseReviewHistory?: OfficeTeamTask['cooReleaseReview'][];
+  assembly?:{kind:"preserved-single-reviewed-artifact";sourcePartId:string;sourceArtifactSha256:string;headReportHashes:{departmentId:string;sha256:string}[];meaning:string};
+  departmentEvidenceHistory?:{departmentId:string;at:string;priorUpdatedAt:string;priorQa:OfficeDepartmentReport["qa"];partHashes:Record<string,string>;note:string;noteSha256:string;meaning:string}[];
+  deliveryHandoff?:{failure?:{at:string;message:string};state:'pending'|'confirmed';parentIssueId:string;qaIssueId:string;outputSha256:string;startedAt:string;confirmedAt?:string};
+  parentCoordination?:{issueId:string;at:string;assigneeAgentId:null;status:'backlog'};
+  knowledgeContext?:import('../../scripts/lib/office-foundations.mjs').OfficeContextReceipt;
+  qaTransportHistory?:{departmentId:string;runId:string;issueId:string;at:string;priorError:string;priorUpdatedAt:string;note:string}[];
+  researchContext?:import('../../scripts/lib/office-research.mjs').ResearchReceipt|null;
+  requestedConcurrency?: number|null;parallelismMode?: 'coo';
+  resumeUndispatchedStage?:boolean;
+  undispatchedRecovery?:{version:1;attempt:1;at:string;priorUpdatedAt:string;priorError:string|null;priorJobSha256:string;evidence:{planningRunId:string;planningResponseSha256:string;planSha256:string;methodReceiptsSha256:string;deniedIssueId:string;deniedStage:string};priorSteps:OfficeTeamTask['steps'];note:string};
+  queueManaged?:boolean;resumePlanning?:boolean;queuedAt?:string;planningRecovery?:{runId:string;rawSha256:string;omittedDependencyTaskIds:string[];priorError:string;priorUpdatedAt:string;recoveredAt:string;note:string};planningDefaults?:{omittedDependencyTaskIds:string[];rawSha256:string};
+  version: number; status: OfficeTeamStatus; createdAt: string; updatedAt: string; ownerPid: number | null; issueId: string | null;
+  plan: { summary: string; parallelism?:number;parallelismRationale?:string; tasks: { id: string; roleId: string; assignment: string; dependsOn: string[] }[] } | null;
+  steps: { id: string; roleId: string; agentId: string; issueIdentifier?:string|null; spawnedFromAgentId?: string; helperStatus?: string; skills?: {id:string;repo:string;ref:string;sha256:string}[]; name: string; model: string; assignment: string; dependsOn: string[]; status: string; issueId: string | null; output: string | null; internalNotes?:string; responseReceipt?:{schemaVersion:1;responseSha256:string;artifactSha256:string;internalNotesSha256:string}; error: string | null; startedAt: string | null; finishedAt: string | null }[];
+  departmentReports?: OfficeDepartmentReport[];
+  calls: {workspace?:{relativeRoot:string;manifestSha256:string;files:number};session?:{id:string|null;previousId:string|null;reused:boolean|null;fresh:boolean|null}; knowledge?:{revision:string;foundationRevision:string;roleId:string;lessonIds:string[];contentHash:string};tools?:string[];skills?:{id:string;repo:string;ref:string;sha256:string;contextSha256?:string;references?:string[]}[]; stage: string; agentId: string; roleId: string; issueId: string; runId: string | null; status: string; model: string; startedAt: string; finishedAt: string | null; usage: { model: string | null; billingType: string | null; inputTokens: number | null; outputTokens: number | null; cachedInputTokens: number | null } | null }[];
+  toolCalls?:import('../../scripts/lib/office-tool-bridge.mjs').ToolReceipt[];
+  archive?: {status:string;taskPath?:string;version?:string;message?:string};
+  output: string | null; qa: { pass: boolean; checks: { criterion: string; pass: boolean; evidence: string }[]; note: string } | null;
+  error: string | null; reviewedAt: string | null; reviewNote: string;
+};
+export type OfficeTeamTaskCatalog = { queue?:{pending:number;running:number;recoveryRequired:boolean;ids:string[]};busy?:boolean; enabled: boolean; message: string; jobs: OfficeTeamTask[] };
+export const OFFICE_TEAM_LABELS: Record<OfficeTeamStatus, string> = { queued: 'Queued', planning: 'COO planning', working: 'Team working', reporting: 'Department heads reporting', synthesising: 'COO assembling', checking: 'Independent QA', stopping: 'Stopping', needs_review: 'Your review', reviewed: 'Reviewed', failed: 'Needs revision', recovery_required: 'Recovery needed', cancelled: 'Stopped', blocked: 'Missing capability', answered:'Agent replied' };

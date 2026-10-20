@@ -1,0 +1,8 @@
+export interface SourceVersionStorage {recordsRoot:string;recordsVolume:string;testing?:boolean;[key:string]:unknown;}
+export interface SourceVersionConfig {storage:SourceVersionStorage;clientId:string;roots:Array<{clientId:string;path:string}>;maxSourceBytes?:number;maxTotalBytes?:number;}
+export interface SourceVersionInput {clientId:string;path:string;canonicalPath?:string;sha256:string;bytes:number;family:string;status:string;mode:'add'|'refresh';expectedPreviousSha256?:string;}
+export interface SourceVersionPacket {clientId:string;name:string;path:string;sha256:string;bytes:number;mode:'add'|'refresh';expectedPreviousSha256?:string;}
+export interface SourceVersionRequest {clientId:string;expectedOldPackSha256:string;createdAt:string;inputs:SourceVersionInput[];packets?:SourceVersionPacket[];}
+export interface SourceVersionReceipt {clientId:string;path:string;sha256:string;previousPath:string;previousSha256:string;oldSourceRecords:number;oldUniqueSourceIdentities:number;sourceRecords:number;uniqueSourceIdentities:number;selectedSources:number;selectedPackets:number;snapshotObjects:number;activated:false;currentPointerUnchanged:true;legacyCanonicalReferences:number;aliasDiscovery:string;}
+export function stageOfficeSourceVersion(config:SourceVersionConfig,input:SourceVersionRequest):Promise<SourceVersionReceipt>;
+export function verifyStagedOfficeSourceVersion(config:SourceVersionConfig,receipt:SourceVersionReceipt):Promise<{clientId:string;path:string;sha256:string;uniqueSourceIdentities:number;sourceRecords:number;verifiedSnapshotObjects:number;activationAssessed:false}>;

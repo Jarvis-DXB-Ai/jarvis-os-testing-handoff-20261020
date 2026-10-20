@@ -1,0 +1,6342 @@
+[
+  {
+    "variant": "canonical-main",
+    "path": "AGENTS.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "docs/collaboration/WORKING-AGREEMENT.md",
+    "categories": {
+      "owner/production location placeholder": 4
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/client-intelligence-scanner-fixtures.sql",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-client-intelligence-scanner-v12-fixtures.mjs",
+    "categories": {
+      "phone": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-content-lineage-phase1-runtime-sync-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 43
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-content-lineage-phase2-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 106
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-content-lineage-phase3-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 113
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-individual-production-strict-venue-fixtures.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-individual-production-truth-continuity-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-individual-production-v2.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-monthly-visual-direction-fixture.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-social-caption-enrichment-fixtures.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-social-caption-phase-b-fixtures.ts",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-social-intelligence-agent-fixtures.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-social-persistence-fixture.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "scripts/verify-social-provider-execution-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/api/ai/nano-banana-test/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/api/assets/regenerate-metadata/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/api/clients/[id]/social-connections/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/ai-video/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/brain/components/crm-panel.tsx",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/brain/legacy-client-brain.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/brain/pinterest-inspiration/pinterest-inspiration-workspace.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/brand-strategy/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/content-planning/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/graphic-design/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/production-orchestrator/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/clients/[id]/visual-intelligence/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/commands/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/cycles/new/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/prompt-inspector/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/app/reviews/[id]/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/components/forms/client-form.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/ai-model-library.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/campaign-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-brain-v2-asset-mutations.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-brain-v2-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-intelligence-entity-resolution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-intelligence-scanner.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-venue-truth.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/client-workspace-config.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/content-calendar-workflow.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/creative-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/cultural-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/editorial-feed-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/environment-preservation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/figma-design-schema.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/generation-mistake-memory.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/generation-qa-rules.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/june-social-foundation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/menu-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/prompt-v2.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-caption-context-enrichment.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-client-config.ts",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-individual-production-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-individual-production-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-individual-production-truth-continuity.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-individual-production.ts",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-monthly-concept-grid-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-monthly-planning-ai.ts",
+    "categories": {
+      "synthetic-identifier": 29,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-monthly-planning-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-monthly-planning-subjects.ts",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-provider-connections-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-provider-connections.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-provider-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/social-publishing-caption.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/democlientd-structured-menu-knowledge.ts",
+    "categories": {
+      "email": 6,
+      "synthetic-identifier": 7,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 6
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/venue-background-presets.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/visual-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "src/lib/zernio-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "synthetic-identifier": 20,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "synthetic-identifier": 9,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "synthetic-identifier": 27,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "synthetic-identifier": 11,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "synthetic-identifier": 5,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812143520_client_brain_v2_logo_variants.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "wrangler.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "owner/production location placeholder": 1,
+      "test-only dry-run configuration": 2,
+      "inactive test-only configuration": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "wrangler.package20-preview.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "owner/production location placeholder": 2,
+      "inactive test-only configuration": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "AGENTS.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "docs/collaboration/WORKING-AGREEMENT.md",
+    "categories": {
+      "owner/production location placeholder": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/demarly-sean-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/live-benchmark-2026-10-14.html",
+    "categories": {
+      "email": 9,
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/private-pilot-checks.html",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/reference-library.html",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/stress-2026-10-14.html",
+    "categories": {
+      "synthetic-identifier": 8,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office-research/team-qc-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "public/office/clouds-r10/ASSET-PROVENANCE.json",
+    "categories": {
+      "synthetic-identifier": 2,
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/client-intelligence-scanner-fixtures.sql",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/fixtures/office-json-measurements/author-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/fixtures/office-json-measurements/qa-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/install-office-role-skills.mjs",
+    "categories": {
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/isolated-home-seed.sql",
+    "categories": {
+      "synthetic-identifier": 6,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-archive.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-client-artifacts.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-goal-workflow-proof.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-reference-library.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-team-engine.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-tool-bridge.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/office-subscription-runner.mjs",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/repair-office-assembly-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/repair-office-competitor-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/repair-office-readiness-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/repair-office-review-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/run-office-department-benchmark.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/seed-design-integration-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 12
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/seed-home-visual-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/seed-office-demo.mjs",
+    "categories": {
+      "synthetic-identifier": 10
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/send-office-coo-setup-once.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/setup-office-paperclip.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/start-office-coo-capture.mjs",
+    "categories": {
+      "phone": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-asset-display-preview.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-caption-writing-guide.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-client-discovery.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-client-intelligence-scanner-v12-fixtures.mjs",
+    "categories": {
+      "phone": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-client-suite.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-content-lineage-phase1-runtime-sync-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 43
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-content-lineage-phase2-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 106
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-content-lineage-phase3-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 113
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-home-finance-integrity.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-individual-production-strict-venue-fixtures.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-individual-production-truth-continuity-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-individual-production-v2.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-isolated-home.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-monthly-visual-direction-fixture.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-approval-receipts.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-client-intake.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-client-library.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-client-pilot.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-client-scope.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-connection.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-capture.test.mjs",
+    "categories": {
+      "phone": 3,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-captured-input.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 1,
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-events.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-message-origin.test.mjs",
+    "categories": {
+      "phone": 7
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-message.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-native-admission.test.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-origin.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-reactive-daemon.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-reactive.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-service-auth.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-setup-once.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-whatsapp.test.mjs",
+    "categories": {
+      "phone": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-coo-zernio.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 5,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-delivery-contract.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-goal-workflows.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-local-video.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-onboarding.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-paperclip.test.mjs",
+    "categories": {
+      "credential-literal": 4,
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-private-pilot.test.mjs",
+    "categories": {
+      "email": 11
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-provider.integration.mjs",
+    "categories": {
+      "credential-literal": 1,
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-read-state.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-reconciliation.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-research.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-review-package.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-run-budget.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-source-versions.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-task-queue.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-team.integration.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-teams.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-tool-bridge.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-tools.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-office-workspace-context.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-owner-access.test.mjs",
+    "categories": {
+      "email": 18
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-owner-data.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-owner-preferences.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-social-caption-enrichment-fixtures.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-social-caption-phase-b-fixtures.ts",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-social-intelligence-agent-fixtures.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-social-persistence-fixture.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/verify-social-provider-execution-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-context-handoff/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-decision-review/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-delivery-loop/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-file-library/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-operations-brief/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-video-edit-plan/SKILL.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/operating-methods/mc-video-edit-plan/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/research-methods/jarvis-audience-lab/references/source-review.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "skills/research-methods/jarvis-reference-led-production/references/source-pins.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/api/ai/nano-banana-test/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/api/assets/regenerate-metadata/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/api/clients/[id]/social-connections/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/ai-video/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/brain/components/crm-panel.tsx",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/brain/legacy-client-brain.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/brain/pinterest-inspiration/pinterest-inspiration-workspace.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/brand-strategy/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/content-planning/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/graphic-design/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/production-orchestrator/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/clients/[id]/visual-intelligence/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/commands/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/cycles/new/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/office/start/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/prompt-inspector/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/app/reviews/[id]/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/clients/client-index.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/clients/client-onboarding-chat.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/forms/client-form.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/office/demo-tower/office-cloud-environment.ts",
+    "categories": {
+      "phone": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/office/office-cloud-environment.ts",
+    "categories": {
+      "phone": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/components/office/office-foundations.tsx",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/ai-model-library.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/campaign-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-brain-v2-asset-mutations.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-brain-v2-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-discovery.ts",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-intelligence-entity-resolution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-intelligence-scanner.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-overview-server.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-venue-truth.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/client-workspace-config.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/content-calendar-workflow.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/creative-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/cultural-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/editorial-feed-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/environment-preservation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/figma-design-schema.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/generation-mistake-memory.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/generation-qa-rules.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/june-social-foundation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/menu-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-client-intake-server.ts",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-client-team.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-client-view.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-foundations-server.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-owner-architecture.json",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-readiness-server.ts",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "synthetic-identifier": 71,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/owner-request-server.ts",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/prompt-v2.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-caption-context-enrichment.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-client-config.ts",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-individual-production-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-individual-production-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-individual-production-truth-continuity.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-individual-production.ts",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-monthly-concept-grid-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-monthly-planning-ai.ts",
+    "categories": {
+      "synthetic-identifier": 29,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-monthly-planning-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-monthly-planning-subjects.ts",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-provider-connections-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-provider-connections.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-provider-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/social-publishing-caption.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/democlientd-structured-menu-knowledge.ts",
+    "categories": {
+      "email": 6,
+      "synthetic-identifier": 7,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 6
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/venue-background-presets.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/visual-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/zernio-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/config.toml",
+    "categories": {
+      "email": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "synthetic-identifier": 20,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "synthetic-identifier": 9,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "synthetic-identifier": 27,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "synthetic-identifier": 11,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "synthetic-identifier": 5,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812143520_client_brain_v2_logo_variants.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "wrangler.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "email": 2,
+      "owner/production location placeholder": 1,
+      "provider/access configuration identity": 1,
+      "test-only dry-run configuration": 2,
+      "inactive test-only configuration": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "wrangler.office-coo-events.jsonc",
+    "categories": {
+      "synthetic-identifier": 1,
+      "provider/access configuration identity": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "wrangler.office-private-pilot.jsonc",
+    "categories": {
+      "email": 2,
+      "synthetic-identifier": 1,
+      "owner/production location placeholder": 1,
+      "provider/access configuration identity": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "wrangler.package20-preview.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "email": 2,
+      "owner/production location placeholder": 1,
+      "provider/access configuration identity": 1,
+      "inactive test-only configuration": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "AGENTS.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "docs/collaboration/WORKING-AGREEMENT.md",
+    "categories": {
+      "owner/production location placeholder": 4
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/client-intelligence-scanner-fixtures.sql",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/isolated-home-seed.sql",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/seed-home-visual-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-client-intelligence-scanner-v12-fixtures.mjs",
+    "categories": {
+      "phone": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-content-lineage-phase1-runtime-sync-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 43
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-content-lineage-phase2-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 106
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-content-lineage-phase3-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 113
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-home-finance-integrity.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-individual-production-strict-venue-fixtures.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-individual-production-truth-continuity-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-individual-production-v2.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-isolated-home.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-monthly-visual-direction-fixture.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-owner-access.test.mjs",
+    "categories": {
+      "email": 18
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-owner-data.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-owner-preferences.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-social-caption-enrichment-fixtures.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-social-caption-phase-b-fixtures.ts",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-social-intelligence-agent-fixtures.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-social-persistence-fixture.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "scripts/verify-social-provider-execution-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/api/ai/nano-banana-test/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/api/assets/regenerate-metadata/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/api/clients/[id]/social-connections/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/ai-video/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/brain/components/crm-panel.tsx",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/brain/legacy-client-brain.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/brain/pinterest-inspiration/pinterest-inspiration-workspace.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/brand-strategy/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/content-planning/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/graphic-design/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/production-orchestrator/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/clients/[id]/visual-intelligence/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/commands/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/cycles/new/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/prompt-inspector/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/app/reviews/[id]/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/components/forms/client-form.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/ai-model-library.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/campaign-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-brain-v2-asset-mutations.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-brain-v2-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-intelligence-entity-resolution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-intelligence-scanner.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-overview-server.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-venue-truth.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/client-workspace-config.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/content-calendar-workflow.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/creative-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/cultural-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/editorial-feed-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/environment-preservation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/figma-design-schema.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/generation-mistake-memory.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/generation-qa-rules.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/june-social-foundation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/menu-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/owner-request-server.ts",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/prompt-v2.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-caption-context-enrichment.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-client-config.ts",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-individual-production-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-individual-production-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-individual-production-truth-continuity.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-individual-production.ts",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-monthly-concept-grid-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-monthly-planning-ai.ts",
+    "categories": {
+      "synthetic-identifier": 29,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-monthly-planning-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-monthly-planning-subjects.ts",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-provider-connections-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-provider-connections.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-provider-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/social-publishing-caption.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/democlientd-structured-menu-knowledge.ts",
+    "categories": {
+      "email": 6,
+      "synthetic-identifier": 7,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 6
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/venue-background-presets.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/visual-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "src/lib/zernio-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/config.toml",
+    "categories": {
+      "email": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "synthetic-identifier": 20,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "synthetic-identifier": 9,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "synthetic-identifier": 27,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "synthetic-identifier": 11,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "synthetic-identifier": 5,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812143520_client_brain_v2_logo_variants.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "wrangler.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "email": 2,
+      "owner/production location placeholder": 1,
+      "provider/access configuration identity": 1,
+      "test-only dry-run configuration": 2,
+      "inactive test-only configuration": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "wrangler.package20-preview.jsonc",
+    "categories": {
+      "provider-key": 2,
+      "email": 2,
+      "owner/production location placeholder": 1,
+      "provider/access configuration identity": 1,
+      "inactive test-only configuration": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/draco/gltf/draco_decoder.js",
+    "categories": {
+      "phone": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/demarly-sean-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/live-benchmark-2026-10-14.html",
+    "categories": {
+      "email": 9,
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/private-pilot-checks.html",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/reference-library.html",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/stress-2026-10-14.html",
+    "categories": {
+      "synthetic-identifier": 8,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "public/office-research/team-qc-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/client-intelligence-scanner-fixtures.sql",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/fixtures/office-json-measurements/author-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/fixtures/office-json-measurements/qa-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/install-office-role-skills.mjs",
+    "categories": {
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/isolated-home-seed.sql",
+    "categories": {
+      "synthetic-identifier": 6,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-archive.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-client-artifacts.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-goal-workflow-proof.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-reference-library.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-team-engine.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-tool-bridge.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/office-subscription-runner.mjs",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/repair-office-assembly-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/repair-office-competitor-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/repair-office-readiness-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/repair-office-review-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/run-office-department-benchmark.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/seed-design-integration-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 12
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/seed-home-visual-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/seed-office-demo.mjs",
+    "categories": {
+      "synthetic-identifier": 10
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/send-office-coo-setup-once.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/setup-office-paperclip.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/start-office-coo-capture.mjs",
+    "categories": {
+      "phone": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-asset-display-preview.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-caption-writing-guide.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-client-discovery.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-client-intelligence-scanner-v12-fixtures.mjs",
+    "categories": {
+      "phone": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-client-suite.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-content-lineage-phase1-runtime-sync-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 43
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-content-lineage-phase2-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 106
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-content-lineage-phase3-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 113
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-home-finance-integrity.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-individual-production-strict-venue-fixtures.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-individual-production-truth-continuity-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-individual-production-v2.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-isolated-home.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-monthly-visual-direction-fixture.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-approval-receipts.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-client-intake.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-client-library.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-client-pilot.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-client-scope.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-connection.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-capture.test.mjs",
+    "categories": {
+      "phone": 3,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-captured-input.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 1,
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-events.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-message-origin.test.mjs",
+    "categories": {
+      "phone": 7
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-message.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-native-admission.test.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-origin.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-reactive-daemon.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-reactive.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-service-auth.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-setup-once.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-whatsapp.test.mjs",
+    "categories": {
+      "phone": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-coo-zernio.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 5,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-delivery-contract.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-demo.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-goal-workflows.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-local-video.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-onboarding.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-paperclip.test.mjs",
+    "categories": {
+      "credential-literal": 4,
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-private-pilot.test.mjs",
+    "categories": {
+      "email": 11
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-provider.integration.mjs",
+    "categories": {
+      "credential-literal": 1,
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-reconciliation.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-research.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-review-package.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-run-budget.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-source-versions.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-task-queue.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-team.integration.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-teams.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-tool-bridge.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-tools.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-office-workspace-context.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-owner-access.test.mjs",
+    "categories": {
+      "email": 18
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-owner-data.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-owner-preferences.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-social-caption-enrichment-fixtures.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-social-caption-phase-b-fixtures.ts",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-social-intelligence-agent-fixtures.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-social-persistence-fixture.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/verify-social-provider-execution-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-context-handoff/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-decision-review/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-delivery-loop/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-file-library/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-operations-brief/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-video-edit-plan/SKILL.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/operating-methods/mc-video-edit-plan/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/research-methods/jarvis-audience-lab/references/source-review.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "skills/research-methods/jarvis-reference-led-production/references/source-pins.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/api/ai/nano-banana-test/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/api/assets/regenerate-metadata/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/api/clients/[id]/social-connections/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/ai-video/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/brain/components/crm-panel.tsx",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/brain/legacy-client-brain.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/brain/pinterest-inspiration/pinterest-inspiration-workspace.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/brand-strategy/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/content-planning/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/graphic-design/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/production-orchestrator/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/clients/[id]/visual-intelligence/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/commands/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/cycles/new/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/office/start/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/prompt-inspector/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/app/reviews/[id]/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/components/clients/client-index.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/components/clients/client-onboarding-chat.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/components/forms/client-form.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/components/office/demo-tower/office-cloud-environment.ts",
+    "categories": {
+      "phone": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/components/office/office-foundations.tsx",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/ai-model-library.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/campaign-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-brain-v2-asset-mutations.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-brain-v2-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-discovery.ts",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-intelligence-entity-resolution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-intelligence-scanner.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-overview-server.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-venue-truth.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/client-workspace-config.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/content-calendar-workflow.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/creative-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/cultural-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/editorial-feed-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/environment-preservation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/figma-design-schema.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/generation-mistake-memory.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/generation-qa-rules.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/june-social-foundation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/menu-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-client-intake-server.ts",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-client-team.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-client-view.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-foundations-server.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 3
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-owner-architecture.json",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-readiness-server.ts",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "synthetic-identifier": 71,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/owner-request-server.ts",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/prompt-v2.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-caption-context-enrichment.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-client-config.ts",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-individual-production-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-individual-production-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-individual-production-truth-continuity.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-individual-production.ts",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-monthly-concept-grid-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-monthly-planning-ai.ts",
+    "categories": {
+      "synthetic-identifier": 29,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-monthly-planning-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-monthly-planning-subjects.ts",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-provider-connections-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-provider-connections.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-provider-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/social-publishing-caption.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/democlientd-structured-menu-knowledge.ts",
+    "categories": {
+      "email": 6,
+      "synthetic-identifier": 7,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 6
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/venue-background-presets.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/visual-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/zernio-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "supabase/config.toml",
+    "categories": {
+      "email": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/demarly-sean-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/live-benchmark-2026-10-14.html",
+    "categories": {
+      "email": 9,
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/private-pilot-checks.html",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/reference-library.html",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/stress-2026-10-14.html",
+    "categories": {
+      "synthetic-identifier": 8,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "public/office-research/team-qc-2026-10-14.html",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/client-intelligence-scanner-fixtures.sql",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/fixtures/office-json-measurements/author-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/fixtures/office-json-measurements/qa-native-failed.txt",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/install-office-role-skills.mjs",
+    "categories": {
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/isolated-home-seed.sql",
+    "categories": {
+      "synthetic-identifier": 6,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-archive.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-client-artifacts.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-goal-workflow-proof.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-reference-library.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-team-engine.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-tool-bridge.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/office-subscription-runner.mjs",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/repair-office-assembly-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/repair-office-competitor-skill.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/repair-office-readiness-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/repair-office-review-skills.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/run-office-department-benchmark.mjs",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/seed-design-integration-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 12
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/seed-home-visual-qa.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/seed-office-demo.mjs",
+    "categories": {
+      "synthetic-identifier": 10
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/send-office-coo-setup-once.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/setup-office-paperclip.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/start-office-coo-capture.mjs",
+    "categories": {
+      "phone": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-asset-display-preview.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-caption-writing-guide.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-client-discovery.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-client-intelligence-scanner-v12-fixtures.mjs",
+    "categories": {
+      "phone": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-client-suite.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-content-lineage-phase1-runtime-sync-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 43
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-content-lineage-phase2-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 106
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-content-lineage-phase3-scratch.sql",
+    "categories": {
+      "synthetic-identifier": 113
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-home-finance-integrity.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-individual-production-strict-venue-fixtures.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-individual-production-truth-continuity-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-individual-production-v2.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-isolated-home.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-monthly-visual-direction-fixture.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-approval-receipts.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-client-intake.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-client-library.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-client-pilot.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-client-scope.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-connection.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-capture.test.mjs",
+    "categories": {
+      "phone": 3,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-captured-input.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 1,
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-events.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-message-origin.test.mjs",
+    "categories": {
+      "phone": 7
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-message.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-native-admission.test.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-origin.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-reactive-daemon.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-reactive.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-service-auth.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-setup-once.test.mjs",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-whatsapp.test.mjs",
+    "categories": {
+      "phone": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-coo-zernio.test.mjs",
+    "categories": {
+      "email": 1,
+      "phone": 5,
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-delivery-contract.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-demo.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-goal-workflows.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-local-video.test.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-onboarding.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-paperclip.test.mjs",
+    "categories": {
+      "credential-literal": 4,
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-private-pilot.test.mjs",
+    "categories": {
+      "email": 11
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-provider.integration.mjs",
+    "categories": {
+      "credential-literal": 1,
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-reconciliation.test.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-research.test.mjs",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-review-package.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-run-budget.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-source-versions.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-task-queue.test.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-team.integration.mjs",
+    "categories": {
+      "synthetic-identifier": 4
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-teams.test.mjs",
+    "categories": {
+      "synthetic-identifier": 2
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-tool-bridge.test.mjs",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-tools.integration.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-office-workspace-context.test.mjs",
+    "categories": {
+      "synthetic-identifier": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-owner-access.test.mjs",
+    "categories": {
+      "email": 18
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-owner-data.mjs",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-owner-preferences.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-sidebar-route-matching-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-social-caption-enrichment-fixtures.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-social-caption-phase-b-fixtures.ts",
+    "categories": {
+      "phone": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-social-intelligence-agent-fixtures.mjs",
+    "categories": {
+      "synthetic-identifier": 7
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-social-persistence-fixture.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/verify-social-provider-execution-fixtures.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-context-handoff/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-decision-review/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-delivery-loop/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-file-library/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-operations-brief/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-video-edit-plan/SKILL.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/operating-methods/mc-video-edit-plan/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/research-methods/jarvis-audience-lab/references/source-review.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "skills/research-methods/jarvis-reference-led-production/references/source-pins.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/api/ai/nano-banana-test/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/api/assets/regenerate-metadata/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/api/clients/[id]/social-connections/route.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/ai-video/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/brain/components/crm-panel.tsx",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/brain/legacy-client-brain.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/brain/pinterest-inspiration/pinterest-inspiration-workspace.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/brand-strategy/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/content-planning/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/graphic-design/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/production-orchestrator/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/clients/[id]/visual-intelligence/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/commands/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/cycles/new/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/office/start/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/prompt-inspector/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/app/reviews/[id]/page.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/components/clients/client-index.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/components/clients/client-onboarding-chat.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/components/forms/client-form.tsx",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/components/office/demo-tower/office-cloud-environment.ts",
+    "categories": {
+      "phone": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/components/office/office-foundations.tsx",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/ai-model-library.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/campaign-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-brain-v2-asset-mutations.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-brain-v2-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-discovery.ts",
+    "categories": {
+      "synthetic-identifier": 3,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-intelligence-entity-resolution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-intelligence-scanner.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-overview-server.ts",
+    "categories": {
+      "synthetic-identifier": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-venue-truth.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/client-workspace-config.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/content-calendar-workflow.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/creative-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/cultural-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/editorial-feed-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/environment-preservation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/figma-design-schema.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/generation-mistake-memory.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/generation-qa-rules.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/june-social-foundation.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/menu-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-client-intake-server.ts",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-client-team.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-client-view.mjs",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-foundations-server.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 3
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-owner-architecture.json",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-readiness-server.ts",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "synthetic-identifier": 71,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/owner-request-server.ts",
+    "categories": {
+      "email": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/prompt-v2.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-caption-context-enrichment.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-client-config.ts",
+    "categories": {
+      "phone": 1,
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-individual-production-director.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-individual-production-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-individual-production-truth-continuity.ts",
+    "categories": {
+      "synthetic-identifier": 2,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-individual-production.ts",
+    "categories": {
+      "synthetic-identifier": 4,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-monthly-concept-grid-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-monthly-planning-ai.ts",
+    "categories": {
+      "synthetic-identifier": 29,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-monthly-planning-prompt.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-monthly-planning-subjects.ts",
+    "categories": {
+      "synthetic-identifier": 5
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-provider-connections-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-provider-connections.ts",
+    "categories": {
+      "synthetic-identifier": 1,
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-provider-execution.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/social-publishing-caption.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/democlientd-structured-menu-knowledge.ts",
+    "categories": {
+      "email": 6,
+      "synthetic-identifier": 7,
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 6
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/venue-background-presets.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/visual-intelligence.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/zernio-server.ts",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "supabase/config.toml",
+    "categories": {
+      "email": 2
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/ads/references/conversion-tracking.md",
+    "categories": {
+      "email": 2,
+      "phone": 2
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-art-direction/SKILL.md",
+    "categories": {
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-art-direction/revisions/2026-10-13/SKILL.md",
+    "categories": {
+      "owner/production location placeholder": 2
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-delivery-loop/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-context-handoff/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-decision-review/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-file-library/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-video-edit-plan/SKILL.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-video-edit-plan/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/mc-operations-brief/references/source-review.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/jarvis-audience-lab/references/source-review.md",
+    "categories": {
+      "client/model label anonymization": 1
+    }
+  },
+  {
+    "variant": "office-method-library",
+    "path": "office-method-library/jarvis-reference-led-production/references/source-pins.md",
+    "categories": {
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "export-only sanitized method integrity pins": 10
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "export-only sanitized method integrity pins": 10
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "src/lib/office-stack-plan.json",
+    "categories": {
+      "export-only sanitized method integrity pins": 10
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migrations/20260905171036_owner_only_database_boundary.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 6
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 4
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "ui-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migrations/20260905171036_owner_only_database_boundary.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 6
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 4
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 6
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 4
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 9
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 5
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 3
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 1
+    }
+  },
+  {
+    "variant": "canonical-main",
+    "path": "supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+    "categories": {
+      "SQL data/backfill payloads omitted": 2
+    }
+  },
+  {
+    "variant": "backend-working",
+    "path": "scripts/lib/office-democlienta-sources.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-demo-main120",
+    "path": "scripts/lib/office-democlienta-sources.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "native-runtime-048",
+    "path": "scripts/lib/office-democlienta-sources.mjs",
+    "categories": {
+      "client/model label anonymization": 1,
+      "owner/production location placeholder": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/native-runtime-048/src/lib/office-review-package-server.ts",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/ui-working/wrangler.package20-preview.jsonc",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/backend-working/wrangler.office-coo-events.jsonc",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/backend-working/wrangler.office-private-pilot.jsonc",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/backend-working/wrangler.package20-preview.jsonc",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/backend-working/src/lib/office-review-package-server.ts",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/public-demo-main120/src/lib/office-review-package-server.ts",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  },
+  {
+    "variant": "public-finalisation",
+    "path": "variants/canonical-main/wrangler.package20-preview.jsonc",
+    "categories": {
+      "operational-worker-origin": 1
+    }
+  }
+]

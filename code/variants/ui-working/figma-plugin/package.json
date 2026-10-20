@@ -1,0 +1,12 @@
+{
+  "name": "jarvis-figma-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.114.0",
+    "typescript": "^5.9.3"
+  }
+}

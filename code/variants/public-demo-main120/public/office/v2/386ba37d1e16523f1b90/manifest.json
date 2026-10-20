@@ -1,0 +1,1533 @@
+{
+ "version": 1,
+ "units": "metres",
+ "coordinates": "three.js (y-up); blender (x, y, z) -> (x, z, -y)",
+ "files": {
+  "environment": "office-environment.glb",
+  "agents": "office-agents.glb"
+ },
+ "compression": {
+  "meshes": "KHR_draco_mesh_compression (use DRACOLoader)",
+  "textures": "WEBP (EXT_texture_webp)"
+ },
+ "material_notes": "Agent hair/brow/lash/eye materials (names contain hair|brow|lash|high-poly) need alphaTest 0.5, side DoubleSide; every other agent material is opaque.",
+ "rooms": [
+  {
+   "id": "lobby",
+   "code": "LOB",
+   "title": "Arrival lobby",
+   "sector_deg": [
+    168.0,
+    192.0
+   ],
+   "center": [
+    0.0,
+    0,
+    36.715
+   ],
+   "entrance": [
+    0.0,
+    0,
+    29.0
+   ],
+   "label_anchor": [
+    0.0,
+    3.2,
+    36.715
+   ],
+   "manager_role": null
+  },
+  {
+   "id": "client",
+   "code": "CP",
+   "title": "Client Partnerships",
+   "sector_deg": [
+    192.0,
+    226.0
+   ],
+   "center": [
+    -12.26,
+    0,
+    29.074
+   ],
+   "entrance": [
+    -8.727,
+    0,
+    25.364
+   ],
+   "label_anchor": [
+    -12.26,
+    3.2,
+    29.074
+   ],
+   "manager_role": "Head of Growth"
+  },
+  {
+   "id": "engage",
+   "code": "CE",
+   "title": "Customer Engagement",
+   "sector_deg": [
+    226.0,
+    260.0
+   ],
+   "center": [
+    -23.334,
+    0,
+    15.562
+   ],
+   "entrance": [
+    -16.038,
+    0,
+    13.166
+   ],
+   "label_anchor": [
+    -23.334,
+    3.2,
+    15.562
+   ],
+   "manager_role": "Head of Customer Engagement"
+  },
+  {
+   "id": "content",
+   "code": "CON",
+   "title": "Content Studio",
+   "sector_deg": [
+    260.0,
+    306.0
+   ],
+   "center": [
+    -27.368,
+    0,
+    -8.203
+   ],
+   "entrance": [
+    -17.539,
+    0,
+    -6.524
+   ],
+   "label_anchor": [
+    -27.368,
+    3.2,
+    -8.203
+   ],
+   "manager_role": "Content Creative Director"
+  },
+  {
+   "id": "social",
+   "code": "SOC",
+   "title": "Social",
+   "sector_deg": [
+    306.0,
+    348.0
+   ],
+   "center": [
+    -13.567,
+    0,
+    -27.515
+   ],
+   "entrance": [
+    -9.804,
+    0,
+    -24.321
+   ],
+   "label_anchor": [
+    -13.567,
+    3.2,
+    -27.515
+   ],
+   "manager_role": "Head of Social"
+  },
+  {
+   "id": "design",
+   "code": "GD",
+   "title": "Graphic Design",
+   "sector_deg": [
+    -12.0,
+    22.0
+   ],
+   "center": [
+    2.473,
+    0,
+    -36.651
+   ],
+   "entrance": [
+    1.569,
+    0,
+    -28.89
+   ],
+   "label_anchor": [
+    2.473,
+    3.2,
+    -36.651
+   ],
+   "manager_role": "Creative Director"
+  },
+  {
+   "id": "brain",
+   "code": "BRN",
+   "title": "Brain \u00b7 Strategy & Insights",
+   "sector_deg": [
+    22.0,
+    60.0
+   ],
+   "center": [
+    16.786,
+    0,
+    -25.348
+   ],
+   "entrance": [
+    11.809,
+    0,
+    -21.887
+   ],
+   "label_anchor": [
+    16.786,
+    3.2,
+    -25.348
+   ],
+   "manager_role": "Head of Strategy"
+  },
+  {
+   "id": "web",
+   "code": "WEB",
+   "title": "Web & Search",
+   "sector_deg": [
+    60.0,
+    96.0
+   ],
+   "center": [
+    26.568,
+    0,
+    -7.36
+   ],
+   "entrance": [
+    17.607,
+    0,
+    -6.029
+   ],
+   "label_anchor": [
+    26.568,
+    3.2,
+    -7.36
+   ],
+   "manager_role": "Head of Web"
+  },
+  {
+   "id": "paid",
+   "code": "ADS",
+   "title": "Paid Media",
+   "sector_deg": [
+    96.0,
+    136.0
+   ],
+   "center": [
+    23.427,
+    0,
+    14.964
+   ],
+   "entrance": [
+    16.178,
+    0,
+    12.713
+   ],
+   "label_anchor": [
+    23.427,
+    3.2,
+    14.964
+   ],
+   "manager_role": "Head of Paid Media"
+  },
+  {
+   "id": "ops",
+   "code": "OPS",
+   "title": "Operations & Finance",
+   "sector_deg": [
+    136.0,
+    168.0
+   ],
+   "center": [
+    12.519,
+    0,
+    30.752
+   ],
+   "entrance": [
+    8.45,
+    0,
+    25.605
+   ],
+   "label_anchor": [
+    12.519,
+    3.2,
+    30.752
+   ],
+   "manager_role": "Head of Operations"
+  }
+ ],
+ "zones": {
+  "max_suite": [
+   0,
+   0,
+   -15.2
+  ],
+  "boardroom": [
+   0,
+   0,
+   3.0
+  ],
+  "lounge_bar": [
+   -6.5,
+   0,
+   15
+  ],
+  "arrival_lobby": [
+   0.0,
+   0,
+   36.715
+  ]
+ },
+ "agents": [
+  {
+   "id": "ads-tracking-qa",
+   "node": "agent:ads-tracking-qa",
+   "role": "Ads & Tracking QA",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    21.378,
+    0.15,
+    16.841
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    21.378,
+    1.7,
+    16.841
+   ]
+  },
+  {
+   "id": "ads-analyst",
+   "node": "agent:ads-analyst",
+   "role": "Ads Analyst",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    22.09,
+    0.15,
+    14.549
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    22.09,
+    1.7,
+    14.549
+   ]
+  },
+  {
+   "id": "google-youtube-ads-specialist",
+   "node": "agent:google-youtube-ads-specialist",
+   "role": "Google & YouTube Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    25.502,
+    0.0,
+    14.352
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    25.502,
+    1.55,
+    14.352
+   ]
+  },
+  {
+   "id": "head-of-paid-media",
+   "node": "agent:head-of-paid-media",
+   "role": "Head of Paid Media",
+   "department": "ADS",
+   "is_manager": true,
+   "seat": [
+    18.767,
+    0.3,
+    13.517
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    18.767,
+    1.85,
+    13.517
+   ]
+  },
+  {
+   "id": "linkedin-ads-specialist",
+   "node": "agent:linkedin-ads-specialist",
+   "role": "LinkedIn Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    24.79,
+    0.0,
+    16.644
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    24.79,
+    1.55,
+    16.644
+   ]
+  },
+  {
+   "id": "meta-ads-specialist",
+   "node": "agent:meta-ads-specialist",
+   "role": "Meta Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    26.214,
+    0.0,
+    12.06
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    26.214,
+    1.55,
+    12.06
+   ]
+  },
+  {
+   "id": "paid-media-strategist",
+   "node": "agent:paid-media-strategist",
+   "role": "Paid Media Strategist",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    22.802,
+    0.15,
+    12.257
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    22.802,
+    1.7,
+    12.257
+   ]
+  },
+  {
+   "id": "tiktok-ads-specialist",
+   "node": "agent:tiktok-ads-specialist",
+   "role": "TikTok Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "seat": [
+    24.078,
+    0.0,
+    18.936
+   ],
+   "facing_yaw_rad": 1.2696,
+   "label_anchor": [
+    24.078,
+    1.55,
+    18.936
+   ]
+  },
+  {
+   "id": "brand-strategist-voice-guardian",
+   "node": "agent:brand-strategist-voice-guardian",
+   "role": "Brand Strategist & Voice Guardian",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    11.911,
+    0.0,
+    -27.804
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    11.911,
+    1.55,
+    -27.804
+   ]
+  },
+  {
+   "id": "client-reporting-analyst",
+   "node": "agent:client-reporting-analyst",
+   "role": "Client Reporting Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    17.392,
+    0.0,
+    -19.922
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    17.392,
+    1.55,
+    -19.922
+   ]
+  },
+  {
+   "id": "head-of-strategy",
+   "node": "agent:head-of-strategy",
+   "role": "Head of Strategy",
+   "department": "BRN",
+   "is_manager": true,
+   "seat": [
+    21.931,
+    0.0,
+    -19.912
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    21.931,
+    1.55,
+    -19.912
+   ]
+  },
+  {
+   "id": "knowledge-asset-librarian",
+   "node": "agent:knowledge-asset-librarian",
+   "role": "Knowledge & Asset Librarian",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    14.652,
+    0.0,
+    -23.863
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    14.652,
+    1.55,
+    -23.863
+   ]
+  },
+  {
+   "id": "learning-evaluation-specialist",
+   "node": "agent:learning-evaluation-specialist",
+   "role": "Learning & Evaluation Specialist",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    16.022,
+    0.0,
+    -21.893
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    16.022,
+    1.55,
+    -21.893
+   ]
+  },
+  {
+   "id": "market-trend-researcher",
+   "node": "agent:market-trend-researcher",
+   "role": "Market & Trend Researcher",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    13.282,
+    0.0,
+    -25.834
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    13.282,
+    1.55,
+    -25.834
+   ]
+  },
+  {
+   "id": "menu-intelligence-analyst",
+   "node": "agent:menu-intelligence-analyst",
+   "role": "Menu Intelligence Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    21.615,
+    0.0,
+    -23.833
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    21.615,
+    1.55,
+    -23.833
+   ]
+  },
+  {
+   "id": "profit-intelligence-analyst",
+   "node": "agent:profit-intelligence-analyst",
+   "role": "Profit Intelligence Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "seat": [
+    17.048,
+    0.0,
+    -30.402
+   ],
+   "facing_yaw_rad": 2.1784,
+   "label_anchor": [
+    17.048,
+    1.55,
+    -30.402
+   ]
+  },
+  {
+   "id": "social-dm-concierge",
+   "node": "agent:social-dm-concierge",
+   "role": "Social DM Concierge",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -20.577,
+    0.0,
+    18.446
+   ],
+   "facing_yaw_rad": 5.0298,
+   "label_anchor": [
+    -20.577,
+    1.55,
+    18.446
+   ]
+  },
+  {
+   "id": "whatsapp-concierge-paused",
+   "node": "agent:whatsapp-concierge-paused",
+   "role": "WhatsApp Concierge [paused]",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -21.929,
+    0.0,
+    21.121
+   ],
+   "facing_yaw_rad": 3.459,
+   "label_anchor": [
+    -21.929,
+    1.55,
+    21.121
+   ]
+  },
+  {
+   "id": "bookings-coordinator",
+   "node": "agent:bookings-coordinator",
+   "role": "Bookings Coordinator",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -24.605,
+    0.0,
+    19.769
+   ],
+   "facing_yaw_rad": 1.8882,
+   "label_anchor": [
+    -24.605,
+    1.55,
+    19.769
+   ]
+  },
+  {
+   "id": "crm-upsell-analyst",
+   "node": "agent:crm-upsell-analyst",
+   "role": "CRM & Upsell Analyst",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -23.253,
+    0.0,
+    17.093
+   ],
+   "facing_yaw_rad": 0.3174,
+   "label_anchor": [
+    -23.253,
+    1.55,
+    17.093
+   ]
+  },
+  {
+   "id": "email-copy-automation",
+   "node": "agent:email-copy-automation",
+   "role": "Email Copy & Automation",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -22.303,
+    0.0,
+    11.013
+   ],
+   "facing_yaw_rad": 5.0298,
+   "label_anchor": [
+    -22.303,
+    1.55,
+    11.013
+   ]
+  },
+  {
+   "id": "email-designer",
+   "node": "agent:email-designer",
+   "role": "Email Designer",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -23.051,
+    0.0,
+    8.733
+   ],
+   "facing_yaw_rad": 5.0298,
+   "label_anchor": [
+    -23.051,
+    1.55,
+    8.733
+   ]
+  },
+  {
+   "id": "email-strategist",
+   "node": "agent:email-strategist",
+   "role": "Email Strategist",
+   "department": "CE",
+   "is_manager": false,
+   "seat": [
+    -21.554,
+    0.0,
+    13.293
+   ],
+   "facing_yaw_rad": 5.0298,
+   "label_anchor": [
+    -21.554,
+    1.55,
+    13.293
+   ]
+  },
+  {
+   "id": "head-of-customer-engagement",
+   "node": "agent:head-of-customer-engagement",
+   "role": "Head of Customer Engagement",
+   "department": "CE",
+   "is_manager": true,
+   "seat": [
+    -25.991,
+    0.0,
+    11.383
+   ],
+   "facing_yaw_rad": 5.0298,
+   "label_anchor": [
+    -25.991,
+    1.55,
+    11.383
+   ]
+  },
+  {
+   "id": "ai-photographer",
+   "node": "agent:ai-photographer",
+   "role": "AI Photographer",
+   "department": "CON",
+   "is_manager": false,
+   "seat": [
+    -23.031,
+    0.0,
+    -7.462
+   ],
+   "facing_yaw_rad": 4.5432,
+   "label_anchor": [
+    -23.031,
+    1.55,
+    -7.462
+   ]
+  },
+  {
+   "id": "ai-videographer",
+   "node": "agent:ai-videographer",
+   "role": "AI Videographer",
+   "department": "CON",
+   "is_manager": false,
+   "seat": [
+    -22.627,
+    0.0,
+    -9.828
+   ],
+   "facing_yaw_rad": 4.5432,
+   "label_anchor": [
+    -22.627,
+    1.55,
+    -9.828
+   ]
+  },
+  {
+   "id": "content-creative-director",
+   "node": "agent:content-creative-director",
+   "role": "Content Creative Director",
+   "department": "CON",
+   "is_manager": true,
+   "seat": [
+    -23.568,
+    0.0,
+    -1.467
+   ],
+   "facing_yaw_rad": 4.5432,
+   "label_anchor": [
+    -23.568,
+    1.55,
+    -1.467
+   ]
+  },
+  {
+   "id": "scriptwriter-storyboard-artist",
+   "node": "agent:scriptwriter-storyboard-artist",
+   "role": "Scriptwriter & Storyboard Artist",
+   "department": "CON",
+   "is_manager": false,
+   "seat": [
+    -21.819,
+    0.0,
+    -14.559
+   ],
+   "facing_yaw_rad": 4.5432,
+   "label_anchor": [
+    -21.819,
+    1.55,
+    -14.559
+   ]
+  },
+  {
+   "id": "video-editor-motion-designer",
+   "node": "agent:video-editor-motion-designer",
+   "role": "Video Editor & Motion Designer",
+   "department": "CON",
+   "is_manager": false,
+   "seat": [
+    -22.223,
+    0.0,
+    -12.193
+   ],
+   "facing_yaw_rad": 4.5432,
+   "label_anchor": [
+    -22.223,
+    1.55,
+    -12.193
+   ]
+  },
+  {
+   "id": "account-manager",
+   "node": "agent:account-manager",
+   "role": "Account Manager",
+   "department": "CP",
+   "is_manager": false,
+   "seat": [
+    -11.619,
+    0.0,
+    26.371
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -11.619,
+    1.55,
+    26.371
+   ]
+  },
+  {
+   "id": "agency-brand-content-lead",
+   "node": "agent:agency-brand-content-lead",
+   "role": "Agency Brand & Content Lead",
+   "department": "CP",
+   "is_manager": false,
+   "seat": [
+    -15.563,
+    0.0,
+    27.033
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -15.563,
+    1.55,
+    27.033
+   ]
+  },
+  {
+   "id": "client-onboarding",
+   "node": "agent:client-onboarding",
+   "role": "Client Onboarding",
+   "department": "CP",
+   "is_manager": false,
+   "seat": [
+    -13.357,
+    0.0,
+    24.716
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -13.357,
+    1.55,
+    24.716
+   ]
+  },
+  {
+   "id": "head-of-growth",
+   "node": "agent:head-of-growth",
+   "role": "Head of Growth",
+   "department": "CP",
+   "is_manager": true,
+   "seat": [
+    -12.425,
+    0.0,
+    31.568
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -12.425,
+    1.55,
+    31.568
+   ]
+  },
+  {
+   "id": "outreach-lead-gen",
+   "node": "agent:outreach-lead-gen",
+   "role": "Outreach & Lead Gen",
+   "department": "CP",
+   "is_manager": false,
+   "seat": [
+    -13.825,
+    0.0,
+    28.688
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -13.825,
+    1.55,
+    28.688
+   ]
+  },
+  {
+   "id": "proposals-pitch",
+   "node": "agent:proposals-pitch",
+   "role": "Proposals & Pitch",
+   "department": "CP",
+   "is_manager": false,
+   "seat": [
+    -14.95,
+    0.0,
+    23.199
+   ],
+   "facing_yaw_rad": 5.5222,
+   "label_anchor": [
+    -14.95,
+    1.55,
+    23.199
+   ]
+  },
+  {
+   "id": "brand-identity-designer",
+   "node": "agent:brand-identity-designer",
+   "role": "Brand Identity Designer",
+   "department": "GD",
+   "is_manager": false,
+   "seat": [
+    -2.324,
+    0.0,
+    -36.958
+   ],
+   "facing_yaw_rad": 3.0256,
+   "label_anchor": [
+    -2.324,
+    1.55,
+    -36.958
+   ]
+  },
+  {
+   "id": "creative-director",
+   "node": "agent:creative-director",
+   "role": "Creative Director",
+   "department": "GD",
+   "is_manager": true,
+   "seat": [
+    1.954,
+    0.0,
+    -32.201
+   ],
+   "facing_yaw_rad": 3.0256,
+   "label_anchor": [
+    1.954,
+    1.55,
+    -32.201
+   ]
+  },
+  {
+   "id": "presentation-designer",
+   "node": "agent:presentation-designer",
+   "role": "Presentation Designer",
+   "department": "GD",
+   "is_manager": false,
+   "seat": [
+    7.212,
+    0.0,
+    -35.847
+   ],
+   "facing_yaw_rad": 3.0256,
+   "label_anchor": [
+    7.212,
+    1.55,
+    -35.847
+   ]
+  },
+  {
+   "id": "print-collateral-designer",
+   "node": "agent:print-collateral-designer",
+   "role": "Print & Collateral Designer",
+   "department": "GD",
+   "is_manager": false,
+   "seat": [
+    4.033,
+    0.0,
+    -36.217
+   ],
+   "facing_yaw_rad": 3.0256,
+   "label_anchor": [
+    4.033,
+    1.55,
+    -36.217
+   ]
+  },
+  {
+   "id": "social-campaign-designer",
+   "node": "agent:social-campaign-designer",
+   "role": "Social & Campaign Designer",
+   "department": "GD",
+   "is_manager": false,
+   "seat": [
+    0.855,
+    0.0,
+    -36.587
+   ],
+   "facing_yaw_rad": 3.0256,
+   "label_anchor": [
+    0.855,
+    1.55,
+    -36.587
+   ]
+  },
+  {
+   "id": "max-coo",
+   "node": "agent:max-coo",
+   "role": "Max \u2014 COO",
+   "department": "MAX",
+   "is_manager": true,
+   "seat": [
+    0.0,
+    0.16,
+    -16.2
+   ],
+   "facing_yaw_rad": 6.2832,
+   "label_anchor": [
+    0.0,
+    1.71,
+    -16.2
+   ]
+  },
+  {
+   "id": "billing-receivables",
+   "node": "agent:billing-receivables",
+   "role": "Billing & Receivables",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    9.25,
+    0.0,
+    34.357
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    9.25,
+    1.55,
+    34.357
+   ]
+  },
+  {
+   "id": "bookkeeper",
+   "node": "agent:bookkeeper",
+   "role": "Bookkeeper",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    11.133,
+    0.0,
+    32.868
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    11.133,
+    1.55,
+    32.868
+   ]
+  },
+  {
+   "id": "head-of-operations",
+   "node": "agent:head-of-operations",
+   "role": "Head of Operations",
+   "department": "OPS",
+   "is_manager": true,
+   "seat": [
+    14.747,
+    0.0,
+    25.83
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    14.747,
+    1.55,
+    25.83
+   ]
+  },
+  {
+   "id": "pricing-profitability-analyst",
+   "node": "agent:pricing-profitability-analyst",
+   "role": "Pricing & Profitability Analyst",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    10.907,
+    0.0,
+    28.713
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    10.907,
+    1.55,
+    28.713
+   ]
+  },
+  {
+   "id": "reliability-recovery-engineer",
+   "node": "agent:reliability-recovery-engineer",
+   "role": "Reliability & Recovery Engineer",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    13.015,
+    0.0,
+    31.38
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    13.015,
+    1.55,
+    31.38
+   ]
+  },
+  {
+   "id": "software-ai-spend-analyst",
+   "node": "agent:software-ai-spend-analyst",
+   "role": "Software & AI Spend Analyst",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    9.024,
+    0.0,
+    30.201
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    9.024,
+    1.55,
+    30.201
+   ]
+  },
+  {
+   "id": "workflow-automation-architect",
+   "node": "agent:workflow-automation-architect",
+   "role": "Workflow & Automation Architect",
+   "department": "OPS",
+   "is_manager": false,
+   "seat": [
+    14.898,
+    0.0,
+    29.891
+   ],
+   "facing_yaw_rad": 0.669,
+   "label_anchor": [
+    14.898,
+    1.55,
+    29.891
+   ]
+  },
+  {
+   "id": "community-manager",
+   "node": "agent:community-manager",
+   "role": "Community Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -17.526,
+    0.0,
+    -23.005
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -17.526,
+    1.55,
+    -23.005
+   ]
+  },
+  {
+   "id": "content-calendar-strategist",
+   "node": "agent:content-calendar-strategist",
+   "role": "Content & Calendar Strategist",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -15.01,
+    0.0,
+    -20.87
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -15.01,
+    1.55,
+    -20.87
+   ]
+  },
+  {
+   "id": "copywriter",
+   "node": "agent:copywriter",
+   "role": "Copywriter",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -13.457,
+    0.0,
+    -22.7
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -13.457,
+    1.55,
+    -22.7
+   ]
+  },
+  {
+   "id": "creator-scout",
+   "node": "agent:creator-scout",
+   "role": "Creator Scout",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -11.314,
+    0.0,
+    -30.325
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -11.314,
+    1.55,
+    -30.325
+   ]
+  },
+  {
+   "id": "head-of-social",
+   "node": "agent:head-of-social",
+   "role": "Head of Social",
+   "department": "SOC",
+   "is_manager": true,
+   "seat": [
+    -7.734,
+    0.0,
+    -31.484
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -7.734,
+    1.55,
+    -31.484
+   ]
+  },
+  {
+   "id": "influencer-ugc-manager",
+   "node": "agent:influencer-ugc-manager",
+   "role": "Influencer & UGC Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -12.867,
+    0.0,
+    -28.495
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -12.867,
+    1.55,
+    -28.495
+   ]
+  },
+  {
+   "id": "instagram-facebook-manager",
+   "node": "agent:instagram-facebook-manager",
+   "role": "Instagram & Facebook Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -11.904,
+    0.0,
+    -24.53
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -11.904,
+    1.55,
+    -24.53
+   ]
+  },
+  {
+   "id": "linkedin-manager",
+   "node": "agent:linkedin-manager",
+   "role": "LinkedIn Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -10.351,
+    0.0,
+    -26.36
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -10.351,
+    1.55,
+    -26.36
+   ]
+  },
+  {
+   "id": "publishing-scheduling",
+   "node": "agent:publishing-scheduling",
+   "role": "Publishing & Scheduling",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -15.973,
+    0.0,
+    -24.835
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -15.973,
+    1.55,
+    -24.835
+   ]
+  },
+  {
+   "id": "social-performance-analyst",
+   "node": "agent:social-performance-analyst",
+   "role": "Social Performance Analyst",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -14.42,
+    0.0,
+    -26.665
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -14.42,
+    1.55,
+    -26.665
+   ]
+  },
+  {
+   "id": "tiktok-manager",
+   "node": "agent:tiktok-manager",
+   "role": "TikTok Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "seat": [
+    -8.798,
+    0.0,
+    -28.19
+   ],
+   "facing_yaw_rad": 4.0087,
+   "label_anchor": [
+    -8.798,
+    1.55,
+    -28.19
+   ]
+  },
+  {
+   "id": "head-of-web",
+   "node": "agent:head-of-web",
+   "role": "Head of Web",
+   "department": "WEB",
+   "is_manager": true,
+   "seat": [
+    21.109,
+    0.0,
+    -13.626
+   ],
+   "facing_yaw_rad": 1.7182,
+   "label_anchor": [
+    21.109,
+    1.55,
+    -13.626
+   ]
+  },
+  {
+   "id": "integration-engineer",
+   "node": "agent:integration-engineer",
+   "role": "Integration Engineer",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    25.596,
+    0.0,
+    -5.396
+   ],
+   "facing_yaw_rad": 1.7182,
+   "label_anchor": [
+    25.596,
+    1.55,
+    -5.396
+   ]
+  },
+  {
+   "id": "landing-page-cro-specialist",
+   "node": "agent:landing-page-cro-specialist",
+   "role": "Landing Page & CRO Specialist",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    25.332,
+    0.0,
+    -7.176
+   ],
+   "facing_yaw_rad": 1.7182,
+   "label_anchor": [
+    25.332,
+    1.55,
+    -7.176
+   ]
+  },
+  {
+   "id": "seo-google-presence-specialist",
+   "node": "agent:seo-google-presence-specialist",
+   "role": "SEO & Google Presence Specialist",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    27.805,
+    0.0,
+    -7.543
+   ],
+   "facing_yaw_rad": 4.8598,
+   "label_anchor": [
+    27.805,
+    1.55,
+    -7.543
+   ]
+  },
+  {
+   "id": "web-backend-engineer",
+   "node": "agent:web-backend-engineer",
+   "role": "Web & Backend Engineer",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    27.541,
+    0.0,
+    -9.324
+   ],
+   "facing_yaw_rad": 4.8598,
+   "label_anchor": [
+    27.541,
+    1.55,
+    -9.324
+   ]
+  },
+  {
+   "id": "web-designer",
+   "node": "agent:web-designer",
+   "role": "Web Designer",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    25.068,
+    0.0,
+    -8.957
+   ],
+   "facing_yaw_rad": 1.7182,
+   "label_anchor": [
+    25.068,
+    1.55,
+    -8.957
+   ]
+  },
+  {
+   "id": "web-qa",
+   "node": "agent:web-qa",
+   "role": "Web QA",
+   "department": "WEB",
+   "is_manager": false,
+   "seat": [
+    28.069,
+    0.0,
+    -5.763
+   ],
+   "facing_yaw_rad": 4.8598,
+   "label_anchor": [
+    28.069,
+    1.55,
+    -5.763
+   ]
+  }
+ ],
+ "cameras": {
+  "overview": {
+   "position": [
+    -18,
+    78,
+    86
+   ],
+   "target": [
+    0,
+    -2,
+    2
+   ]
+  },
+  "plan": {
+   "position": [
+    0,
+    125,
+    0.01
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ]
+  },
+  "max_suite": {
+   "position": [
+    0,
+    9,
+    -2
+   ],
+   "target": [
+    0,
+    0,
+    -14
+   ]
+  },
+  "lounge": {
+   "position": [
+    0,
+    9,
+    -6
+   ],
+   "target": [
+    -2,
+    0,
+    17
+   ]
+  }
+ },
+ "counts": {
+  "agents": 66,
+  "managers": 10,
+  "departments": 9
+ }
+}

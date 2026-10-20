@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "backend-working",
+    "updatedMethodFileHashes": 10
+  },
+  {
+    "variant": "public-demo-main120",
+    "updatedMethodFileHashes": 10
+  },
+  {
+    "variant": "native-runtime-048",
+    "updatedMethodFileHashes": 10
+  }
+]

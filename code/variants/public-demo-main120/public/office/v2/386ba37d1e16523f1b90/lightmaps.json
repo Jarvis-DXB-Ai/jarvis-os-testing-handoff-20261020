@@ -1,0 +1,67 @@
+{
+ "LM Tower shell": {
+  "file": "lightmaps/lm-00-tower-shell.webp",
+  "intensity": 0.1006,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Walls & partitions": {
+  "file": "lightmaps/lm-01-walls---partitions.webp",
+  "intensity": 0.8844,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Arrival lobby": {
+  "file": "lightmaps/lm-09-arrival-lobby.webp",
+  "intensity": 1.3774,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Client Partnerships": {
+  "file": "lightmaps/lm-10-client-partnerships.webp",
+  "intensity": 1.3883,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Customer Engagement": {
+  "file": "lightmaps/lm-11-customer-engagement.webp",
+  "intensity": 1.167,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Content Studio": {
+  "file": "lightmaps/lm-12-content-studio.webp",
+  "intensity": 2.8143,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Social": {
+  "file": "lightmaps/lm-13-social.webp",
+  "intensity": 2.3624,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Graphic Design": {
+  "file": "lightmaps/lm-14-graphic-design.webp",
+  "intensity": 1.513,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Brain \u00b7 Strategy & Insights": {
+  "file": "lightmaps/lm-15-brain---strategy---insights.webp",
+  "intensity": 1.2616,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Web & Search": {
+  "file": "lightmaps/lm-16-web---search.webp",
+  "intensity": 0.9015,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Paid Media": {
+  "file": "lightmaps/lm-17-paid-media.webp",
+  "intensity": 1.7145,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Operations & Finance": {
+  "file": "lightmaps/lm-18-operations---finance.webp",
+  "intensity": 1.7412,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ },
+ "LM Atrium \u00b7 Max, boardroom & lounge": {
+  "file": "lightmaps/lm-02-atrium---max--boardroom---lounge.webp",
+  "intensity": 0.9109,
+  "uv": "TEXCOORD_1 (Lightmap)"
+ }
+}

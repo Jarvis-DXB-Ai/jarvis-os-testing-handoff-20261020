@@ -1,0 +1,668 @@
+{
+  "package": "jarvis-design-system-review-r02",
+  "author": "Claude Design",
+  "date": "2026-09-06",
+  "status": "proposal",
+  "notes": [
+    "Values are proposed role names for existing measured values, not new runtime readings.",
+    "The --j-* layer is a semantic role layer. It does not add a palette: each name resolves to a value already present in source, except where marked isNewValue.",
+    "Migration intent: scopes (:root, .client-workspace-shell, Home .root) map onto role names. Both existing --green values survive under different roles.",
+    "currentMappings null means no equivalent exists in source today.",
+    "r02.1 additions (--j-brand-ground*, --j-texture-dot) are the only genuinely new values in this package; every other token names an existing measured value."
+  ],
+  "tokens": [
+    {
+      "name": "--j-ink",
+      "value": "#08080A",
+      "status": "proposed",
+      "purpose": "Page ground; also the specimen canvas ground",
+      "scope": "global-dark",
+      "currentMappings": [
+        "theme-color meta #08080A",
+        "--v2-ink"
+      ],
+      "affectedSurfaces": [
+        "all dark pages",
+        "design guide"
+      ],
+      "migrationNotes": "Already the effective page colour. Naming only."
+    },
+    {
+      "name": "--j-panel",
+      "value": "#0A0A0C",
+      "status": "proposed",
+      "purpose": "Lists, lanes and rows sitting directly on the page",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--panel",
+        "--cw-void"
+      ],
+      "affectedSurfaces": [
+        "task lanes",
+        "client cards",
+        "rail rows",
+        "tx list"
+      ],
+      "migrationNotes": "Home --panel and shell --cw-void differ by 1 hex step (#0A0A0C vs #0A0A0B); pick one during integration and record which."
+    },
+    {
+      "name": "--j-panel-2",
+      "value": "#0C0C0E",
+      "status": "proposed",
+      "purpose": "Cards and metadata strips",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--panel2",
+        "--v2-panel"
+      ],
+      "affectedSurfaces": [
+        "finance cards",
+        "quick actions",
+        "specimen meta strip"
+      ],
+      "migrationNotes": "Identical values already; safe consolidation."
+    },
+    {
+      "name": "--j-raised",
+      "value": "#101013",
+      "status": "proposed",
+      "purpose": "Floating surfaces: toast, tooltip, drag card, icon button",
+      "scope": "global-dark",
+      "currentMappings": [
+        ".notifTrigger background #101013",
+        ".taskRowOverlay background #101013"
+      ],
+      "affectedSurfaces": [
+        "notification trigger",
+        "drag overlay",
+        "proposed toast and tooltip"
+      ],
+      "migrationNotes": "Currently a literal in three places; promote to a token."
+    },
+    {
+      "name": "--j-hair",
+      "value": "rgba(255,255,255,.075)",
+      "status": "proposed",
+      "purpose": "Default separation between static panels",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--hair",
+        "--v2-hair",
+        "--cw-b1"
+      ],
+      "affectedSurfaces": [
+        "every card, section rule and row divider"
+      ],
+      "migrationNotes": "--cw-b1 is .06 rather than .075. Align to .075 or document the shell exception."
+    },
+    {
+      "name": "--j-hair-2",
+      "value": "rgba(255,255,255,.10)",
+      "status": "proposed",
+      "purpose": "Stronger divider: section tops, drawer edges, input borders",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--hair2",
+        "--cw-b2"
+      ],
+      "affectedSurfaces": [
+        "section separators",
+        "drawer",
+        "proposed inputs"
+      ],
+      "migrationNotes": "Values already identical."
+    },
+    {
+      "name": "--j-rule",
+      "value": "rgba(255,255,255,.14)",
+      "status": "proposed",
+      "purpose": "Interactive border: secondary button, selected nav, input hover",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--v2-rule (0.11)"
+      ],
+      "affectedSurfaces": [
+        "secondary actions",
+        "guide nav",
+        "inputs"
+      ],
+      "migrationNotes": "isNewValue: raised from .11 to .14 so a secondary button reads as interactive next to a static hairline."
+    },
+    {
+      "name": "--j-text",
+      "value": "#F5F5F6",
+      "status": "proposed",
+      "purpose": "Titles, values, selected labels",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--ink",
+        "--cw-t1"
+      ],
+      "affectedSurfaces": [
+        "all headings and figures"
+      ],
+      "migrationNotes": "Identical values."
+    },
+    {
+      "name": "--j-text-2",
+      "value": "#C9C9CF",
+      "status": "proposed",
+      "purpose": "Body copy inside components",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--ink2"
+      ],
+      "affectedSurfaces": [
+        "card bodies",
+        "drawer body",
+        "table cells"
+      ],
+      "migrationNotes": "No shell equivalent; --cw-t2 (#A1A1A6) is one step lighter and maps to --j-text-3."
+    },
+    {
+      "name": "--j-text-3",
+      "value": "#A1A1A6",
+      "status": "proposed",
+      "purpose": "Smallest text a person is expected to read",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--cw-t2",
+        ".laneName colour"
+      ],
+      "affectedSurfaces": [
+        "card notes",
+        "source lines",
+        "meta copy",
+        "help text"
+      ],
+      "migrationNotes": "ACCESSIBILITY CHANGE. Source lines and small notes currently use #6E6E75 / --faint (~3.6:1 on #08080A). This raises them to ~7:1. Affects the guide, card notes, empty notes and rail labels. Requires approval as a system-wide migration."
+    },
+    {
+      "name": "--j-text-4",
+      "value": "#8A8A91",
+      "status": "proposed",
+      "purpose": "Mono eyebrows and section labels",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--dim",
+        "--lane (default)"
+      ],
+      "affectedSurfaces": [
+        "eyebrows",
+        "field labels",
+        "table headers"
+      ],
+      "migrationNotes": "Acceptable for 9-11px uppercase labels; not for sentence copy."
+    },
+    {
+      "name": "--j-text-off",
+      "value": "#5C5C63",
+      "status": "proposed",
+      "purpose": "Non-text decoration only",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--faint"
+      ],
+      "affectedSurfaces": [
+        "dividers with tone",
+        "inactive chips"
+      ],
+      "migrationNotes": "Explicitly removed from body-copy use by the contrast floor above."
+    },
+    {
+      "name": "--j-text-dis",
+      "value": "#46464C",
+      "status": "proposed",
+      "purpose": "Disabled text and the no-value dash",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--ghost"
+      ],
+      "affectedSurfaces": [
+        "disabled controls",
+        "'Not tracked' glyph",
+        "empty table cells"
+      ],
+      "migrationNotes": "Deliberately below the contrast floor: it marks the absence of a value and is always accompanied by a readable label."
+    },
+    {
+      "name": "--j-recommend",
+      "value": "#4ADE80",
+      "status": "proposed",
+      "purpose": "Jarvis recommends or affirms; primary action; focus ring",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--green (Home .root)",
+        "--cw-green",
+        "--v2-green"
+      ],
+      "affectedSurfaces": [
+        "primary buttons",
+        "briefing gradient stop",
+        "section numbers",
+        "focus rings",
+        "counts"
+      ],
+      "migrationNotes": "The role name resolves the duplicate --green problem without changing either value. Global :root --green (#16a34a) is a light-scheme value and maps to a separate light role, not to this one."
+    },
+    {
+      "name": "--j-done",
+      "value": "#22C55E",
+      "status": "proposed",
+      "purpose": "Work completed",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--green2",
+        "--cw-core"
+      ],
+      "affectedSurfaces": [
+        "completed lane",
+        "xp/health bars",
+        "primary active state"
+      ],
+      "migrationNotes": "Identical values in both scopes."
+    },
+    {
+      "name": "--j-verified",
+      "value": "#4DA3FF",
+      "status": "proposed",
+      "purpose": "Reviewed and accepted; one step past completed",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--greenDeep (#2FA96A)",
+        "--lane (.lane_reviewed)"
+      ],
+      "affectedSurfaces": [
+        "reviewed lane",
+        "reviewed pill"
+      ],
+      "migrationNotes": "CHANGED IN r02.3, at Calvin's direction. Reviewed moves from the deep green #2FA96A to blue so the product does not carry two greens for adjacent states: completed (#22C55E) and reviewed were two shades apart and indistinguishable on a 7px lane dot or a 2px accent. Blue reads as 'checked by a person' and is the only non-brand hue in the signal set. Pill ink #A9D5FF on rgba(77,163,255,.14) with a .36 border; ratio about 7.4:1 on #08080A. Affects .lane_reviewed accent and dot, the reviewed pill, and any place --greenDeep currently means reviewed. --greenDeep itself stays in source until this is accepted."
+    },
+    {
+      "name": "--j-progress",
+      "value": "#F0B24A",
+      "status": "proposed",
+      "purpose": "In progress, needs attention, adjustment pending",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--amber (Home .root)",
+        "--cw-amber",
+        "--lane (.lane_in_progress)"
+      ],
+      "affectedSurfaces": [
+        "in-progress lane",
+        "onboarding pill",
+        "late chips",
+        "attention panels"
+      ],
+      "migrationNotes": "Product requirement: in-progress is orange. Do not reassign. Global :root --amber (#d97706) is the light-scheme value."
+    },
+    {
+      "name": "--j-critical",
+      "value": "#F0564B",
+      "status": "proposed",
+      "purpose": "Failure, overdue, destructive",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--red (Home .root)",
+        "--cw-red"
+      ],
+      "affectedSurfaces": [
+        "inactive pill",
+        "late date chip",
+        "failure panels",
+        "proposed destructive action"
+      ],
+      "migrationNotes": "Destructive action text uses #FF8A80 on a 12% wash for contrast; #F0564B on the wash is too low for 13px text."
+    },
+    {
+      "name": "--j-idle",
+      "value": "#8A8A91",
+      "status": "proposed",
+      "purpose": "Not started, unknown, untracked",
+      "scope": "global-dark",
+      "currentMappings": [
+        "--lane (.lane_not_started)",
+        "--dim"
+      ],
+      "affectedSurfaces": [
+        "not-started lane",
+        "idle pill"
+      ],
+      "migrationNotes": "Shares a value with --j-text-4 by intent: unknown state is quiet."
+    },
+    {
+      "name": "--j-on-green",
+      "value": "#042B14",
+      "status": "proposed",
+      "purpose": "Text and icons on the green briefing surface",
+      "scope": "briefing",
+      "currentMappings": [
+        "--greenInk"
+      ],
+      "affectedSurfaces": [
+        "briefing eyebrow, body, metric, ghost CTA"
+      ],
+      "migrationNotes": "Eyebrow uses the darker #04200F at weight 700. Never white text on green."
+    },
+    {
+      "name": "--j-green-btn",
+      "value": "#053B1C",
+      "status": "proposed",
+      "purpose": "Filled CTA inside the briefing surface",
+      "scope": "briefing",
+      "currentMappings": [
+        "--greenBtn"
+      ],
+      "affectedSurfaces": [
+        "briefing primary CTA"
+      ],
+      "migrationNotes": "Label #EAFBF0. Only valid on green."
+    },
+    {
+      "name": "--j-recommend-wash",
+      "value": "rgba(34,197,94,.12)",
+      "status": "proposed",
+      "purpose": "Tinted panel/chip ground for the recommend signal",
+      "scope": "global-dark",
+      "currentMappings": [
+        "rgba(34,197,94,.12) literal in .deltaUp, .statusPillActive"
+      ],
+      "affectedSurfaces": [
+        "pills",
+        "delta chips",
+        "success panels",
+        "accent card"
+      ],
+      "migrationNotes": "Standardises the 10-12% wash / 26-30% border ratio already in use; removes ad-hoc alphas."
+    },
+    {
+      "name": "--j-progress-wash",
+      "value": "rgba(240,178,74,.12)",
+      "status": "proposed",
+      "purpose": "Tinted ground for the attention signal",
+      "scope": "global-dark",
+      "currentMappings": [
+        "rgba(240,178,74,.10-.16) literals"
+      ],
+      "affectedSurfaces": [
+        "work chips",
+        "onboarding pill",
+        "attention panels"
+      ],
+      "migrationNotes": "Existing literals range .10-.16; unify at .12."
+    },
+    {
+      "name": "--j-critical-wash",
+      "value": "rgba(240,86,75,.12)",
+      "status": "proposed",
+      "purpose": "Tinted ground for the failure signal",
+      "scope": "global-dark",
+      "currentMappings": [
+        "rgba(240,86,75,.14) in .chipDateLate"
+      ],
+      "affectedSurfaces": [
+        "late chips",
+        "failure panels",
+        "destructive action"
+      ],
+      "migrationNotes": "Unify at .12 with a .30 border."
+    },
+    {
+      "name": "--j-r-xs",
+      "value": "8px",
+      "status": "proposed",
+      "purpose": "Tags, small controls, marks",
+      "scope": "global",
+      "currentMappings": [
+        "literal 8px in .monthSwitcher button, .milestoneMark, .levelChip"
+      ],
+      "affectedSurfaces": [
+        "tags",
+        "small buttons",
+        "status marks"
+      ],
+      "migrationNotes": "Radius becomes a function of element size; see the nested step-down rule."
+    },
+    {
+      "name": "--j-r-sm",
+      "value": "11px",
+      "status": "proposed",
+      "purpose": "Buttons, inputs, icon buttons",
+      "scope": "global",
+      "currentMappings": [
+        "literal 11px in .heroCta, .notifTrigger, .monthSwitcher"
+      ],
+      "affectedSurfaces": [
+        "all default controls"
+      ],
+      "migrationNotes": "Keeps the existing 11px rather than rounding to 12."
+    },
+    {
+      "name": "--j-r-md",
+      "value": "14px",
+      "status": "proposed",
+      "purpose": "Rows and small panels",
+      "scope": "global",
+      "currentMappings": [
+        "literal 14-15px in .milestoneRow, .txList, .healthUnavailable"
+      ],
+      "affectedSurfaces": [
+        "milestone rows",
+        "signal panels",
+        "empty states",
+        "tables"
+      ],
+      "migrationNotes": "Existing values vary 13-15; unify at 14."
+    },
+    {
+      "name": "--j-r-lg",
+      "value": "17px",
+      "status": "proposed",
+      "purpose": "Cards, lanes, specimen frames",
+      "scope": "global",
+      "currentMappings": [
+        "literal 17px in .card, .lane"
+      ],
+      "affectedSurfaces": [
+        "all cards"
+      ],
+      "migrationNotes": "Client cards use 18px; treat as the same stop or align to 17."
+    },
+    {
+      "name": "--j-r-xl",
+      "value": "20px",
+      "status": "proposed",
+      "purpose": "Briefing surface and full-height overlays",
+      "scope": "global",
+      "currentMappings": [
+        ".hero border-radius 20px"
+      ],
+      "affectedSurfaces": [
+        "briefing surface"
+      ],
+      "migrationNotes": "18px below 768px is existing behaviour; keep it."
+    },
+    {
+      "name": "--j-focus",
+      "value": "#4ADE80",
+      "status": "proposed",
+      "purpose": "Keyboard focus ring colour, 2px at 3px offset",
+      "scope": "global-dark",
+      "currentMappings": [
+        "outline: 2px solid var(--cw-green,#4ade80) in client-action.module.css"
+      ],
+      "affectedSurfaces": [
+        "every focusable element"
+      ],
+      "migrationNotes": "Already the behaviour for client actions; promote to a global rule so new primitives inherit it."
+    },
+    {
+      "name": "--j-shadow-float",
+      "value": "0 22px 44px -18px rgba(0,0,0,.9)",
+      "status": "proposed",
+      "purpose": "Elements that actually float",
+      "scope": "global-dark",
+      "currentMappings": [
+        ".taskRowOverlay box-shadow"
+      ],
+      "affectedSurfaces": [
+        "drag overlay",
+        "toast",
+        "tooltip"
+      ],
+      "migrationNotes": "Static cards must not receive this."
+    },
+    {
+      "name": "--j-bloom-green",
+      "value": "0 24px 50px -26px rgba(34,197,94,.5)",
+      "status": "proposed",
+      "purpose": "The briefing surface's green bloom",
+      "scope": "briefing",
+      "currentMappings": [
+        ".hero box-shadow"
+      ],
+      "affectedSurfaces": [
+        "briefing surface only"
+      ],
+      "migrationNotes": "One per view. Do not apply to cards."
+    },
+    {
+      "name": "--j-type-body",
+      "value": "400 16px/1.5 var(--j-sans)",
+      "status": "proposed",
+      "purpose": "Default reading size",
+      "scope": "global",
+      "currentMappings": [
+        "runtime body reading 16px/24px"
+      ],
+      "affectedSurfaces": [
+        "all prose"
+      ],
+      "migrationNotes": "13px is the proposed floor for any text; 11-12px is permitted only for mono labels and chips."
+    },
+    {
+      "name": "--j-type-label",
+      "value": "400 10px/1.2 var(--j-mono) / .16em / uppercase",
+      "status": "proposed",
+      "purpose": "Section labels, eyebrows, table headers, field labels",
+      "scope": "global",
+      "currentMappings": [
+        ".greetMeta",
+        ".laneName",
+        ".railLabel",
+        ".layerName"
+      ],
+      "affectedSurfaces": [
+        "every label in the product"
+      ],
+      "migrationNotes": "Existing tracking ranges .10-.18em and sizes 8.5-10px; unify at 10px/.16em, keeping 9px only where horizontal space is genuinely constrained."
+    },
+    {
+      "name": "--accent (indigo)",
+      "value": "#6366f1",
+      "status": "flagged",
+      "purpose": "Currently an accent on the light document scope",
+      "scope": ":root",
+      "currentMappings": [
+        "--accent",
+        "--accent-hi",
+        "--accent-dim",
+        "--accent-glow",
+        "--b-accent"
+      ],
+      "affectedSurfaces": [
+        "unknown - light-scheme surfaces only"
+      ],
+      "migrationNotes": "DECISION NEEDED. Indigo has no role in the dark language and no dark equivalent. Either retire the family or define its purpose. Do not introduce it to dark surfaces without a decision."
+    },
+    {
+      "name": "font-family (client stack)",
+      "value": "Geist, 'Geist Mono' for mono",
+      "status": "flagged",
+      "purpose": "Resolve the legacy Figtree fallback",
+      "scope": "globals.css client stack",
+      "currentMappings": [
+        null
+      ],
+      "affectedSurfaces": [
+        "all client surfaces",
+        "~15 handoff documents naming Figtree"
+      ],
+      "migrationNotes": "Figtree sits ahead of Geist with no loader, so it renders nothing today but would silently take over if a loader were ever added. Recommendation: remove it. No new font dependency is proposed anywhere in this package."
+    },
+    {
+      "name": "--j-brand-ground",
+      "value": "#0C3F09",
+      "status": "proposed",
+      "purpose": "Deep green field for branded surfaces that make no recommendation",
+      "scope": "brand",
+      "currentMappings": [
+        null
+      ],
+      "affectedSurfaces": [
+        "pitch deck",
+        "lock/login screen",
+        "export and print covers"
+      ],
+      "migrationNotes": "NEW VALUE. Exists so branded surfaces stop borrowing the briefing gradient. Pairs with --j-brand-ground-2 as a 152deg gradient and a 20px dot lattice at 10% ink."
+    },
+    {
+      "name": "--j-brand-ground-2",
+      "value": "#061F05",
+      "status": "proposed",
+      "purpose": "Lower stop of the brand ground gradient",
+      "scope": "brand",
+      "currentMappings": [
+        null
+      ],
+      "affectedSurfaces": [
+        "same as --j-brand-ground"
+      ],
+      "migrationNotes": "NEW VALUE."
+    },
+    {
+      "name": "--j-brand-ink",
+      "value": "#EAFBF0",
+      "status": "proposed",
+      "purpose": "Text on the brand ground",
+      "scope": "brand",
+      "currentMappings": [
+        "#EAFBF0 literal in .heroCta"
+      ],
+      "affectedSurfaces": [
+        "brand ground copy"
+      ],
+      "migrationNotes": "Full opacity only, about 8:1 on the ground. Never alpha-muted."
+    },
+    {
+      "name": "--j-texture-dot",
+      "value": "radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px) / 18px",
+      "status": "proposed",
+      "purpose": "Quiet ground texture for dark canvases",
+      "scope": "global-dark",
+      "currentMappings": [
+        null
+      ],
+      "affectedSurfaces": [
+        "specimen canvases",
+        "proposed empty canvases and covers"
+      ],
+      "migrationNotes": "NEW. Replaces the need for a border or shadow to make a dark region read as a distinct ground. Do not apply to cards or to any region holding body copy at 13px."
+    },
+    {
+      "name": "--j-rail-width",
+      "value": "216px",
+      "status": "proposed",
+      "purpose": "Navigation rail width",
+      "scope": "shell",
+      "currentMappings": [
+        null
+      ],
+      "affectedSurfaces": [
+        "application shell"
+      ],
+      "migrationNotes": "Documented from the current rail rather than proposed as a change. The shell owns this and the content-column offset; pages must not re-apply either."
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "count": 10,
+  "sourceDepartments": [
+    {
+      "id": "social",
+      "name": "Social Media",
+      "headRoleId": "cmo",
+      "qaRoleId": "social-qa",
+      "roles": [
+        "cmo",
+        "grid-planner",
+        "copy",
+        "instagram",
+        "linkedin",
+        "facebook",
+        "scheduler",
+        "analytics",
+        "social-qa"
+      ],
+      "core": [
+        "cmo",
+        "social-qa",
+        "grid-planner",
+        "copy",
+        "instagram",
+        "linkedin"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Social strategy, copywriting, Instagram, LinkedIn, Facebook, publishing and reports",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "zernio",
+        "meta",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "headRoleId": "video",
+      "qaRoleId": "content-qa",
+      "roles": [
+        "video",
+        "image-prompts",
+        "videographer",
+        "media",
+        "content-qa"
+      ],
+      "core": [
+        "video",
+        "content-qa",
+        "image-prompts",
+        "videographer",
+        "media"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Creative direction, AI photography, videography and video editing",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "higgsfield",
+        "blender",
+        "ffmpeg",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "design",
+      "name": "Graphic Design",
+      "headRoleId": "creative-director",
+      "qaRoleId": "creative-qc",
+      "roles": [
+        "creative-director",
+        "design-system",
+        "presentations",
+        "voice",
+        "creative-qc"
+      ],
+      "core": [
+        "creative-director",
+        "creative-qc",
+        "design-system",
+        "presentations",
+        "voice"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Brand identity, visual systems, presentations and verbal brand guidance",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "canva",
+        "sharp",
+        "pinterest",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "web",
+      "name": "Web Design",
+      "headRoleId": "cto",
+      "qaRoleId": "web-qa",
+      "roles": [
+        "cto",
+        "web-designer",
+        "implementation",
+        "web-research",
+        "audit",
+        "integrations",
+        "web-qa"
+      ],
+      "core": [
+        "cto",
+        "web-qa",
+        "web-designer",
+        "implementation",
+        "web-research",
+        "audit"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Website design, backend engineering, research, SEO and technical quality",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "cloudflare",
+        "github",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "ads",
+      "name": "Ads",
+      "headRoleId": "ads-lead",
+      "qaRoleId": "ads-qa",
+      "roles": [
+        "ads-lead",
+        "paid-ads",
+        "ads-analyst",
+        "meta-ads",
+        "linkedin-ads",
+        "youtube-ads",
+        "tiktok-ads",
+        "ads-qa"
+      ],
+      "core": [
+        "ads-lead",
+        "ads-qa",
+        "paid-ads",
+        "ads-analyst",
+        "meta-ads",
+        "linkedin-ads"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Paid-media strategy, Meta, LinkedIn, YouTube, TikTok and measurement",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "meta",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "email",
+      "name": "Email Marketing",
+      "headRoleId": "email-lead",
+      "qaRoleId": "email-qa",
+      "roles": [
+        "email-lead",
+        "email",
+        "email-design",
+        "email-qa"
+      ],
+      "core": [
+        "email-lead",
+        "email-qa",
+        "email",
+        "email-design"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Email strategy, campaigns, automation, templates and lifecycle journeys",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "mailchimp",
+        "canva",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "support",
+      "name": "Customer Support & CRM",
+      "headRoleId": "support-lead",
+      "qaRoleId": "support-qa",
+      "roles": [
+        "support-lead",
+        "community",
+        "whatsapp",
+        "crm",
+        "bookings",
+        "support-qa"
+      ],
+      "core": [
+        "support-lead",
+        "support-qa",
+        "community",
+        "whatsapp",
+        "crm",
+        "bookings"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Social DMs, WhatsApp, enquiry handling, CRM and bookings",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "manychat",
+        "zernio",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "headRoleId": "cfo",
+      "qaRoleId": "finance-qa",
+      "roles": [
+        "cfo",
+        "bookkeeping",
+        "billing",
+        "margin",
+        "pricing",
+        "subscriptions",
+        "finance-qa"
+      ],
+      "core": [
+        "cfo",
+        "finance-qa",
+        "bookkeeping",
+        "billing",
+        "margin",
+        "pricing"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Invoices, payment tracking, booking revenue handoffs, profitability and recorded spend",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "operations",
+      "name": "Client Onboarding & Operations",
+      "headRoleId": "coo",
+      "qaRoleId": "operations-qa",
+      "roles": [
+        "coo",
+        "delivery",
+        "success",
+        "proposal",
+        "workflow-architect",
+        "reliability",
+        "test",
+        "operations-qa"
+      ],
+      "core": [
+        "coo",
+        "operations-qa",
+        "delivery",
+        "success",
+        "proposal",
+        "workflow-architect"
+      ],
+      "color": "#94ba9f",
+      "purpose": "COO orchestration, onboarding, service scope, delivery coordination and final independent QA",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    },
+    {
+      "id": "knowledge",
+      "name": "Research & Learning",
+      "headRoleId": "knowledge",
+      "qaRoleId": "research-qa",
+      "roles": [
+        "knowledge",
+        "brand-strategist",
+        "competitors",
+        "librarian",
+        "evaluation",
+        "research-qa"
+      ],
+      "core": [
+        "knowledge",
+        "research-qa",
+        "brand-strategist",
+        "competitors",
+        "librarian",
+        "evaluation"
+      ],
+      "color": "#94ba9f",
+      "purpose": "Business/brand discovery, competitor analysis, source assets, reusable skills and reviewed lessons",
+      "inputs": "Exact client brief, approved brand, dated source evidence and service-specific access",
+      "outputs": "Complete scoped specialist outputs, independent department QA and head summary",
+      "tools": [
+        "github",
+        "pinterest",
+        "assets",
+        "review"
+      ],
+      "gaps": "Account access and tool execution must be verified separately; no publishing, sending or spending follows from role registration."
+    }
+  ],
+  "interpretation": "Eight service departments plus two shared departments; scope enables only useful lanes. Department ID email is separate from the broader visual marketing grouping."
+}

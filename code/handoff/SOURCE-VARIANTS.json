@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "canonical-main",
+    "kind": "actual-working-files",
+    "branch": "main",
+    "head": "e16c292edcfbec786b7c4af153f220bf8038439f",
+    "dirtyEntries": 2,
+    "gitHistoryIncluded": false,
+    "exportedFiles": 654,
+    "exportedBytes": 9684778
+  },
+  {
+    "variant": "backend-working",
+    "kind": "actual-working-files",
+    "branch": "codex/access-control",
+    "head": "62f3fd62810f0292578b4272fc26fab51ea587df",
+    "dirtyEntries": 458,
+    "gitHistoryIncluded": false,
+    "exportedFiles": 1892,
+    "exportedBytes": 19626989
+  },
+  {
+    "variant": "ui-working",
+    "kind": "actual-working-files",
+    "branch": "codex/ui-review",
+    "head": "917e99c78a6213bebd3ed9bf7434e87ac57209a2",
+    "dirtyEntries": 6,
+    "gitHistoryIncluded": false,
+    "exportedFiles": 683,
+    "exportedBytes": 9784910
+  },
+  {
+    "variant": "public-demo-main120",
+    "kind": "frozen-source",
+    "sourceManifestSha256": "6b540f74f9852b008ab1b5d0f8f8a0845448c74affa8b4ad54260ac68a7714af",
+    "inputFileCount": 1805,
+    "allFrozenHashesVerified": true,
+    "exportedFiles": 1783,
+    "exportedBytes": 110596571
+  },
+  {
+    "variant": "native-runtime-048",
+    "kind": "frozen-source",
+    "sourceManifestSha256": "bbec086659fe3c9b756b2493b10c349b62095abdcd8a0f62625db5a7518ff4bf",
+    "inputFileCount": 1761,
+    "allFrozenHashesVerified": true,
+    "exportedFiles": 1739,
+    "exportedBytes": 17147094
+  }
+]

@@ -1,0 +1,434 @@
+{
+  "sourceDefinitionsRetained": true,
+  "removedTopLevelDataOrAnonymousDataBlocks": [
+    {
+      "path": "variants/ui-working/supabase/migrations/20260905171036_owner_only_database_boundary.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+      "removedDataStatements": 6
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+      "removedDataStatements": 4
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/ui-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migrations/20260905171036_owner_only_database_boundary.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+      "removedDataStatements": 6
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+      "removedDataStatements": 4
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/backend-working/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migrations/20260829150000_operating_cycle_content_lineage_phase1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818070112_finance_v2_income_expenses_fx.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812153709_client_brain_v2_sources_v2_provenance.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826160000_finance_bank_reconciliation_v5.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808180209_client_brain_v2_brand_guidelines_edit.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531174854_lock_outfit_accessories_and_finalise_models.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810180428_create_agents_v2_organization.sql",
+      "removedDataStatements": 6
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810150502_roadmap_v2_product_hierarchy.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824183500_standard_factory_roadmap_phase_b.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260817045925_pinterest_analysis_completeness_guard.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812073709_roadmap_v3_idea_vault.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826150000_finance_cash_management_v4.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825085248_client_brain_logins_content_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818100000_finance_v22_recurring_income_and_costs.sql",
+      "removedDataStatements": 4
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824080601_packages_services_v1.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260827173806_agent_runtime_foundation_v1.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531070000_add_ai_model_height.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826100000_ai_content_creative_director_v25_safety.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260810161458_create_tool_registry.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531055623_create_ai_model_library.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531084620_add_wardrobe_collection_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260812160845_client_brain_v2_sources_v2_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260531160252_add_wardrobe_creative_range_fields.sql",
+      "removedDataStatements": 9
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809070916_activation_freshness_temporal_status_normalization.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260520010000_guest_model_storage_and_relationships.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260826140000_finance_foundation_v3.sql",
+      "removedDataStatements": 5
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260819051002_finance_v23_upcoming_revenue_pipeline.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260825072359_caption_validation_v32.sql",
+      "removedDataStatements": 3
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808162055_restaurant_client_brain_v2_taxonomy.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824121017_investor_pitch_deck_v1.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824131850_pitch_deck_v2_research_and_scenarios.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260809190930_create_roadmap_command_center.sql",
+      "removedDataStatements": 2
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260808095327_hospitality_client_brain_v2.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260824061018_social_publishing_phase_a.sql",
+      "removedDataStatements": 1
+    },
+    {
+      "path": "variants/canonical-main/supabase/migration-archive/20260829-divergent-history/local-migrations/20260818055814_research_finance_workspaces_v1.sql",
+      "removedDataStatements": 2
+    }
+  ],
+  "productionDataExported": false
+}

@@ -1,0 +1,13 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {join} from 'node:path';
+import plan from '../src/lib/office-stack-plan.json' with {type:'json'};
+import {initialiseBrainStructure,brainStorageLocations} from './lib/office-brain.mjs';
+import {listJobs,activeStates} from './lib/office-team-engine.mjs';
+import {validateRoster} from './lib/office-roster.mjs';
+import {officeBrainStructure} from '../src/lib/office-brain-policy.mjs';
+if((await listJobs()).some(j=>activeStates.includes(j.status)||j.status==='recovery_required'))throw new Error('Finish or reconcile active Office work before changing its structure.');
+const roles=validateRoster(plan);if(roles.some(r=>!officeBrainStructure.rolePolicies[r.id]))throw new Error('An active role has no Brain policy.');
+const record=await initialiseBrainStructure(plan.storage),locations=await brainStorageLocations(plan.storage);
+const report=join(plan.storage.recordsRoot,'reports/brain-team-finalisation-2026-10-13');await mkdir(report,{recursive:true});
+await writeFile(join(report,'structure-installation.json'),JSON.stringify({structureRevision:record.structureRevision,installedAt:record.installedAt,roles:roles.length,taskProfiles:Object.keys(officeBrainStructure.retrievalProfiles).length,locations},null,2)+'\n');
+console.log(JSON.stringify({structure:record.structureRevision,roles:roles.length,locations:locations.length,taskProfiles:Object.keys(officeBrainStructure.retrievalProfiles).length}));

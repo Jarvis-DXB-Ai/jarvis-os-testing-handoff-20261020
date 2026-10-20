@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "social",
+    "kind": "workflow",
+    "roles": [
+      "repurpose"
+    ],
+    "license": "MIT",
+    "sourceRef": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "distributed": true
+  },
+  {
+    "id": "ads",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "distributed": true
+  },
+  {
+    "id": "copywriting",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "distributed": true
+  },
+  {
+    "id": "content-strategy",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "distributed": true
+  },
+  {
+    "id": "design-critique",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "design-system",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "reconciliation",
+    "kind": "workflow",
+    "roles": [
+      "receipts"
+    ],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "journal-entry-prep",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "higgsfield-generate",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "distributed": true
+  },
+  {
+    "id": "higgsfield-brandkit",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "distributed": true
+  },
+  {
+    "id": "humanizer",
+    "kind": "quality",
+    "roles": [
+      "copy",
+      "video",
+      "email",
+      "community",
+      "success",
+      "instagram",
+      "linkedin",
+      "facebook",
+      "email-lead",
+      "support-lead",
+      "whatsapp",
+      "crm",
+      "bookings",
+      "videographer"
+    ],
+    "license": "MIT",
+    "sourceRef": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+    "distributed": true
+  },
+  {
+    "id": "ffmpeg-video-editor",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "d5c3ee6e9896fdabccd4e8b5d68149252bbb682c",
+    "distributed": true
+  },
+  {
+    "id": "mc-art-direction",
+    "kind": "quality",
+    "roles": [
+      "creative-director",
+      "creative-qc",
+      "design-system",
+      "image-prompts"
+    ],
+    "license": "Internal guidance",
+    "sourceRef": "e06d0f84772c97298a0633c11c1d6a612dcaefce5e2cf7087952b5cb0b4b5c7f",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-office-protocol",
+    "kind": "protocol",
+    "roles": [
+      "coo",
+      "cmo",
+      "cfo",
+      "cto",
+      "delivery",
+      "success",
+      "capacity",
+      "brand-strategist",
+      "voice",
+      "competitors",
+      "creative-director",
+      "design-system",
+      "grid-planner",
+      "image-prompts",
+      "copy",
+      "video",
+      "creative-qc",
+      "scheduler",
+      "email",
+      "community",
+      "analytics",
+      "audit",
+      "proposal",
+      "repurpose",
+      "bookkeeping",
+      "billing",
+      "receipts",
+      "pricing",
+      "margin",
+      "cash",
+      "subscriptions",
+      "model-cost",
+      "workflow-architect",
+      "implementation",
+      "test",
+      "librarian",
+      "metadata",
+      "media",
+      "integrations",
+      "skills",
+      "reliability",
+      "radar",
+      "evaluation",
+      "knowledge",
+      "paid-ads",
+      "instagram",
+      "linkedin",
+      "facebook",
+      "social-qa",
+      "videographer",
+      "content-qa",
+      "presentations",
+      "web-designer",
+      "web-research",
+      "web-qa",
+      "ads-lead",
+      "ads-analyst",
+      "meta-ads",
+      "linkedin-ads",
+      "youtube-ads",
+      "tiktok-ads",
+      "ads-qa",
+      "email-lead",
+      "email-design",
+      "email-qa",
+      "support-lead",
+      "whatsapp",
+      "crm",
+      "bookings",
+      "support-qa",
+      "finance-qa",
+      "operations-qa",
+      "research-qa"
+    ],
+    "license": "Internal guidance",
+    "sourceRef": "59c7ac3adcef4971798334207ad94605560968f147e73325e9eff134fcab9afd",
+    "distributed": true
+  },
+  {
+    "id": "competitive-brief",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "performance-report",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "variance-analysis",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "client-onboarding",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "28e4a81a3464475cbccc3c2bbcfe414bcabae32b",
+    "distributed": true
+  },
+  {
+    "id": "email-lifecycle",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "support-response",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "web-production",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "distributed": true
+  },
+  {
+    "id": "web-accessibility",
+    "kind": "quality",
+    "roles": [
+      "integrations"
+    ],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "financial-close",
+    "kind": "workflow",
+    "roles": [],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "seo-website-audit",
+    "kind": "workflow",
+    "roles": [],
+    "license": "MIT",
+    "sourceRef": "28e4a81a3464475cbccc3c2bbcfe414bcabae32b",
+    "distributed": true
+  },
+  {
+    "id": "ad-creative-review",
+    "kind": "quality",
+    "roles": [
+      "paid-ads"
+    ],
+    "license": "MIT",
+    "sourceRef": "28e4a81a3464475cbccc3c2bbcfe414bcabae32b",
+    "distributed": true
+  },
+  {
+    "id": "brand-voice-review",
+    "kind": "quality",
+    "roles": [
+      "voice"
+    ],
+    "license": "Apache-2.0",
+    "sourceRef": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "distributed": true
+  },
+  {
+    "id": "office-coo",
+    "kind": "workflow",
+    "roles": [
+      "coo"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "49f0ce5ec02bccadaf55fc8fd39e6d5a9b9ad31a2e8f634b4b29bf4903c37e97",
+    "distributed": true
+  },
+  {
+    "id": "office-cmo",
+    "kind": "workflow",
+    "roles": [
+      "cmo"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "afc315c450299f2c66a53e4601706bc3892ce7aadda2230076c85e1908f877d0",
+    "distributed": true
+  },
+  {
+    "id": "office-cfo",
+    "kind": "workflow",
+    "roles": [
+      "cfo"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "0ea96e5c6277a0491e211587fe4238b55dd85cee2599bc7f31c65eb0a5e30882",
+    "distributed": true
+  },
+  {
+    "id": "office-cto",
+    "kind": "workflow",
+    "roles": [
+      "cto"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "45ed0ae98101a9deb9c4e185103255725539f9a56ca325d388c7fbe2c30b9998",
+    "distributed": true
+  },
+  {
+    "id": "office-video",
+    "kind": "workflow",
+    "roles": [
+      "video"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "ccf6bd11bdcd79ea61ecddae5dbf5751fff407d0678312dde09658a9e48b1dec",
+    "distributed": true
+  },
+  {
+    "id": "office-creative-director",
+    "kind": "workflow",
+    "roles": [
+      "creative-director"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "bd6289116421cd3d6d9b099384a0f34d7c4ab3a960622580397a8067d5477e22",
+    "distributed": true
+  },
+  {
+    "id": "office-ads-lead",
+    "kind": "workflow",
+    "roles": [
+      "ads-lead"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "710187b62e219f516a035f6164a3d8860a0771049fcc57dd1f9130e5703bbdee",
+    "distributed": true
+  },
+  {
+    "id": "office-email-lead",
+    "kind": "workflow",
+    "roles": [
+      "email-lead"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "0dbbf3189161ebddf42ff893af1f8b27ad2e8deb17c9bf7290d10eb6b4d6ed85",
+    "distributed": true
+  },
+  {
+    "id": "office-support-lead",
+    "kind": "workflow",
+    "roles": [
+      "support-lead"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "001a996f6de67c4e98ad6c74ecd11f38c9024b6d788766cd109a7d794716fd2a",
+    "distributed": true
+  },
+  {
+    "id": "office-delivery",
+    "kind": "workflow",
+    "roles": [
+      "delivery"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "700d16de9042a9486fdd2e40196f549df0e0e14c65d16ea835f8a9ad437301d6",
+    "distributed": true
+  },
+  {
+    "id": "office-success",
+    "kind": "workflow",
+    "roles": [
+      "success"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "99c3b82e779d6f8dc9fff2a87b83be8428dc97d652bab72156624f8b01cd6176",
+    "distributed": true
+  },
+  {
+    "id": "office-brand-strategist",
+    "kind": "workflow",
+    "roles": [
+      "brand-strategist"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "4f5a986d1ef6b760c0447cbae66ff75bfde33fc6f210261a554649880899a786",
+    "distributed": true
+  },
+  {
+    "id": "office-knowledge",
+    "kind": "workflow",
+    "roles": [
+      "knowledge"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "6bb42b6056a25319cf1eb73083bd1223f7b9173a606da278149df19a4978e5a1",
+    "distributed": true
+  },
+  {
+    "id": "office-copy",
+    "kind": "workflow",
+    "roles": [
+      "copy"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "7f9755af76480740e2dadd5fc60105f0c3b5a1cc241dd115d515cfec05f507f1",
+    "distributed": true
+  },
+  {
+    "id": "office-instagram",
+    "kind": "workflow",
+    "roles": [
+      "instagram"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "e4bbf85c8a3f79f2d61fbfb3c68994792f329073286e3cb9558f1c969edf68ce",
+    "distributed": true
+  },
+  {
+    "id": "office-linkedin",
+    "kind": "workflow",
+    "roles": [
+      "linkedin"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "e74ebbde90e708322ff1e25d6c1c374d0536fec19938a252138812387992725b",
+    "distributed": true
+  },
+  {
+    "id": "office-facebook",
+    "kind": "workflow",
+    "roles": [
+      "facebook"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "1f9226cab3082b3ae227a74cc0a8a67fc5185013df0cace9e17912f9d0dafdba",
+    "distributed": true
+  },
+  {
+    "id": "office-grid-planner",
+    "kind": "workflow",
+    "roles": [
+      "grid-planner"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "0fa5707f68188ae9299335584d5c9bf75adb858dcdf4ad5b582945caa3b8cf4e",
+    "distributed": true
+  },
+  {
+    "id": "office-scheduler",
+    "kind": "workflow",
+    "roles": [
+      "scheduler"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "ba4ba7e3894db43286f06510b66e8dc25ab1e7e8cf34a425f6bea5327f059678",
+    "distributed": true
+  },
+  {
+    "id": "office-analytics",
+    "kind": "workflow",
+    "roles": [
+      "analytics"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "c76c15dc9b6e18fae40d26db2c1c0762b348b9b5d1715c7ac2dc1eb0d8e680d2",
+    "distributed": true
+  },
+  {
+    "id": "office-social-qa",
+    "kind": "workflow",
+    "roles": [
+      "social-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "99800a647253ce85b44f30f0a3897ba1e276785c371d1e51dc174a5aa4647a98",
+    "distributed": true
+  },
+  {
+    "id": "office-image-prompts",
+    "kind": "workflow",
+    "roles": [
+      "image-prompts"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "af5bd018b2eb33833d904961bcdcb42b46e14d1d0ed113e32af89f2caafbbd2f",
+    "distributed": true
+  },
+  {
+    "id": "office-videographer",
+    "kind": "workflow",
+    "roles": [
+      "videographer"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "e714c0ca172bf671d77a12d487cf1053c8a5ab5ee58125ed54bdf51d4f9585d9",
+    "distributed": true
+  },
+  {
+    "id": "office-media",
+    "kind": "workflow",
+    "roles": [
+      "media"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "1f1f98e80975392fa5ef9fca2c122ce6f4d94ba8a9d808a24063d8d94065e085",
+    "distributed": true
+  },
+  {
+    "id": "office-content-qa",
+    "kind": "workflow",
+    "roles": [
+      "content-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "2f925435664398f2a0577700d37753fbbb05763dbe87e92188ac2bfbef51ca0d",
+    "distributed": true
+  },
+  {
+    "id": "office-design-system",
+    "kind": "workflow",
+    "roles": [
+      "design-system"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "dc888904814992ac4a15d3ae943f2f5ad4f2477047a4309eb0356595f1f2667e",
+    "distributed": true
+  },
+  {
+    "id": "office-presentations",
+    "kind": "workflow",
+    "roles": [
+      "presentations"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "105c29e8898c1c20bb1cfe8b4cf4a33ccf09ccb279b7eea69182952821f27963",
+    "distributed": true
+  },
+  {
+    "id": "office-voice",
+    "kind": "workflow",
+    "roles": [
+      "voice"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "e47cac618a69b57deda264a0a8230c6ef8f39b1b74d34cd7763f088a5f7bc668",
+    "distributed": true
+  },
+  {
+    "id": "office-creative-qc",
+    "kind": "workflow",
+    "roles": [
+      "creative-qc"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "66040a0145d991dc558e9fed0c38978cb57fc4dc3dfb232dd6cac2d32bb3e8d3",
+    "distributed": true
+  },
+  {
+    "id": "office-web-designer",
+    "kind": "workflow",
+    "roles": [
+      "web-designer"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "45e14b3ec40a48c6d05209a0f26d68908e23c460f25e9cac64fed37502738fa9",
+    "distributed": true
+  },
+  {
+    "id": "office-implementation",
+    "kind": "workflow",
+    "roles": [
+      "implementation"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "b67491648c95cc9217f54b6b05d162c0f8f7df04fcf9baf9b20e7292ce3ce8be",
+    "distributed": true
+  },
+  {
+    "id": "office-web-research",
+    "kind": "workflow",
+    "roles": [
+      "web-research"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "0213a6540c991979f2172f47c0d282e932b4ba40df19d93e1f03b2c42d000c8b",
+    "distributed": true
+  },
+  {
+    "id": "office-integrations",
+    "kind": "workflow",
+    "roles": [
+      "integrations"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "c92438900217b37fc3762d7616e6b2e5e8a21102045348501ac9438247a90285",
+    "distributed": true
+  },
+  {
+    "id": "office-audit",
+    "kind": "workflow",
+    "roles": [
+      "audit"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "455df8867c191f2eff25c5a39fb8e03f70b9ccf7dda87e45180f6b0ae2bd49fa",
+    "distributed": true
+  },
+  {
+    "id": "office-web-qa",
+    "kind": "workflow",
+    "roles": [
+      "web-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "bc37190d64024c70b7af4a53dadbabf7764f0630e576bffc2c7f005ba8847cb4",
+    "distributed": true
+  },
+  {
+    "id": "office-paid-ads",
+    "kind": "workflow",
+    "roles": [
+      "paid-ads"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "c46a608c0cfe4ec8fb58f587fd041a8684cf25dd00cf05ae423c9c11e4a24f2a",
+    "distributed": true
+  },
+  {
+    "id": "office-ads-analyst",
+    "kind": "workflow",
+    "roles": [
+      "ads-analyst"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "3a26906effcd1545ef47ed8bad3f172f9a5de1c6c134e68f88dc31cbf1003aff",
+    "distributed": true
+  },
+  {
+    "id": "office-meta-ads",
+    "kind": "workflow",
+    "roles": [
+      "meta-ads"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "b1850aad2f759d864960bb3d8e6bd1c5e5e9f02bfbc1cb5a497a46d5e7384563",
+    "distributed": true
+  },
+  {
+    "id": "office-linkedin-ads",
+    "kind": "workflow",
+    "roles": [
+      "linkedin-ads"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "4a88ad91dc8b444d25e2ed473db0e0ba26bddbc1e99388014b204859560d9502",
+    "distributed": true
+  },
+  {
+    "id": "office-youtube-ads",
+    "kind": "workflow",
+    "roles": [
+      "youtube-ads"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "d3ee1500560d3153edeef437c840a535286d030044bf6c0a7f30fb9e1edf5f37",
+    "distributed": true
+  },
+  {
+    "id": "office-tiktok-ads",
+    "kind": "workflow",
+    "roles": [
+      "tiktok-ads"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "eb3c19ae13e59a0ef1f6cd99c7968a850dff90da1e6481306bfb528882426f93",
+    "distributed": true
+  },
+  {
+    "id": "office-ads-qa",
+    "kind": "workflow",
+    "roles": [
+      "ads-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "513d1b82da7e183bf653e7f6f892f4e6acdbf100ae5fcb0dfb2d510ac675a25b",
+    "distributed": true
+  },
+  {
+    "id": "office-email",
+    "kind": "workflow",
+    "roles": [
+      "email"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "52eb2fca46c12521ceb8a067108024981c5510843937a901cf121006e7ea6b9a",
+    "distributed": true
+  },
+  {
+    "id": "office-email-design",
+    "kind": "workflow",
+    "roles": [
+      "email-design"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "3bffd5b92a65dcb257df69df94b4043600100debcac31ef3b0bc7a9fc15321a6",
+    "distributed": true
+  },
+  {
+    "id": "office-email-qa",
+    "kind": "workflow",
+    "roles": [
+      "email-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "6955357d01ee0a7576b4f0ac413a75892f0a0aa77e256e85edc957cdae0e66ab",
+    "distributed": true
+  },
+  {
+    "id": "office-community",
+    "kind": "workflow",
+    "roles": [
+      "community"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "928b93e83328c2da500a64711af7ab87869631930988f61fdaeee35a5e5f2f94",
+    "distributed": true
+  },
+  {
+    "id": "office-whatsapp",
+    "kind": "workflow",
+    "roles": [
+      "whatsapp"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "0439799f8dbf078eed7aa1f11a77af5744fef62745b9ee41d97758b8f874fdee",
+    "distributed": true
+  },
+  {
+    "id": "office-crm",
+    "kind": "workflow",
+    "roles": [
+      "crm"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "433d695bc60bf1c3601ddb68c208e09d541483ddc1f811b74bb0c147598f1ea9",
+    "distributed": true
+  },
+  {
+    "id": "office-bookings",
+    "kind": "workflow",
+    "roles": [
+      "bookings"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "03392341dccbb0fcf19c84698e4a78fea63ea54f8fee9448a6fb446efc361e74",
+    "distributed": true
+  },
+  {
+    "id": "office-support-qa",
+    "kind": "workflow",
+    "roles": [
+      "support-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "6deb7131d37a19c85b3c8607842a3b9ccc8b6560069a4e68a2ec10a34960346c",
+    "distributed": true
+  },
+  {
+    "id": "office-bookkeeping",
+    "kind": "workflow",
+    "roles": [
+      "bookkeeping"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "e4e9832b82f18cb2f27c5f1e26e7587b7c824b07bd78b2db20b7058312d0114b",
+    "distributed": true
+  },
+  {
+    "id": "office-billing",
+    "kind": "workflow",
+    "roles": [
+      "billing"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "a2370f6c4a97f6fc693f3e9a1e347641ff89a41c738e96c24ecef0cdd9b80b09",
+    "distributed": true
+  },
+  {
+    "id": "office-pricing",
+    "kind": "workflow",
+    "roles": [
+      "pricing"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "dd38cfc120a6c102aba5426229f67aad103417a268320b53b258576a9b4b6fd2",
+    "distributed": true
+  },
+  {
+    "id": "office-margin",
+    "kind": "workflow",
+    "roles": [
+      "margin"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "260d5d9b7e553fc62c4986db91acf46a588afe4dc4e232a34f3600f328dca080",
+    "distributed": true
+  },
+  {
+    "id": "office-subscriptions",
+    "kind": "workflow",
+    "roles": [
+      "subscriptions"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "a92eb5f37ace0b1ea7221dcc65da72f425d10732c00912d452795282e2b44811",
+    "distributed": true
+  },
+  {
+    "id": "office-finance-qa",
+    "kind": "workflow",
+    "roles": [
+      "finance-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "22847c0daedf1f7a427375f04c8c4b103db543945fc2d010eb2317c8ae69ace1",
+    "distributed": true
+  },
+  {
+    "id": "office-proposal",
+    "kind": "workflow",
+    "roles": [
+      "proposal"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "b1bc5a69008aba4ccf2870063d59bc21128a3de2f8be82cda8fda045299f416f",
+    "distributed": true
+  },
+  {
+    "id": "office-workflow-architect",
+    "kind": "workflow",
+    "roles": [
+      "workflow-architect"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "7ccbb6b7d0fc0de745398f8769b41e9bfd8ccabceae1e4a78dcf76eeab960fb0",
+    "distributed": true
+  },
+  {
+    "id": "office-reliability",
+    "kind": "workflow",
+    "roles": [
+      "reliability"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "afa0e89d7eb30917d9a296f12b906c414837f83d0be615c1574ca51734249a28",
+    "distributed": true
+  },
+  {
+    "id": "office-operations-qa",
+    "kind": "workflow",
+    "roles": [
+      "operations-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "656b434d28a32ec788d8b3ea46dc16b6e4b9fe43b82f087f0a829eebc4e8d8e1",
+    "distributed": true
+  },
+  {
+    "id": "office-evaluation",
+    "kind": "workflow",
+    "roles": [
+      "evaluation"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "9dfab994fd1e4f99251bdcdb98b67217d1fbfa5e345779f62d2c5c06402ba849",
+    "distributed": true
+  },
+  {
+    "id": "office-librarian",
+    "kind": "workflow",
+    "roles": [
+      "librarian"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "bb4de5d4c0730e2af91790cc63c17db741b992f9f56ee81934133185606df782",
+    "distributed": true
+  },
+  {
+    "id": "office-competitors",
+    "kind": "workflow",
+    "roles": [
+      "competitors"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "bf8fb82647e18a81f7a9efe936d98ce455c24e789391dc7c8d473beb119e8a79",
+    "distributed": true
+  },
+  {
+    "id": "office-research-qa",
+    "kind": "workflow",
+    "roles": [
+      "research-qa"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "650ec8c650bd083260b9552a6ec7e6f34fd754c729c3e715e964ffaf168007dc",
+    "distributed": true
+  },
+  {
+    "id": "office-test",
+    "kind": "workflow",
+    "roles": [
+      "test"
+    ],
+    "license": "Internal adaptation; licensed upstream references",
+    "sourceRef": "780612410b2e1e62f973db1e1efe7e9c5bbf2bdfc0ffbb2eb34c4f4679a2579e",
+    "distributed": true
+  },
+  {
+    "id": "mc-delivery-loop",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "cmo",
+      "cfo",
+      "cto",
+      "delivery",
+      "success",
+      "brand-strategist",
+      "voice",
+      "competitors",
+      "creative-director",
+      "design-system",
+      "grid-planner",
+      "image-prompts",
+      "copy",
+      "video",
+      "creative-qc",
+      "scheduler",
+      "email",
+      "community",
+      "analytics",
+      "audit",
+      "proposal",
+      "bookkeeping",
+      "billing",
+      "pricing",
+      "margin",
+      "subscriptions",
+      "workflow-architect",
+      "implementation",
+      "test",
+      "librarian",
+      "media",
+      "integrations",
+      "reliability",
+      "evaluation",
+      "knowledge",
+      "paid-ads",
+      "instagram",
+      "linkedin",
+      "facebook",
+      "social-qa",
+      "videographer",
+      "content-qa",
+      "presentations",
+      "web-designer",
+      "web-research",
+      "web-qa",
+      "ads-lead",
+      "ads-analyst",
+      "meta-ads",
+      "linkedin-ads",
+      "youtube-ads",
+      "tiktok-ads",
+      "ads-qa",
+      "email-lead",
+      "email-design",
+      "email-qa",
+      "support-lead",
+      "whatsapp",
+      "crm",
+      "bookings",
+      "support-qa",
+      "finance-qa",
+      "operations-qa",
+      "research-qa"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "62bf5900399c1cdca4b00abd424927da837bb2d270df647f3ac7fc9b18845e4f",
+    "distributed": true
+  },
+  {
+    "id": "mc-context-handoff",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "cmo",
+      "cfo",
+      "cto",
+      "delivery",
+      "success",
+      "brand-strategist",
+      "voice",
+      "competitors",
+      "creative-director",
+      "design-system",
+      "grid-planner",
+      "image-prompts",
+      "copy",
+      "video",
+      "creative-qc",
+      "scheduler",
+      "email",
+      "community",
+      "analytics",
+      "audit",
+      "proposal",
+      "bookkeeping",
+      "billing",
+      "pricing",
+      "margin",
+      "subscriptions",
+      "workflow-architect",
+      "implementation",
+      "test",
+      "librarian",
+      "media",
+      "integrations",
+      "reliability",
+      "evaluation",
+      "knowledge",
+      "paid-ads",
+      "instagram",
+      "linkedin",
+      "facebook",
+      "social-qa",
+      "videographer",
+      "content-qa",
+      "presentations",
+      "web-designer",
+      "web-research",
+      "web-qa",
+      "ads-lead",
+      "ads-analyst",
+      "meta-ads",
+      "linkedin-ads",
+      "youtube-ads",
+      "tiktok-ads",
+      "ads-qa",
+      "email-lead",
+      "email-design",
+      "email-qa",
+      "support-lead",
+      "whatsapp",
+      "crm",
+      "bookings",
+      "support-qa",
+      "finance-qa",
+      "operations-qa",
+      "research-qa"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "7cd66f6a0d57bdbeef5afe87a0760f86ca7c186ba1549e960485c34a69cf724a",
+    "distributed": true
+  },
+  {
+    "id": "mc-decision-review",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "cmo",
+      "creative-director",
+      "cto",
+      "cfo",
+      "brand-strategist",
+      "competitors",
+      "knowledge",
+      "pricing",
+      "margin",
+      "ads-lead",
+      "email-lead",
+      "support-lead",
+      "success",
+      "delivery"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "60c85c3ac372b3f302bc15b6413a1c10c2999031c6f344711dbf920c40691a11",
+    "distributed": true
+  },
+  {
+    "id": "mc-file-library",
+    "kind": "supplement",
+    "roles": [
+      "librarian",
+      "knowledge",
+      "delivery",
+      "bookkeeping",
+      "billing",
+      "media"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "48b86ce9394be2671b43910cd390c073b6f3da880c369d2964803401ed8e3df8",
+    "distributed": true
+  },
+  {
+    "id": "mc-video-edit-plan",
+    "kind": "supplement",
+    "roles": [
+      "media",
+      "video",
+      "videographer",
+      "content-qa"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "36d8c0980d79ffe886d1b8ddf6cfc55b5d956eafc82df5267e9499ee041cd3a5",
+    "distributed": true
+  },
+  {
+    "id": "mc-operations-brief",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "delivery",
+      "success",
+      "support-lead",
+      "crm",
+      "bookings",
+      "cfo",
+      "billing",
+      "subscriptions"
+    ],
+    "license": "Internal original guidance; sources attributed",
+    "sourceRef": "e6d335c2d3b438efaea6003c6b081b2301d1577f133a1c9018344456361e0c5a",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-evidence-review",
+    "kind": "supplement",
+    "roles": [
+      "creative-qc",
+      "test",
+      "evaluation",
+      "social-qa",
+      "content-qa",
+      "web-qa",
+      "ads-qa",
+      "email-qa",
+      "support-qa",
+      "finance-qa",
+      "operations-qa",
+      "research-qa"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "e47df96d06f7a0584330de8be62ad78b8b42f356f4bd7ae039605918452c5af7",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-content-chain",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "cmo",
+      "copy",
+      "grid-planner",
+      "instagram",
+      "linkedin",
+      "facebook",
+      "video",
+      "videographer",
+      "media",
+      "image-prompts",
+      "email",
+      "email-design",
+      "creative-director",
+      "design-system",
+      "social-qa",
+      "content-qa"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "e44e9a399f5b69d21fbc347c378397586a9b2cd93054ffa94bfc720ca87a634a",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-design-contract",
+    "kind": "supplement",
+    "roles": [
+      "creative-director",
+      "design-system",
+      "presentations",
+      "web-designer",
+      "implementation",
+      "cto",
+      "creative-qc",
+      "web-qa",
+      "email-design"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "f12447ae40f9ede582a40415a702f247b67d2b6640acac5ceb068b4fa105a279",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-audience-lab",
+    "kind": "supplement",
+    "roles": [
+      "brand-strategist",
+      "competitors",
+      "knowledge",
+      "paid-ads",
+      "ads-lead",
+      "ads-analyst",
+      "copy",
+      "analytics"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "879d86cf190487dc44d999cade94f1acb574db2371e3f0b130d60a19990a2629",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-execution-checkpoint",
+    "kind": "supplement",
+    "roles": [
+      "coo",
+      "delivery",
+      "workflow-architect",
+      "reliability",
+      "integrations",
+      "operations-qa"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "6f694bd93dd3e0140388b22c2464a1a07a70adba8f3a9a3c2cf85b61fc11d7bf",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-edit-profile",
+    "kind": "supplement",
+    "roles": [
+      "video",
+      "videographer",
+      "media",
+      "content-qa"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "64073f8a7be63d61190a6715a558e836e1368b9970dc99213125830e3b5ed4ad",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-spatial-review",
+    "kind": "supplement",
+    "roles": [
+      "cto",
+      "web-designer",
+      "implementation",
+      "creative-director",
+      "web-qa"
+    ],
+    "license": "Internal original adaptation; upstream concepts attributed",
+    "sourceRef": "6d82e0b9dcfdb4d0627cc03e36f438522d2bca9fc7576de4227f0889d5e5de3b",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-reference-led-production",
+    "kind": "supplement",
+    "roles": [
+      "video",
+      "image-prompts",
+      "videographer",
+      "media",
+      "content-qa"
+    ],
+    "license": "Internal original adaptation; public learning sources attributed",
+    "sourceRef": "b8f6bf20d6243ef85dbb867a20741bce72b49e7603282def94e98b3c06f83c67",
+    "distributed": true
+  },
+  {
+    "id": "jarvis-client-audit",
+    "kind": "supplement",
+    "roles": [
+      "brand-strategist"
+    ],
+    "license": "Internal adaptation with retained MIT and Apache-2.0 notices",
+    "sourceRef": "f5a2387d57c896f8aed4ae702ebdf9e99c33aedda701f711d549af73795389d2",
+    "distributed": true
+  }
+]

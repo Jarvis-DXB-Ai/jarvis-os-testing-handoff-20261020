@@ -1,0 +1,3 @@
+# Photo & Video QA
+Check source roles, identity/plate preservation, scene-ID/content agreement and duration sums. A matching hash does not prove scene agreement. Compare actual edits for untouched regions, perspective, shadows and occlusion; inspect actual clips for identity drift, readable copy and full audio playback/sync. Verify export settings from the file.
+Without media, pixel/audio/export checks remain unassessed. Accept plans only for plan briefs. Locate defects by artifact/version and frame/time or exact text; propose the smallest repair. Preserve correct work and the coordinator’s exact review schema.

@@ -1,0 +1,206 @@
+{
+  "checkedAt": "2026-10-13",
+  "stage": "shared-system",
+  "sharedReads": [
+    {
+      "id": "canva",
+      "name": "Canva",
+      "purpose": "Editable social graphics, presentations and approved brand templates",
+      "category": "Creative",
+      "source": "https://www.canva.dev/docs/apps/rest-apis/",
+      "scope": "design:meta:read; template/content scopes only for later approved work",
+      "nextStep": "Canva chat read verified on 13 October 2026. Configure and verify direct Office authentication and its scoped worker route next; no Brand Kit is selected."
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "purpose": "Newsletter drafts, email performance and approved audience workflows",
+      "category": "Marketing",
+      "source": "https://mailchimp.com/developer/marketing/",
+      "scope": "Account health first; exact audience and send permission later",
+      "nextStep": "Authorize the shared Mailchimp account securely; first verify the API health read, then prepare drafts and reports before any sending."
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "purpose": "Source files, Docs, Sheets, briefs and approved asset references",
+      "category": "Knowledge",
+      "source": "https://developers.google.com/drive/api/reference/rest/v3/about/get",
+      "scope": "Selected file access preferred; read scopes matched to the intended operation",
+      "nextStep": "Verify shared Drive access, then choose source folders explicitly and preserve their permissions. No automatic whole-drive ingestion."
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "purpose": "Real availability and approved campaign or meeting timelines",
+      "category": "Planning",
+      "source": "https://developers.google.com/calendar/api/v3/reference/calendarList/list",
+      "scope": "calendar.calendarlist.readonly first; events/free-busy scopes separately",
+      "nextStep": "Verify the calendar-list read, then choose calendars. Event creation and recurring Office jobs remain separate."
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "purpose": "Email context and reviewed response drafts",
+      "category": "Communication",
+      "source": "https://developers.google.com/gmail/api/reference/rest/v1/users/getProfile",
+      "scope": "gmail.metadata for capability check; content/draft/send permissions separately",
+      "nextStep": "Verify mailbox capability without returning message content. Scoped email context and draft creation follow; sending stays gated."
+    },
+    {
+      "id": "ga4",
+      "name": "Google Analytics",
+      "purpose": "Traffic, conversion events and campaign outcome reporting",
+      "category": "Measurement",
+      "source": "https://developers.google.com/analytics/devguides/reporting/data/v1",
+      "scope": "analytics.readonly; exact property binding later",
+      "nextStep": "Verify account access, bind the right property later, then check conversion instrumentation and attribution. An account read is not a working report."
+    },
+    {
+      "id": "search-console",
+      "name": "Google Search Console",
+      "purpose": "Search queries, visibility, clicks and content opportunities",
+      "category": "Measurement",
+      "source": "https://developers.google.com/webmaster-tools/v1/sites/list",
+      "scope": "webmasters.readonly; exact site binding later",
+      "nextStep": "Verify the account read, then choose the correct verified property. Search data does not prove revenue or conversion tracking."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "purpose": "General public web research and structured source capture",
+      "priority": "Priority next",
+      "source": "https://docs.firecrawl.dev/introduction",
+      "nextStep": "Used successfully in this research chat; Office worker route, usage limits and scoped receipts remain pending."
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "purpose": "Editable visual systems and detailed layout handoff",
+      "priority": "Useful complement",
+      "source": "https://developers.figma.com/docs/figma-mcp-server/",
+      "nextStep": "Available in this chat; Office authentication and exact-file grants still require a scoped adapter."
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "purpose": "Lead pipeline and CRM handoffs",
+      "priority": "When account confirmed",
+      "source": "https://developers.hubspot.com/docs/apps/developer-platform/overview",
+      "nextStep": "Add if already used; avoid creating a second client directory beside Jarvis."
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "purpose": "Approved voiceover and audio production",
+      "priority": "When workflow needs it",
+      "source": "https://elevenlabs.io/docs/api-reference/introduction",
+      "nextStep": "Check existing account and voice permissions. Generation uses provider credits; no generation or cloning is enabled."
+    },
+    {
+      "id": "semrush",
+      "name": "Semrush",
+      "purpose": "Keyword, competitor and SEO research",
+      "priority": "When account confirmed",
+      "source": "https://developer.semrush.com/api/v4/",
+      "nextStep": "API plan and units require verification; Search Console first for owned sites."
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "purpose": "Structured onboarding, lead capture and feedback",
+      "priority": "When needed",
+      "source": "https://www.typeform.com/developers/",
+      "nextStep": "Reuse existing intake first. Bind forms and validate signed event delivery before importing client submissions."
+    },
+    {
+      "id": "n8n",
+      "name": "n8n / Make / Zapier",
+      "purpose": "Deterministic event handoffs and future schedules",
+      "priority": "Evaluate later",
+      "source": "https://docs.n8n.io/",
+      "nextStep": "Choose one only for a demonstrated gap. No new schedule or hourly automation is created."
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "purpose": "Store facts and ecommerce outcome signals",
+      "priority": "Client dependent",
+      "source": "https://shopify.dev/docs/api/admin-graphql",
+      "nextStep": "Only for a store client. Product, inventory, orders and publication need exact client bindings."
+    },
+    {
+      "id": "clarity",
+      "name": "Microsoft Clarity",
+      "purpose": "Website behavior, heatmaps and UX diagnosis",
+      "priority": "Client website dependent",
+      "source": "https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-data-export-api",
+      "nextStep": "Pair with GA4 where a client needs UX diagnosis. The documented dashboard export is limited to 10 requests/day per project and the previous 1\u20133 days; verify project access and privacy configuration. This does not establish a session-recording analysis route."
+    }
+  ],
+  "features": [
+    {
+      "name": "Connection evidence",
+      "status": "Ready locally",
+      "nextStep": "Provider registration \u2192 account read \u2192 worker route \u2192 scoped client binding \u2192 recorded operation. Keep every stage visible."
+    },
+    {
+      "name": "Versioned brand memory",
+      "status": "Existing foundation",
+      "nextStep": "Use voice, offer, visual rules and approved source references; add campaign outcomes only after verified measurement."
+    },
+    {
+      "name": "Campaign outcome loop",
+      "status": "Next after measurement",
+      "nextStep": "Join approved asset version, external publication receipt and campaign metrics. Distinguish correlation from causal revenue attribution."
+    },
+    {
+      "name": "Searchable Brain and source graph",
+      "status": "Useful next",
+      "nextStep": "Search notes, assets, lessons and their task/source links; a graph should open the actual referenced evidence."
+    },
+    {
+      "name": "Department setup interview",
+      "status": "Useful next",
+      "nextStep": "Collect purpose, common job, success criteria, boundaries and tools; save draft rules and preview them before approval."
+    },
+    {
+      "name": "Correction-to-lesson workflow",
+      "status": "Extend existing",
+      "nextStep": "Propose one-off versus standing correction with scope and evidence. Keep reviewed lessons reversible and versioned."
+    },
+    {
+      "name": "Revision from saved pieces",
+      "status": "Useful next",
+      "nextStep": "Revise the exact reviewed deliverable using retained dependency outputs; do not silently rerun a full team."
+    },
+    {
+      "name": "Work calendar and routines",
+      "status": "Planned only",
+      "nextStep": "A calendar can show saved/scheduled work. Future execution needs explicit authorization, duplicate prevention, missed-run policy and a stop control. No timer is enabled."
+    },
+    {
+      "name": "Subscription-aware queue",
+      "status": "Useful next",
+      "nextStep": "Show provider availability/quota evidence and defer work when limited; preserve monthly subscriptions and no paid API fallback."
+    },
+    {
+      "name": "Browser tasks",
+      "status": "Later controlled lane",
+      "nextStep": "Separate browser profiles or serialized sessions; never grant all agents unrestricted control of the owner\u2019s live browser."
+    }
+  ],
+  "canvaChat": {
+    "status": "read_verified",
+    "checkedAt": "2026-10-13",
+    "evidence": "Brand Kit listing succeeded through the Canva chat connector and returned no accessible Brand Kits. This verifies this chat read; Office authentication and worker access are separate."
+  },
+  "research": {
+    "restructure": "https://re-structure.ai/capabilities/marketing",
+    "agentsOffice": "https://github.com/ajsahni/agents-office",
+    "commit": "3773c9b6aed6a1d2c3ab2765d113c644261c2019",
+    "interpretation": "ReStructure tools are vendor-described architecture, not proof of deployed integration. Agents Office source was reviewed for behavior only."
+  }
+}

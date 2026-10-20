@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-20T12:35:23.032795+00:00",
+  "scope": "Bounded positive membership engineering check; not a complete licence certification",
+  "actualHairFamilies": {
+    "fhair01": 16,
+    "long01": 13,
+    "hair_bun_brown": 8,
+    "short02": 13,
+    "mhair02": 6,
+    "Messy_Bun": 7,
+    "short01": 3
+  },
+  "characters": 66,
+  "meshesPerGlb": 507,
+  "allMeshesReachable": true,
+  "unusedDownload": [
+    {
+      "id": "572",
+      "title": "hair_female_medium",
+      "author": "grinsegold",
+      "license": "Supplied CC-BY credit \u00b7 export use unverified",
+      "licenseUrl": null,
+      "sourceRecord": "hair/hair_female_medium",
+      "sourceHomepage": "http://www.makehumancommunity.org",
+      "usageNote": "Included in supplied credits; use in exported cast not independently evidenced",
+      "sourceNotice": "Local downloaded metadata says AGPL3, conflicting with the supplied credit. This item is not independently evidenced as used in the exported cast.",
+      "exportMembership": "not selected in these 66 cast exports",
+      "localDownloadedLicence": "AGPL3",
+      "priorGenericCredit": "CC-BY",
+      "evidence": "Complete positive builder/cast-sheet/GLB membership comparison; see handoff/CAST-USAGE-PROVENANCE.json"
+    },
+    {
+      "id": "572",
+      "title": "hair_female_medium",
+      "author": "grinsegold",
+      "license": "Supplied CC-BY credit \u00b7 export use unverified",
+      "licenseUrl": null,
+      "sourceRecord": "hair/hair_female_medium",
+      "sourceHomepage": "http://www.makehumancommunity.org",
+      "usageNote": "Included in supplied credits; use in exported cast not independently evidenced",
+      "sourceNotice": "Local downloaded metadata says AGPL3, conflicting with the supplied credit. This item is not independently evidenced as used in the exported cast.",
+      "exportMembership": "not selected in these 66 cast exports",
+      "localDownloadedLicence": "AGPL3",
+      "priorGenericCredit": "CC-BY",
+      "evidence": "Complete positive builder/cast-sheet/GLB membership comparison; see handoff/CAST-USAGE-PROVENANCE.json"
+    }
+  ],
+  "restoredExactBinaries": [
+    {
+      "path": "variants/public-demo-main120/public/office/v2/office-agents.glb",
+      "sha256": "c51ed5d325aeb6957338f378c37993ca635acf05462ed568ad4d4d88b2c69914",
+      "bytes": 26208676
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged-mobile.glb",
+      "sha256": "4261db0c7d0920b2bc397217e1a64f48e71b90fc66fb8e7bb8a8f21a172118bb",
+      "bytes": 17338272
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged.glb",
+      "sha256": "6feea8678f211673534711fd3ccd3160eccd35e0afc40692950529e966788acf",
+      "bytes": 32544644
+    }
+  ],
+  "independentReview": "CAST-USAGE-QA.md and CAST-MEMBERSHIP-QA.json; no Blender run",
+  "limits": "No cryptographic build attestation or vertex/UV equality test; metadata and full scene membership were compared."
+}

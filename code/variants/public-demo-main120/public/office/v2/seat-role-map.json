@@ -1,0 +1,551 @@
+{
+ "note": "Recommended mapping from Office v2 seats to existing app role ids (src/lib/office-stack-plan.json). app_role_id null = new role in the restructure with no runtime agent yet: render the person, show status \"Planned\", never fake activity.",
+ "seats": [
+  {
+   "seat_id": "ads-tracking-qa",
+   "role": "Ads & Tracking QA",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "ads-qa",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "ads-analyst",
+   "role": "Ads Analyst",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "ads-analyst",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "google-youtube-ads-specialist",
+   "role": "Google & YouTube Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "youtube-ads",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "head-of-paid-media",
+   "role": "Head of Paid Media",
+   "department": "ADS",
+   "is_manager": true,
+   "app_role_id": "ads-lead",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "linkedin-ads-specialist",
+   "role": "LinkedIn Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "linkedin-ads",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "meta-ads-specialist",
+   "role": "Meta Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "meta-ads",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "paid-media-strategist",
+   "role": "Paid Media Strategist",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "paid-ads",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "tiktok-ads-specialist",
+   "role": "TikTok Ads Specialist",
+   "department": "ADS",
+   "is_manager": false,
+   "app_role_id": "tiktok-ads",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "brand-strategist-voice-guardian",
+   "role": "Brand Strategist & Voice Guardian",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": "brand-strategist",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "client-reporting-analyst",
+   "role": "Client Reporting Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "head-of-strategy",
+   "role": "Head of Strategy",
+   "department": "BRN",
+   "is_manager": true,
+   "app_role_id": "knowledge",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "knowledge-asset-librarian",
+   "role": "Knowledge & Asset Librarian",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": "librarian",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "learning-evaluation-specialist",
+   "role": "Learning & Evaluation Specialist",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": "evaluation",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "market-trend-researcher",
+   "role": "Market & Trend Researcher",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": "competitors",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "menu-intelligence-analyst",
+   "role": "Menu Intelligence Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "profit-intelligence-analyst",
+   "role": "Profit Intelligence Analyst",
+   "department": "BRN",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "social-dm-concierge",
+   "role": "Social DM Concierge",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "community",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "whatsapp-concierge-paused",
+   "role": "WhatsApp Concierge [paused]",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "whatsapp",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "bookings-coordinator",
+   "role": "Bookings Coordinator",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "bookings",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "crm-upsell-analyst",
+   "role": "CRM & Upsell Analyst",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "crm",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "email-copy-automation",
+   "role": "Email Copy & Automation",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "email",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "email-designer",
+   "role": "Email Designer",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "email-design",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "email-strategist",
+   "role": "Email Strategist",
+   "department": "CE",
+   "is_manager": false,
+   "app_role_id": "email-lead",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "head-of-customer-engagement",
+   "role": "Head of Customer Engagement",
+   "department": "CE",
+   "is_manager": true,
+   "app_role_id": "support-lead",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "ai-photographer",
+   "role": "AI Photographer",
+   "department": "CON",
+   "is_manager": false,
+   "app_role_id": "image-prompts",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "ai-videographer",
+   "role": "AI Videographer",
+   "department": "CON",
+   "is_manager": false,
+   "app_role_id": "videographer",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "content-creative-director",
+   "role": "Content Creative Director",
+   "department": "CON",
+   "is_manager": true,
+   "app_role_id": "video",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "scriptwriter-storyboard-artist",
+   "role": "Scriptwriter & Storyboard Artist",
+   "department": "CON",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "video-editor-motion-designer",
+   "role": "Video Editor & Motion Designer",
+   "department": "CON",
+   "is_manager": false,
+   "app_role_id": "media",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "account-manager",
+   "role": "Account Manager",
+   "department": "CP",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "agency-brand-content-lead",
+   "role": "Agency Brand & Content Lead",
+   "department": "CP",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "client-onboarding",
+   "role": "Client Onboarding",
+   "department": "CP",
+   "is_manager": false,
+   "app_role_id": "success",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "head-of-growth",
+   "role": "Head of Growth",
+   "department": "CP",
+   "is_manager": true,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "outreach-lead-gen",
+   "role": "Outreach & Lead Gen",
+   "department": "CP",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "proposals-pitch",
+   "role": "Proposals & Pitch",
+   "department": "CP",
+   "is_manager": false,
+   "app_role_id": "proposal",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "brand-identity-designer",
+   "role": "Brand Identity Designer",
+   "department": "GD",
+   "is_manager": false,
+   "app_role_id": "design-system",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "creative-director",
+   "role": "Creative Director",
+   "department": "GD",
+   "is_manager": true,
+   "app_role_id": "creative-director",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "presentation-designer",
+   "role": "Presentation Designer",
+   "department": "GD",
+   "is_manager": false,
+   "app_role_id": "presentations",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "print-collateral-designer",
+   "role": "Print & Collateral Designer",
+   "department": "GD",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "social-campaign-designer",
+   "role": "Social & Campaign Designer",
+   "department": "GD",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "max-coo",
+   "role": "Max \u2014 COO",
+   "department": "MAX",
+   "is_manager": true,
+   "app_role_id": "coo",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "billing-receivables",
+   "role": "Billing & Receivables",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "billing",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "bookkeeper",
+   "role": "Bookkeeper",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "bookkeeping",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "head-of-operations",
+   "role": "Head of Operations",
+   "department": "OPS",
+   "is_manager": true,
+   "app_role_id": "delivery",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "pricing-profitability-analyst",
+   "role": "Pricing & Profitability Analyst",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "pricing",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "reliability-recovery-engineer",
+   "role": "Reliability & Recovery Engineer",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "reliability",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "software-ai-spend-analyst",
+   "role": "Software & AI Spend Analyst",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "subscriptions",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "workflow-automation-architect",
+   "role": "Workflow & Automation Architect",
+   "department": "OPS",
+   "is_manager": false,
+   "app_role_id": "workflow-architect",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "community-manager",
+   "role": "Community Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "content-calendar-strategist",
+   "role": "Content & Calendar Strategist",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "grid-planner",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "copywriter",
+   "role": "Copywriter",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "copy",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "creator-scout",
+   "role": "Creator Scout",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "head-of-social",
+   "role": "Head of Social",
+   "department": "SOC",
+   "is_manager": true,
+   "app_role_id": "cmo",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "influencer-ugc-manager",
+   "role": "Influencer & UGC Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "instagram-facebook-manager",
+   "role": "Instagram & Facebook Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "instagram",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "linkedin-manager",
+   "role": "LinkedIn Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "linkedin",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "publishing-scheduling",
+   "role": "Publishing & Scheduling",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "scheduler",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "social-performance-analyst",
+   "role": "Social Performance Analyst",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": "analytics",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "tiktok-manager",
+   "role": "TikTok Manager",
+   "department": "SOC",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "head-of-web",
+   "role": "Head of Web",
+   "department": "WEB",
+   "is_manager": true,
+   "app_role_id": "cto",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "integration-engineer",
+   "role": "Integration Engineer",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": "integrations",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "landing-page-cro-specialist",
+   "role": "Landing Page & CRO Specialist",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": null,
+   "status": "new-role-planned"
+  },
+  {
+   "seat_id": "seo-google-presence-specialist",
+   "role": "SEO & Google Presence Specialist",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": "audit",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "web-backend-engineer",
+   "role": "Web & Backend Engineer",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": "implementation",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "web-designer",
+   "role": "Web Designer",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": "web-designer",
+   "status": "mapped"
+  },
+  {
+   "seat_id": "web-qa",
+   "role": "Web QA",
+   "department": "WEB",
+   "is_manager": false,
+   "app_role_id": "web-qa",
+   "status": "mapped"
+  }
+ ],
+ "merged_old_roles": {
+  "facebook": "instagram",
+  "voice": "brand-strategist",
+  "margin": "pricing",
+  "web-research": "competitors"
+ },
+ "retired_old_roles_heads_do_qa": [
+  "social-qa",
+  "content-qa",
+  "creative-qc",
+  "email-qa",
+  "support-qa",
+  "finance-qa",
+  "research-qa",
+  "operations-qa",
+  "test",
+  "cfo"
+ ]
+}

@@ -1,0 +1,11 @@
+import * as T from 'three';
+import type {KeyboardPose} from './keyboard-pose';
+import type {SceneAgent} from '../office-scene';
+export type TypingRig={id:string;role:string|null;root:T.Object3D;mixer:T.AnimationMixer;clip:T.AnimationClip;action:T.AnimationAction;position:T.Vector3;bounds:T.Sphere;playing:boolean;acc:number;phase:number;updates:number;keyboardPose?:KeyboardPose};
+export const shouldType=(agent:SceneAgent|undefined,motion:boolean)=>Boolean(motion&&agent&&!['idle','unknown','unavailable','offline','paused','planned'].includes(agent.state)&&(agent.running||agent.state==='working'||agent.state==='running'));
+export function createTypingRig(id:string,role:string|null,root:T.Object3D,typing:T.AnimationClip,index:number):TypingRig{
+ const names=new Set<string>();root.traverse(o=>names.add(o.name));const clip=new T.AnimationClip('typing',typing.duration,typing.tracks.filter(t=>names.has(t.name.split('.')[0])));if(!clip.tracks.length)throw Error('Missing typing tracks for '+id);const mixer=new T.AnimationMixer(root),position=root.getWorldPosition(new T.Vector3());return{id,role,root,mixer,clip,action:mixer.clipAction(clip),position,bounds:new T.Sphere(position.clone().add(new T.Vector3(0,.8,0)),1.7),playing:false,acc:0,phase:((index*0.61803398875)%1)*typing.duration,updates:0};
+}
+export function gateTyping(rigs:TypingRig[],agents:Map<string,SceneAgent>,motion:boolean){for(const rig of rigs){const active=rig.role!==null&&shouldType(agents.get(rig.role),motion);if(active===rig.playing)continue;rig.acc=0;rig.playing=active;if(active){rig.action.reset();rig.action.time=rig.phase;rig.action.play();rig.mixer.update(0);}else rig.action.stop();}}
+export function tickTyping(rigs:TypingRig[],frustum:T.Frustum,camera:T.Vector3,dt:number,frame:number){for(const rig of rigs){const visible=frustum.intersectsSphere(rig.bounds);rig.root.visible=visible;if(!rig.playing||!visible){rig.acc=0;continue;}const distance=rig.position.distanceTo(camera);if(distance>=70){rig.acc=0;continue;}rig.acc+=dt;if(distance<35||frame%3===0){rig.mixer.update(rig.acc);rig.acc=0;rig.updates++;}}}
+export function disposeTyping(rigs:TypingRig[]){for(const rig of rigs){rig.action.stop();rig.mixer.stopAllAction();rig.mixer.uncacheClip(rig.clip);rig.mixer.uncacheRoot(rig.root);}rigs.length=0;}

@@ -1,0 +1,18 @@
+{
+  "$schema":"./node_modules/wrangler/config-schema.json",
+  "name":"jarvis-office-private",
+  "account_id":"REPLACE_WITH_TEST_ID",
+  "main":"src/cloudflare/office-private-pilot.ts",
+  "compatibility_date":"2026-10-14",
+  "compatibility_flags":["nodejs_compat"],
+  "workers_dev":true,
+  "preview_urls":false,
+  "observability":{"enabled":true},
+  "vars":{
+    "JARVIS_ACCESS_TEAM_DOMAIN":"https://your-test-team.cloudflareaccess.com",
+    "JARVIS_ACCESS_AUDIENCE":"REPLACE_WITH_TEST_ID",
+    "JARVIS_OWNER_EMAILS":"owner@example.invalid,owner@example.invalid",
+    "JARVIS_RUNTIME_WORKER_ORIGIN":"https://replace-with-your-test-worker.example.invalid"
+  },
+  "vpc_services":[{"binding":"PRIVATE_OFFICE","service_id":"cec4e168-7249-5dd9-8332-d2a0f32585c1"}]
+}

@@ -1,0 +1,8 @@
+.index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:22px 0 28px}
+.index a{display:flex;flex-direction:column;gap:6px;padding:14px;border:1px solid var(--j-hair-2);border-radius:8px;background:var(--j-raised);text-decoration:none;min-width:0}
+.index strong{font-size:12px;font-weight:500;color:var(--j-text-2)}
+.index span{font-size:10px;line-height:1.6;color:var(--j-text-3);overflow-wrap:anywhere}
+.index a:hover{border-color:var(--j-recommend-edge)}
+.index a:focus-visible{outline:2px solid var(--j-focus);outline-offset:3px}
+@media(max-width:1000px){.index{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){.index{grid-template-columns:1fr}.index a{padding:12px}}

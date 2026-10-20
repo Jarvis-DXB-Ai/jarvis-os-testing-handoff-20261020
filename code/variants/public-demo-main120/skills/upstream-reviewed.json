@@ -1,0 +1,450 @@
+[
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/social",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/social",
+    "license": "MIT",
+    "sha256": "a21625ef6d4dea0e83b1a8f1a471d8548a56e989e2944672f0cb4361a7fa296e"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/ads",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/ads",
+    "license": "MIT",
+    "sha256": "ac9e25cb762cf457c55007cb509da112bd14b763c3edc7a8414cf058bb78dcc8"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/ad-creative",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/ad-creative",
+    "license": "MIT",
+    "sha256": "c046baf1082a8001d3ad2ee1a9b1635cbf757216ffafa06bf5a84f27f0955d43"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/copywriting",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/copywriting",
+    "license": "MIT",
+    "sha256": "ecb4693fba9cc4f8841ec20f179574f04f69cbb1fb4cc66c59d955a22eccea6f"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/copy-editing",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/copy-editing",
+    "license": "MIT",
+    "sha256": "d23184ad62cbe29f64684b934c99d4ae8c7f03dec9c5a5d6bd492d645f5b9719"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/content-strategy",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/content-strategy",
+    "license": "MIT",
+    "sha256": "dce9f4027ae129691e92623541a360bee9356137a7eecf68afa95674af118e68"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/emails",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/emails",
+    "license": "MIT",
+    "sha256": "0d27de40c2eb32eb2425a48805dc1bf0210d64d0ce384cd48860697020f5a573"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/analytics",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/analytics",
+    "license": "MIT",
+    "sha256": "d52ee77ddd9d98f23c4b4f76c46bc13acf74c7581f160f64dc3260013547b207"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/attribution",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/attribution",
+    "license": "MIT",
+    "sha256": "b0493b97f7a22d6daf7fe47a67e8dc050e5cca98fe952df7dea2bf296853c978"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/revops",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/revops",
+    "license": "MIT",
+    "sha256": "b20c88739af875081659ed86ad36c72f69230cd716258b8c1ac53b60a5c04e36"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/pricing",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/pricing",
+    "license": "MIT",
+    "sha256": "4cb8ab0616f879defa427b6ada3c132644b8cc369a377a85af6cb9c5e1e8f77b"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/customer-research",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/customer-research",
+    "license": "MIT",
+    "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/product-marketing",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/product-marketing",
+    "license": "MIT",
+    "sha256": "6dfd6bd485f62448385844cb9eceefcee0977c843d7a1c9e6077590d4e19d1ec"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/competitors",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/competitors",
+    "license": "MIT",
+    "sha256": "ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/seo-audit",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/seo-audit",
+    "license": "MIT",
+    "sha256": "f79aebc633d5fcf53d67fd4d39ea6210577485f2a5e46125b3bd757e03baa634"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/site-architecture",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/site-architecture",
+    "license": "MIT",
+    "sha256": "55c0128ac29f628944444f8850b97913517f57131673824ebcad4d5ffb26ddd2"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/cro",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/cro",
+    "license": "MIT",
+    "sha256": "6e172cc38178c800ff41ceb097f36c6a1db8035fb88a1fee53043f8ec38a6f35"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/image",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/image",
+    "license": "MIT",
+    "sha256": "a03da6dd4aed940f2fb8df1337a8dbe0f4108b3bef864e996f759fa4d94e2600"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "ref": "0f8d89961cdf782dd02644b9df3ddc671c21a7f0",
+    "path": "skills/video",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/0f8d89961cdf782dd02644b9df3ddc671c21a7f0/skills/video",
+    "license": "MIT",
+    "sha256": "0a35e32dda553707996bf383c00ecf971d05127d35d5d814577457c23a3ab591"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "marketing/skills/campaign-plan",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/marketing/skills/campaign-plan",
+    "license": "Apache-2.0",
+    "sha256": "f0b146074b64ee0fd52f7864e30191eab83878c8c1e3e7cf24754e13c7dbfad3"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "marketing/skills/brand-review",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/marketing/skills/brand-review",
+    "license": "Apache-2.0",
+    "sha256": "759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "marketing/skills/performance-report",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/marketing/skills/performance-report",
+    "license": "Apache-2.0",
+    "sha256": "997397e23ba5124cdcbbf17e4be9f5cb36f2a2145b5648e02b2852c91c3cc140"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "design/skills/design-system",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/design/skills/design-system",
+    "license": "Apache-2.0",
+    "sha256": "fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "design/skills/design-critique",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/design/skills/design-critique",
+    "license": "Apache-2.0",
+    "sha256": "3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "design/skills/design-handoff",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/design/skills/design-handoff",
+    "license": "Apache-2.0",
+    "sha256": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "design/skills/accessibility-review",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/design/skills/accessibility-review",
+    "license": "Apache-2.0",
+    "sha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "design/skills/research-synthesis",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/design/skills/research-synthesis",
+    "license": "Apache-2.0",
+    "sha256": "40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "customer-support/skills/draft-response",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/customer-support/skills/draft-response",
+    "license": "Apache-2.0",
+    "sha256": "1a201228b75a98fc3b5d45090cb7443d50df204b2ee748bfc8970790a64f0026"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "customer-support/skills/ticket-triage",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/customer-support/skills/ticket-triage",
+    "license": "Apache-2.0",
+    "sha256": "d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "customer-support/skills/customer-escalation",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/customer-support/skills/customer-escalation",
+    "license": "Apache-2.0",
+    "sha256": "90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "customer-support/skills/kb-article",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/customer-support/skills/kb-article",
+    "license": "Apache-2.0",
+    "sha256": "cfc300f5ecc5128910a8ff04514d565a45ca9178bf1dc2a40cc40e2ce4db9292"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "finance/skills/reconciliation",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/skills/reconciliation",
+    "license": "Apache-2.0",
+    "sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "finance/skills/close-management",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/skills/close-management",
+    "license": "Apache-2.0",
+    "sha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "finance/skills/variance-analysis",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/skills/variance-analysis",
+    "license": "Apache-2.0",
+    "sha256": "467db7de3fb118550d013409254e2d4a9f87385a661e154655bf3431919b0ba1"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "engineering/skills/architecture",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/engineering/skills/architecture",
+    "license": "Apache-2.0",
+    "sha256": "de7db3170a3ae1a894c70ef6cb555fe15618ed9b9674d20895eda3d2a0a5f9a2"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "engineering/skills/testing-strategy",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/engineering/skills/testing-strategy",
+    "license": "Apache-2.0",
+    "sha256": "5c5e95830754bbdd838213fa05fc8f07523f591fd558fd3c86031ffd479f7a9e"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "engineering/skills/code-review",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/engineering/skills/code-review",
+    "license": "Apache-2.0",
+    "sha256": "6303932f1b301c614a6f5a0099cd87a19e1cd1b7cbfa1a1e11e996edbca6426b"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "engineering/skills/incident-response",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/engineering/skills/incident-response",
+    "license": "Apache-2.0",
+    "sha256": "9eaa7a974c90395ac7116e82710f74546f38e69f735d78f684ee13fd79646e9a"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "enterprise-search/skills/search-strategy",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/enterprise-search/skills/search-strategy",
+    "license": "Apache-2.0",
+    "sha256": "71d5ba2d219a72d696e079885cba2fb5455ba5da6b1404491f8b945bdd8694c6"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "enterprise-search/skills/knowledge-synthesis",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/enterprise-search/skills/knowledge-synthesis",
+    "license": "Apache-2.0",
+    "sha256": "8dc66c66ef0004010bbf2d569251163e90a6675b982e0cb99ef26b4dd1c5a0f6"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "enterprise-search/skills/source-management",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/enterprise-search/skills/source-management",
+    "license": "Apache-2.0",
+    "sha256": "221d8acdc5c686033bb073d2bba83841892f6b8be0888c0267247fd1dd34461d"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "productivity/skills/task-management",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/productivity/skills/task-management",
+    "license": "Apache-2.0",
+    "sha256": "db1320873d68caab09cdbc1788e78d81e3b9b7cc6b499e2c4b975f25e873049f"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "sales/skills/crm-hygiene-check",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/sales/skills/crm-hygiene-check",
+    "license": "Apache-2.0",
+    "sha256": "f969f4821697e92c9e1ffdf8cd659f2f7e2d92cd82ac328aba9e9a2d17cbff58"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "sales/skills/schedule-meeting",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/sales/skills/schedule-meeting",
+    "license": "Apache-2.0",
+    "sha256": "0ca4b00fced95068f2d3255d0704cc38e9c7a356b25f4c05db990d0d19c81524"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "ref": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+    "path": "small-business/skills/proposal-builder",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/small-business/skills/proposal-builder",
+    "license": "Apache-2.0",
+    "sha256": "e558016c080898debf1e4e944826a562861c724144101cbc9ab6b99c0d362d0b"
+  },
+  {
+    "repo": "higgsfield-ai/skills",
+    "ref": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "path": "higgsfield-product-photoshoot",
+    "url": "https://github.com/higgsfield-ai/skills/tree/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/higgsfield-product-photoshoot",
+    "license": "MIT",
+    "sha256": "dc67bd308bb4c8540855aeaf463d8afa5a9ae4ffacb6ed33915af7a852a6e431"
+  },
+  {
+    "repo": "higgsfield-ai/skills",
+    "ref": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "path": "higgsfield-generate",
+    "url": "https://github.com/higgsfield-ai/skills/tree/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/higgsfield-generate",
+    "license": "MIT",
+    "sha256": "68bed3a080231a41ade692a0c20b637f93317713ff6ba2ff35c5302282437cef"
+  },
+  {
+    "repo": "higgsfield-ai/skills",
+    "ref": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "path": "higgsfield-brandkit",
+    "url": "https://github.com/higgsfield-ai/skills/tree/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/higgsfield-brandkit",
+    "license": "MIT",
+    "sha256": "fc227dfc1545cb60e07945370c04e3e58eb0933ca2bd00011ef4eca0b414fb63"
+  },
+  {
+    "repo": "higgsfield-ai/skills",
+    "ref": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+    "path": "higgsfield-video-explainer",
+    "url": "https://github.com/higgsfield-ai/skills/tree/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/higgsfield-video-explainer",
+    "license": "MIT",
+    "sha256": "86d90d67362512c65d44a840e02daf513eb7362e465f6e766b76ddba518f4ce0"
+  },
+  {
+    "repo": "vidual-labs/digital-marketing-skills",
+    "ref": "f4cc285bafe6f10735643dd538e3eaa2472f1891",
+    "path": "skills/marketing/instagram-organic",
+    "url": "https://github.com/vidual-labs/digital-marketing-skills/tree/f4cc285bafe6f10735643dd538e3eaa2472f1891/skills/marketing/instagram-organic",
+    "license": "MIT",
+    "sha256": "637cc15eb4c8d179d4f1ff65b8e0d58f2d43d159cb63532e8da7ff3a76f07719"
+  },
+  {
+    "repo": "vidual-labs/digital-marketing-skills",
+    "ref": "f4cc285bafe6f10735643dd538e3eaa2472f1891",
+    "path": "skills/marketing/linkedin-organic",
+    "url": "https://github.com/vidual-labs/digital-marketing-skills/tree/f4cc285bafe6f10735643dd538e3eaa2472f1891/skills/marketing/linkedin-organic",
+    "license": "MIT",
+    "sha256": "6cf44f9223fdee07447481fa782ce502c6fa0b5af8ccde5fa353c55d92e5e6c5"
+  },
+  {
+    "repo": "vidual-labs/digital-marketing-skills",
+    "ref": "f4cc285bafe6f10735643dd538e3eaa2472f1891",
+    "path": "skills/marketing/tiktok-ads",
+    "url": "https://github.com/vidual-labs/digital-marketing-skills/tree/f4cc285bafe6f10735643dd538e3eaa2472f1891/skills/marketing/tiktok-ads",
+    "license": "MIT",
+    "sha256": "b9aed10d4914ecfa54cd49cb94e6daf6cac721ee64a060899c0ad18c00386817"
+  },
+  {
+    "repo": "openai/skills",
+    "ref": "49f948faa9258a0c61caceaf225e179651397431",
+    "path": "skills/.curated/pdf",
+    "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf",
+    "license": "Apache-2.0",
+    "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2"
+  },
+  {
+    "repo": "cloudflare/skills",
+    "ref": "53395984c3ea1925d00fce03b266112302f050e6",
+    "path": "skills/workers-best-practices",
+    "url": "https://github.com/cloudflare/skills/tree/53395984c3ea1925d00fce03b266112302f050e6/skills/workers-best-practices",
+    "license": "Apache-2.0",
+    "sha256": "039c2a70aac53e00da20adc3d527bd3fc9b727be90c28b94c81c5e10092339ef"
+  },
+  {
+    "repo": "supabase/agent-skills",
+    "ref": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "path": "skills/supabase-postgres-best-practices",
+    "url": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices",
+    "license": "MIT",
+    "sha256": "ad65e776f45e761bafc609d3f506c77c1032225aa65e0c4c02f241b8071e5855"
+  },
+  {
+    "repo": "anthropics/skills",
+    "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/frontend-design",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design",
+    "license": "Apache-2.0",
+    "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+  }
+]

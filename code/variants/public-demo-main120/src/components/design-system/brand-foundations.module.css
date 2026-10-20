@@ -1,0 +1,79 @@
+/* Shared r02 foundations; adoption remains scoped to importing surfaces. */
+.tokens {
+  /* Surfaces (SOURCE: Home .root --panel/--panel2/--chrome, page bg #08080A) */
+  --j-ink:        #08080A;
+  --j-panel:      #0A0A0C;
+  --j-panel-2:    #0C0C0E;
+  --j-chrome:     #0B0B0D;
+  --j-raised:     #101013;
+
+  /* Lines (SOURCE: --hair/--hair2/--v2-rule) */
+  --j-hair:       rgba(255,255,255,.075);
+  --j-hair-2:     rgba(255,255,255,.10);
+  --j-rule:       rgba(255,255,255,.14);
+
+  /* Text (SOURCE: --ink/--ink2/--dim/--faint/--ghost) */
+  --j-text:       #F5F5F6;
+  --j-text-2:     #C9C9CF;
+  --j-text-3:     #A1A1A6;   /* PROPOSED promotion: smallest body/meta text     */
+  --j-text-4:     #8A8A91;   /* labels and eyebrows                            */
+  --j-text-off:   #5C5C63;   /* non-text decoration only                       */
+  --j-text-dis:   #46464C;   /* disabled / no-value glyph                       */
+
+  /* Signals — one meaning each (SOURCE values, PROPOSED role names) */
+  --j-recommend:  #4ADE80;
+  --j-done:       #22C55E;
+  --j-verified:   #4DA3FF;
+  --j-progress:   #F0B24A;
+  --j-critical:   #F0564B;
+  --j-idle:       #8A8A91;
+  --j-on-green:   #042B14;
+  --j-green-btn:  #053B1C;
+
+  /* Brand ground (PROPOSED, new value) — a deep green field for branded
+     surfaces where the bright recommendation gradient would be too loud. */
+  --j-brand-ground:  #0C3F09;
+  --j-brand-ground-2:#061F05;
+  --j-brand-ink:     #EAFBF0;
+
+  /* Ground texture (PROPOSED) — a 1px dot lattice at 18px, ~5% white. */
+  --j-texture-dot: radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px);
+  --j-texture-size: 18px 18px;
+
+  /* Signal washes: tint 10-12%, border 26-30% (SOURCE ratios from Home) */
+  --j-recommend-wash: rgba(34,197,94,.12);
+  --j-recommend-edge: rgba(74,222,128,.28);
+  --j-progress-wash:  rgba(240,178,74,.12);
+  --j-progress-edge:  rgba(240,178,74,.30);
+  --j-critical-wash:  rgba(240,86,75,.12);
+  --j-critical-edge:  rgba(240,86,75,.30);
+  --j-neutral-wash:   rgba(255,255,255,.05);
+  --j-neutral-edge:   rgba(255,255,255,.10);
+
+  /* Radius — tied to element size (PROPOSED scale, SOURCE values) */
+  --j-r-chip: 999px;
+  --j-r-xs:   8px;    /* small control, tag                */
+  --j-r-sm:   11px;   /* button, input, icon button        */
+  --j-r-md:   14px;   /* row, small panel                  */
+  --j-r-lg:   17px;   /* card, specimen frame              */
+  --j-r-xl:   20px;   /* briefing surface, drawer          */
+
+  /* Space — 2px-resolution ramp actually used by Home (PROPOSED names) */
+  --j-s1: 4px;  --j-s2: 6px;  --j-s3: 8px;  --j-s4: 10px; --j-s5: 12px;
+  --j-s6: 14px; --j-s7: 18px; --j-s8: 22px; --j-s9: 26px; --j-s10: 34px;
+
+  --j-sans: var(--font-geist-sans, 'Geist', system-ui, -apple-system, sans-serif);
+  --j-mono: var(--font-geist-mono, 'Geist Mono', ui-monospace, monospace);
+
+  /* Motion: promoted from the design system duration/easing specimens. */
+  --j-dur-state: 160ms;
+  --j-dur-enter: 280ms;
+  --j-dur-surface: 340ms;
+  --j-dur-measure: 560ms;
+  --j-ease-state: ease;
+  --j-ease-enter: cubic-bezier(.2,.8,.2,1);
+
+  --j-shadow-float: 0 22px 44px -18px rgba(0,0,0,.9);
+  --j-bloom-green:  0 24px 50px -26px rgba(34,197,94,.5);
+  --j-focus:        var(--j-recommend);
+}

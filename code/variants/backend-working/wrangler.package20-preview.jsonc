@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "jarvis-os-package20-preview",
+  "main": "src/cloudflare/jarvis-os-container.ts",
+  "compatibility_date": "2026-08-27",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "vars": {
+    "JARVIS_ACCESS_TEAM_DOMAIN": "https://your-test-team.cloudflareaccess.com",
+    "JARVIS_ACCESS_AUDIENCE": "REPLACE_WITH_TEST_ID",
+    "JARVIS_OWNER_EMAILS": "owner@example.invalid,owner@example.invalid",
+    "JARVIS_DEPLOYMENT_READY": "false",
+    "NEXT_PUBLIC_SUPABASE_URL": "https://YOUR_PROJECT.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "REPLACE_WITH_TEST_CREDENTIAL",
+    "AI_CONTENT_STUDIO_MODE": "unavailable",
+    "SOCIAL_INDIVIDUAL_PRODUCTION_MODE": "dry_run",
+    "SOCIAL_PUBLISHING_MODE": "dry_run",
+    "JARVIS_OFFICE_LIVE_ENABLED": "false",
+    "JARVIS_RUNTIME_WORKER_ORIGIN": "https://replace-with-your-test-worker.example.invalid"
+  },
+  "containers": [
+    {
+      "name": "jarvis-os-package20-preview-home-v5",
+      "class_name": "JarvisOsPackage20PreviewContainer",
+      "image": "./Dockerfile",
+      "image_build_context": ".",
+      "image_vars": {
+        "NEXT_PUBLIC_SUPABASE_URL": "https://YOUR_PROJECT.supabase.co",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "REPLACE_WITH_TEST_CREDENTIAL"
+      },
+      "max_instances": 1,
+      "instance_type": "basic",
+      "constraints": { "regions": ["ME", "WEUR"] }
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "JARVIS_OS", "class_name": "JarvisOsPackage20PreviewContainer" }
+    ]
+  },
+  "workflows": [
+    { "name": "jarvis-office-team-preview", "binding": "JARVIS_OFFICE_TEAM_WORKFLOW", "class_name": "JarvisOfficeTeamWorkflow" }
+  ],
+  "migrations": [
+    { "tag": "v2-preview-home-v5", "new_sqlite_classes": ["JarvisOsPackage20PreviewContainer"] }
+  ]
+}

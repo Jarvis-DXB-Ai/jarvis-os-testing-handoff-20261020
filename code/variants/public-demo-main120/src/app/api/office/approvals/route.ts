@@ -1,0 +1,6 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {ownerApprovalManifest,decideOwnerApproval,ownerApprovalDownload} from '@/lib/office-owner-approvals-server';
+export const runtime='nodejs';
+export const dynamic='force-dynamic';
+export async function GET(request:NextRequest){try{if(request.nextUrl.searchParams.has('sourceId')){const file=await ownerApprovalDownload(request);return new NextResponse(new Uint8Array(file.bytes),{headers:{'Content-Type':'application/octet-stream','Content-Disposition':`attachment; filename="${file.name}"`,'X-Content-Type-Options':'nosniff','Cache-Control':'no-store'}});}return NextResponse.json(await ownerApprovalManifest(request),{headers:{'Cache-Control':'no-store'}});}catch(error){return NextResponse.json({error:error instanceof Error?error.message:'Approval evidence unavailable.'},{status:403});}}
+export async function POST(request:NextRequest){try{const raw=await request.text();if(raw.length>20000)throw new Error('Approval request too large.');return NextResponse.json(await decideOwnerApproval(request,JSON.parse(raw)),{headers:{'Cache-Control':'no-store'}});}catch(error){return NextResponse.json({error:error instanceof Error?error.message:'Approval decision refused.'},{status:403});}}

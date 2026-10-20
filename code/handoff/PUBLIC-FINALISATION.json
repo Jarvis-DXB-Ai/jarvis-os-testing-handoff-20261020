@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-20T12:24:14.034745+00:00",
+  "priorManifestSha256": "495fab4f84cfa0c46fe633ba218d25bd983e85e22cc99cc035c2487fb6cbc15f",
+  "sourceChanges": [
+    {
+      "path": "variants/native-runtime-048/src/lib/office-review-package-server.ts",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/ui-working/wrangler.package20-preview.jsonc",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/backend-working/wrangler.office-coo-events.jsonc",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/backend-working/wrangler.office-private-pilot.jsonc",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/backend-working/wrangler.package20-preview.jsonc",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/backend-working/src/lib/office-review-package-server.ts",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/public-demo-main120/src/lib/office-review-package-server.ts",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    },
+    {
+      "path": "variants/canonical-main/wrangler.package20-preview.jsonc",
+      "reason": "Replace remaining operational Worker origin",
+      "count": 1
+    }
+  ],
+  "originalsUnchanged": true,
+  "allRegisteredMethodsRetained": 106,
+  "notCleanBuildVerified": true,
+  "castOmissionSuperseded": [
+    {
+      "path": "variants/public-demo-main120/public/office/v2/office-agents.glb",
+      "bytes": 26208676,
+      "sha256": "c51ed5d325aeb6957338f378c37993ca635acf05462ed568ad4d4d88b2c69914",
+      "reason": "Aggregate cast contains unresolved source-attribution record572; usage/licence not independently established. Omitted from NEW public package only; original retained."
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged-mobile.glb",
+      "bytes": 17338272,
+      "sha256": "4261db0c7d0920b2bc397217e1a64f48e71b90fc66fb8e7bb8a8f21a172118bb",
+      "reason": "Aggregate cast contains unresolved source-attribution record572; usage/licence not independently established. Omitted from NEW public package only; original retained."
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged.glb",
+      "bytes": 32544644,
+      "sha256": "6feea8678f211673534711fd3ccd3160eccd35e0afc40692950529e966788acf",
+      "reason": "Aggregate cast contains unresolved source-attribution record572; usage/licence not independently established. Omitted from NEW public package only; original retained."
+    }
+  ],
+  "restoredCastBinaries": [
+    {
+      "path": "variants/public-demo-main120/public/office/v2/office-agents.glb",
+      "sha256": "c51ed5d325aeb6957338f378c37993ca635acf05462ed568ad4d4d88b2c69914",
+      "bytes": 26208676
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged-mobile.glb",
+      "sha256": "4261db0c7d0920b2bc397217e1a64f48e71b90fc66fb8e7bb8a8f21a172118bb",
+      "bytes": 17338272
+    },
+    {
+      "path": "variants/public-demo-main120/public/office/v2/386ba37d1e16523f1b90/office-agents-rigged.glb",
+      "sha256": "6feea8678f211673534711fd3ccd3160eccd35e0afc40692950529e966788acf",
+      "bytes": 32544644
+    }
+  ],
+  "castReview": "Bounded non-use of572 positively verified; used credits corrected; download excluded"
+}

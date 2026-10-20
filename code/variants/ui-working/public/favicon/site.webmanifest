@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "Jarvis OS",
+  "short_name": "Jarvis",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    { "src": "/favicon/favicon-64.png?v=2", "sizes": "64x64", "type": "image/png" },
+    { "src": "/favicon/icon-512.png?v=2", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon/icon-512.png?v=2", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "theme_color": "#08080A",
+  "background_color": "#08080A",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}

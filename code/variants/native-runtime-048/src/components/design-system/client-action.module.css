@@ -1,0 +1,1 @@
+.action{display:inline-flex;align-items:center;justify-content:center;cursor:pointer}.action:disabled{opacity:.45;cursor:not-allowed}.action:focus-visible{outline:2px solid var(--cw-green,#4ade80);outline-offset:4px}

@@ -1,0 +1,14 @@
+{
+  "$schema":"./node_modules/wrangler/config-schema.json",
+  "name":"jarvis-office-coo-events",
+  "account_id":"REPLACE_WITH_TEST_ID",
+  "main":"src/cloudflare/office-coo-events.mjs",
+  "compatibility_date":"2026-10-15",
+  "compatibility_flags":["nodejs_compat"],
+  "workers_dev":true,
+  "preview_urls":false,
+  "observability":{"enabled":true},
+  "vars":{"COO_INGRESS_ORIGIN":"https://replace-with-your-test-worker.example.invalid"},
+  // Dedicated fixed capture-only service. Never bind the owner application service.
+  "vpc_services":[{"binding":"PRIVATE_COO","service_id":"d2f9c913-2834-54ba-8a50-6dbabe655eeb"}]
+}

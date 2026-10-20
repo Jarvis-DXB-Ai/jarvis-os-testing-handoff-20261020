@@ -1,0 +1,4875 @@
+{
+  "observedAt": "2026-10-20T12:06:18.970159+00:00",
+  "scope": "All declared file hashes plus every loader-required entry/context/reference/role file; no code, scripts or model executed. This does not evaluate craft quality or prove source rights.",
+  "files": [
+    {
+      "methodId": "social",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2b396fa850ffa0ff4330bb7deaeae8040548b689631bdcc05c93515ef795d08a",
+      "observedSha256": "2b396fa850ffa0ff4330bb7deaeae8040548b689631bdcc05c93515ef795d08a",
+      "match": true
+    },
+    {
+      "methodId": "social",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379",
+      "observedSha256": "1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379",
+      "match": true
+    },
+    {
+      "methodId": "ads",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6e53309bb5a1907c25f6227e98ad13a88d9fc4ff51db6ff38ef614138c977faf",
+      "observedSha256": "6e53309bb5a1907c25f6227e98ad13a88d9fc4ff51db6ff38ef614138c977faf",
+      "match": true
+    },
+    {
+      "methodId": "ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ac9e25cb762cf457c55007cb509da112bd14b763c3edc7a8414cf058bb78dcc8",
+      "observedSha256": "ac9e25cb762cf457c55007cb509da112bd14b763c3edc7a8414cf058bb78dcc8",
+      "match": true
+    },
+    {
+      "methodId": "copywriting",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f557e81a2a79f4711f50f97b199cc872831757ad01ec9e3763aa6cbcba954b24",
+      "observedSha256": "f557e81a2a79f4711f50f97b199cc872831757ad01ec9e3763aa6cbcba954b24",
+      "match": true
+    },
+    {
+      "methodId": "copywriting",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "78c0a09b78a41995ba055d6549bbd7db3fe958673d039b9121e7a2e32bb4bb06",
+      "observedSha256": "78c0a09b78a41995ba055d6549bbd7db3fe958673d039b9121e7a2e32bb4bb06",
+      "match": true
+    },
+    {
+      "methodId": "content-strategy",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c224362afef13cf0ea2041a6ff1ef793594624bd3ff95a2613642a8d142a04e8",
+      "observedSha256": "c224362afef13cf0ea2041a6ff1ef793594624bd3ff95a2613642a8d142a04e8",
+      "match": true
+    },
+    {
+      "methodId": "content-strategy",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "dce9f4027ae129691e92623541a360bee9356137a7eecf68afa95674af118e68",
+      "observedSha256": "dce9f4027ae129691e92623541a360bee9356137a7eecf68afa95674af118e68",
+      "match": true
+    },
+    {
+      "methodId": "design-critique",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1d77ee06732937f3d1681f5393c9635141cb1aebcf2432a50c4d5e3a6535b009",
+      "observedSha256": "1d77ee06732937f3d1681f5393c9635141cb1aebcf2432a50c4d5e3a6535b009",
+      "match": true
+    },
+    {
+      "methodId": "design-critique",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd",
+      "observedSha256": "3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd",
+      "match": true
+    },
+    {
+      "methodId": "design-system",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1bf1fdbac6864961bbff37143b6483975adb8f99a80c8028c0eaac5201fe925f",
+      "observedSha256": "1bf1fdbac6864961bbff37143b6483975adb8f99a80c8028c0eaac5201fe925f",
+      "match": true
+    },
+    {
+      "methodId": "design-system",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445",
+      "observedSha256": "fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445",
+      "match": true
+    },
+    {
+      "methodId": "reconciliation",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "27f00868d67474804e5ef593518ea0b1d3deb06818e77ecbd02f3aea64114b6a",
+      "observedSha256": "27f00868d67474804e5ef593518ea0b1d3deb06818e77ecbd02f3aea64114b6a",
+      "match": true
+    },
+    {
+      "methodId": "reconciliation",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "observedSha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "match": true
+    },
+    {
+      "methodId": "journal-entry-prep",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f01ba321075b9b5a0659e71a80f29e59e09b28531044e54406dc4c3cb3805626",
+      "observedSha256": "f01ba321075b9b5a0659e71a80f29e59e09b28531044e54406dc4c3cb3805626",
+      "match": true
+    },
+    {
+      "methodId": "journal-entry-prep",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e",
+      "observedSha256": "122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e",
+      "match": true
+    },
+    {
+      "methodId": "higgsfield-generate",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d7fd7200b430fd8dbb1db2ab515b4eeee6980f83dae0e98243d1fd97512a257f",
+      "observedSha256": "d7fd7200b430fd8dbb1db2ab515b4eeee6980f83dae0e98243d1fd97512a257f",
+      "match": true
+    },
+    {
+      "methodId": "higgsfield-generate",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "68bed3a080231a41ade692a0c20b637f93317713ff6ba2ff35c5302282437cef",
+      "observedSha256": "68bed3a080231a41ade692a0c20b637f93317713ff6ba2ff35c5302282437cef",
+      "match": true
+    },
+    {
+      "methodId": "higgsfield-generate",
+      "relativePath": "office-nano-banana-pro.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6428a5a0688bddde559545c5986ac59b4d43823b6124e8aad27dce0000147adf",
+      "observedSha256": "6428a5a0688bddde559545c5986ac59b4d43823b6124e8aad27dce0000147adf",
+      "match": true
+    },
+    {
+      "methodId": "higgsfield-brandkit",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "aed2f5f0061aaf7c21d604063498673e4704a77f0c9908ca46bb6e4e959814f3",
+      "observedSha256": "aed2f5f0061aaf7c21d604063498673e4704a77f0c9908ca46bb6e4e959814f3",
+      "match": true
+    },
+    {
+      "methodId": "higgsfield-brandkit",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fc227dfc1545cb60e07945370c04e3e58eb0933ca2bd00011ef4eca0b414fb63",
+      "observedSha256": "fc227dfc1545cb60e07945370c04e3e58eb0933ca2bd00011ef4eca0b414fb63",
+      "match": true
+    },
+    {
+      "methodId": "humanizer",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0461f6408359b9bc71fadf097428d91a108896c9e14c048509efab07158609bf",
+      "observedSha256": "0461f6408359b9bc71fadf097428d91a108896c9e14c048509efab07158609bf",
+      "match": true
+    },
+    {
+      "methodId": "humanizer",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "observedSha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "match": true
+    },
+    {
+      "methodId": "ffmpeg-video-editor",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03ab1710eec9be761aab4d495491d1afcc20769830a09e036e951bcd4adb915d",
+      "observedSha256": "03ab1710eec9be761aab4d495491d1afcc20769830a09e036e951bcd4adb915d",
+      "match": true
+    },
+    {
+      "methodId": "ffmpeg-video-editor",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "246b157f170841781140aa895b696c52d248d121d0c7af53e31d7effb1fa63e7",
+      "observedSha256": "246b157f170841781140aa895b696c52d248d121d0c7af53e31d7effb1fa63e7",
+      "match": true
+    },
+    {
+      "methodId": "mc-art-direction",
+      "relativePath": "JARVIS-GUIDANCE.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a0deb4510fa1157938bf3dad64dba5043556f886567b96897f3bba637059ebaa",
+      "observedSha256": "a0deb4510fa1157938bf3dad64dba5043556f886567b96897f3bba637059ebaa",
+      "match": true
+    },
+    {
+      "methodId": "mc-art-direction",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e06d0f84772c97298a0633c11c1d6a612dcaefce5e2cf7087952b5cb0b4b5c7f",
+      "observedSha256": "e06d0f84772c97298a0633c11c1d6a612dcaefce5e2cf7087952b5cb0b4b5c7f",
+      "match": true
+    },
+    {
+      "methodId": "mc-art-direction",
+      "relativePath": "references/avoid-generic-output.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "59f09c1e34b7a4e8be66847d7f95b2a89c1aea2cb21a5797c5c65160fcdfd9f5",
+      "observedSha256": "59f09c1e34b7a4e8be66847d7f95b2a89c1aea2cb21a5797c5c65160fcdfd9f5",
+      "match": true
+    },
+    {
+      "methodId": "mc-art-direction",
+      "relativePath": "references/composition.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "38541a8614213e2270e8e05baeb5714e5278e09d6d02f8e0ec542e689717a498",
+      "observedSha256": "38541a8614213e2270e8e05baeb5714e5278e09d6d02f8e0ec542e689717a498",
+      "match": true
+    },
+    {
+      "methodId": "mc-art-direction",
+      "relativePath": "references/typography.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0130f6ea911ed635bb16068da55ea7b2bf487a9c7d0b9e3e9486d0ebb85e47ad",
+      "observedSha256": "0130f6ea911ed635bb16068da55ea7b2bf487a9c7d0b9e3e9486d0ebb85e47ad",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cce471a82346fb2fbf461b5bc2e2583473d9a1d9c0396863a03ec0af32ef6a79",
+      "observedSha256": "cce471a82346fb2fbf461b5bc2e2583473d9a1d9c0396863a03ec0af32ef6a79",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f2010183f4e05b1005c9b2912f4401f051cc083d935ebb3e6e76fc3dc479f801",
+      "observedSha256": "f2010183f4e05b1005c9b2912f4401f051cc083d935ebb3e6e76fc3dc479f801",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/ads-analyst.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "db7f45aa7208f6eaffb34a9be8c6587179cedf6d4a96d3534227520b7a7bc3f1",
+      "observedSha256": "db7f45aa7208f6eaffb34a9be8c6587179cedf6d4a96d3534227520b7a7bc3f1",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/ads-lead.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22f57576fcefb673271c21345910479dbbcf1bdcd5f222276724aa681a0cc954",
+      "observedSha256": "22f57576fcefb673271c21345910479dbbcf1bdcd5f222276724aa681a0cc954",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/ads-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a247723f862f0d5500651408f471922c627334384060b1e1c707e189850e9300",
+      "observedSha256": "a247723f862f0d5500651408f471922c627334384060b1e1c707e189850e9300",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/analytics.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "76e99aa1146ccb495f63027cf0e81c07febe90dd158ca79a9046a29b205d5569",
+      "observedSha256": "76e99aa1146ccb495f63027cf0e81c07febe90dd158ca79a9046a29b205d5569",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/audit.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c9e0b6c871a996b9202561d6cad0e6e8d84387aaa9443f93f30c1117c7de90cf",
+      "observedSha256": "c9e0b6c871a996b9202561d6cad0e6e8d84387aaa9443f93f30c1117c7de90cf",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/billing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0ffc7c0fceae25afb3e9a4b34f266e203e9b1344b90e097badbdc45acb795963",
+      "observedSha256": "0ffc7c0fceae25afb3e9a4b34f266e203e9b1344b90e097badbdc45acb795963",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/bookings.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "99c1f3a731f991c7970741137f6381f5c9789511bb94bae5091671439d757101",
+      "observedSha256": "99c1f3a731f991c7970741137f6381f5c9789511bb94bae5091671439d757101",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/bookkeeping.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3e7b8b1b57d6093f21c59bffd938fbc3657b6b904132ba069d9cb19cad42bb9f",
+      "observedSha256": "3e7b8b1b57d6093f21c59bffd938fbc3657b6b904132ba069d9cb19cad42bb9f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/brand-strategist.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "032e3b8413d3d0cc9082383f94ec54ee6129937c228ee6072e1723eb0bad1497",
+      "observedSha256": "032e3b8413d3d0cc9082383f94ec54ee6129937c228ee6072e1723eb0bad1497",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/capacity.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e3f9c047f4b3a236662c9eb78eb1e322402021eb7937aec78233172ddff5382c",
+      "observedSha256": "e3f9c047f4b3a236662c9eb78eb1e322402021eb7937aec78233172ddff5382c",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/cash.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f24a0b3450601c1026fd82fec79860c085ddfd0b0008d5da64c8f8f83d25f443",
+      "observedSha256": "f24a0b3450601c1026fd82fec79860c085ddfd0b0008d5da64c8f8f83d25f443",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/cfo.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a70aec6b058f3a003406917f7459dd834599fc845e81e52f40bfe024fe2830e3",
+      "observedSha256": "a70aec6b058f3a003406917f7459dd834599fc845e81e52f40bfe024fe2830e3",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/cmo.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f37c600910bbdf0b5829f610843dfd9ff599f7d0905552bccf90fc7530f8ca58",
+      "observedSha256": "f37c600910bbdf0b5829f610843dfd9ff599f7d0905552bccf90fc7530f8ca58",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/community.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4fb4497f6f596256ee6240f958d4de154ea8146e42f166d5e9f51599e5f3841f",
+      "observedSha256": "4fb4497f6f596256ee6240f958d4de154ea8146e42f166d5e9f51599e5f3841f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/competitors.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22ce6d8cc81d38eb1a387ab1213abd02f8b153fc1535f1d36e6e753d9aebb8af",
+      "observedSha256": "22ce6d8cc81d38eb1a387ab1213abd02f8b153fc1535f1d36e6e753d9aebb8af",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/content-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7ef6fd77a3546690990b3fb0099fbf6c6d150aaa07e5e447623d2039474dcd7e",
+      "observedSha256": "7ef6fd77a3546690990b3fb0099fbf6c6d150aaa07e5e447623d2039474dcd7e",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/coo.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a1fa52825e5346d5436afe49a2ba377bb685b861b2a0ea776d6fc7e363bee8c8",
+      "observedSha256": "a1fa52825e5346d5436afe49a2ba377bb685b861b2a0ea776d6fc7e363bee8c8",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/copy.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "260275bb765d381fa88f574072035a5cd93ae01d4c87f6a73e2ce27bf022442f",
+      "observedSha256": "260275bb765d381fa88f574072035a5cd93ae01d4c87f6a73e2ce27bf022442f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/creative-director.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "164ffc78ab63aad14e2ef55b6d3b73cc29df5e4d339da7fffc160ac7c6c59c5c",
+      "observedSha256": "164ffc78ab63aad14e2ef55b6d3b73cc29df5e4d339da7fffc160ac7c6c59c5c",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/creative-qc.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9b7f65c6fd6179f4d2886aad515f00ba6e40d2f09c643f38014fa1aac2cc90e4",
+      "observedSha256": "9b7f65c6fd6179f4d2886aad515f00ba6e40d2f09c643f38014fa1aac2cc90e4",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/crm.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6d854bd37b4fedae60113eceaae53ed009913cd0b91b635d332e42f4ebd2f596",
+      "observedSha256": "6d854bd37b4fedae60113eceaae53ed009913cd0b91b635d332e42f4ebd2f596",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/cto.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0b709259530b082729bf42485328afa2e46ad93203257bd364280997347cb940",
+      "observedSha256": "0b709259530b082729bf42485328afa2e46ad93203257bd364280997347cb940",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/delivery.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7ad73e512c3eb3b38bde854cbad80ffd99a7385259fa2b686d013b33983036af",
+      "observedSha256": "7ad73e512c3eb3b38bde854cbad80ffd99a7385259fa2b686d013b33983036af",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/design-system.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "968aff1bc1960d6411a65f8a9f4ef72cecf28c3dec9b17056c0a6e1f076425ef",
+      "observedSha256": "968aff1bc1960d6411a65f8a9f4ef72cecf28c3dec9b17056c0a6e1f076425ef",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/email-design.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "435a6c61b6823e7803fa81de9bc4b2e290041ab275f096eeaa4f8e49ba9cebe0",
+      "observedSha256": "435a6c61b6823e7803fa81de9bc4b2e290041ab275f096eeaa4f8e49ba9cebe0",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/email-lead.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "be039b344fc0d7dea3c73c2f6ca6f3ec89fb37dcc87d22f0ef6fecac71033822",
+      "observedSha256": "be039b344fc0d7dea3c73c2f6ca6f3ec89fb37dcc87d22f0ef6fecac71033822",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/email-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b4a42962097e5c879d5bb28e5d78ee920ad1d8bb8ade8e7af930cc6ca73d5b81",
+      "observedSha256": "b4a42962097e5c879d5bb28e5d78ee920ad1d8bb8ade8e7af930cc6ca73d5b81",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/email.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5c446e6e2eff2f1a603805e8d00dc7115a7e8acd01a648bb8c20d16b69681531",
+      "observedSha256": "5c446e6e2eff2f1a603805e8d00dc7115a7e8acd01a648bb8c20d16b69681531",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/evaluation.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ee7e2234123a6b0af05d5c0f802f256b57bdf6fab5c98f1aa9e75f1b9904e8f9",
+      "observedSha256": "ee7e2234123a6b0af05d5c0f802f256b57bdf6fab5c98f1aa9e75f1b9904e8f9",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/facebook.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ff85b31dda6bf38e36275b964c87b85e1dfb970c6793edfdeccd01363ac14608",
+      "observedSha256": "ff85b31dda6bf38e36275b964c87b85e1dfb970c6793edfdeccd01363ac14608",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/finance-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5235618c88a47540cdfdba91aacabea8b6462351fcfc59406eb4d15137243646",
+      "observedSha256": "5235618c88a47540cdfdba91aacabea8b6462351fcfc59406eb4d15137243646",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/grid-planner.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "033b548bdee03871594138d019c29c64487228bc53ca1d1e4ccf79ddd0a73c07",
+      "observedSha256": "033b548bdee03871594138d019c29c64487228bc53ca1d1e4ccf79ddd0a73c07",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/image-prompts.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1ec7866a6b42837e2b298c7b2a0d53021301890d557cb0abadfe1fe47eca3233",
+      "observedSha256": "1ec7866a6b42837e2b298c7b2a0d53021301890d557cb0abadfe1fe47eca3233",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/implementation.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "519ee13b228e6e0f2ffe515c5754495df08f1f03d71b9e76a39c5d25afdbac90",
+      "observedSha256": "519ee13b228e6e0f2ffe515c5754495df08f1f03d71b9e76a39c5d25afdbac90",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/instagram.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5b052eed2ed0c0589a72b9626dce4b692ad20bdaf6875b876c2b0716940e0159",
+      "observedSha256": "5b052eed2ed0c0589a72b9626dce4b692ad20bdaf6875b876c2b0716940e0159",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/integrations.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a43a1e5eede321477c395c4276d70bcb303a2873ffa469a6ca819e119ca8aeb4",
+      "observedSha256": "a43a1e5eede321477c395c4276d70bcb303a2873ffa469a6ca819e119ca8aeb4",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/knowledge.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c8ed5e293fe6f99f73adcbec683f04e3012fea28b85d62e4c74b30cb77e2f60a",
+      "observedSha256": "c8ed5e293fe6f99f73adcbec683f04e3012fea28b85d62e4c74b30cb77e2f60a",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/librarian.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1658e8b20c49cb2002ab017533caabe8c43902a8ab4b8fbdbc62744a078a4ca5",
+      "observedSha256": "1658e8b20c49cb2002ab017533caabe8c43902a8ab4b8fbdbc62744a078a4ca5",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/linkedin-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fdfe299e3da99a84b93d03dc53660f44046008598a26c2cf11c8eb8c3307eb9a",
+      "observedSha256": "fdfe299e3da99a84b93d03dc53660f44046008598a26c2cf11c8eb8c3307eb9a",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/linkedin.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e16511122328cb2e94e94bd67cd72460a32fcd9d1e07076d8d7635d36be3714f",
+      "observedSha256": "e16511122328cb2e94e94bd67cd72460a32fcd9d1e07076d8d7635d36be3714f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/margin.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8953ab6bb63c72c7adf39ac07a68d6bf3e20196e821a1a594ffb448c4cf63dd7",
+      "observedSha256": "8953ab6bb63c72c7adf39ac07a68d6bf3e20196e821a1a594ffb448c4cf63dd7",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/media.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d4e2a2040e1ce03fae6bc591ed8fa66f26f4e5f0ca0441a1911b78b40d0d8697",
+      "observedSha256": "d4e2a2040e1ce03fae6bc591ed8fa66f26f4e5f0ca0441a1911b78b40d0d8697",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/meta-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fd299d953c9c31bdce398fce372eb67ef43b903350b5b3f4a8ea4c4fd52d033f",
+      "observedSha256": "fd299d953c9c31bdce398fce372eb67ef43b903350b5b3f4a8ea4c4fd52d033f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/metadata.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2d002d78a4d7d2851372ab90f6c8727376c6a02f5d9caf3a0d01e353870187fc",
+      "observedSha256": "2d002d78a4d7d2851372ab90f6c8727376c6a02f5d9caf3a0d01e353870187fc",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/model-cost.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ca3edc46f3aae599bec3271b3351916077f986bd1bfd660de87524776c6c8036",
+      "observedSha256": "ca3edc46f3aae599bec3271b3351916077f986bd1bfd660de87524776c6c8036",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/operations-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "88371436663b4c92392589f09086b077db67a7a47f7964d8cd2d5a0b75d96a7a",
+      "observedSha256": "88371436663b4c92392589f09086b077db67a7a47f7964d8cd2d5a0b75d96a7a",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/paid-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7d07c5ade7df4549b75827a678210ef3ff30ff023cd1f0b2f80c909bd1307f2b",
+      "observedSha256": "7d07c5ade7df4549b75827a678210ef3ff30ff023cd1f0b2f80c909bd1307f2b",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/presentations.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ec90fc306219b43f4f8206c0765ca2fdbabfd7cd708931da364bf65d825240a3",
+      "observedSha256": "ec90fc306219b43f4f8206c0765ca2fdbabfd7cd708931da364bf65d825240a3",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/pricing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "32b6a06b97f227b0f4aee5adfb25667b4fe7cb66d99e0fd43d7177d6735a2e07",
+      "observedSha256": "32b6a06b97f227b0f4aee5adfb25667b4fe7cb66d99e0fd43d7177d6735a2e07",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/proposal.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "30a1994eee9b85bafacf35ba82acd483b61a6f6f396e3e4408dce52a753e2e1e",
+      "observedSha256": "30a1994eee9b85bafacf35ba82acd483b61a6f6f396e3e4408dce52a753e2e1e",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/radar.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9ef2eb15a27c6ff051fc14962815dc98a8a4ece4f63a75e67d0f33c8763fc1bf",
+      "observedSha256": "9ef2eb15a27c6ff051fc14962815dc98a8a4ece4f63a75e67d0f33c8763fc1bf",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/receipts.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d3e784e9e924f40d3ede02e7bc0b1868df65bea69fa04cd781d6c76a094ea48e",
+      "observedSha256": "d3e784e9e924f40d3ede02e7bc0b1868df65bea69fa04cd781d6c76a094ea48e",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/reliability.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "da2c1920417fa57ca0cc7c3e9eb16b4a20fc762ce662e94f85cd108ef0a0fc60",
+      "observedSha256": "da2c1920417fa57ca0cc7c3e9eb16b4a20fc762ce662e94f85cd108ef0a0fc60",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/repurpose.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d09611265aada4a07b647cf8daaffd498a287fedea8681a753e0046946a2b7b4",
+      "observedSha256": "d09611265aada4a07b647cf8daaffd498a287fedea8681a753e0046946a2b7b4",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/research-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "239e8c5031b6f6e9aadb9a0ea8afda59bc60c65ad165dae0e06eabc2c1cdb90b",
+      "observedSha256": "239e8c5031b6f6e9aadb9a0ea8afda59bc60c65ad165dae0e06eabc2c1cdb90b",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/scheduler.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b73ef4a5624faded5e51a18bbcbe4559b328ff66b949505fdb323fc1ae3bc313",
+      "observedSha256": "b73ef4a5624faded5e51a18bbcbe4559b328ff66b949505fdb323fc1ae3bc313",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/skills.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "97ed3b0d5106d4835d5c2440cfe15c1ac8e205422dfef3695eaa96b22054d274",
+      "observedSha256": "97ed3b0d5106d4835d5c2440cfe15c1ac8e205422dfef3695eaa96b22054d274",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/social-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a1767e21fd61f25a1d6e27744f8c148acd73fb0d4dd1a23e5c5970a3e8ae9fd2",
+      "observedSha256": "a1767e21fd61f25a1d6e27744f8c148acd73fb0d4dd1a23e5c5970a3e8ae9fd2",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/subscriptions.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4bdc0e13cd10a1208007ded9ed8d711a9ad437cbc0e860e38aec5ffd920abc9b",
+      "observedSha256": "4bdc0e13cd10a1208007ded9ed8d711a9ad437cbc0e860e38aec5ffd920abc9b",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/success.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c2fcf7e4c10665df2434bc0f86988c05afe6fa05de7a7b110b79fb7d6181c917",
+      "observedSha256": "c2fcf7e4c10665df2434bc0f86988c05afe6fa05de7a7b110b79fb7d6181c917",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/support-lead.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7f62b7245ebedda6809e00537d4bcb059800be9b1e00d5b449de84fb3dd18128",
+      "observedSha256": "7f62b7245ebedda6809e00537d4bcb059800be9b1e00d5b449de84fb3dd18128",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/support-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d31459fee802eede254087ce11a490421022f2dc0ca449ca1954f7c94d00fc1",
+      "observedSha256": "5d31459fee802eede254087ce11a490421022f2dc0ca449ca1954f7c94d00fc1",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/test.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a9291d64e0d7b98023ef64ec40375ad126fbdcd23bcc28e0fed1c75fb9f49169",
+      "observedSha256": "a9291d64e0d7b98023ef64ec40375ad126fbdcd23bcc28e0fed1c75fb9f49169",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/tiktok-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ad8d4052a9eca41db863c7087bfd368126cb1bba282aaf0c8e7017167eb50124",
+      "observedSha256": "ad8d4052a9eca41db863c7087bfd368126cb1bba282aaf0c8e7017167eb50124",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/video.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cf28d6347d2cc6b136300a6f567790550fbc58c5a1709fa3364782cefdb79405",
+      "observedSha256": "cf28d6347d2cc6b136300a6f567790550fbc58c5a1709fa3364782cefdb79405",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/videographer.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0d1ee596212c062d70694bd663c963c1008f617bc7f83f9a1de8925030fc8b2f",
+      "observedSha256": "0d1ee596212c062d70694bd663c963c1008f617bc7f83f9a1de8925030fc8b2f",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/voice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fce230f154add689845eedb56b3d86b0398db20ea60feb8412aada64a2e24d40",
+      "observedSha256": "fce230f154add689845eedb56b3d86b0398db20ea60feb8412aada64a2e24d40",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/web-designer.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4595f25dcd7ce6b8d162be4e3166627ba805578f57313d258cb278b8630b7a89",
+      "observedSha256": "4595f25dcd7ce6b8d162be4e3166627ba805578f57313d258cb278b8630b7a89",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/web-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d8f9dfc58fd81d43c115ef2fe9040d577085137e953e72c89d1b6f43e6be4530",
+      "observedSha256": "d8f9dfc58fd81d43c115ef2fe9040d577085137e953e72c89d1b6f43e6be4530",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/web-research.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "800666b004c0925609fdede08acc2d29c4015e74923597417bc99c2885a91633",
+      "observedSha256": "800666b004c0925609fdede08acc2d29c4015e74923597417bc99c2885a91633",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/whatsapp.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0387f358652bcb057cdb796728667d091371defc8e7f460afc5565acd5bc42f4",
+      "observedSha256": "0387f358652bcb057cdb796728667d091371defc8e7f460afc5565acd5bc42f4",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/workflow-architect.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6ca9e3eec84e687746f208d6db75eb7459751be176959f18dbba8f0b2f0f7a04",
+      "observedSha256": "6ca9e3eec84e687746f208d6db75eb7459751be176959f18dbba8f0b2f0f7a04",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-office-protocol",
+      "relativePath": "roles/youtube-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "74b59d84c411b40d0f64a641fb5c0e03da6e72f945dde854377a7a362e434682",
+      "observedSha256": "74b59d84c411b40d0f64a641fb5c0e03da6e72f945dde854377a7a362e434682",
+      "match": true
+    },
+    {
+      "methodId": "competitive-brief",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "515cac2f143c3c80add6eab1f5026c9c3d91f0258b9e1422d7c8a1849133f8f1",
+      "observedSha256": "515cac2f143c3c80add6eab1f5026c9c3d91f0258b9e1422d7c8a1849133f8f1",
+      "match": true
+    },
+    {
+      "methodId": "competitive-brief",
+      "relativePath": "references/competitor-profiling.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928",
+      "observedSha256": "ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928",
+      "match": true
+    },
+    {
+      "methodId": "performance-report",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0732292b44af971e48f6b39d0967944478b740817e24fea94073eb93052bc3e6",
+      "observedSha256": "0732292b44af971e48f6b39d0967944478b740817e24fea94073eb93052bc3e6",
+      "match": true
+    },
+    {
+      "methodId": "variance-analysis",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3954de65097a2d3a3a4ff4646606b31ec532b1614136d4206c77e54afd9d8787",
+      "observedSha256": "3954de65097a2d3a3a4ff4646606b31ec532b1614136d4206c77e54afd9d8787",
+      "match": true
+    },
+    {
+      "methodId": "client-onboarding",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "488063aa7e81e2b62e8b6d379fe699ec2aa852c634e5632f66d21d3fb469d1c1",
+      "observedSha256": "488063aa7e81e2b62e8b6d379fe699ec2aa852c634e5632f66d21d3fb469d1c1",
+      "match": true
+    },
+    {
+      "methodId": "client-onboarding",
+      "relativePath": "references/customer-research.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+      "observedSha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+      "match": true
+    },
+    {
+      "methodId": "client-onboarding",
+      "relativePath": "references/revops.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b20c88739af875081659ed86ad36c72f69230cd716258b8c1ac53b60a5c04e36",
+      "observedSha256": "b20c88739af875081659ed86ad36c72f69230cd716258b8c1ac53b60a5c04e36",
+      "match": true
+    },
+    {
+      "methodId": "email-lifecycle",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "db47279bf72743ee6b7552339ab7611f19a7f391a9874fefc064745bb079ad28",
+      "observedSha256": "db47279bf72743ee6b7552339ab7611f19a7f391a9874fefc064745bb079ad28",
+      "match": true
+    },
+    {
+      "methodId": "email-lifecycle",
+      "relativePath": "references/email-sequence.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4303252cbe340b19945b3e58d46430fdf42ea47b3e26d985e3ef1d6da5e36021",
+      "observedSha256": "4303252cbe340b19945b3e58d46430fdf42ea47b3e26d985e3ef1d6da5e36021",
+      "match": true
+    },
+    {
+      "methodId": "support-response",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1d258477608d404d0b4e1a5f2a093f1911f7413ed6287ec7e314cb1e12acfcd0",
+      "observedSha256": "1d258477608d404d0b4e1a5f2a093f1911f7413ed6287ec7e314cb1e12acfcd0",
+      "match": true
+    },
+    {
+      "methodId": "support-response",
+      "relativePath": "references/customer-escalation.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e",
+      "observedSha256": "90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e",
+      "match": true
+    },
+    {
+      "methodId": "support-response",
+      "relativePath": "references/draft-response.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1a201228b75a98fc3b5d45090cb7443d50df204b2ee748bfc8970790a64f0026",
+      "observedSha256": "1a201228b75a98fc3b5d45090cb7443d50df204b2ee748bfc8970790a64f0026",
+      "match": true
+    },
+    {
+      "methodId": "support-response",
+      "relativePath": "references/ticket-triage.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294",
+      "observedSha256": "d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294",
+      "match": true
+    },
+    {
+      "methodId": "web-production",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a9f744081021a485488f8c287eb95864ba55fefd3b2cd9978be8eab06b24538d",
+      "observedSha256": "a9f744081021a485488f8c287eb95864ba55fefd3b2cd9978be8eab06b24538d",
+      "match": true
+    },
+    {
+      "methodId": "web-production",
+      "relativePath": "references/design-handoff.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7",
+      "observedSha256": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7",
+      "match": true
+    },
+    {
+      "methodId": "web-production",
+      "relativePath": "references/frontend-design.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "observedSha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "match": true
+    },
+    {
+      "methodId": "web-accessibility",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cb81e25004176fb7b7b893f522317cfe86487ed4e023f39bc359b5370190105c",
+      "observedSha256": "cb81e25004176fb7b7b893f522317cfe86487ed4e023f39bc359b5370190105c",
+      "match": true
+    },
+    {
+      "methodId": "web-accessibility",
+      "relativePath": "references/accessibility-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f",
+      "observedSha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f",
+      "match": true
+    },
+    {
+      "methodId": "financial-close",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d503ca6b4202917f008240823446e309a418f9203d68c4f899947fb289dd706b",
+      "observedSha256": "d503ca6b4202917f008240823446e309a418f9203d68c4f899947fb289dd706b",
+      "match": true
+    },
+    {
+      "methodId": "financial-close",
+      "relativePath": "references/close-management.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732",
+      "observedSha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732",
+      "match": true
+    },
+    {
+      "methodId": "seo-website-audit",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5acacc12e7cb3fe2522fdeee6c38061d3ee92e732f44e160cd5ff40b740b0d0c",
+      "observedSha256": "5acacc12e7cb3fe2522fdeee6c38061d3ee92e732f44e160cd5ff40b740b0d0c",
+      "match": true
+    },
+    {
+      "methodId": "seo-website-audit",
+      "relativePath": "references/seo-audit.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f79aebc633d5fcf53d67fd4d39ea6210577485f2a5e46125b3bd757e03baa634",
+      "observedSha256": "f79aebc633d5fcf53d67fd4d39ea6210577485f2a5e46125b3bd757e03baa634",
+      "match": true
+    },
+    {
+      "methodId": "ad-creative-review",
+      "relativePath": "JARVIS-QUALITY.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b8b95d624457341c8b47a36552467039d94eb3afa9d794d01d660f7b29db477d",
+      "observedSha256": "b8b95d624457341c8b47a36552467039d94eb3afa9d794d01d660f7b29db477d",
+      "match": true
+    },
+    {
+      "methodId": "ad-creative-review",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fedf1a4b87ee48980cabb96016493d7f914c92fe629887392fdc8af724fdc90c",
+      "observedSha256": "fedf1a4b87ee48980cabb96016493d7f914c92fe629887392fdc8af724fdc90c",
+      "match": true
+    },
+    {
+      "methodId": "ad-creative-review",
+      "relativePath": "references/ad-creative.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "c046baf1082a8001d3ad2ee1a9b1635cbf757216ffafa06bf5a84f27f0955d43",
+      "observedSha256": "c046baf1082a8001d3ad2ee1a9b1635cbf757216ffafa06bf5a84f27f0955d43",
+      "match": true
+    },
+    {
+      "methodId": "brand-voice-review",
+      "relativePath": "JARVIS-QUALITY.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5c803245e9319b822325919bbbe015584f6cd7bd92e923b738c12f2ab7af3b50",
+      "observedSha256": "5c803245e9319b822325919bbbe015584f6cd7bd92e923b738c12f2ab7af3b50",
+      "match": true
+    },
+    {
+      "methodId": "brand-voice-review",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "00cabe311aef7a37b1320e6c30f0f7d249b0d4426e14041b7e625fea4ef5a54c",
+      "observedSha256": "00cabe311aef7a37b1320e6c30f0f7d249b0d4426e14041b7e625fea4ef5a54c",
+      "match": true
+    },
+    {
+      "methodId": "brand-voice-review",
+      "relativePath": "references/brand-review.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b",
+      "observedSha256": "759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a84927bc805618f6e375c9d59d0e451482d38daaf0ba35bc9252e2e37495f010",
+      "observedSha256": "a84927bc805618f6e375c9d59d0e451482d38daaf0ba35bc9252e2e37495f010",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "d4187c14e9ee507a6903d7c8f69a4006299914c7ef6a74fd9a5b2444213c19fc",
+      "observedSha256": "d4187c14e9ee507a6903d7c8f69a4006299914c7ef6a74fd9a5b2444213c19fc",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0713bb737ee43edd4c376b9fa59c90831abb3382f5c0edcf73eb2c59d254d003",
+      "observedSha256": "0713bb737ee43edd4c376b9fa59c90831abb3382f5c0edcf73eb2c59d254d003",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ba4818e6898fae39c026dc8f75f27575369deaaa18d4ae3d6cadab750de72df5",
+      "observedSha256": "ba4818e6898fae39c026dc8f75f27575369deaaa18d4ae3d6cadab750de72df5",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ccad77f19d4824794f52e0e2fc83b89ca91a8dd7e5c61aa2e459d646e5b2a948",
+      "observedSha256": "ccad77f19d4824794f52e0e2fc83b89ca91a8dd7e5c61aa2e459d646e5b2a948",
+      "match": true
+    },
+    {
+      "methodId": "office-coo",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "41f08442dc5b5f5efa66f4015e4a879146f0fd77ff4f60794eb76d92a2e34d1e",
+      "observedSha256": "41f08442dc5b5f5efa66f4015e4a879146f0fd77ff4f60794eb76d92a2e34d1e",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b7060652dcac3d55bdae18121063fdffc8a379498393dd422a173ff9a145c117",
+      "observedSha256": "b7060652dcac3d55bdae18121063fdffc8a379498393dd422a173ff9a145c117",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f50ecf1acc91e9db1912e9f7e6cc44c4ef1156929e91e633fda0aea288882094",
+      "observedSha256": "f50ecf1acc91e9db1912e9f7e6cc44c4ef1156929e91e633fda0aea288882094",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "66025d19a9bc2c0370214675220b43f45e32570cf51e4d15eadd0ab2015a977b",
+      "observedSha256": "66025d19a9bc2c0370214675220b43f45e32570cf51e4d15eadd0ab2015a977b",
+      "match": true
+    },
+    {
+      "methodId": "office-cmo",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "observedSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cb8c24cc4ee00562366bfb99d6c7a6b921b95206b0b23954da56b1bf0b2fcc3e",
+      "observedSha256": "cb8c24cc4ee00562366bfb99d6c7a6b921b95206b0b23954da56b1bf0b2fcc3e",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "533076d0c03dde4c8741987eaebf1559b5a8557b36f041f40fa71b2d96ca868b",
+      "observedSha256": "533076d0c03dde4c8741987eaebf1559b5a8557b36f041f40fa71b2d96ca868b",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "0fc7ef0470f54366a5d137ef8b1ebb64f414db31ecd1a7ca9f1c63f9bf0da647",
+      "observedSha256": "0fc7ef0470f54366a5d137ef8b1ebb64f414db31ecd1a7ca9f1c63f9bf0da647",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "references/quality-2026-10-15-state-evidence.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9946812768d11628bef17f84faaa01168fad29948a4357dc322c5b693f48bd62",
+      "observedSha256": "9946812768d11628bef17f84faaa01168fad29948a4357dc322c5b693f48bd62",
+      "match": true
+    },
+    {
+      "methodId": "office-cfo",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-cto",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ed7dcaa260914366061315336ab7aff0388f7cd1c80bdecbe0b10697fe6acaff",
+      "observedSha256": "ed7dcaa260914366061315336ab7aff0388f7cd1c80bdecbe0b10697fe6acaff",
+      "match": true
+    },
+    {
+      "methodId": "office-cto",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-cto",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "bf2ca074562896d362b348539705e9fd373f59a58d4f390bf0d0115a4f6aa597",
+      "observedSha256": "bf2ca074562896d362b348539705e9fd373f59a58d4f390bf0d0115a4f6aa597",
+      "match": true
+    },
+    {
+      "methodId": "office-cto",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3aa1bd727b9835206404e62408938b3ba133a7cc539486bfd60927838589ba4d",
+      "observedSha256": "3aa1bd727b9835206404e62408938b3ba133a7cc539486bfd60927838589ba4d",
+      "match": true
+    },
+    {
+      "methodId": "office-cto",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d69f7a0fbaa0a96e1c25d15e6902e715074589501415800b9398acbb9d0cf56e",
+      "observedSha256": "d69f7a0fbaa0a96e1c25d15e6902e715074589501415800b9398acbb9d0cf56e",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "91d25c9bd884f76b7d8ead06088dae9680c44352923668a9a76240e8660dca48",
+      "observedSha256": "91d25c9bd884f76b7d8ead06088dae9680c44352923668a9a76240e8660dca48",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "39b2570e13cbcba83db1b98aa23b9757d24b497229b38ad18a8dff3d0ce8960c",
+      "observedSha256": "39b2570e13cbcba83db1b98aa23b9757d24b497229b38ad18a8dff3d0ce8960c",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "observedSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0bb79f67a72ac970fc2f74482dd77e2784710f834e9994d353d6826121487fe7",
+      "observedSha256": "0bb79f67a72ac970fc2f74482dd77e2784710f834e9994d353d6826121487fe7",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ce7e0b26eba34a363babf8136ae108afc95080424b44843a2404c2a2f0a95c4e",
+      "observedSha256": "ce7e0b26eba34a363babf8136ae108afc95080424b44843a2404c2a2f0a95c4e",
+      "match": true
+    },
+    {
+      "methodId": "office-video",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a58dd6efcaa326064ea33e2ccaf28d57a7a1eeb240cf5bdd0b9382d3084e9134",
+      "observedSha256": "a58dd6efcaa326064ea33e2ccaf28d57a7a1eeb240cf5bdd0b9382d3084e9134",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "601e6ccc8c29c0292cf1a0c3c1daa5b22bddfe9d05a551401a4f0625287339cd",
+      "observedSha256": "601e6ccc8c29c0292cf1a0c3c1daa5b22bddfe9d05a551401a4f0625287339cd",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "entry-2026-10-15-client-facing.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "bcfb35bb212559c26cb4a8884d2e254429443f37ab24a1ee05230419f2445181",
+      "observedSha256": "bcfb35bb212559c26cb4a8884d2e254429443f37ab24a1ee05230419f2445181",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6f3e9d73cd3fa92aaccbd14a548e01b8d8bda3706c21cc33959c902086da01ce",
+      "observedSha256": "6f3e9d73cd3fa92aaccbd14a548e01b8d8bda3706c21cc33959c902086da01ce",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "observedSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "46a6840d525bd805d72317bfad52476c755d9bb70a5530cb6a49fffefab34bda",
+      "observedSha256": "46a6840d525bd805d72317bfad52476c755d9bb70a5530cb6a49fffefab34bda",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "974a3478d7d99676952567699b2d976945702281bc1619855ed3bbe5f1373779",
+      "observedSha256": "974a3478d7d99676952567699b2d976945702281bc1619855ed3bbe5f1373779",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "references/quality-2026-10-15-client-facing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "da891e5d38a2c0349e5e212f087f50f05efa34496ec3b949fbacdd031c88e78b",
+      "observedSha256": "da891e5d38a2c0349e5e212f087f50f05efa34496ec3b949fbacdd031c88e78b",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-director",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "68f5ba219fa7291e8e784bc5f2352cbaa949a5fe63b15ca600e4288cf241d4f7",
+      "observedSha256": "68f5ba219fa7291e8e784bc5f2352cbaa949a5fe63b15ca600e4288cf241d4f7",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d94c4ad6a3c5cfa358118a261e817eda9ffe6d7c88bfd9e4ce2e627f1b45286c",
+      "observedSha256": "d94c4ad6a3c5cfa358118a261e817eda9ffe6d7c88bfd9e4ce2e627f1b45286c",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a00adaa3e246597573543e708b5c8080df0ee9271ea44c1a4033c4c15695f0f0",
+      "observedSha256": "a00adaa3e246597573543e708b5c8080df0ee9271ea44c1a4033c4c15695f0f0",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "54168acb79f26bfbbf90ef1dc65a04b935b28d18a8aeaae270544ef1708713b2",
+      "observedSha256": "54168acb79f26bfbbf90ef1dc65a04b935b28d18a8aeaae270544ef1708713b2",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "72e049b80050e1259055fc0c17e983dbf040797fec86ca67965d7e47191dbd43",
+      "observedSha256": "72e049b80050e1259055fc0c17e983dbf040797fec86ca67965d7e47191dbd43",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-lead",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-email-lead",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "195df2595a1e4a091fd8b5422e9bd0a1f90080b2e0fbe439917a05c309d9197a",
+      "observedSha256": "195df2595a1e4a091fd8b5422e9bd0a1f90080b2e0fbe439917a05c309d9197a",
+      "match": true
+    },
+    {
+      "methodId": "office-email-lead",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "observedSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "match": true
+    },
+    {
+      "methodId": "office-email-lead",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b0d983a4aa467d0e4b4884bb32150defb59440b7702c26663bd615793d532f9f",
+      "observedSha256": "b0d983a4aa467d0e4b4884bb32150defb59440b7702c26663bd615793d532f9f",
+      "match": true
+    },
+    {
+      "methodId": "office-email-lead",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "observedSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "match": true
+    },
+    {
+      "methodId": "office-support-lead",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "37d48718fe9180aedd2f347307d756dff058fa83bd7fe062c0a601dc9a8221c0",
+      "observedSha256": "37d48718fe9180aedd2f347307d756dff058fa83bd7fe062c0a601dc9a8221c0",
+      "match": true
+    },
+    {
+      "methodId": "office-support-lead",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-support-lead",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6a94c69a64e70b99f3a6d26d29ceca95c09bd8f4422920f011d9cab37472768f",
+      "observedSha256": "6a94c69a64e70b99f3a6d26d29ceca95c09bd8f4422920f011d9cab37472768f",
+      "match": true
+    },
+    {
+      "methodId": "office-support-lead",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "observedSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c11c714b3fe724638694923d274fd453c36392be3aae8045888c43b05653f0e2",
+      "observedSha256": "c11c714b3fe724638694923d274fd453c36392be3aae8045888c43b05653f0e2",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ab3b298c3422b5a7ae292a81afb92a2864509879909a366fd8db0bb331949743",
+      "observedSha256": "ab3b298c3422b5a7ae292a81afb92a2864509879909a366fd8db0bb331949743",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "00eb6937c81ff325c6f20c5e8a6a1c683a39f00d10574e2d7bde2fc6ff34187d",
+      "observedSha256": "00eb6937c81ff325c6f20c5e8a6a1c683a39f00d10574e2d7bde2fc6ff34187d",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7a2d1b493662f6f493ace1d90d2b23b507dffe3fc62dafbb0028f8f6fef4f741",
+      "observedSha256": "7a2d1b493662f6f493ace1d90d2b23b507dffe3fc62dafbb0028f8f6fef4f741",
+      "match": true
+    },
+    {
+      "methodId": "office-delivery",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f5908fd34293c393487af568fc2783b4b7fb830434e4feb1edb833641010f457",
+      "observedSha256": "f5908fd34293c393487af568fc2783b4b7fb830434e4feb1edb833641010f457",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a623c334f23e5fd115f0b8fb31c3b46638219b4ef6849ed1101d39f4ab29256b",
+      "observedSha256": "a623c334f23e5fd115f0b8fb31c3b46638219b4ef6849ed1101d39f4ab29256b",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6ac9b7f1445c391c1f96cd75911aa172a3f967c2aa3f5a0aecc52cc9e7d4a3c5",
+      "observedSha256": "6ac9b7f1445c391c1f96cd75911aa172a3f967c2aa3f5a0aecc52cc9e7d4a3c5",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "af9165f5227a3badc8450e9ec3f5750cd440282746c2cdbae4cf7fa8b42c812f",
+      "observedSha256": "af9165f5227a3badc8450e9ec3f5750cd440282746c2cdbae4cf7fa8b42c812f",
+      "match": true
+    },
+    {
+      "methodId": "office-success",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "f701070064ebe1b2da27cd24a729d547f6e2eb1bc48845fcfe9f2bd191232e0e",
+      "observedSha256": "f701070064ebe1b2da27cd24a729d547f6e2eb1bc48845fcfe9f2bd191232e0e",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "488a8e61d67a6c39696da52f6eb587cda19db40605f34e0b3f67ba41536a5207",
+      "observedSha256": "488a8e61d67a6c39696da52f6eb587cda19db40605f34e0b3f67ba41536a5207",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "10c34fbce9e7b99517b50a8885a75d31e2903a090212f4ea9248fc33adf7b073",
+      "observedSha256": "10c34fbce9e7b99517b50a8885a75d31e2903a090212f4ea9248fc33adf7b073",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b864437c28deb529bc5aa7c316ba8b6bc847bd8aea95097183b366dfcb457f68",
+      "observedSha256": "b864437c28deb529bc5aa7c316ba8b6bc847bd8aea95097183b366dfcb457f68",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8688afc7c1c699073e9d98d47796d42b5edfd8c0f20b1deee9cedd7fb0bf9c19",
+      "observedSha256": "8688afc7c1c699073e9d98d47796d42b5edfd8c0f20b1deee9cedd7fb0bf9c19",
+      "match": true
+    },
+    {
+      "methodId": "office-brand-strategist",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "be2695af6d2b0835b36464bd6fc3ee0c5d3e013c9b89add67d949397f3a7276d",
+      "observedSha256": "be2695af6d2b0835b36464bd6fc3ee0c5d3e013c9b89add67d949397f3a7276d",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "00564ffd1407dcafb283407d9981c92b4785164399cbce5de92cbfcbfd833738",
+      "observedSha256": "00564ffd1407dcafb283407d9981c92b4785164399cbce5de92cbfcbfd833738",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d3e4bffa8cc61c0cfb66a7296f7380c1498ba814e3bad0301e7b9fd35cfd29ae",
+      "observedSha256": "d3e4bffa8cc61c0cfb66a7296f7380c1498ba814e3bad0301e7b9fd35cfd29ae",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b70a9d9f3f079ccafd4ca148e11e46617bc2816dc051f69d66bd1c8cd70a14d3",
+      "observedSha256": "b70a9d9f3f079ccafd4ca148e11e46617bc2816dc051f69d66bd1c8cd70a14d3",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e915468fc8485af88b235b03d21566749b0b7c97e29fb48a4a18c3abe35b4f69",
+      "observedSha256": "e915468fc8485af88b235b03d21566749b0b7c97e29fb48a4a18c3abe35b4f69",
+      "match": true
+    },
+    {
+      "methodId": "office-knowledge",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "observedSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4638598250090b48957df704a41d86479cea37be53c37f04258366e6c1ec7f63",
+      "observedSha256": "4638598250090b48957df704a41d86479cea37be53c37f04258366e6c1ec7f63",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ed90e23193863a5797a1f6f9ecb07397b854f5da8e55cc216e8565782be7d055",
+      "observedSha256": "ed90e23193863a5797a1f6f9ecb07397b854f5da8e55cc216e8565782be7d055",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6a95002eab10a84c2202ed34fb28bdf1657ee23ed1693d03efb967355ea1c578",
+      "observedSha256": "6a95002eab10a84c2202ed34fb28bdf1657ee23ed1693d03efb967355ea1c578",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ae0d2eb0ada9938dec5152a86869427acb46851ae1c800bfb21cb6aacb7e96fe",
+      "observedSha256": "ae0d2eb0ada9938dec5152a86869427acb46851ae1c800bfb21cb6aacb7e96fe",
+      "match": true
+    },
+    {
+      "methodId": "office-copy",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "48d25a150abf73fbc294d6b8196ddc42c2ce70c1d04a8c4c16daa1d3152344a0",
+      "observedSha256": "48d25a150abf73fbc294d6b8196ddc42c2ce70c1d04a8c4c16daa1d3152344a0",
+      "match": true
+    },
+    {
+      "methodId": "office-instagram",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6ab5bae6e9460c71db7ea1ae5b6c5572d3999880f551e3d09abb75043ed85c56",
+      "observedSha256": "6ab5bae6e9460c71db7ea1ae5b6c5572d3999880f551e3d09abb75043ed85c56",
+      "match": true
+    },
+    {
+      "methodId": "office-instagram",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-instagram",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f57f168521ed47200d937d023abf90c66e3f9275f9ff3d37ac462b0713b107fb",
+      "observedSha256": "f57f168521ed47200d937d023abf90c66e3f9275f9ff3d37ac462b0713b107fb",
+      "match": true
+    },
+    {
+      "methodId": "office-instagram",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a640bc5f784deb2cc47b110288396fa29cb59f3c42060c8d249da2d6a6a80e77",
+      "observedSha256": "a640bc5f784deb2cc47b110288396fa29cb59f3c42060c8d249da2d6a6a80e77",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "127169bfe6e8496902136fb6537baafe99b9a6a080b14d2031e4c29f4e4b76f4",
+      "observedSha256": "127169bfe6e8496902136fb6537baafe99b9a6a080b14d2031e4c29f4e4b76f4",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f428603fb98d9b36818622ff6340f273841f23c7208e02a17887ef1baedc8688",
+      "observedSha256": "f428603fb98d9b36818622ff6340f273841f23c7208e02a17887ef1baedc8688",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d5775c4482de960bed7499d9775eaeba8ac8e9abbbf13620b032e1ad423bf2df",
+      "observedSha256": "d5775c4482de960bed7499d9775eaeba8ac8e9abbbf13620b032e1ad423bf2df",
+      "match": true
+    },
+    {
+      "methodId": "office-facebook",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c650f11a554036d6986b37a95d895386f565b97f3a82cf762983851a44d54fec",
+      "observedSha256": "c650f11a554036d6986b37a95d895386f565b97f3a82cf762983851a44d54fec",
+      "match": true
+    },
+    {
+      "methodId": "office-facebook",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-facebook",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ab6922af7dbcc2ac1e4c4a463bc8bc676adaf41cbfc411d8a86d9981a5335666",
+      "observedSha256": "ab6922af7dbcc2ac1e4c4a463bc8bc676adaf41cbfc411d8a86d9981a5335666",
+      "match": true
+    },
+    {
+      "methodId": "office-facebook",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "observedSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bd34a4807558d1e529dc072bff61a3672dd8e7716b1fa46b323c4da45d5fa477",
+      "observedSha256": "bd34a4807558d1e529dc072bff61a3672dd8e7716b1fa46b323c4da45d5fa477",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ca1b7904e87e10cefb978370c975361c5d21917acbc23b4b8b8dd462a205ac88",
+      "observedSha256": "ca1b7904e87e10cefb978370c975361c5d21917acbc23b4b8b8dd462a205ac88",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2752f921ee08768d4a776d3c91971c190106d63093dee269fcd17edded080700",
+      "observedSha256": "2752f921ee08768d4a776d3c91971c190106d63093dee269fcd17edded080700",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "87dc2d433e4e1a5846315c9da05b1ce53aaf5fb5ae579e2dfb7e5a5a0fd0a9b0",
+      "observedSha256": "87dc2d433e4e1a5846315c9da05b1ce53aaf5fb5ae579e2dfb7e5a5a0fd0a9b0",
+      "match": true
+    },
+    {
+      "methodId": "office-grid-planner",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "observedSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1d5a90afa22dd13999e2a5ce5aa181440b0785a86dce213669fcd995fd795c65",
+      "observedSha256": "1d5a90afa22dd13999e2a5ce5aa181440b0785a86dce213669fcd995fd795c65",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "entry-2026-10-15-intent-contract.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0e4375227595096146b5061dedc719e6c56b08df4809d8ba65a7c23d33cd4679",
+      "observedSha256": "0e4375227595096146b5061dedc719e6c56b08df4809d8ba65a7c23d33cd4679",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "references/practice-2026-10-15-intent-contract.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cb65387097b142e9195062ae74d6f8a25245e72ed01515c4b9fb6e0ff98f4665",
+      "observedSha256": "cb65387097b142e9195062ae74d6f8a25245e72ed01515c4b9fb6e0ff98f4665",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "21b60558c04289959e318499f4e43f6da88e8f461c5fcd3b68c8796f764fe1fd",
+      "observedSha256": "21b60558c04289959e318499f4e43f6da88e8f461c5fcd3b68c8796f764fe1fd",
+      "match": true
+    },
+    {
+      "methodId": "office-scheduler",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "observedSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0bad9186086e20d7a6be7ca6fd71fb2b8c38480697256b31ed9df01f232fa718",
+      "observedSha256": "0bad9186086e20d7a6be7ca6fd71fb2b8c38480697256b31ed9df01f232fa718",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "entry-2026-10-15-experiments.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "b58f0082f69c08a70cc2525d04fde9ff90fa081a24b54281d072eb738d995fbb",
+      "observedSha256": "b58f0082f69c08a70cc2525d04fde9ff90fa081a24b54281d072eb738d995fbb",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ff4a6140ccfdd07779a39d7b77a4a49a91087c9a6a3fa095c207f266924540d0",
+      "observedSha256": "ff4a6140ccfdd07779a39d7b77a4a49a91087c9a6a3fa095c207f266924540d0",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6921ba24b7b7ce58702a815eab5ff53ab98eb1b0331d131fbd783ae4c601ced3",
+      "observedSha256": "6921ba24b7b7ce58702a815eab5ff53ab98eb1b0331d131fbd783ae4c601ced3",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "8af79e8beab8d914f3a7794116b4fa3469dced3f9b68e9bb2e280879cf246a8a",
+      "observedSha256": "8af79e8beab8d914f3a7794116b4fa3469dced3f9b68e9bb2e280879cf246a8a",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "references/quality-2026-10-15-experiments.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7ddfa5f16e0bbef691452875794e1c1b70613e379f0b01194d4b13548befbce1",
+      "observedSha256": "7ddfa5f16e0bbef691452875794e1c1b70613e379f0b01194d4b13548befbce1",
+      "match": true
+    },
+    {
+      "methodId": "office-analytics",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "56eae3b509b9189653f10ca8e7e76e4e970d8083e294485b03e6e194d2901644",
+      "observedSha256": "56eae3b509b9189653f10ca8e7e76e4e970d8083e294485b03e6e194d2901644",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a7afff6500a39b08ab0b2940d52da0b1bb12b14f4ef57e4fd67c8fda9b005b6a",
+      "observedSha256": "a7afff6500a39b08ab0b2940d52da0b1bb12b14f4ef57e4fd67c8fda9b005b6a",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5410c10348e1b04a35c05f5316f27dce4e856bc95bdd7529cdb974034245d3d1",
+      "observedSha256": "5410c10348e1b04a35c05f5316f27dce4e856bc95bdd7529cdb974034245d3d1",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "observedSha256": "5434c9022a6071a6c2e05586b06af191f4811a8af870726544dedfee79b14c4c",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "adfaac27b547027d2f53447b310b54dfe2e8c109bd8df854b5b08f270cbe423f",
+      "observedSha256": "adfaac27b547027d2f53447b310b54dfe2e8c109bd8df854b5b08f270cbe423f",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ab69d3c4885d208579278c0b5c2f344f3ebbc68a4ac8079f5314773e871c1823",
+      "observedSha256": "ab69d3c4885d208579278c0b5c2f344f3ebbc68a4ac8079f5314773e871c1823",
+      "match": true
+    },
+    {
+      "methodId": "office-social-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "observedSha256": "73bda2d95f75dd555a4083acb5c8283224053f7247c55038c36c87d2c10ad9d4",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bb1628e7ac89ea264ac882018166023eeb0a17a20d451bac4f84fe2ef039c39f",
+      "observedSha256": "bb1628e7ac89ea264ac882018166023eeb0a17a20d451bac4f84fe2ef039c39f",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e828a70ab32ff0ea706c4d1b85d55f2cbef5712455818780cc7f635b37f5ec84",
+      "observedSha256": "e828a70ab32ff0ea706c4d1b85d55f2cbef5712455818780cc7f635b37f5ec84",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "observedSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bdb088a911fd93d5e7bb280ca8e606ee2d6f10076b2cd91e080bd1e7346f9af7",
+      "observedSha256": "bdb088a911fd93d5e7bb280ca8e606ee2d6f10076b2cd91e080bd1e7346f9af7",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "868575d4eb118c700f0f6c687d62944ba0be20083b76b909347a94fba5254d5d",
+      "observedSha256": "868575d4eb118c700f0f6c687d62944ba0be20083b76b909347a94fba5254d5d",
+      "match": true
+    },
+    {
+      "methodId": "office-image-prompts",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "e32add1726bc781d04b974f2c3c728679dca6392efab5d6f1987a931858485a3",
+      "observedSha256": "e32add1726bc781d04b974f2c3c728679dca6392efab5d6f1987a931858485a3",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0f619668713952a65db33ea4047b0a4ba688e6295a1df20f501779b704da5b1c",
+      "observedSha256": "0f619668713952a65db33ea4047b0a4ba688e6295a1df20f501779b704da5b1c",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5ef56970f917ebddd674cb0ef367034f1a2c39d99e6864465be30a4501e274af",
+      "observedSha256": "5ef56970f917ebddd674cb0ef367034f1a2c39d99e6864465be30a4501e274af",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "observedSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5f4c26785d47831aecfae8e81964b636e58294804a43bbbee87d708166e19421",
+      "observedSha256": "5f4c26785d47831aecfae8e81964b636e58294804a43bbbee87d708166e19421",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "15f522be7924553d6b8a796e01d4cc7f1970140f488bb0f09a017b48c7a9e845",
+      "observedSha256": "15f522be7924553d6b8a796e01d4cc7f1970140f488bb0f09a017b48c7a9e845",
+      "match": true
+    },
+    {
+      "methodId": "office-videographer",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "179c376b954568fc09aff632bf1270ab083aeab48442ac908384b847d4e82493",
+      "observedSha256": "179c376b954568fc09aff632bf1270ab083aeab48442ac908384b847d4e82493",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c6f4c1b86b68f99ae804dd5d53ee7cb3c0166eccce215ce1caa85ea79e7aa348",
+      "observedSha256": "c6f4c1b86b68f99ae804dd5d53ee7cb3c0166eccce215ce1caa85ea79e7aa348",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cccd65c706f45de281c4217b6eaf1aab89d2901a0cd0e7052fb15f3ed9f33a2f",
+      "observedSha256": "cccd65c706f45de281c4217b6eaf1aab89d2901a0cd0e7052fb15f3ed9f33a2f",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "observedSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "556afcd0fb7ccbf925fe578f7074e36b9cbe7e0ae86a711f86368aa10e01c7a4",
+      "observedSha256": "556afcd0fb7ccbf925fe578f7074e36b9cbe7e0ae86a711f86368aa10e01c7a4",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f6945d9aa23a15277be38e757f208396061a6dcc95c5758f6c39437a7fd01548",
+      "observedSha256": "f6945d9aa23a15277be38e757f208396061a6dcc95c5758f6c39437a7fd01548",
+      "match": true
+    },
+    {
+      "methodId": "office-media",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "90cf92c20b4f33c6182d980a559be8afb9a96aaaa5c0ff4b9591938f68b91177",
+      "observedSha256": "90cf92c20b4f33c6182d980a559be8afb9a96aaaa5c0ff4b9591938f68b91177",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d4ef110bcfbb68e13c6e454c831652e780243235cebe197551a34c46dbb27cd6",
+      "observedSha256": "d4ef110bcfbb68e13c6e454c831652e780243235cebe197551a34c46dbb27cd6",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "628abaebc0c3d57afece6b1adc99d3af84c2b9ccac414547f63a735210d8ca40",
+      "observedSha256": "628abaebc0c3d57afece6b1adc99d3af84c2b9ccac414547f63a735210d8ca40",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "observedSha256": "5d74781e23a93db9fa0a77f41834a081a0e1875219a21853968c8b18664a7e86",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c59ad485c2981174c738195bbc8744c5b0fd1c917a73a44ebd82249b65ed2428",
+      "observedSha256": "c59ad485c2981174c738195bbc8744c5b0fd1c917a73a44ebd82249b65ed2428",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ab8c8fd18fc25a01096630304073a79d7d08f00c515719caedc2b18c3baef848",
+      "observedSha256": "ab8c8fd18fc25a01096630304073a79d7d08f00c515719caedc2b18c3baef848",
+      "match": true
+    },
+    {
+      "methodId": "office-content-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a58dd6efcaa326064ea33e2ccaf28d57a7a1eeb240cf5bdd0b9382d3084e9134",
+      "observedSha256": "a58dd6efcaa326064ea33e2ccaf28d57a7a1eeb240cf5bdd0b9382d3084e9134",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bfe2c5edab5eef6def3c8403f4a84ea988d087e0aaa83a820f6e4c2194521f4e",
+      "observedSha256": "bfe2c5edab5eef6def3c8403f4a84ea988d087e0aaa83a820f6e4c2194521f4e",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "entry-2026-10-15-client-facing.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "562e5bfe95a2806372a5718e10fd41933e86b072cf2a0e1061d832c68bd3273e",
+      "observedSha256": "562e5bfe95a2806372a5718e10fd41933e86b072cf2a0e1061d832c68bd3273e",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3b470c4c2dd8fb12e4fc8eb692bde32c3a89689c5fa41c7780e7557e853fe049",
+      "observedSha256": "3b470c4c2dd8fb12e4fc8eb692bde32c3a89689c5fa41c7780e7557e853fe049",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "observedSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5e48d7d87ba41f6d4567c5bea884390a9f0cb748308ac84ac9674d593e206af7",
+      "observedSha256": "5e48d7d87ba41f6d4567c5bea884390a9f0cb748308ac84ac9674d593e206af7",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "d0957522797a62e51cafee998ccaac65b65c8ef2aef75b826733e14bbea018de",
+      "observedSha256": "d0957522797a62e51cafee998ccaac65b65c8ef2aef75b826733e14bbea018de",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "references/quality-2026-10-15-client-facing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22eb5e6cfd78883a28d1a27568615df37ad00efa27ea6b3a8c2ac531f46988e4",
+      "observedSha256": "22eb5e6cfd78883a28d1a27568615df37ad00efa27ea6b3a8c2ac531f46988e4",
+      "match": true
+    },
+    {
+      "methodId": "office-design-system",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "53393f849caa59f6b7f692d7bcc62c1869b7d674dd9b6a5d707715460b365604",
+      "observedSha256": "53393f849caa59f6b7f692d7bcc62c1869b7d674dd9b6a5d707715460b365604",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0423faa7b629b7ad32a5d199c613da91ed120bbb48bd7df035c22b45cc618a48",
+      "observedSha256": "0423faa7b629b7ad32a5d199c613da91ed120bbb48bd7df035c22b45cc618a48",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "entry-2026-10-15-client-facing.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "0e54797b783aa03c614c2cd1944892af51ae6b9f7ed9cc9f271aabbbb221e8dc",
+      "observedSha256": "0e54797b783aa03c614c2cd1944892af51ae6b9f7ed9cc9f271aabbbb221e8dc",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f8d2dbff44cdb5ec964104d60557e8efeac6abffb8bdb4510d20421646abab1b",
+      "observedSha256": "f8d2dbff44cdb5ec964104d60557e8efeac6abffb8bdb4510d20421646abab1b",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "observedSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c61113ecfa1f38e57f9f7f61eedba5b5d9db238e884d2c683ea936870b53ed22",
+      "observedSha256": "c61113ecfa1f38e57f9f7f61eedba5b5d9db238e884d2c683ea936870b53ed22",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "bc241d019d51dc152f50f61ebe86ed25e3c11620d1fa810322c0334612a9fbd5",
+      "observedSha256": "bc241d019d51dc152f50f61ebe86ed25e3c11620d1fa810322c0334612a9fbd5",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "references/quality-2026-10-15-client-facing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "90969808b4469528df248b28447a2ea6272ca5f8b3c7dc000e5285f9c7bf45a3",
+      "observedSha256": "90969808b4469528df248b28447a2ea6272ca5f8b3c7dc000e5285f9c7bf45a3",
+      "match": true
+    },
+    {
+      "methodId": "office-presentations",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "b2490e48ecb43e92ed6950a699b52d4321a0a956eb40c037b95ce0faf5049406",
+      "observedSha256": "b2490e48ecb43e92ed6950a699b52d4321a0a956eb40c037b95ce0faf5049406",
+      "match": true
+    },
+    {
+      "methodId": "office-voice",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8f1054170dafb992847eae23643d73e8219040d6ff38882f4bbd497c9ccda07d",
+      "observedSha256": "8f1054170dafb992847eae23643d73e8219040d6ff38882f4bbd497c9ccda07d",
+      "match": true
+    },
+    {
+      "methodId": "office-voice",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "observedSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "match": true
+    },
+    {
+      "methodId": "office-voice",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d7b6a35b9dfa36b97b5494e515d12714bdc09ef0b4616c143be93b5cc73d1c78",
+      "observedSha256": "d7b6a35b9dfa36b97b5494e515d12714bdc09ef0b4616c143be93b5cc73d1c78",
+      "match": true
+    },
+    {
+      "methodId": "office-voice",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0f7657e65662883f98ed1dd6f09c8e39526576f4d6d027f862689d2b1e279a3f",
+      "observedSha256": "0f7657e65662883f98ed1dd6f09c8e39526576f4d6d027f862689d2b1e279a3f",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c20935e25835f6c69c8285c766ea264d82c91baa329336561748e3819b2602ef",
+      "observedSha256": "c20935e25835f6c69c8285c766ea264d82c91baa329336561748e3819b2602ef",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "entry-2026-10-15-client-facing.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "34280e3b30cabe42a3ce22fe7b7cceaf7528bd255fe8a4aa652672ee52b9d852",
+      "observedSha256": "34280e3b30cabe42a3ce22fe7b7cceaf7528bd255fe8a4aa652672ee52b9d852",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "entry-2026-10-15-edge-evidence.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "73561f867f6d16f356eec5b1996ced6390bfcb2b3e80eee964fdb902b5e8e1a5",
+      "observedSha256": "73561f867f6d16f356eec5b1996ced6390bfcb2b3e80eee964fdb902b5e8e1a5",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "30f6d917df877e9932d0b389e9b36c81168e7baa0931652a5dc650fe3641a719",
+      "observedSha256": "30f6d917df877e9932d0b389e9b36c81168e7baa0931652a5dc650fe3641a719",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "observedSha256": "75f411ab93ac4609e70d7d84d9f33054d0fc82dd0b24c49a94e624a60f9e5ea4",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "14876e312b62125315cb7d99aa8c1f356a28e449deb39189d1479df641980759",
+      "observedSha256": "14876e312b62125315cb7d99aa8c1f356a28e449deb39189d1479df641980759",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "f0cceeaf8d5d815ad218bc0daff7ed3817885d7b35f1b348f298d124b5043457",
+      "observedSha256": "f0cceeaf8d5d815ad218bc0daff7ed3817885d7b35f1b348f298d124b5043457",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/quality-2026-10-15-client-facing.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "320bc119d92c2f9fe2fd1f0e86131bbeca657d89b2734c2da05781bd83b1aa56",
+      "observedSha256": "320bc119d92c2f9fe2fd1f0e86131bbeca657d89b2734c2da05781bd83b1aa56",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/quality-2026-10-15-edge-evidence.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "10e64e86bbdfe41b9d716c8724c9bd910ff72dee233b211544d102521c8b409c",
+      "observedSha256": "10e64e86bbdfe41b9d716c8724c9bd910ff72dee233b211544d102521c8b409c",
+      "match": true
+    },
+    {
+      "methodId": "office-creative-qc",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "68f5ba219fa7291e8e784bc5f2352cbaa949a5fe63b15ca600e4288cf241d4f7",
+      "observedSha256": "68f5ba219fa7291e8e784bc5f2352cbaa949a5fe63b15ca600e4288cf241d4f7",
+      "match": true
+    },
+    {
+      "methodId": "office-web-designer",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6204a7cba85dd0c4150cecf25df8b59aa08452c43c74c3a0e4be30f03cb81b2b",
+      "observedSha256": "6204a7cba85dd0c4150cecf25df8b59aa08452c43c74c3a0e4be30f03cb81b2b",
+      "match": true
+    },
+    {
+      "methodId": "office-web-designer",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-web-designer",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "2fbcb21e0a8f66941b0e27f48b11406bb704def53918faac056cc0bdc5a80648",
+      "observedSha256": "2fbcb21e0a8f66941b0e27f48b11406bb704def53918faac056cc0bdc5a80648",
+      "match": true
+    },
+    {
+      "methodId": "office-web-designer",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "40852f5245d7688a5257859c1a616fbfeee8b3901f84d41b38639433d7b54f8a",
+      "observedSha256": "40852f5245d7688a5257859c1a616fbfeee8b3901f84d41b38639433d7b54f8a",
+      "match": true
+    },
+    {
+      "methodId": "office-web-designer",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "51c3f4b5d4b752dda94da269a5671d39d3f42f4cd7c49a879d64099e6d8835fc",
+      "observedSha256": "51c3f4b5d4b752dda94da269a5671d39d3f42f4cd7c49a879d64099e6d8835fc",
+      "match": true
+    },
+    {
+      "methodId": "office-implementation",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "36745841820844cc1b2a68707176a30ed9ee3b71b98adc30ae919f27fc004f7f",
+      "observedSha256": "36745841820844cc1b2a68707176a30ed9ee3b71b98adc30ae919f27fc004f7f",
+      "match": true
+    },
+    {
+      "methodId": "office-implementation",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-implementation",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2646a18b3dd2b88988300a6d24b92c6842b8e648ecf9b528eab159396b85ab10",
+      "observedSha256": "2646a18b3dd2b88988300a6d24b92c6842b8e648ecf9b528eab159396b85ab10",
+      "match": true
+    },
+    {
+      "methodId": "office-implementation",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "19b38a49e7245ad0ee12fc245261ba5894c0dbccdbb8623427009e4f3d7281d3",
+      "observedSha256": "19b38a49e7245ad0ee12fc245261ba5894c0dbccdbb8623427009e4f3d7281d3",
+      "match": true
+    },
+    {
+      "methodId": "office-web-research",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f4a173fb62c3d75124f058950ce6335bb56217fb7e707fbb26c7057f210bbafd",
+      "observedSha256": "f4a173fb62c3d75124f058950ce6335bb56217fb7e707fbb26c7057f210bbafd",
+      "match": true
+    },
+    {
+      "methodId": "office-web-research",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-web-research",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c6a468bbafa8a5288cfb9cc143ef64f0031308050eb73436a3e2a3d744be9945",
+      "observedSha256": "c6a468bbafa8a5288cfb9cc143ef64f0031308050eb73436a3e2a3d744be9945",
+      "match": true
+    },
+    {
+      "methodId": "office-web-research",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d69f7a0fbaa0a96e1c25d15e6902e715074589501415800b9398acbb9d0cf56e",
+      "observedSha256": "d69f7a0fbaa0a96e1c25d15e6902e715074589501415800b9398acbb9d0cf56e",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03f4814dd3ad0a5ef57395394004e9cf65a15793877572243b693c9e5bf4d512",
+      "observedSha256": "03f4814dd3ad0a5ef57395394004e9cf65a15793877572243b693c9e5bf4d512",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d94194892047094a59add37d0eb9b7d6b606f659e51f09720d864ebd17d629d5",
+      "observedSha256": "d94194892047094a59add37d0eb9b7d6b606f659e51f09720d864ebd17d629d5",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e986db8a82f828eb64eab967bd937ae0f3db692b6a2132ac1eec00c4b9d418e3",
+      "observedSha256": "e986db8a82f828eb64eab967bd937ae0f3db692b6a2132ac1eec00c4b9d418e3",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8bbed71f594aca71e417b43031212ade229ff43816805fc834ab1d3d706d3ff9",
+      "observedSha256": "8bbed71f594aca71e417b43031212ade229ff43816805fc834ab1d3d706d3ff9",
+      "match": true
+    },
+    {
+      "methodId": "office-integrations",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "abe2e71309dd1f36f5179a53593722aaa638ffd41802080d3b6f287220550946",
+      "observedSha256": "abe2e71309dd1f36f5179a53593722aaa638ffd41802080d3b6f287220550946",
+      "match": true
+    },
+    {
+      "methodId": "office-audit",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "795eb9bbe78315eba196fe9061f1530c3ccc8afea61176fe46e84bb233b7227c",
+      "observedSha256": "795eb9bbe78315eba196fe9061f1530c3ccc8afea61176fe46e84bb233b7227c",
+      "match": true
+    },
+    {
+      "methodId": "office-audit",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-audit",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d76a482126ca7f09854854a7290c433e5b4b4c992a0bbe15d1623266769c097e",
+      "observedSha256": "d76a482126ca7f09854854a7290c433e5b4b4c992a0bbe15d1623266769c097e",
+      "match": true
+    },
+    {
+      "methodId": "office-audit",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "deb108a78a909457ba4ca671e9dcbc92e976e07820173a4b735cdc042e0d4e0e",
+      "observedSha256": "deb108a78a909457ba4ca671e9dcbc92e976e07820173a4b735cdc042e0d4e0e",
+      "match": true
+    },
+    {
+      "methodId": "office-web-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "79cb1750f30d802087e07aadfd14d6711581888492130ef57bfab85e7f690c9a",
+      "observedSha256": "79cb1750f30d802087e07aadfd14d6711581888492130ef57bfab85e7f690c9a",
+      "match": true
+    },
+    {
+      "methodId": "office-web-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "observedSha256": "86e5dded7b6679851e7106f3dceadb48a021f8e9042fa95e1b8ffaac1dcec3a4",
+      "match": true
+    },
+    {
+      "methodId": "office-web-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "ea7400d06f119f1f55a5f86714b51c8f9615fbec9033034679f27a938549d7d5",
+      "observedSha256": "ea7400d06f119f1f55a5f86714b51c8f9615fbec9033034679f27a938549d7d5",
+      "match": true
+    },
+    {
+      "methodId": "office-web-qa",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "184e47081aef74ef16b5b1b328a0fe65be4bed15178ce6890689e16b74f51be2",
+      "observedSha256": "184e47081aef74ef16b5b1b328a0fe65be4bed15178ce6890689e16b74f51be2",
+      "match": true
+    },
+    {
+      "methodId": "office-web-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ceacb83e03f8bcbff708b5c90d059f84102bd3c5dd4fb56a1d11903fc8681fdc",
+      "observedSha256": "ceacb83e03f8bcbff708b5c90d059f84102bd3c5dd4fb56a1d11903fc8681fdc",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "310dd63f033ec31ae105cb7f2c44bdb58cf24fb7bf4cb72bab29720e0e139465",
+      "observedSha256": "310dd63f033ec31ae105cb7f2c44bdb58cf24fb7bf4cb72bab29720e0e139465",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d44394c822f770093046f04783218faae4bbcad4023bf48a71482b50d170c718",
+      "observedSha256": "d44394c822f770093046f04783218faae4bbcad4023bf48a71482b50d170c718",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0ad7d5b4de7a55e3ffe84996408b428b230e96f594c45cdf32351b343a165ffe",
+      "observedSha256": "0ad7d5b4de7a55e3ffe84996408b428b230e96f594c45cdf32351b343a165ffe",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "186ebc132d860a192a452a43ba3cb2d7f7af902072c70fbd7352694f6acbfda5",
+      "observedSha256": "186ebc132d860a192a452a43ba3cb2d7f7af902072c70fbd7352694f6acbfda5",
+      "match": true
+    },
+    {
+      "methodId": "office-paid-ads",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1445000067f931e87bb2a2dc02c69e168021f67438575ad1b28b6160f5a683aa",
+      "observedSha256": "1445000067f931e87bb2a2dc02c69e168021f67438575ad1b28b6160f5a683aa",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b53d2b90a3baf9696d62b3452a5eead70acdc22f83a0c69f92e3fc2cbd6cf607",
+      "observedSha256": "b53d2b90a3baf9696d62b3452a5eead70acdc22f83a0c69f92e3fc2cbd6cf607",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2c3f12c11477d739630724fbd2037c092db9043e9f4200243d6ff3baf7d4c281",
+      "observedSha256": "2c3f12c11477d739630724fbd2037c092db9043e9f4200243d6ff3baf7d4c281",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "c7356be69155d090f5dae2b14e4e50be06d9b5eaf9f97218e9ed5d2f3a14e852",
+      "observedSha256": "c7356be69155d090f5dae2b14e4e50be06d9b5eaf9f97218e9ed5d2f3a14e852",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "references/quality-2026-10-15-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5ceca52f466e4bc149716f33e885e34dc70233e53f49dfbf097d885df5dfdf9c",
+      "observedSha256": "5ceca52f466e4bc149716f33e885e34dc70233e53f49dfbf097d885df5dfdf9c",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-analyst",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "7a03bf31913d8b5e5e5775df23db6f62f61d1b9e76fbe0ae0e890bcb75d8783a",
+      "observedSha256": "7a03bf31913d8b5e5e5775df23db6f62f61d1b9e76fbe0ae0e890bcb75d8783a",
+      "match": true
+    },
+    {
+      "methodId": "office-meta-ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a3295b29c27e7170c9b22211d1c52509d44a20b5a9bd3e2dd4b13d8bd167be5d",
+      "observedSha256": "a3295b29c27e7170c9b22211d1c52509d44a20b5a9bd3e2dd4b13d8bd167be5d",
+      "match": true
+    },
+    {
+      "methodId": "office-meta-ads",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-meta-ads",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "57a2a644a647b2fb0598f2b706056eafbc10e49f1f6429cbbc4f451e5446c098",
+      "observedSha256": "57a2a644a647b2fb0598f2b706056eafbc10e49f1f6429cbbc4f451e5446c098",
+      "match": true
+    },
+    {
+      "methodId": "office-meta-ads",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin-ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d9884245f558aff81572266a1f278d24da99854ced7b2473f3e02de22d5159c6",
+      "observedSha256": "d9884245f558aff81572266a1f278d24da99854ced7b2473f3e02de22d5159c6",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin-ads",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin-ads",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "88a1c0fd6ad174b59f640d5cd13159edc7ee529f52e560c3166887bf9cdb0685",
+      "observedSha256": "88a1c0fd6ad174b59f640d5cd13159edc7ee529f52e560c3166887bf9cdb0685",
+      "match": true
+    },
+    {
+      "methodId": "office-linkedin-ads",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-youtube-ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ade0188e08a0cce8f6cdfabbc2bc98adf70d33a2e7ab3fa77b84fada56b98c95",
+      "observedSha256": "ade0188e08a0cce8f6cdfabbc2bc98adf70d33a2e7ab3fa77b84fada56b98c95",
+      "match": true
+    },
+    {
+      "methodId": "office-youtube-ads",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-youtube-ads",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8591c9b4e3f7b11849eafe8f79a36b22e904b9efdc6872580a0044fe933d0f1d",
+      "observedSha256": "8591c9b4e3f7b11849eafe8f79a36b22e904b9efdc6872580a0044fe933d0f1d",
+      "match": true
+    },
+    {
+      "methodId": "office-youtube-ads",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-tiktok-ads",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7f41d99eaa91c62d2205a50ac7c41a1220cbc041f28db992ce1dd48243ecc397",
+      "observedSha256": "7f41d99eaa91c62d2205a50ac7c41a1220cbc041f28db992ce1dd48243ecc397",
+      "match": true
+    },
+    {
+      "methodId": "office-tiktok-ads",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-tiktok-ads",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e29d3ae041a1a213ba63c9dff34c81b1ee30fc97fdf3f0714cb5f46a0aced920",
+      "observedSha256": "e29d3ae041a1a213ba63c9dff34c81b1ee30fc97fdf3f0714cb5f46a0aced920",
+      "match": true
+    },
+    {
+      "methodId": "office-tiktok-ads",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "93d7e5ebdef80779c6b46033886f3f642992ffc7d6b9e37c4089b86a0490fbf2",
+      "observedSha256": "93d7e5ebdef80779c6b46033886f3f642992ffc7d6b9e37c4089b86a0490fbf2",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c3fb392a2124cfb2d78d11500d7ee17453079f922b5f4d64ff3e3e8a9919d14e",
+      "observedSha256": "c3fb392a2124cfb2d78d11500d7ee17453079f922b5f4d64ff3e3e8a9919d14e",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "59fb8efd315c89130879e3c6f2d63081afdce1575b1bd7af05695be60964cab2",
+      "observedSha256": "59fb8efd315c89130879e3c6f2d63081afdce1575b1bd7af05695be60964cab2",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "observedSha256": "3718a5b5dabac1384236d7e433427d041d0a6583de58444cf39e03f9bb484b19",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "0728d272bb154196868dddfbde4a8fa186db2a3d2f6c57553cbb5a77f03098a7",
+      "observedSha256": "0728d272bb154196868dddfbde4a8fa186db2a3d2f6c57553cbb5a77f03098a7",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "0c25550762e0d509c019f7baa9203745d0074ef3a4a9674cf5db5074289f4e7d",
+      "observedSha256": "0c25550762e0d509c019f7baa9203745d0074ef3a4a9674cf5db5074289f4e7d",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "references/quality-2026-10-15-ads.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "87196576798a0994d5128a97798b9eaf70e17feee974ba14cf66120a29f085e4",
+      "observedSha256": "87196576798a0994d5128a97798b9eaf70e17feee974ba14cf66120a29f085e4",
+      "match": true
+    },
+    {
+      "methodId": "office-ads-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "observedSha256": "fcb0757aa96951cfe496bce25b4306deeb5d35b7bf4003676d39865abbc4de98",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "88bdd3a96ea9ad425fe9ab9da5ae4d96f1aca683541491073f8c49e3d826db7d",
+      "observedSha256": "88bdd3a96ea9ad425fe9ab9da5ae4d96f1aca683541491073f8c49e3d826db7d",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "entry-2026-10-15-json-measurement.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "4dcc27f4fcf8a2a496dae1a377a9827628bfb9fb1c2467c71a8d0e198bb25a75",
+      "observedSha256": "4dcc27f4fcf8a2a496dae1a377a9827628bfb9fb1c2467c71a8d0e198bb25a75",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "observedSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "b6f7cda93d0c9e49b95c59c17742e1a170e7dd7e36970b2bd5c81c5b9c59956f",
+      "observedSha256": "b6f7cda93d0c9e49b95c59c17742e1a170e7dd7e36970b2bd5c81c5b9c59956f",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "references/quality-2026-10-15-json-measurement.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1290fa287cf673777e88526a92ddd5f132b56dac7b2f945d55c39c99dacea4a4",
+      "observedSha256": "1290fa287cf673777e88526a92ddd5f132b56dac7b2f945d55c39c99dacea4a4",
+      "match": true
+    },
+    {
+      "methodId": "office-email",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "observedSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "match": true
+    },
+    {
+      "methodId": "office-email-design",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b3fc15094dafafe41bb5a31453c86ab1c201740ff0caac69e0736e2c2ffba6c9",
+      "observedSha256": "b3fc15094dafafe41bb5a31453c86ab1c201740ff0caac69e0736e2c2ffba6c9",
+      "match": true
+    },
+    {
+      "methodId": "office-email-design",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "observedSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "match": true
+    },
+    {
+      "methodId": "office-email-design",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ca968027c66011becdc76de232f0980f26ebbb559eb7049729e099d5b4e8f870",
+      "observedSha256": "ca968027c66011becdc76de232f0980f26ebbb559eb7049729e099d5b4e8f870",
+      "match": true
+    },
+    {
+      "methodId": "office-email-design",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "observedSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fb90f3b2de318a80b7de2678999b55a8da399eb0a2eae555d685ce0f6f310435",
+      "observedSha256": "fb90f3b2de318a80b7de2678999b55a8da399eb0a2eae555d685ce0f6f310435",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "entry-2026-10-15-json-measurement.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "965c2954e53abb5fccf2470c27e56a271b8db51254794bbe7f464ecaeb7c8314",
+      "observedSha256": "965c2954e53abb5fccf2470c27e56a271b8db51254794bbe7f464ecaeb7c8314",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "observedSha256": "03e6f5c6319075f0bfa1431a0756facbba16ce69a418171a33eb4cf9fa966009",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "5528a081dd1b8165f3362c3c07dcc400e791a4177f14da157b4bf8aa8b0dd00d",
+      "observedSha256": "5528a081dd1b8165f3362c3c07dcc400e791a4177f14da157b4bf8aa8b0dd00d",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "references/quality-2026-10-15-json-measurement.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ad7b51ff8925a48710d351892bc22944f3d746bda8b69194b477ecde6d04e64d",
+      "observedSha256": "ad7b51ff8925a48710d351892bc22944f3d746bda8b69194b477ecde6d04e64d",
+      "match": true
+    },
+    {
+      "methodId": "office-email-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "observedSha256": "3c99cccfae181b7ea09d853e42a51b931859add6e42e49656768ac8f71e838f4",
+      "match": true
+    },
+    {
+      "methodId": "office-community",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cabf87c44ac864f978e7f4bc10e811e1cec757ca64006f4a0a80a707ba390ac6",
+      "observedSha256": "cabf87c44ac864f978e7f4bc10e811e1cec757ca64006f4a0a80a707ba390ac6",
+      "match": true
+    },
+    {
+      "methodId": "office-community",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-community",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b7d1b4d1debcfe3242d90d81b979735a4c31d34d6f4be234557b2b5c4ac28bff",
+      "observedSha256": "b7d1b4d1debcfe3242d90d81b979735a4c31d34d6f4be234557b2b5c4ac28bff",
+      "match": true
+    },
+    {
+      "methodId": "office-community",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "observedSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "match": true
+    },
+    {
+      "methodId": "office-whatsapp",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1b190368982c6b7c70d7ea52e1565e00f1faf073f610d8d65471803a9945ad70",
+      "observedSha256": "1b190368982c6b7c70d7ea52e1565e00f1faf073f610d8d65471803a9945ad70",
+      "match": true
+    },
+    {
+      "methodId": "office-whatsapp",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-whatsapp",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "51c25ccd778d26159cd3b430c37f33e8a0b9ca6744590fafb94ca8c71d2364c0",
+      "observedSha256": "51c25ccd778d26159cd3b430c37f33e8a0b9ca6744590fafb94ca8c71d2364c0",
+      "match": true
+    },
+    {
+      "methodId": "office-whatsapp",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "observedSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "match": true
+    },
+    {
+      "methodId": "office-crm",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "65b5a931f3b085fd831fefac7add542fd2cf2a3e133853ab91611131dbae1d9e",
+      "observedSha256": "65b5a931f3b085fd831fefac7add542fd2cf2a3e133853ab91611131dbae1d9e",
+      "match": true
+    },
+    {
+      "methodId": "office-crm",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-crm",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f893dca591b21dee243a5653a93a8d45b8702196bf3fadc40492abe9b2207abb",
+      "observedSha256": "f893dca591b21dee243a5653a93a8d45b8702196bf3fadc40492abe9b2207abb",
+      "match": true
+    },
+    {
+      "methodId": "office-crm",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1a99dccb83706f552272f6de7362e32f0b531bf06997c5caf0f404075f444874",
+      "observedSha256": "1a99dccb83706f552272f6de7362e32f0b531bf06997c5caf0f404075f444874",
+      "match": true
+    },
+    {
+      "methodId": "office-bookings",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1a8d333222096d6b84bfb704105854e4534321613bb72324a7787532e42c1891",
+      "observedSha256": "1a8d333222096d6b84bfb704105854e4534321613bb72324a7787532e42c1891",
+      "match": true
+    },
+    {
+      "methodId": "office-bookings",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-bookings",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "400da815dddcf5d4c164106f9d66838433785194345a168f4a8653693df5e7c0",
+      "observedSha256": "400da815dddcf5d4c164106f9d66838433785194345a168f4a8653693df5e7c0",
+      "match": true
+    },
+    {
+      "methodId": "office-bookings",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "41657bc3d8d5e50b21ad791113a5929f179c351ce724b2dc8e649def954988a4",
+      "observedSha256": "41657bc3d8d5e50b21ad791113a5929f179c351ce724b2dc8e649def954988a4",
+      "match": true
+    },
+    {
+      "methodId": "office-support-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "297c197527d3b1903fcbc099e575039aa5ad7d0e93fb2f576ffa3b9083aa0ebf",
+      "observedSha256": "297c197527d3b1903fcbc099e575039aa5ad7d0e93fb2f576ffa3b9083aa0ebf",
+      "match": true
+    },
+    {
+      "methodId": "office-support-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "observedSha256": "bf5716cc0d9545874184e479d1fb1f55897e724d510e1c3553a6464103c23673",
+      "match": true
+    },
+    {
+      "methodId": "office-support-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "0b1250197b4203df9bfcd50b079b69b8d2cc5264e3b12ce7b03e42d2aa6df97c",
+      "observedSha256": "0b1250197b4203df9bfcd50b079b69b8d2cc5264e3b12ce7b03e42d2aa6df97c",
+      "match": true
+    },
+    {
+      "methodId": "office-support-qa",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a6d7a58e20c762b307c5dc5da1c36ce54a6c40a27ae2bd2d204cd51c96878ff3",
+      "observedSha256": "a6d7a58e20c762b307c5dc5da1c36ce54a6c40a27ae2bd2d204cd51c96878ff3",
+      "match": true
+    },
+    {
+      "methodId": "office-support-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "observedSha256": "33e27914aa75b748ad20ba32f6ab49ec30be4617e08c9c8fe5097d9e46a123ca",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "951f524474a8c1eaf9f5f46099122d388215981e776ae11cdfa54dd017c478cf",
+      "observedSha256": "951f524474a8c1eaf9f5f46099122d388215981e776ae11cdfa54dd017c478cf",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "940dda6ee24bf99e95bd2d943475408e9857864fa1397ef6ddbb1ca8beb53f12",
+      "observedSha256": "940dda6ee24bf99e95bd2d943475408e9857864fa1397ef6ddbb1ca8beb53f12",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a18281e0af7268fa048e9257740854190e867efa1fe0bc7e53de82db7f8bb842",
+      "observedSha256": "a18281e0af7268fa048e9257740854190e867efa1fe0bc7e53de82db7f8bb842",
+      "match": true
+    },
+    {
+      "methodId": "office-bookkeeping",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1c87e2d5d4167e013d60e66517aeded71780c32af0069991ad2b61a6ad123bde",
+      "observedSha256": "1c87e2d5d4167e013d60e66517aeded71780c32af0069991ad2b61a6ad123bde",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3ef5ec6d50021aceaaa7121fd28126b195c90097737953243376f6e9126fd10b",
+      "observedSha256": "3ef5ec6d50021aceaaa7121fd28126b195c90097737953243376f6e9126fd10b",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "500d6b3cf08eb1409516747fbbe227b1134aaef5c1be1e92502a9602864248c1",
+      "observedSha256": "500d6b3cf08eb1409516747fbbe227b1134aaef5c1be1e92502a9602864248c1",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3ba206fe739c287915c5cf3232326da1e3972ca14e7dc543058ffb04d10c14f0",
+      "observedSha256": "3ba206fe739c287915c5cf3232326da1e3972ca14e7dc543058ffb04d10c14f0",
+      "match": true
+    },
+    {
+      "methodId": "office-billing",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a6fdad92101a62dfab2299d7e4d269065ade36aa5497a5a4c0ea77ae5dcfc5c4",
+      "observedSha256": "a6fdad92101a62dfab2299d7e4d269065ade36aa5497a5a4c0ea77ae5dcfc5c4",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6db4aca81e621aa2b4b7e4ecef005b0282a166837cdbb0d6eb002609bec30a6e",
+      "observedSha256": "6db4aca81e621aa2b4b7e4ecef005b0282a166837cdbb0d6eb002609bec30a6e",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "80c03201625c3fcefdfee5917e494f21875dbf8b0536a03978500c937ca21334",
+      "observedSha256": "80c03201625c3fcefdfee5917e494f21875dbf8b0536a03978500c937ca21334",
+      "match": true
+    },
+    {
+      "methodId": "office-pricing",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "b1417826ad1777a5df45e53add94c4e6c5610b982cdf8eb450e3feb4d95f4bd3",
+      "observedSha256": "b1417826ad1777a5df45e53add94c4e6c5610b982cdf8eb450e3feb4d95f4bd3",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "78f48194ee7eaec5c12b312bd7e53317d98a96f4000813589df497617df3a555",
+      "observedSha256": "78f48194ee7eaec5c12b312bd7e53317d98a96f4000813589df497617df3a555",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8aca3a84bf095ee2485dcf7704fb8c5312098667df579b15d73f7361053c6d93",
+      "observedSha256": "8aca3a84bf095ee2485dcf7704fb8c5312098667df579b15d73f7361053c6d93",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5c4dc9895f2be6115c03d760d666cf5497f330aef9737df8d6cfac816e281908",
+      "observedSha256": "5c4dc9895f2be6115c03d760d666cf5497f330aef9737df8d6cfac816e281908",
+      "match": true
+    },
+    {
+      "methodId": "office-margin",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "cc3c626186888e15d6b936396b1d840f9d0031855893206ec1642fe5d9f2b6eb",
+      "observedSha256": "cc3c626186888e15d6b936396b1d840f9d0031855893206ec1642fe5d9f2b6eb",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "635f19a3069a3819da0996deeb71ed1df7362e784bd4a1f92653f8b2b7a88520",
+      "observedSha256": "635f19a3069a3819da0996deeb71ed1df7362e784bd4a1f92653f8b2b7a88520",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "225cdbc6044423a8e639580e4907fe50cb28f8fa9499cbbe22edd5fc7a1773f2",
+      "observedSha256": "225cdbc6044423a8e639580e4907fe50cb28f8fa9499cbbe22edd5fc7a1773f2",
+      "match": true
+    },
+    {
+      "methodId": "office-subscriptions",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "70e4b5d9edd85ca9594f3e1b184af4e3cea2824d6361749440c5279932ee5035",
+      "observedSha256": "70e4b5d9edd85ca9594f3e1b184af4e3cea2824d6361749440c5279932ee5035",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "entry-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f5145453fca31643d51f21288ec811da0d6fb515b656706476af45df924f851f",
+      "observedSha256": "f5145453fca31643d51f21288ec811da0d6fb515b656706476af45df924f851f",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "references/domain-2026-10-15-review-gates-r1.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "observedSha256": "846243f4ca8f9fef1b59ec72141558f75d1c357ac944710e126bfd0fc1b95e4f",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "observedSha256": "a10d4ac9d27c6e5f65c9c027f51571261cce5886991a878eb39ebf71add3c50d",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "d484e06ced2c892022d2c06cdfef2f4c8fc72f8bc39aed022f139c5a70867b57",
+      "observedSha256": "d484e06ced2c892022d2c06cdfef2f4c8fc72f8bc39aed022f139c5a70867b57",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "references/quality-2026-10-15-state-evidence.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e2446a58f97a7a0c66fd8bd8658a5b943cfc7169ad1d5e65377f08e171af48a5",
+      "observedSha256": "e2446a58f97a7a0c66fd8bd8658a5b943cfc7169ad1d5e65377f08e171af48a5",
+      "match": true
+    },
+    {
+      "methodId": "office-finance-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "observedSha256": "de59e52b23ab79c9edb701ddf83b0a91d06731677c3c80bc0a0e7dec12b3a208",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fc248193d9bd332ee2250f13877ed2f7a4d0ab5a03fee93e0e91f338397616ed",
+      "observedSha256": "fc248193d9bd332ee2250f13877ed2f7a4d0ab5a03fee93e0e91f338397616ed",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c310a513fa581664a8d976437252af7b29a97a233cc3201f881c368a4fcf527b",
+      "observedSha256": "c310a513fa581664a8d976437252af7b29a97a233cc3201f881c368a4fcf527b",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ea51857c02bd0ed81ea656aa06dd63d7112aad461cbc248fd76fd9b4b7a0e8ca",
+      "observedSha256": "ea51857c02bd0ed81ea656aa06dd63d7112aad461cbc248fd76fd9b4b7a0e8ca",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f94f3b3224373b73f381aba317e76a96e957ac621819e71bac21d47c47dabcb0",
+      "observedSha256": "f94f3b3224373b73f381aba317e76a96e957ac621819e71bac21d47c47dabcb0",
+      "match": true
+    },
+    {
+      "methodId": "office-proposal",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "1ae46714fca14fc9520cd475822eed26ecf4f42da0b9300d67752fb9986f992c",
+      "observedSha256": "1ae46714fca14fc9520cd475822eed26ecf4f42da0b9300d67752fb9986f992c",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e528c88b081139ea2648c21db4ec0181118761a16a156754263cba40f33326cd",
+      "observedSha256": "e528c88b081139ea2648c21db4ec0181118761a16a156754263cba40f33326cd",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "af055db9318b958ab03f0eca970e6515ee43c10eb834c24293b569e63fd15816",
+      "observedSha256": "af055db9318b958ab03f0eca970e6515ee43c10eb834c24293b569e63fd15816",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d46d751458c591edd28e2996d3a18771e1be0da61561ef6a7759bb4684b5712e",
+      "observedSha256": "d46d751458c591edd28e2996d3a18771e1be0da61561ef6a7759bb4684b5712e",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "28378079e0cd6d0418ae299ab29a50e8eda1366bfcd0ef85f62b46746558fde8",
+      "observedSha256": "28378079e0cd6d0418ae299ab29a50e8eda1366bfcd0ef85f62b46746558fde8",
+      "match": true
+    },
+    {
+      "methodId": "office-workflow-architect",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "56c02decd532bd7cb7a0591cb5236cdfc499fb03b14eacf62e09297c39fb1413",
+      "observedSha256": "56c02decd532bd7cb7a0591cb5236cdfc499fb03b14eacf62e09297c39fb1413",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d79e5656bd9231dbb30b51b7e246a7ab9f185579757050e1620d2a9f2a972ae5",
+      "observedSha256": "d79e5656bd9231dbb30b51b7e246a7ab9f185579757050e1620d2a9f2a972ae5",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "996f4e7d68569c0d6c81343347a6f7eb5eeae9c8f0ebc70e2bfddf64160b4774",
+      "observedSha256": "996f4e7d68569c0d6c81343347a6f7eb5eeae9c8f0ebc70e2bfddf64160b4774",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5d2567d4ca4fe54ed1ddc332a217b32536b40ce1c4b7746575cdf33f1a537855",
+      "observedSha256": "5d2567d4ca4fe54ed1ddc332a217b32536b40ce1c4b7746575cdf33f1a537855",
+      "match": true
+    },
+    {
+      "methodId": "office-reliability",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "da2e97f377febf6596fc0c990ed2af1cd5148418c1f4dda4651b72a4559e1939",
+      "observedSha256": "da2e97f377febf6596fc0c990ed2af1cd5148418c1f4dda4651b72a4559e1939",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "entry-2026-10-15-evidence-sufficiency.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "99672877607cd4ecd4c61840d47bcc4945ea504f10af3302d37fafbd9e893582",
+      "observedSha256": "99672877607cd4ecd4c61840d47bcc4945ea504f10af3302d37fafbd9e893582",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "983a398360e8e542a1512fea38a71064d28b70d317682e4b32fde83d9f74aeb1",
+      "observedSha256": "983a398360e8e542a1512fea38a71064d28b70d317682e4b32fde83d9f74aeb1",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8301f8a0c6d54b8c6ec04c9c65794ff33d284c623db8929c7860b0990c066f89",
+      "observedSha256": "8301f8a0c6d54b8c6ec04c9c65794ff33d284c623db8929c7860b0990c066f89",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "8a32fd3e95d0dbd564589950bf75c35bde8743d42b6e21783126d3da8b004e9b",
+      "observedSha256": "8a32fd3e95d0dbd564589950bf75c35bde8743d42b6e21783126d3da8b004e9b",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/quality-2026-10-15-evidence-sufficiency.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c92295328d3ca75fedd27f3e4bc444144f9454dfd1f39af25659c7650842a384",
+      "observedSha256": "c92295328d3ca75fedd27f3e4bc444144f9454dfd1f39af25659c7650842a384",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/quality-2026-10-15.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "4ee2ed15c7d9f0ad92ab17dd92814eff404997b873d6d14eb47090d687e59c69",
+      "observedSha256": "4ee2ed15c7d9f0ad92ab17dd92814eff404997b873d6d14eb47090d687e59c69",
+      "match": true
+    },
+    {
+      "methodId": "office-operations-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "office-evaluation",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3719aa9baea660b2b4065a0f3013ef7137c82b56efad3d955290f481b9552b5a",
+      "observedSha256": "3719aa9baea660b2b4065a0f3013ef7137c82b56efad3d955290f481b9552b5a",
+      "match": true
+    },
+    {
+      "methodId": "office-evaluation",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-evaluation",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d98a47f58b418083b460d4160d49cffcd31f671f8caf9906a60d7e6b7ecab72e",
+      "observedSha256": "d98a47f58b418083b460d4160d49cffcd31f671f8caf9906a60d7e6b7ecab72e",
+      "match": true
+    },
+    {
+      "methodId": "office-evaluation",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fa1b56f581e087dc38577b3a455b5b39262ba182031d55567b638d7b8081fdb4",
+      "observedSha256": "fa1b56f581e087dc38577b3a455b5b39262ba182031d55567b638d7b8081fdb4",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "5321ac043dc068bdcdf1ffa0396b03569e1eab93c1b3fdcbca237f24d392e373",
+      "observedSha256": "5321ac043dc068bdcdf1ffa0396b03569e1eab93c1b3fdcbca237f24d392e373",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2e0651eb0c70632cae6396d7ea53ff9cee65e48efc6080a6afed4e0645f812be",
+      "observedSha256": "2e0651eb0c70632cae6396d7ea53ff9cee65e48efc6080a6afed4e0645f812be",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9041dacedb150de440caabffe336969cd24c0ea19381993389f4c0e5a70f62fa",
+      "observedSha256": "9041dacedb150de440caabffe336969cd24c0ea19381993389f4c0e5a70f62fa",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fad98818799ec741bfb1018350e0368ed48d51f3f9150ec028255472a5d9ed05",
+      "observedSha256": "fad98818799ec741bfb1018350e0368ed48d51f3f9150ec028255472a5d9ed05",
+      "match": true
+    },
+    {
+      "methodId": "office-librarian",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "observedSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "400000023a7fce01ef463cceb36c0df194052d048c4fa372b153c67c8740227b",
+      "observedSha256": "400000023a7fce01ef463cceb36c0df194052d048c4fa372b153c67c8740227b",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "fa3f14226ac23c689cca72e0aa6e90f1e5bf94619701d0f52488fbe367267dd4",
+      "observedSha256": "fa3f14226ac23c689cca72e0aa6e90f1e5bf94619701d0f52488fbe367267dd4",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "09beb70631d6d8a836e41de703ce3947d3b967b716c316ef68d10e60cc3d1c88",
+      "observedSha256": "09beb70631d6d8a836e41de703ce3947d3b967b716c316ef68d10e60cc3d1c88",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e96d3f38ce5d4a31452c981e70d512923df4bcdbe337947cb0a7483cffe0018a",
+      "observedSha256": "e96d3f38ce5d4a31452c981e70d512923df4bcdbe337947cb0a7483cffe0018a",
+      "match": true
+    },
+    {
+      "methodId": "office-competitors",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "4b9d2bc0154e6eccd9f32b03927cd80df550c41c4b00d8a954dac043911c236b",
+      "observedSha256": "4b9d2bc0154e6eccd9f32b03927cd80df550c41c4b00d8a954dac043911c236b",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "2cc4dfa4665c95d907f460f910188fd46ff7d24ecfd67835ba989fe5f6ed1075",
+      "observedSha256": "2cc4dfa4665c95d907f460f910188fd46ff7d24ecfd67835ba989fe5f6ed1075",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "entry-2026-10-15-owner-architecture.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7b0261f191cb3761193797fedf03d5d6cf0daabe3b0e6a21015e329c06e705a1",
+      "observedSha256": "7b0261f191cb3761193797fedf03d5d6cf0daabe3b0e6a21015e329c06e705a1",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "observedSha256": "e885d8526981bcc59c0435139e8c3b776147bece20d96fffd0ae55ad17ee32fa",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "references/owner-architecture-2026-10-15.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "291fc51f027f96e00c04dd75af5bf526c59bd5aad7f13c5fb24c3ae7d4f8eae6",
+      "observedSha256": "291fc51f027f96e00c04dd75af5bf526c59bd5aad7f13c5fb24c3ae7d4f8eae6",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f4d85194f183728337436c21885aa46156ef117e3274131e00617462cd4e6756",
+      "observedSha256": "f4d85194f183728337436c21885aa46156ef117e3274131e00617462cd4e6756",
+      "match": true
+    },
+    {
+      "methodId": "office-research-qa",
+      "relativePath": "references/sources.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "observedSha256": "fd15d742b6c8cc9ba93740204a2d302461329a3f8e2e52114ed4f390f591c99e",
+      "match": true
+    },
+    {
+      "methodId": "office-test",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "24a6f44da1345b8430e9a93e71a61c4bf38dc4b0b5702ed6504071a3eb3d9b4f",
+      "observedSha256": "24a6f44da1345b8430e9a93e71a61c4bf38dc4b0b5702ed6504071a3eb3d9b4f",
+      "match": true
+    },
+    {
+      "methodId": "office-test",
+      "relativePath": "references/domain.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "observedSha256": "22163512ea6e96ab25e23f27114f96cd61b8b4d4b0c408b1701bf3c095d2212b",
+      "match": true
+    },
+    {
+      "methodId": "office-test",
+      "relativePath": "references/practice.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c7de65a38d9e53e20c12f517f6a884987139fea167e595acdfb52e397c3e4757",
+      "observedSha256": "c7de65a38d9e53e20c12f517f6a884987139fea167e595acdfb52e397c3e4757",
+      "match": true
+    },
+    {
+      "methodId": "office-test",
+      "relativePath": "references/sources.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "observedSha256": "01b628903e79c745a28e42a4a3ffa5c14642e0c8ef404ed404dcc1e60bc2197c",
+      "match": true
+    },
+    {
+      "methodId": "mc-delivery-loop",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d356aff9389d3ed48b95bcb390ada8474b627f9f6d2386f9f17cb546a09eb9bd",
+      "observedSha256": "d356aff9389d3ed48b95bcb390ada8474b627f9f6d2386f9f17cb546a09eb9bd",
+      "match": true
+    },
+    {
+      "methodId": "mc-delivery-loop",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "1a4e85b083328bda3712d6cd827a9d5316a9f0111c9f212d85ec29b5044081d4",
+      "observedSha256": "1a4e85b083328bda3712d6cd827a9d5316a9f0111c9f212d85ec29b5044081d4",
+      "match": true
+    },
+    {
+      "methodId": "mc-context-handoff",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "de33947a7d045e0c348ca9b33f326950cbfb01a4991796f2dabec0d0c6243d70",
+      "observedSha256": "de33947a7d045e0c348ca9b33f326950cbfb01a4991796f2dabec0d0c6243d70",
+      "match": true
+    },
+    {
+      "methodId": "mc-context-handoff",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "95cfb27bdec7b1f5ee6883164c3d4512fe3d675094b117cc7bf4d5b807be5347",
+      "observedSha256": "95cfb27bdec7b1f5ee6883164c3d4512fe3d675094b117cc7bf4d5b807be5347",
+      "match": true
+    },
+    {
+      "methodId": "mc-decision-review",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "80f594e5a6d31e1b62f9278671350463f24555e97beaeeade4034c8bab25f676",
+      "observedSha256": "80f594e5a6d31e1b62f9278671350463f24555e97beaeeade4034c8bab25f676",
+      "match": true
+    },
+    {
+      "methodId": "mc-decision-review",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "09e1e489a0b8ad05cc1076259112b5bc8bac4c72b177e2c51eeaeb6afd9f7728",
+      "observedSha256": "09e1e489a0b8ad05cc1076259112b5bc8bac4c72b177e2c51eeaeb6afd9f7728",
+      "match": true
+    },
+    {
+      "methodId": "mc-file-library",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e533d52625c75d338f1779a2d1965b222ef44e766dce8291f0bb982cdc38fb17",
+      "observedSha256": "e533d52625c75d338f1779a2d1965b222ef44e766dce8291f0bb982cdc38fb17",
+      "match": true
+    },
+    {
+      "methodId": "mc-file-library",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "60438b34996ae0c34ff01dc146ca5101b89ebfa089dcd7834a7c4a6e56ef6056",
+      "observedSha256": "60438b34996ae0c34ff01dc146ca5101b89ebfa089dcd7834a7c4a6e56ef6056",
+      "match": true
+    },
+    {
+      "methodId": "mc-video-edit-plan",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "d63266e4d3ed1fa3515531866088d54a7139dbb95c961b7bb34e669d1995a187",
+      "observedSha256": "d63266e4d3ed1fa3515531866088d54a7139dbb95c961b7bb34e669d1995a187",
+      "match": true
+    },
+    {
+      "methodId": "mc-video-edit-plan",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "6734544ce231e484acb08edcab8bc1d5ae49eda9a6dc8455e20b4b8858ee271b",
+      "observedSha256": "6734544ce231e484acb08edcab8bc1d5ae49eda9a6dc8455e20b4b8858ee271b",
+      "match": true
+    },
+    {
+      "methodId": "mc-operations-brief",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e29ec7276678cd2652d6b9a8eea299d87cd45fbe008fad480dee93075d247551",
+      "observedSha256": "e29ec7276678cd2652d6b9a8eea299d87cd45fbe008fad480dee93075d247551",
+      "match": true
+    },
+    {
+      "methodId": "mc-operations-brief",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8cb7806951b778d114fe241c582d60a92861e2bf238fa0c5814da776b623dcc2",
+      "observedSha256": "8cb7806951b778d114fe241c582d60a92861e2bf238fa0c5814da776b623dcc2",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-evidence-review",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "841e93319f907f6d7672e33cb585004c4cc1032e9270a2d41ed8413638224e61",
+      "observedSha256": "841e93319f907f6d7672e33cb585004c4cc1032e9270a2d41ed8413638224e61",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-evidence-review",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "f116d477e6340823aba209a4061dd0bec50d29944dae937b264f667b13038c25",
+      "observedSha256": "f116d477e6340823aba209a4061dd0bec50d29944dae937b264f667b13038c25",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-content-chain",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "ea1863d1a13a15349c50c27607e61dbdfc42383861d8cae1efec04a90e223b95",
+      "observedSha256": "ea1863d1a13a15349c50c27607e61dbdfc42383861d8cae1efec04a90e223b95",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-content-chain",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "8ce05ea6373550a35de317ef1e6e9ee77ce6e28a81f9494e96d4ccc4514509c6",
+      "observedSha256": "8ce05ea6373550a35de317ef1e6e9ee77ce6e28a81f9494e96d4ccc4514509c6",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-design-contract",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7f661f76cb56d86c73fd47ee4e62ee74cd8b5d957fbe3a7f18c019dd5a3eb4d5",
+      "observedSha256": "7f661f76cb56d86c73fd47ee4e62ee74cd8b5d957fbe3a7f18c019dd5a3eb4d5",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-design-contract",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9ae25cceecd2ad288c09463b6a50dcfe72a952ee4c8d7baa1b7a1132ff938a53",
+      "observedSha256": "9ae25cceecd2ad288c09463b6a50dcfe72a952ee4c8d7baa1b7a1132ff938a53",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-audience-lab",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bce9af50e2fd3ab1f28fd3412143d415ba71afdc276c6b27231ec72962499d50",
+      "observedSha256": "bce9af50e2fd3ab1f28fd3412143d415ba71afdc276c6b27231ec72962499d50",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-audience-lab",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "7e07ca16cdb06a6b902d704e0485f8be158042b52bba8e5d3e4e93bdb14923cc",
+      "observedSha256": "7e07ca16cdb06a6b902d704e0485f8be158042b52bba8e5d3e4e93bdb14923cc",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-execution-checkpoint",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "acf9b49e7cca690df868ac829c151e19c1141448d52b712eb3a9d8735759341d",
+      "observedSha256": "acf9b49e7cca690df868ac829c151e19c1141448d52b712eb3a9d8735759341d",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-execution-checkpoint",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e4d0cb0c3db5479290f60abb594ae1446796ef27400a457c211df1d4fd1de14d",
+      "observedSha256": "e4d0cb0c3db5479290f60abb594ae1446796ef27400a457c211df1d4fd1de14d",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-edit-profile",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "34629d1b0d24425c06834719dba97b348bfe8ad1eb15e43437898f516ad2367b",
+      "observedSha256": "34629d1b0d24425c06834719dba97b348bfe8ad1eb15e43437898f516ad2367b",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-edit-profile",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c1ea411380cf089254fb57cdf0b50253eb18ea9fdba3547dcbf96a5570fd5b4c",
+      "observedSha256": "c1ea411380cf089254fb57cdf0b50253eb18ea9fdba3547dcbf96a5570fd5b4c",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-spatial-review",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "dda43b0f606f07df7a0044345152054e5359f4848cfa3664d03ee3d8cadb6982",
+      "observedSha256": "dda43b0f606f07df7a0044345152054e5359f4848cfa3664d03ee3d8cadb6982",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-spatial-review",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bf2b61351c17e54ac94cf2d97bdea9988dae2116904a61d62c77e2f8b9de3253",
+      "observedSha256": "bf2b61351c17e54ac94cf2d97bdea9988dae2116904a61d62c77e2f8b9de3253",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "748766d1b02fc78cc76771c13d3cc8db9a85cbd610a428eb97cddf2f55543265",
+      "observedSha256": "748766d1b02fc78cc76771c13d3cc8db9a85cbd610a428eb97cddf2f55543265",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "references/source-pins.md",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "5e57331c311e428ce60763f5157248697cb2447ee3e75f45a55efe93aa7aa51a",
+      "observedSha256": "5e57331c311e428ce60763f5157248697cb2447ee3e75f45a55efe93aa7aa51a",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "references/source-review.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "540e032a3041a87d422a6f162ab4a40ebf238bc9c85ef0cc9547a23d9fcdb1eb",
+      "observedSha256": "540e032a3041a87d422a6f162ab4a40ebf238bc9c85ef0cc9547a23d9fcdb1eb",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "roles/content-qa.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "3685ff052ca9bbe9ae11ea8829d1618850b874ea9234207af35bbfb86ab21f09",
+      "observedSha256": "3685ff052ca9bbe9ae11ea8829d1618850b874ea9234207af35bbfb86ab21f09",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "roles/image-prompts.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "bb567ea667684c4c3a5243bc2b1d522c1c3eeee28bb824b13339b6eb87023e53",
+      "observedSha256": "bb567ea667684c4c3a5243bc2b1d522c1c3eeee28bb824b13339b6eb87023e53",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "roles/media.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "aa439721091352cfa77da97a0626aa806ff764b140c81485f795ac6356bff6d4",
+      "observedSha256": "aa439721091352cfa77da97a0626aa806ff764b140c81485f795ac6356bff6d4",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "roles/video.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "aee31ed0c10753e57e1dc8ffbe6b592ae857469eec30c23c350e444bed8f9b10",
+      "observedSha256": "aee31ed0c10753e57e1dc8ffbe6b592ae857469eec30c23c350e444bed8f9b10",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-reference-led-production",
+      "relativePath": "roles/videographer.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "e91ca38ba8cbf489261db0e42ea89815aee4e1e35881c424aced8fdd6899b465",
+      "observedSha256": "e91ca38ba8cbf489261db0e42ea89815aee4e1e35881c424aced8fdd6899b465",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "SKILL.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "c6985a3363f522b4aae705d4a5c2216e25fb27081e7774ac73e2cc1360c8666b",
+      "observedSha256": "c6985a3363f522b4aae705d4a5c2216e25fb27081e7774ac73e2cc1360c8666b",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "licenses/anthropic-Apache-2.0.txt",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "observedSha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "licenses/corey-MIT.txt",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "observedSha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "licenses/zubair-MIT.txt",
+      "loaderRequired": false,
+      "exists": true,
+      "registeredSha256": "7bb0e4a490394cd2e1beab4d5886fd9cab237527144cc931170e4f29cf1872cc",
+      "observedSha256": "7bb0e4a490394cd2e1beab4d5886fd9cab237527144cc931170e4f29cf1872cc",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "references/modules.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "a85b60e684672218e61c9077728ee19772f2e297839e0a818b90fba82e7b2dc7",
+      "observedSha256": "a85b60e684672218e61c9077728ee19772f2e297839e0a818b90fba82e7b2dc7",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "references/output-schema.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "73b83abd85cffe5032856ba6e4eab892895ccfd061d55f47d6bf3dc1710bbe16",
+      "observedSha256": "73b83abd85cffe5032856ba6e4eab892895ccfd061d55f47d6bf3dc1710bbe16",
+      "match": true
+    },
+    {
+      "methodId": "jarvis-client-audit",
+      "relativePath": "references/source-attribution.md",
+      "loaderRequired": true,
+      "exists": true,
+      "registeredSha256": "9b312dd10e4550a982b970f2843261ff594a24d5f3b5ea8c322b67096244d2b9",
+      "observedSha256": "9b312dd10e4550a982b970f2843261ff594a24d5f3b5ea8c322b67096244d2b9",
+      "match": true
+    }
+  ]
+}

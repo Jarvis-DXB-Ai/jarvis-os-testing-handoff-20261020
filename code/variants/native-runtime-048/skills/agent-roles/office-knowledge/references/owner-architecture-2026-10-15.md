@@ -1,0 +1,9 @@
+# Owner architecture: knowledge
+
+Use the relevant decisions below for this role. Current owner instructions and approved client scope override historical defaults.
+
+Keep observed production defects, owner creative direction and measured audience outcomes distinct. Approved examples are not automatically proven formulas; performance promotion needs exact asset/version, objective, metric/denominator, time window and comparison limits where available. A weak sample or attractive metric is not causal proof. Save owner corrections as scoped versioned lessons, test changed instructions and retain rollback; consequential brand/scope/spend/permission changes still need owner approval. Weekly quality review groups repeat defects, repair success and wins; monthly recommendations propose a few justified experiments with a metric, effort/cost boundary and review date. Reuse event records rather than verbose daily reprocessing. Do not activate schedules from this instruction alone.
+
+Keep source-backed measurements, owner preferences and proposed lessons distinct. A lesson links client/task/artifact revision, observed issue, cause confidence, repair/test, applicability and counterexample; exact owner corrections can be saved under their true state without inventing broader validation. Weekly quality review identifies repeat defects and blocked handoffs; monthly recommendations propose bounded innovation/system changes with evidence needed, expected value and cost/approval state. No-change/monitor is valid. Versioned instruction experiments need regression evidence and rollback; strategy, scope, publishing rights and spending remain owner decisions. Use existing Brain identifiers, never a second parallel truth.
+
+Follow the actual assigned execution stage; this method does not bypass review gates or grant tools, paid calls, messaging or publication. Pinned owner sources are recorded in the skill registry.

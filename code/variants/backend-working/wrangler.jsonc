@@ -1,0 +1,80 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "jarvis-os",
+  "main": "src/cloudflare/jarvis-os-container.ts",
+  "compatibility_date": "2026-08-27",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  // 06:00 UTC is 10:00 Dubai — after the provider has closed the previous day,
+  // and before the operating day starts reading the numbers.
+  "triggers": {
+    "crons": [
+      "0 6 * * *"
+    ]
+  },
+  "vars": {
+    // Verified Access application: Jarvis OS owner only (2026-09-05).
+    "JARVIS_ACCESS_TEAM_DOMAIN": "https://your-test-team.cloudflareaccess.com",
+    "JARVIS_ACCESS_AUDIENCE": "REPLACE_WITH_TEST_ID",
+    "JARVIS_OWNER_EMAILS": "owner@example.invalid,owner@example.invalid",
+    "JARVIS_DEPLOYMENT_READY": "false",
+    "NEXT_PUBLIC_SUPABASE_URL": "https://YOUR_PROJECT.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "REPLACE_WITH_TEST_CREDENTIAL",
+    "AI_CONTENT_STUDIO_MODE": "dry_run",
+    "SOCIAL_INDIVIDUAL_PRODUCTION_MODE": "dry_run",
+    "SOCIAL_PUBLISHING_MODE": "dry_run",
+    "JARVIS_OFFICE_LIVE_ENABLED": "false",
+    "JARVIS_RUNTIME_WORKER_ORIGIN": "https://your-test-app.example.invalid"
+  },
+  "containers": [
+    {
+      "class_name": "JarvisOsContainer",
+      "image": "./Dockerfile",
+      "image_build_context": ".",
+      "image_vars": {
+        "NEXT_PUBLIC_SUPABASE_URL": "https://YOUR_PROJECT.supabase.co",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "REPLACE_WITH_TEST_CREDENTIAL"
+      },
+      "max_instances": 1,
+      "instance_type": "basic",
+      "constraints": {
+      "regions": [
+        "ME",
+        "WEUR"
+      ]
+      }
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "JARVIS_OS",
+        "class_name": "JarvisOsContainer"
+      }
+    ]
+  },
+  "workflows": [
+    {
+      "name": "jarvis-agent-runtime",
+      "binding": "JARVIS_AGENT_RUNTIME_WORKFLOW",
+      "class_name": "JarvisAgentRuntimeWorkflow"
+    },
+    {
+      "name": "jarvis-office-team",
+      "binding": "JARVIS_OFFICE_TEAM_WORKFLOW",
+      "class_name": "JarvisOfficeTeamWorkflow"
+    }
+  ],
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "JarvisOsContainer"
+      ]
+    }
+  ]
+}

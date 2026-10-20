@@ -1,0 +1,14 @@
+import type {ServiceId} from './office-onboarding.mjs';
+export type ClientTeam={sharedDepartments?:{id:string;name:string;headRoleId:string;qaRoleId:string;roles:string[];headLabel:string;qaLabel:string}[];runtime?:{roleAgents:Record<string,string>;departments:Record<string,{headAgentId:string;qaAgentId:string}>;agentIds:string[]};departments:{id:ServiceId;name:string;headRoleId:string;qaRoleId:string;roles:string[];headLabel:string;qaLabel:string}[];roleIds:string[];maxConcurrentWorkers:number;permissions:string};
+export type AuditSource={url:string;status:'read'|'unavailable';title:string;description:string;text:string;colours:string[];fonts:string[];socialLinks:string[];findings?:{area:string;observation:string;recommendation:string}[];checkedAt:string;sha256:string|null;message:string};
+export type IntakeState={id:string;clientId:string|null;name:string;website:string;socials:string[];socialsConfirmed:boolean;competitors:string[];competitorsConfirmed:boolean;goals:string;scope:string;services:ServiceId[];servicesConfirmed:boolean;capacity:number;brand:Record<'positioning'|'facts'|'voice'|'visual'|'production'|'restrictions',string>;brandConfirmed:boolean;confirmedAt:string|null;audit:AuditSource[];status:'draft'|'ready';messages:{role:'assistant'|'user';text:string}[];proposalSourcePaths?:string[];sources:{title:string;path:string;sha256:string;status:string}[];logoPath:string|null;logoSha256:string|null;foundationId:string|null;updatedAt:string;revision?:string;team?:ClientTeam};
+export const serviceRoles:Record<ServiceId,{head:string;qa:string;roles:string[]}>;
+export const sharedClientRoles:string[];
+export const sharedClientDepartments:NonNullable<ClientTeam['sharedDepartments']>;
+export const intakeQuestions:Record<string,string>;
+export function buildClientTeam(services:ServiceId[],capacity?:number):ClientTeam;
+export function intakeStage(s:IntakeState):string;
+export function intakeReady(s:IntakeState):boolean;
+export function changeIntake(s:IntakeState,input:unknown):IntakeState;
+export function publicUrl(value:unknown):string;
+export const departmentQaMethods:Record<ServiceId|'operations'|'knowledge',string[]>;

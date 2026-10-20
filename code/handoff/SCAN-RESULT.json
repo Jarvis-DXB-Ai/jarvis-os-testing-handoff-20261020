@@ -1,0 +1,32 @@
+{
+  "status": "PASS_PATTERN_SCAN_NOT_EXHAUSTIVE_SEMANTIC_CERTIFICATION",
+  "at": "2026-10-20T12:15:36.495273+00:00",
+  "checkedFiles": 7460,
+  "sourceFiles": 7445,
+  "sourceBytes": 169304615,
+  "jsonParsed": 111,
+  "unresolvedStaticSourceImports": 0,
+  "typescriptCompileReferencesDeferred": 10,
+  "methodFolders": 106,
+  "primarySkillEntrypoints": 106,
+  "findings": [],
+  "jsonParseFailures": [],
+  "checks": [
+    "credential prefixes/JWT/private-key blocks",
+    "text credential-literal detector",
+    "known owner/production identity residuals",
+    "all exported source hashes readback",
+    "all106 primary method entries present",
+    "top-level SQL data redactions recorded",
+    "static relative-import file presence"
+  ],
+  "notChecked": [
+    "build",
+    "runtime",
+    "full semantic privacy",
+    "media pixel/metadata/redistribution rights",
+    "every possible credential encoding"
+  ],
+  "installsBuildsWorkflows": 0,
+  "gitHistory": false
+}

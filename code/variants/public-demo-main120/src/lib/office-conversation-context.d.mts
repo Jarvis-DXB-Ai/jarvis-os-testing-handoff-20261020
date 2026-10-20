@@ -1,0 +1,2 @@
+import type {OfficeContextRequest} from '../../scripts/lib/office-foundations.mjs';
+export function resolveConversationContext(clientId:string,readers:{readSetup:(id:string)=>Promise<{id:string;clientId:string|null;status:string}>;readConfirmed:(id:string)=>Promise<{clientId:string;foundationId:string|null}>;readPilot:(id:string)=>Promise<{clientId:string;foundationId:string;status:string;executionMode:string;brandConfirmed:boolean;servicesConfirmed:boolean}>}):Promise<OfficeContextRequest>;
